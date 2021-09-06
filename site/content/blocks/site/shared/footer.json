@@ -15,20 +15,26 @@
       "buttons": [
         {
           "text": "Home",
-          "type": "ANCHOR",
-          "link": "#hero",
-          "variant": "links.nav-light"
-        },
-        {
-          "text": "Blog",
           "type": "PAGE",
-          "link": "/blog",
+          "link": "/",
           "variant": "links.nav-light"
         },
         {
-          "text": "Contact Us",
-          "type": "MODAL",
-          "link": "contact",
+          "text": "About",
+          "type": "PAGE",
+          "link": "/about",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Projects",
+          "type": "PAGE",
+          "link": "/projects",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Investors",
+          "type": "PAGE",
+          "link": "/investors",
           "variant": "links.nav-light"
         }
       ]
@@ -41,21 +47,27 @@
       ],
       "buttons": [
         {
-          "text": "Privacy Notice",
+          "text": "News",
           "type": "PAGE",
-          "link": "",
+          "link": "/news",
           "variant": "links.nav-light"
         },
         {
-          "text": "Cookie Policy",
+          "text": "Contact",
           "type": "PAGE",
-          "link": "",
+          "link": "/contact",
           "variant": "links.nav-light"
         },
         {
-          "text": "Terms Of Use",
+          "text": "Disclaimer",
           "type": "PAGE",
-          "link": "",
+          "link": "##",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Privacy Policy",
+          "type": "PAGE",
+          "link": "##",
           "variant": "links.nav-light"
         }
       ]
@@ -68,19 +80,9 @@
       ],
       "buttons": [
         {
-          "text": "Github",
-          "type": "PAGE",
-          "link": "https://github.com/gatsby",
-          "variant": "links.nav-light",
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bxl-github.svg",
-            "color": "#2f4f4f"
-          }
-        },
-        {
           "text": "Twitter",
           "type": "PAGE",
-          "link": "https://twitter.com/gatsby",
+          "link": "https://twitter.com/canadacobalt/",
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../assets/flexiblocks/icons/bxl-twitter.svg",
@@ -88,13 +90,23 @@
           }
         },
         {
-          "text": "Instagram",
+          "text": "Linkedin",
           "type": "PAGE",
-          "link": "https://instagram.com/gatsby",
+          "link": "https://ca.linkedin.com/company/canada-cobalt-works/",
           "variant": "links.nav-light",
           "icon": {
-            "src": "../../../assets/flexiblocks/icons/bxl-instagram.svg",
-            "color": "#c13584"
+            "src": "../../../assets/flexiblocks/icons/bxl-linkedin-square.svg",
+            "color": "#0073AF"
+          }
+        },
+        {
+          "text": "Facebook",
+          "type": "PAGE",
+          "link": "https://www.facebook.com/canadacobaltworks/",
+          "variant": "links.nav-light",
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/bxl-facebook.svg",
+            "color": "#4064AC"
           }
         }
       ]
