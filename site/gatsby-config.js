@@ -36,6 +36,18 @@ module.exports = {
     //   }
     // },
     {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'My Technology Blog',
+        short_name: 'My Blog',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#5a67d8',
+        display: 'minimal-ui',
+        icon: 'content/assets/favicon.png'
+      }
+    },
+    {
       resolve: '@elegantstack/gatsby-theme-flexiblocks',
       options: {
         createDemoPages: false,
@@ -47,7 +59,7 @@ module.exports = {
       resolve: '@elegantstack/gatsby-theme-flexiblog-minimal',
       options: {
         basePath: '/news',
-        siteUrl: 'https://canadasilvercobaltworks.com',
+        siteUrl: 'https://canadasilvercobalt.com',
         fonts: fontFile.fonts,
         services: {
           algolia: true
@@ -63,9 +75,9 @@ module.exports = {
   // Customize your site metadata
   siteMetadata: {
     //General Site Metadata
-    siteUrl: 'https://canadasilvercobaltworks.com',
-    title: 'FlexiBlog Theme',
-    name: 'FlexiBlog',
+    siteUrl: 'https://canadasilvercobalt.com',
+    title: 'Canada Silver Cobalt',
+    name: 'Canada Silver Cobalt',
     description: 'My site description...',
     address: 'New York, NY',
     email: 'email@example.com',
