@@ -1,0 +1,37 @@
+{
+  "text": [
+    {
+      "text": "Modern Solutions",
+      "variant": "h4",
+      "color": "omegaDarker"
+    },
+    {
+      "text": "Your Partner in Creating and Growing Brands",
+      "variant": "h2"
+    },
+    {
+      "text": "Hassle-free platform and specialists to help you with your marketing campaigns.",
+      "variant": "medium"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Download",
+      "type": "PAGE",
+      "link": "files/link-to-file.pdf",
+      "variant": "primary"
+    },
+    {
+      "text": "Download",
+      "type": "PAGE",
+      "link": "files/link-to-file.pdf",
+      "variant": "primary"
+    },
+    {
+      "text": "Button",
+      "type": "PAGE",
+      "link": "https://google.com",
+      "variant": "secondary"
+    }
+  ]
+}

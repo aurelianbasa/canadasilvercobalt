@@ -21,8 +21,8 @@
         },
         {
           "text": "Blog",
-          "type": "PAGE",
-          "link": "/blog",
+          "type": "MODAL",
+          "link": "advertisement",
           "variant": "links.nav-light"
         },
         {

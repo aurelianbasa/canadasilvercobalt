@@ -1,0 +1,313 @@
+{
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/shared/logo.png",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "buttons": [
+        {
+          "text": "Home",
+          "type": "PAGE",
+          "variant": "links.nav-dark",
+          "link": "/"
+        },
+        {
+          "text": "About",
+          "type": "SUB",
+          "variant": "links.nav-dark",
+          "buttons": [
+            {
+              "text": "Overview",
+              "type": "PAGE",
+              "link": "/about",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../../assets/flexiblocks/icons/minerals.svg",
+                "color": "#276BF0"
+              }
+            },
+            {
+              "text": "Management",
+              "type": "PAGE",
+              "link": "/about#management",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../../assets/flexiblocks/icons/minerals.svg",
+                "color": "#FE7245"
+              }
+            },
+            {
+              "text": "Company History",
+              "type": "PAGE",
+              "link": "/about#company-history",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../../assets/flexiblocks/icons/minerals.svg",
+                "color": "#000000"
+              }
+            },
+            {
+              "text": "Regional History",
+              "type": "PAGE",
+              "link": "/about#regional-history",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../../assets/flexiblocks/icons/minerals.svg",
+                "color": "#6E5BD8"
+              }
+            },
+            {
+              "text": "First Nations",
+              "type": "PAGE",
+              "link": "/about#first-nations",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../../assets/flexiblocks/icons/minerals.svg",
+                "color": "#FF4A32"
+              }
+            },
+            {
+              "text": "Environment",
+              "type": "PAGE",
+              "link": "/about#environment",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../../assets/flexiblocks/icons/minerals.svg",
+                "color": "#3D8DFF"
+              }
+            },
+            {
+              "text": "Community",
+              "type": "PAGE",
+              "link": "/about#community",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../../assets/flexiblocks/icons/minerals.svg",
+                "color": "#3D8DFF"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Projects",
+          "variant": "links.nav-dark",
+          "type": "SUB",
+          "collection": [
+            {
+              "buttons": [
+                {
+                  "text": "Properties",
+                  "type": "SUB",
+                  "variant": "links.disabled",
+                  "buttons": [
+                    {
+                      "text": "Castle Mine",
+                      "type": "PAGE",
+                      "link": "/projects/castle-mine",
+                      "variant": "links.nav-dark"
+                    },
+                    {
+                      "text": "Castle East",
+                      "type": "PAGE",
+                      "link": "/projects/castle-east",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                },
+                {
+                  "text": "_",
+                  "type": "SUB",
+                  "variant": "links.hidden",
+                  "buttons": [
+                    {
+                      "text": "Beaver Mine",
+                      "type": "PAGE",
+                      "link": "/projects/beaver-mine",
+                      "variant": "links.nav-dark"
+                    },
+                    {
+                      "text": "Ebby-Otto",
+                      "type": "PAGE",
+                      "link": "/projects/ebby-otto",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                },
+                {
+                  "text": "_",
+                  "type": "SUB",
+                  "variant": "links.hidden",
+                  "buttons": [
+                    {
+                      "text": "Violet Mine",
+                      "type": "PAGE",
+                      "link": "/projects/violet-mine",
+                      "variant": "links.nav-dark"
+                    },
+                    {
+                      "text": "Nourricier",
+                      "type": "PAGE",
+                      "link": "/projects/nourricier",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "container": {
+                "bg": "omegaLighter"
+              },
+              "buttons": [
+                {
+                  "text": "Assets",
+                  "type": "SUB",
+                  "variant": "links.disabled",
+                  "buttons": [
+                    {
+                      "text": "TTL Facility",
+                      "type": "PAGE",
+                      "link": "/projects#ttl-facility",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                },
+                {
+                  "text": "_",
+                  "type": "SUB",
+                  "variant": "links.hidden",
+                  "buttons": [
+                    {
+                      "text": "Ee-2Ox Process",
+                      "type": "PAGE",
+                      "link": "/projects#re-2ox-process",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "News",
+          "type": "SUB",
+          "variant": "links.nav-dark",
+          "buttons": [
+            {
+              "text": "2021",
+              "type": "PAGE",
+              "link": "/news/category/2021",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "2020",
+              "type": "PAGE",
+              "link": "/news/category/2020",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "2019",
+              "type": "PAGE",
+              "link": "/news/category/2019",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "2018",
+              "type": "PAGE",
+              "link": "/news/category/2018",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "2017",
+              "type": "PAGE",
+              "link": "/news/category/2017",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "2016",
+              "type": "PAGE",
+              "link": "/news/category/2016",
+              "variant": "links.nav-dark"
+            }
+          ]
+        },
+        {
+          "text": "Media",
+          "type": "SUB",
+          "variant": "links.nav-dark",
+          "buttons": [
+            {
+              "text": "Photo Gallery",
+              "type": "PAGE",
+              "link": "/media#photo-gallery",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Video Interviews",
+              "type": "PAGE",
+              "link": "/media#video-interviews",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Featured Articles",
+              "type": "PAGE",
+              "link": "/media#featured-articles",
+              "variant": "links.nav-dark"
+            }
+          ]
+        },
+        {
+          "text": "Investors",
+          "type": "SUB",
+          "variant": "links.nav-dark",
+          "buttons": [
+            {
+              "text": "Stock Information",
+              "type": "PAGE",
+              "link": "/investors#stock-information-chart",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Capital Structure",
+              "type": "PAGE",
+              "link": "/investors#capital-structure",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Presentations",
+              "type": "PAGE",
+              "link": "/investors#presentations",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Technical Data",
+              "type": "PAGE",
+              "link": "/investors#technical-data",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Frequently Asked Questions",
+              "type": "PAGE",
+              "link": "/investors#faq",
+              "variant": "links.nav-dark"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "text": "Contact Us",
+          "type": "PAGE",
+          "link": "/contact",
+          "variant": "secondary"
+        }
+      ]
+    }
+  ]
+}

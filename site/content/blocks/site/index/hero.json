@@ -1,39 +1,31 @@
 {
   "text": [
     {
-      "text": "Better Business Metrics",
+      "text": "Setting The Pace In A New Silver Bull Market!",
       "color": "omegaDarker",
-      "variant": "h4"
-    },
-    {
-      "text": "Discover more insights from collected data",
       "variant": "h1"
     },
     {
-      "text": "Hassle-free platform and specialists to help you with your marketing campaigns.",
-      "color": "omegaDark",
+      "text": "Canada Silver Cobalt Works, a unique and rapidly growing silver-cobalt focused company.",
+      "color": "omegaDarker",
       "variant": "medium"
     }
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/homepage/saas/hero.png",
-      "alt": "alt text",
-      "radius": "lg",
-      "shadow": "default",
-      "border": "lg",
-      "effects": ["fadeInDown"]
+      "src": "../../../assets/flexiblocks/site/index/cobalt.png",
+      "alt": "alt text"
     }
   ],
   "buttons": [
     {
-      "text": "Get Started Now",
+      "text": "Get Started",
       "type": "MODAL",
       "link": "authentication",
-      "variant": "secondary"
+      "variant": "dark"
     },
     {
-      "text": "Watch The Video",
+      "text": "",
       "type": "VIDEO",
       "link": "https://www.youtube.com/embed/WFOxZAmB_1Y?autoplay=1&modestbranding=1&showinfo=0&rel=0",
       "variant": "primary"

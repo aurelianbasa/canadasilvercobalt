@@ -14,15 +14,15 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
       }
     },
-    {
-      resolve: 'gatsby-plugin-algolia',
-      options: {
-        appId: process.env.GATSBY_ALGOLIA_APP_ID,
-        apiKey: process.env.ALGOLIA_ADMIN_KEY,
-        chunkSize: 10000,
-        queries: require('@elegantstack/gatsby-blog-algolia/src/queries')
-      }
-    },
+    // {
+    //   resolve: 'gatsby-plugin-algolia',
+    //   options: {
+    //     appId: process.env.GATSBY_ALGOLIA_APP_ID,
+    //     apiKey: process.env.ALGOLIA_ADMIN_KEY,
+    //     chunkSize: 10000,
+    //     queries: require('@elegantstack/gatsby-blog-algolia/src/queries')
+    //   }
+    // },
     {
       resolve: 'gatsby-plugin-disqus',
       options: {
@@ -46,7 +46,7 @@ module.exports = {
     {
       resolve: '@elegantstack/gatsby-theme-flexiblog-minimal',
       options: {
-        basePath: '/blog',
+        basePath: '/news',
         siteUrl: 'https://canadasilvercobaltworks.com',
         fonts: fontFile.fonts,
         services: {
@@ -63,6 +63,7 @@ module.exports = {
   // Customize your site metadata
   siteMetadata: {
     //General Site Metadata
+    siteUrl: 'https://canadasilvercobaltworks.com',
     title: 'FlexiBlog Theme',
     name: 'FlexiBlog',
     description: 'My site description...',
@@ -86,50 +87,19 @@ module.exports = {
       }
     ],
 
-    //Header Menu Items
+    // DONT DELETE THESE
     headerMenu: [
       {
-        name: 'Home',
+        name: 'DONT DELETE',
         slug: '/'
       }
-      // {
-      //   name: 'Contact',
-      //   slug: '/contact'
-      // }
     ],
-
-    //Footer Menu Items (2 Sets)
     footerMenu: [
       {
-        title: 'Quick Links',
+        title: 'DONT DELETE',
         items: [
           {
-            name: 'Advertise with us',
-            slug: '/contact'
-          },
-          {
-            name: 'About Us',
-            slug: '/about'
-          },
-          {
-            name: 'Contact Us',
-            slug: '/contact'
-          }
-        ]
-      },
-      {
-        title: 'Legal Stuff',
-        items: [
-          {
-            name: 'Privacy Notice',
-            slug: '/'
-          },
-          {
-            name: 'Cookie Policy',
-            slug: '/'
-          },
-          {
-            name: 'Terms Of Use',
+            name: 'DONT DELETE',
             slug: '/'
           }
         ]

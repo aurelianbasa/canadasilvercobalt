@@ -5,81 +5,30 @@
  *
  */
 
-import heroBg from './assets/hexagonal.png'
-
 export default {
   heroContainer: {
     position: `relative`,
-    pt: [5, 6],
+    py: [5],
     '::before, ::after': {
-      position: `absolute`,
-      content: `" "`,
-      width: [`full`, `90%`],
-      height: `80%`,
-      top: [`-10%`, 0],
-      right: `50%`,
-      transform: `translate(50%, 0)`,
-      zIndex: -1
-    },
-    '::before': {
-      borderRadius: `xl`,
-      background: t => `linear-gradient(
-          180deg,
-          ${t.colors.omegaLighter} 0%,
-          ${t.colors.omegaLight} 100%
-        )`
-    },
-    '::after': {
-      background: `url(${heroBg}) no-repeat right top`,
-      backgroundSize: `50%`,
-      opacity: 0.1
-    }
-  },
-  featuresContainer: {
-    position: `relative`,
-    py: [5, 6],
-    '::before': {
       position: `absolute`,
       content: `" "`,
       size: `full`,
-      top: 0,
-      right: `50%`,
-      transform: `translate(50%, 0)`,
+      top: [0, null, `50%`],
+      left: 0,
+      transform: [`translate(0, 0)`, null, `translate(55%, -50%)`],
       zIndex: -1,
-      borderRadius: `xl`,
-      background: t => `linear-gradient(
-          150deg,
-          ${t.colors.omegaLighter} 80%,
-          ${t.colors.omegaLight} 100%
-        )`
-    }
-  },
-  testimonialsContainer: {
-    position: `relative`,
-    py: [5, 6],
-    '::before, ::after': {
-      position: `absolute`,
-      content: `" "`,
-      width: [`full`, `90%`],
-      height: `80%`,
-      top: 0,
-      right: `50%`,
-      transform: `translate(50%, 0)`,
-      zIndex: -1
-    },
-    '::before': {
-      borderRadius: `xl`,
-      background: t => `linear-gradient(
-          150deg,
-          ${t.colors.omegaLighter} 50%,
-          ${t.colors.omegaLight} 100%
-        )`
+      borderRadius: [0, null, `xl`]
     },
     '::after': {
-      transform: `scaleX(-1)`,
-      background: `url(${heroBg}) no-repeat left top`,
-      backgroundSize: `50%`,
-      opacity: 0.1
+      background: `linear-gradient(
+          180deg,
+          rgba(255,255,255,0.4) 0%,
+          rgba(255,255,255,0.8) 100%
+        )`
+    },
+    '::before': {
+      background: `url(images/cobalt-bg.jpg) no-repeat center center`,
+      backgroundSize: `cover`
     }
   }
 }

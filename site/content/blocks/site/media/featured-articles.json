@@ -1,0 +1,125 @@
+{
+  "text": [
+    {
+      "text": "Featured Articles",
+      "variant": "h2"
+    },
+    {
+      "text": "Pariatur pariatur commodo sit aliquip commodo minim mollit.",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": "https://google.com"
+        }
+      },
+      "text": [
+        {
+          "text": "Innovation",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Excepteur adipisicing in nulla veniam sunt adipisicing",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/site/media/blog-1.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read More",
+          "type": "PAGE",
+          "link": "https://google.com",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": "https://google.com"
+        }
+      },
+      "text": [
+        {
+          "text": "Innovation",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Aliquip enim cillum velit excepteur velit officia",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/site/media/blog-2.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read More",
+          "type": "PAGE",
+          "link": "https://google.com",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": "https://google.com"
+        }
+      },
+      "text": [
+        {
+          "text": "Innovation",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Occaecat dolor id esse fugiat veniam ipsum pariatur",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/site/media/blog-3.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read More",
+          "type": "PAGE",
+          "link": "https://google.com",
+          "variant": "primary"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "text": [
+    {
+      "text": "Photo Gallery 1",
+      "variant": "h2"
+    },
+    {
+      "text": "Id nulla labore nostrud sit reprehenderit proident aute cillum proident veniam amet.",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "images": [
+        {
+          "src": "../../../../assets/flexiblocks/site/media/photo-gallery/gallery-placeholder.jpg",
+          "radius": "default",
+          "alt": "alt text"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../assets/flexiblocks/site/media/photo-gallery/gallery-placeholder.jpg",
+          "radius": "default",
+          "alt": "alt text"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../assets/flexiblocks/site/media/photo-gallery/gallery-placeholder.jpg",
+          "radius": "default",
+          "alt": "alt text"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../assets/flexiblocks/site/media/photo-gallery/gallery-placeholder.jpg",
+          "radius": "default",
+          "alt": "alt text"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../assets/flexiblocks/site/media/photo-gallery/gallery-placeholder.jpg",
+          "radius": "default",
+          "alt": "alt text"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../assets/flexiblocks/site/media/photo-gallery/gallery-placeholder.jpg",
+          "radius": "default",
+          "alt": "alt text"
+        }
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "View More",
+      "type": "PAGE",
+      "link": "/gallery",
+      "variant": "primary"
+    }
+  ]
+}

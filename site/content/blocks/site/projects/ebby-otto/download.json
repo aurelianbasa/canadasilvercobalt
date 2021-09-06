@@ -1,0 +1,11 @@
+{
+  "buttons": [
+    {
+      "text": "Downloads",
+      "type": "PAGE",
+      "link": "files/link-to-file.pdf",
+      "variant": "primary",
+      "width": "250px"
+    }
+  ]
+}

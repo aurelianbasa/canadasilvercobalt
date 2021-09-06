@@ -1,0 +1,64 @@
+{
+  "text": [
+    {
+      "text": "Lorem ipsum dolor",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Capital Structure",
+      "color": "omegaDarker",
+      "variant": "h2"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "In nisi esse sit aliquip",
+          "variant": "medium"
+        },
+        {
+          "text": "Non cillum magna ess min",
+          "variant": "medium"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "In nisi esse sit aliquip",
+          "variant": "medium"
+        },
+        {
+          "text": "Non cillum magna ess min",
+          "variant": "medium"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "In nisi esse sit aliquip",
+          "variant": "medium"
+        },
+        {
+          "text": "Non cillum magna ess min",
+          "variant": "medium"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "In nisi esse sit aliquip",
+          "variant": "medium"
+        },
+        {
+          "text": "Non cillum magna ess min",
+          "variant": "medium"
+        }
+      ]
+    }
+  ]
+}

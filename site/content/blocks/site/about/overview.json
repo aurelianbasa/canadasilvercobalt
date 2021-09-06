@@ -1,0 +1,67 @@
+{
+  "text": [
+    {
+      "text": "ABOUT COMPANY",
+      "color": "alphaLight",
+      "variant": "h4"
+    },
+    {
+      "text": "Tap into our unique insights to identify the right leads",
+      "color": "alphaLighter",
+      "variant": "h2"
+    },
+    {
+      "text": "Target your audience based on their interests. Lorem ipsum dolor sit amet, consectetur magna aliqua.",
+      "variant": "medium",
+      "color": "white"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/site/about/overview.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Automatic interest detection",
+          "color": "white",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Daily email reports",
+          "color": "white",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Create & manage campaigns",
+          "color": "white",
+          "variant": "h5"
+        }
+      ]
+    }
+  ]
+}

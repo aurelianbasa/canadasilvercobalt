@@ -20,6 +20,7 @@ export const Layout = ({ children, pageContext, location }) => {
           <Global styles={css(theme => theme.global)} />
           <Header content={content['header']} />
           <Divider space={5} />
+          <Divider space={5} />
           <Box variant='layout.body'>{children}</Box>
           <Divider space={5} />
           <Divider space={4} />
@@ -32,7 +33,7 @@ export const Layout = ({ children, pageContext, location }) => {
 
 const headerQuery = graphql`
   query blogLayoutBlockContent {
-    allBlockContent(filter: { page: { in: ["shared"] } }) {
+    allBlockContent(filter: { page: { in: ["site/shared"] } }) {
       nodes {
         ...BlockContent
       }

@@ -1,0 +1,115 @@
+{
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": "/projects/castle-east"
+        }
+      },
+      "text": [
+        {
+          "text": "Innovation",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Castle East",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/site/projects/castle-east.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "View Project",
+          "type": "PAGE",
+          "link": "/projects/castle-east",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": "/projects/ebby-otto"
+        }
+      },
+      "text": [
+        {
+          "text": "Innovation",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Ebby-Otto",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/site/projects/ebby-otto.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "View Project",
+          "type": "PAGE",
+          "link": "/projects/ebby-otto",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": "/projects/nourricier"
+        }
+      },
+      "text": [
+        {
+          "text": "Innovation",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Nourricier",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/site/projects/nourricier.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "View Project",
+          "type": "PAGE",
+          "link": "/projects/nourricier",
+          "variant": "primary"
+        }
+      ]
+    }
+  ]
+}

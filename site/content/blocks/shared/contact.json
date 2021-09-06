@@ -27,7 +27,6 @@
         }
       ],
       "form": {
-        "action": "/",
         "fields": [
           {
             "identifier": "name",
@@ -105,31 +104,16 @@
           "color": "omega"
         }
       ],
-      "images": [
-        {
-          "src": "../../assets/flexiblocks/shared/contact.jpg",
-          "alt": "alt text"
-        }
-      ],
+      "map": {
+        "lat": 59.955413,
+        "lng": 30.337844,
+        "zoom": 12
+      },
       "collection": [
         {
           "text": [
             {
-              "text": "Wayne Cheveldayoff",
-              "color": "omegaDarker",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../assets/flexiblocks/icons/bx-user.svg",
-            "color": "alpha",
-            "bg": "transaprent"
-          }
-        },
-        {
-          "text": [
-            {
-              "text": "416-710-2410",
+              "text": "+123 (4567) 8910",
               "color": "omegaDarker",
               "variant": "h6"
             }
@@ -143,13 +127,27 @@
         {
           "text": [
             {
-              "text": "waynecheveldayoff@gmail.com",
+              "text": "hello@example.com",
               "color": "omegaDarker",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../assets/flexiblocks/icons/bx-envelope.svg",
+            "color": "alpha",
+            "bg": "transaprent"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "120 Street Lorem Ipsum Sit Amet",
+              "color": "omegaDarker",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bx-building-house.svg",
             "color": "alpha",
             "bg": "transaprent"
           }

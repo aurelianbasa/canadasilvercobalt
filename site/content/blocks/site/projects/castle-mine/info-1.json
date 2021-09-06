@@ -1,0 +1,24 @@
+{
+  "text": [
+    {
+      "text": "Information 1",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Incididunt officia amet minim anim adipisicing anim cupidatat culpa labore eu enim eu quis ad. Ullamco dolore eu pariatur officia est laborum enim qui fugiat.",
+      "variant": "medium"
+    },
+    {
+      "text": "Eiusmod proident labore velit ipsum consectetur ullamco. Non esse exercitation deserunt minim excepteur ea.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/site/projects/castle-mine/info-1.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ]
+}

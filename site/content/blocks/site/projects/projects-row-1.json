@@ -1,0 +1,125 @@
+{
+  "text": [
+    {
+      "text": "Projects",
+      "variant": "h2"
+    },
+    {
+      "text": "Pariatur pariatur commodo sit aliquip commodo minim mollit.",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": "/projects/castle-mine"
+        }
+      },
+      "text": [
+        {
+          "text": "Innovation",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Castle Mine",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/site/projects/castle-mine.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "View Project",
+          "type": "PAGE",
+          "link": "/projects/castle-mine",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": "/projects/beaver-mine"
+        }
+      },
+      "text": [
+        {
+          "text": "Innovation",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Beaver Mine",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/site/projects/beaver-mine.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "View Project",
+          "type": "PAGE",
+          "link": "/projects/beaver-mine",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": "/projects/violet-mine"
+        }
+      },
+      "text": [
+        {
+          "text": "Innovation",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Violet Mine",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/site/projects/violet-mine.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "View Project",
+          "type": "PAGE",
+          "link": "/projects/violet-mine",
+          "variant": "primary"
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,7 @@ const styles = {
     position: `relative`,
     zIndex: 10,
     '.nav-container': {
-      bg: `headerBg`,
+      bg: `transparent`,
       position: `fixed`,
       transition: `all 250ms ease-in`,
       // overflow: `hidden`,
