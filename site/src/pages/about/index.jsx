@@ -4,8 +4,6 @@ import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
-import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
-import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import CompanyHistory from '@solid-ui-blocks/FeaturesWithPhoto/Block04'
@@ -20,10 +18,6 @@ const AboutPage = props => {
   return (
     <Layout {...props}>
       <Seo title='About' />
-      {/* Modals */}
-      <ModalWithTabs content={content['authentication']} reverse />
-      <ModalWithTabs content={content['contact']} />
-      <ModalSimple content={content['advertisement']} />
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />

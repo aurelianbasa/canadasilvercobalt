@@ -3,8 +3,6 @@ import { graphql } from 'gatsby'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
-import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
-import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Projects from '@solid-ui-blocks/Blog/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
@@ -18,10 +16,6 @@ const ProjectsPage = props => {
   return (
     <Layout {...props}>
       <Seo title='Projects' />
-      {/* Modals */}
-      <ModalWithTabs content={content['authentication']} reverse />
-      <ModalWithTabs content={content['contact']} />
-      <ModalSimple content={content['advertisement']} />
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />
