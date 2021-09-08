@@ -1,0 +1,121 @@
+{
+  "text": [
+    {
+      "text": "Video Interviews",
+      "variant": "h2"
+    },
+    {
+      "text": "Pariatur pariatur commodo sit aliquip commodo minim mollit.",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        {
+          "text": "Innovation",
+          "color": "beta"
+        },
+        {
+          "text": "Interview One",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/site/media/interview-1.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Watch Interview",
+          "type": "VIDEO",
+          "link": "https://www.youtube.com/embed/WFOxZAmB_1Y?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        {
+          "text": "Innovation",
+          "color": "beta"
+        },
+        {
+          "text": "Interview Two",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/site/media/interview-2.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Watch Interview",
+          "type": "VIDEO",
+          "link": "https://www.youtube.com/embed/ippYts_JvUk?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        {
+          "text": "Innovation",
+          "color": "beta"
+        },
+        {
+          "text": "Interview Three",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/site/media/interview-3.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Watch Interview",
+          "type": "VIDEO",
+          "link": "https://www.youtube.com/embed/bNKdlnoAqIs?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "variant": "secondary"
+        }
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Video Interviews",
+      "type": "PAGE",
+      "link": "/media/video-interviews",
+      "variant": "primary"
+    }
+  ]
+}

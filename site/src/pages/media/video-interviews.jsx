@@ -4,7 +4,6 @@ import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
 import Header from '@solid-ui-blocks/Header/Block01'
-import Gallery from '@elegantstack/site/src/blocks/PhotoGallery/Block01'
 import Cards from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -15,16 +14,16 @@ const MediaPage = props => {
 
   return (
     <Layout {...props}>
-      <Seo title='Media' />
+      <Seo title='Video Interviews' />
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Gallery content={content['photo-gallery']} />
+      <Cards content={content['video-interviews-1']} />
       <Divider space='5' />
-      <Cards content={content['video-interviews']} />
+      <Cards content={content['video-interviews-2']} />
       <Divider space='5' />
-      <Cards content={content['featured-articles']} />
+      <Cards content={content['video-interviews-3']} />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
@@ -32,8 +31,10 @@ const MediaPage = props => {
 }
 
 export const query = graphql`
-  query siteMediaBlockContent {
-    allBlockContent(filter: { page: { in: ["site/media", "site/shared"] } }) {
+  query siteMediaVideoInterviewsBlockContent {
+    allBlockContent(
+      filter: { page: { in: ["site/media/video-interviews", "site/shared"] } }
+    ) {
       nodes {
         ...BlockContent
       }
