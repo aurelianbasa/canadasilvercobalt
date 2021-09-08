@@ -60,14 +60,14 @@
         },
         {
           "text": "Disclaimer",
-          "type": "PAGE",
-          "link": "##",
+          "type": "MODAL",
+          "link": "disclaimer",
           "variant": "links.nav-light"
         },
         {
           "text": "Privacy Policy",
-          "type": "PAGE",
-          "link": "##",
+          "type": "MODAL",
+          "link": "privacy-policy",
           "variant": "links.nav-light"
         }
       ]

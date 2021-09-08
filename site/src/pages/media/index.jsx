@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
+import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Gallery from '@elegantstack/site/src/blocks/PhotoGallery/Block01'
 import Cards from '@solid-ui-blocks/Blog/Block01'
@@ -16,6 +17,9 @@ const MediaPage = props => {
   return (
     <Layout {...props}>
       <Seo title='Media' />
+      {/* Modals */}
+      <ModalSimple content={content['privacy-policy']} />
+      <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />
