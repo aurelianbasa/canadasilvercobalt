@@ -53,6 +53,17 @@
             }
           },
           {
+            "identifier": "location",
+            "type": "LOCATION",
+            "placeholder": {
+              "text": "Location"
+            },
+            "icon": {
+              "src": "../../../assets/flexiblocks/icons/bx-planet.svg",
+              "color": "alpha"
+            }
+          },
+          {
             "identifier": "subject",
             "type": "TEXT",
             "placeholder": {
