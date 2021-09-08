@@ -20,7 +20,7 @@
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/site/about/first-nations.jpg",
+      "src": "../../../assets/site/about/first-nations.jpg",
       "radius": "xl",
       "alt": "alt text"
     }

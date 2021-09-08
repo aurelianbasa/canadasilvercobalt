@@ -20,7 +20,7 @@
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/site/about/regional-history.jpg",
+      "src": "../../../assets/site/about/regional-history.jpg",
       "radius": "xl",
       "alt": "alt text"
     }

@@ -30,7 +30,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/flexiblocks/site/media/interview-1.jpg",
+          "src": "../../../assets/site/media/interview-1.jpg",
           "alt": "alt text"
         }
       ],
@@ -63,7 +63,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/flexiblocks/site/media/interview-2.jpg",
+          "src": "../../../assets/site/media/interview-2.jpg",
           "alt": "alt text"
         }
       ],
@@ -96,7 +96,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/flexiblocks/site/media/interview-3.jpg",
+          "src": "../../../assets/site/media/interview-3.jpg",
           "alt": "alt text"
         }
       ],

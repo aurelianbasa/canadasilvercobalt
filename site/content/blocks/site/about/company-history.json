@@ -15,7 +15,7 @@
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/site/about/company-history.jpg",
+      "src": "../../../assets/site/about/company-history.jpg",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "lg"

@@ -34,7 +34,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/flexiblocks/site/projects/castle-mine.jpg",
+          "src": "../../../assets/site/projects/castle-mine.jpg",
           "alt": "alt text"
         }
       ],
@@ -71,7 +71,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/flexiblocks/site/projects/beaver-mine.jpg",
+          "src": "../../../assets/site/projects/beaver-mine.jpg",
           "alt": "alt text"
         }
       ],
@@ -108,7 +108,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/flexiblocks/site/projects/violet-mine.jpg",
+          "src": "../../../assets/site/projects/violet-mine.jpg",
           "alt": "alt text"
         }
       ],

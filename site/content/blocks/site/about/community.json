@@ -20,7 +20,7 @@
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/site/about/community.jpg",
+      "src": "../../../assets/site/about/community.jpg",
       "radius": "xl",
       "alt": "alt text"
     }

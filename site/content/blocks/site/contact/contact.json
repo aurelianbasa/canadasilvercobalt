@@ -23,7 +23,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/flexiblocks/shared/contact.jpg",
+          "src": "../../../assets/site/shared/contact.jpg",
           "alt": "alt text"
         }
       ],
@@ -54,7 +54,7 @@
           },
           {
             "identifier": "location",
-            "type": "LOCATION",
+            "type": "TEXT",
             "placeholder": {
               "text": "Location"
             },
@@ -120,7 +120,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/flexiblocks/shared/contact.jpg",
+          "src": "../../../assets/site/shared/contact.jpg",
           "alt": "alt text"
         }
       ],
