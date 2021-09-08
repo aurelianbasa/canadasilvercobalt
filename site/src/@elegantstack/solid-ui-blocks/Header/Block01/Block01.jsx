@@ -51,8 +51,7 @@ const styles = {
     flexGrow: 1
   },
   mobileMenu: {
-    display: [`block`, null, `none`],
-    pb: 5
+    display: [`block`, null, `none`]
   }
 }
 
@@ -122,7 +121,6 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                               <ContentButtons
                                 content={buttons}
                                 variant='vertical'
-                                mb='5'
                               />
                             </Box>
                           )
