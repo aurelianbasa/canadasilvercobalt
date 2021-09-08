@@ -3,6 +3,7 @@ import { Link as GLink } from 'gatsby'
 import Sticky from 'react-sticky-el'
 import { Container, Box, Flex, css } from 'theme-ui'
 import Reveal from '@solid-ui-components/Reveal'
+import Divider from '@solid-ui-components/Divider'
 import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
@@ -50,7 +51,8 @@ const styles = {
     flexGrow: 1
   },
   mobileMenu: {
-    display: [`block`, null, `none`]
+    display: [`block`, null, `none`],
+    pb: 5
   }
 }
 
@@ -120,10 +122,12 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                               <ContentButtons
                                 content={buttons}
                                 variant='vertical'
+                                mb='5'
                               />
                             </Box>
                           )
                       )}
+                      <Divider space={5} />
                     </Drawer>
                   </Box>
                 </>
