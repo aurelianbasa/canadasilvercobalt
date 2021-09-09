@@ -1,0 +1,110 @@
+{
+  "text": [
+    {
+      "text": "Management",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "We Design Together with Our Clients",
+      "variant": "h2"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "John Doe",
+          "variant": "h6"
+        },
+        {
+          "text": "CEO of CoolCompany"
+        },
+        {
+          "text": "Joined April, 2018",
+          "color": "omega",
+          "variant": "small"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/site/about/manager.png"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Jane Smith",
+          "variant": "h6"
+        },
+        {
+          "text": "Developer at AwesomeCo"
+        },
+        {
+          "text": "Joined March, 2019",
+          "color": "omega",
+          "variant": "small"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/site/about/manager.png"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Sarah Doe",
+          "variant": "h6"
+        },
+        {
+          "text": "Social Media Manager"
+        },
+        {
+          "text": "Joined May, 2020",
+          "color": "omega",
+          "variant": "small"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/site/about/manager.png"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Steve Grant",
+          "variant": "h6"
+        },
+        {
+          "text": "Freelancer Developer"
+        },
+        {
+          "text": "Joined June, 2020",
+          "color": "omega",
+          "variant": "small"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/site/about/manager.png"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Florrie Jacobs",
+          "variant": "h6"
+        },
+        {
+          "text": "Senior Fashion Designer"
+        },
+        {
+          "text": "Joined August, 2020",
+          "color": "omega",
+          "variant": "small"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/site/about/manager.png"
+      }
+    }
+  ]
+}

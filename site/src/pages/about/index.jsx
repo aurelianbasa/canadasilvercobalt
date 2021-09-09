@@ -7,6 +7,7 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import Management from '@solid-ui-blocks/Teams/Block02'
 import CompanyHistory from '@solid-ui-blocks/FeaturesWithPhoto/Block04'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -29,6 +30,9 @@ const AboutPage = props => {
       <Container variant='wide' sx={styles.overviewContainer}>
         <Info content={content['overview']} />
       </Container>
+      <Divider space='5' />
+      <Divider space='5' />
+      <Management content={content['management']} />
       <Divider space='5' />
       <Divider space='5' />
       <CompanyHistory content={content['company-history']} />
