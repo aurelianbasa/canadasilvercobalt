@@ -14,14 +14,15 @@ const styles = {
     position: `relative`,
     zIndex: 10,
     '.nav-container': {
+      // bg: `headerBg`,
       bg: `transparent`,
       position: `fixed`,
       transition: `all 250ms ease-in`,
-      // overflow: `hidden`,
       py: 3
     },
     '.nav-sticky .nav-container': {
-      bg: `headerActiveBg`,
+      // bg: `headerActiveBg`,
+      bg: `white`,
       boxShadow: `0 0 25px rgba(140,152,164,.25)`,
       py: [3, null, 2],
       '.button-group-link.level-1, button-group-link.level-1:visited': {
