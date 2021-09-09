@@ -8,7 +8,7 @@ import ContentText from '@solid-ui-components/ContentText'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
 const PhotoGalleryBlock01 = ({ content: { text, collection, buttons } }) => (
-  <Container sx={{ textAlign: `center` }}>
+  <Container sx={{ textAlign: `left` }}>
     <ContentText content={text} />
     <Divider />
     <Grid columns={[1, 2, 3]}>
