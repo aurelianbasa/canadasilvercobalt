@@ -16,3 +16,9 @@
 
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
+
+  [[redirects]]
+  from = "/authors"
+  to = "/404"
+  status = 301
+  force = true
