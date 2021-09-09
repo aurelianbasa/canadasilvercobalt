@@ -26,7 +26,8 @@ const styles = {
       boxShadow: `0 0 25px rgba(140,152,164,.25)`,
       py: [3, null, 2],
       '.button-group-link.level-1, button-group-link.level-1:visited': {
-        color: `headerActiveColor`
+        // color: `headerActiveColor`
+        color: `omegaDarker`
       }
     },
     //Make buttons in header smaller
@@ -105,7 +106,15 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                     </Reveal>
                   </Box>
                   <Box sx={styles.mobileMenu}>
-                    <Drawer buttonStyle={{ svg: { size: 32 } }}>
+                    <Drawer
+                      buttonStyle={{
+                        bg: `transparent !important`,
+                        p: 0,
+                        border: 0,
+                        size: `auto`,
+                        svg: { size: 35, color: `omegaDark` }
+                      }}
+                    >
                       {collection.map(
                         ({ buttons }, index) =>
                           buttons && (
@@ -115,7 +124,8 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                                 fontSize: 3,
                                 '.button-group-link.level-1, button-group-link.level-1:visited':
                                   {
-                                    color: `headerActiveColor`
+                                    // color: `headerActiveColor`
+                                    color: `omegaDarker`
                                   }
                               }}
                             >
