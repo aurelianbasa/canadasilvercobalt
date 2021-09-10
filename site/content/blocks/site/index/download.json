@@ -1,17 +1,17 @@
 {
   "text": [
     {
-      "text": "Understand First. Lorem ipsum dolor sit amet.",
+      "text": "Learn more about our projects",
       "color": "alpha",
       "variant": "h5"
     },
     {
-      "text": "We help our clients achieve tangible, high-impact results."
+      "text": "From humble origins to the highest grade silver intercepts in decades."
     }
   ],
   "buttons": [
     {
-      "text": "Download our Free Cheat Sheet",
+      "text": "Continue",
       "type": "PAGE",
       "link": "files/link-to-file.pdf",
       "variant": "primary-light"

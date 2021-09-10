@@ -1,11 +1,11 @@
 {
   "text": [
     {
-      "text": "Latest From Our Blog",
+      "text": "Recent Highlights",
       "variant": "h2"
     },
     {
-      "text": "With FlexiBlog Theme, add a fully functional blog to your site.",
+      "text": "The Discovery",
       "variant": "medium"
     }
   ],
@@ -20,7 +20,7 @@
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "The Plant",
           "color": "alphaDark"
         },
         {
@@ -63,7 +63,7 @@
       },
       "text": [
         {
-          "text": "Management",
+          "text": "The Lab",
           "color": "alphaDark"
         },
         {
@@ -106,7 +106,7 @@
       },
       "text": [
         {
-          "text": "Case Studies",
+          "text": "The Ramp",
           "color": "alphaDark"
         },
         {

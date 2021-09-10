@@ -1,12 +1,12 @@
 {
   "text": [
     {
-      "text": "Setting The Pace In A New Silver Bull Market!",
+      "text": "By Any Other Name",
       "color": "omegaDarker",
       "variant": "h1"
     },
     {
-      "text": "Canada Silver Cobalt Works, a unique and rapidly growing silver-cobalt focused company.",
+      "text": "As global supply of energy metals remain in doubt, stability is only achieved by the return of a Canadian silver and cobalt heartland.",
       "color": "omegaDarker",
       "variant": "medium"
     }
@@ -19,15 +19,15 @@
   ],
   "buttons": [
     {
-      "text": "Get Started",
+      "text": "Our vision",
       "type": "MODAL",
       "link": "authentication",
       "variant": "dark"
     },
     {
-      "text": "",
+      "text": "Watch the interview",
       "type": "VIDEO",
-      "link": "https://www.youtube.com/embed/WFOxZAmB_1Y?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+      "link": "https://www.youtube.com/embed/yhqSOhMSET0?autoplay=1&modestbranding=1&showinfo=0&rel=0",
       "variant": "primary"
     }
   ]

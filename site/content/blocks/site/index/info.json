@@ -1,22 +1,22 @@
 {
   "text": [
     {
-      "text": "Modern Solutions",
+      "text": "Follow our progress",
       "variant": "h4",
       "color": "omegaDarker"
     },
     {
-      "text": "Your Partner in Creating and Growing Brands",
+      "text": "We explore Mineral prospects, develop refinery grade materials, and everything in between.",
       "variant": "h2"
     },
     {
-      "text": "Hassle-free platform and specialists to help you with your marketing campaigns.",
+      "text": "What happens next?",
       "variant": "medium"
     }
   ],
   "buttons": [
     {
-      "text": "Get Started",
+      "text": "Get in touch",
       "type": "MODAL",
       "link": "contact",
       "variant": "primary"
