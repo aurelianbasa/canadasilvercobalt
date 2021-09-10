@@ -1,17 +1,17 @@
 {
   "text": [
     {
-      "text": "ABOUT COMPANY",
+      "text": "OVERVIEW",
       "color": "alphaLight",
       "variant": "h4"
     },
     {
-      "text": "Tap into our unique insights to identify the right leads",
+      "text": "Alternative Energy starts at home",
       "color": "alphaLighter",
       "variant": "h2"
     },
     {
-      "text": "Target your audience based on their interests. Lorem ipsum dolor sit amet, consectetur magna aliqua.",
+      "text": "Understanding the fragile nature of global supply chains, and the urgency of energy transiton indicated the necessity of developing secure sources of metals.",
       "variant": "medium",
       "color": "white"
     }
@@ -31,7 +31,7 @@
       },
       "text": [
         {
-          "text": "Automatic interest detection",
+          "text": "Intimate knowledge of the Cobalt camp",
           "color": "white",
           "variant": "h5"
         }
@@ -44,7 +44,7 @@
       },
       "text": [
         {
-          "text": "Daily email reports",
+          "text": "Deep commitment to longterm stability",
           "color": "white",
           "variant": "h5"
         }
@@ -57,7 +57,7 @@
       },
       "text": [
         {
-          "text": "Create & manage campaigns",
+          "text": "Openness to partnership with like minded entities",
           "color": "white",
           "variant": "h5"
         }

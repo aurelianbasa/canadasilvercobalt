@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Lorem ipsum dolor",
+      "text": "As of July 13, 2021",
       "color": "alpha",
       "variant": "h4"
     },
@@ -15,11 +15,11 @@
     {
       "text": [
         {
-          "text": "In nisi esse sit aliquip",
+          "text": "Issued and Outstanding",
           "variant": "medium"
         },
         {
-          "text": "Non cillum magna ess min",
+          "text": "127,926,346",
           "variant": "medium"
         }
       ]
@@ -27,11 +27,11 @@
     {
       "text": [
         {
-          "text": "In nisi esse sit aliquip",
+          "text": "Stock Options Outstanding",
           "variant": "medium"
         },
         {
-          "text": "Non cillum magna ess min",
+          "text": "7,323,000",
           "variant": "medium"
         }
       ]
@@ -39,11 +39,11 @@
     {
       "text": [
         {
-          "text": "In nisi esse sit aliquip",
+          "text": "Warrants Outstanding",
           "variant": "medium"
         },
         {
-          "text": "Non cillum magna ess min",
+          "text": "30,036,901",
           "variant": "medium"
         }
       ]
@@ -51,11 +51,11 @@
     {
       "text": [
         {
-          "text": "In nisi esse sit aliquip",
+          "text": "Full Diluted",
           "variant": "medium"
         },
         {
-          "text": "Non cillum magna ess min",
+          "text": "165,286,247",
           "variant": "medium"
         }
       ]
