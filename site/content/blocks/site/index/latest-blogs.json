@@ -1,11 +1,11 @@
 {
   "text": [
     {
-      "text": "HIGHLIGHTS",
-      "variant": "h2"
+      "text": "Highlights",
+      "variant": "h6"
     },
     {
-      "text": "Recent progress",
+      "text": "Recent Progress on Leading initiatives",
       "variant": "medium"
     }
   ],
@@ -24,7 +24,7 @@
           "color": "alphaDark"
         },
         {
-          "text": "Castle East is highest grade silver discovery in camp for decades",
+          "text": "Castle East results indicate highest grade silver in the camp",
           "color": "omegaDarker",
           "variant": "h5"
         },
@@ -88,22 +88,8 @@
         },
         {
           "text": "Company purchases Temiskaming Testing Labs and begins extensive rennovations..."
-        },
-        {
-          "text": "John Doe",
-          "color": "omegaDark"
-        },
-        {
-          "text": "March 16, 2021"
-        },
-        {
-          "text": "7 min"
         }
       ],
-      "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/steve-grant.png",
-        "alt": "alt text"
-      },
       "images": [
         {
           "src": "../../../assets/flexiblocks/blog/blog-3.jpg",

@@ -1,34 +1,34 @@
 {
   "text": [
     {
-      "text": "Modern Solutions",
+      "text": "The Company",
       "variant": "h4",
       "color": "omegaDarker"
     },
     {
-      "text": "Your Partner in Creating and Growing Brands",
+      "text": "Modern technique supported by veteran experience",
       "variant": "h2"
     },
     {
-      "text": "Hassle-free platform and specialists to help you with your marketing campaigns.",
+      "text": "Learn about our vistion, our history, and our results so far.",
       "variant": "medium"
     }
   ],
   "buttons": [
     {
-      "text": "Download",
+      "text": "Fact Sheet",
       "type": "PAGE",
       "link": "files/link-to-file.pdf",
       "variant": "primary"
     },
     {
-      "text": "Download",
+      "text": "Presentation",
       "type": "PAGE",
       "link": "files/link-to-file.pdf",
       "variant": "primary"
     },
     {
-      "text": "Button",
+      "text": "Full Details >",
       "type": "PAGE",
       "link": "https://google.com",
       "variant": "secondary"
