@@ -31,6 +31,12 @@
         {
           "text": "Extensive drilling campaign results in silver intercepts of over 50,000 g/t culminating in discovery of Big Silver vein..."
         }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/blog/blog-1.jpg",
+          "alt": "alt text"
+        }
       ]
     },
     {
@@ -53,22 +59,8 @@
         },
         {
           "text": "Testwork conducted on primary and secondary feeds under the guidance of SGS has demonstrated capability..."
-        },
-        {
-          "text": "John Doe",
-          "color": "omegaDark"
-        },
-        {
-          "text": "May 10, 2021"
-        },
-        {
-          "text": "10 min"
         }
       ],
-      "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/john-doe.png",
-        "alt": "alt text"
-      },
       "images": [
         {
           "src": "../../../assets/flexiblocks/blog/blog-2.jpg",
