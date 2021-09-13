@@ -9,7 +9,7 @@
     {
       "text": [
         {
-          "text": "Quick Links"
+          "text": "Links"
         }
       ],
       "buttons": [
@@ -42,7 +42,7 @@
     {
       "text": [
         {
-          "text": "Legal Stuff"
+          "text": "Legal"
         }
       ],
       "buttons": [
@@ -75,7 +75,7 @@
     {
       "text": [
         {
-          "text": "Social Media"
+          "text": "Social"
         }
       ],
       "buttons": [
@@ -107,6 +107,16 @@
           "icon": {
             "src": "../../../assets/flexiblocks/icons/bxl-facebook.svg",
             "color": "#4064AC"
+          }
+        },
+        {
+          "text": "YouTube",
+          "type": "PAGE",
+          "link": "https://www.youtube.com/canadasilvercobalt/",
+          "variant": "links.nav-light",
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/bxl-youtube.svg",
+            "color": "#0073AF"
           }
         }
       ]
