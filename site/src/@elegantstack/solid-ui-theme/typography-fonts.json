@@ -1,11 +1,11 @@
 {
   "fonts": {
     "google": {
-      "families": ["Noto+Sans:400,600,700,900&display=swap"]
+      "families": ["Poppins:400,600,700,900&display=swap"]
     }
   },
   "theme": {
-    "headerFontFamily": ["Noto+Sans", "sans-serif"],
-    "bodyFontFamily": ["Noto+Sans", "sans-serif"]
+    "headerFontFamily": ["Poppins", "sans-serif"],
+    "bodyFontFamily": ["Poppins", "sans-serif"]
   }
 }
