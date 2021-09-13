@@ -12,6 +12,7 @@ import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import WithRecentPosts from '@solid-ui-blocks/WithRecentPosts'
 import theme from './_theme'
 import styles from './_styles'
 
@@ -42,7 +43,9 @@ const IndexPage = props => {
       <Info content={content['presentations']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Blog content={content['latest-blogs']} />
+      <WithRecentPosts>
+        <Blog content={content['latest-blogs']} />
+      </WithRecentPosts>
       <Divider space='5' />
       <Divider space='5' />
       <Footer content={content['footer']} />
