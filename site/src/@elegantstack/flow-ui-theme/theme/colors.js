@@ -1,9 +1,9 @@
 import baseColors from '@elegantstack/flow-ui-theme/src/theme/colors'
 
 const blue = {
-  100: '#5D7987',
+  100: '#9DB1BC',
   200: '#6481AD',
-  300: '#5D7987',
+  300: '#2A4DA1',
   400: '#6481AD',
   500: '#9DB1BC',
   600: '#2A4DA1',
