@@ -1,7 +1,7 @@
 import baseColors from '@elegantstack/solid-ui-theme/src/colors'
 
 const blue = {
-  100: '#9DB1BC',
+  100: '#D7DADD',
   200: '#6481AD',
   300: '#2A4DA1',
   400: '#6481AD',
