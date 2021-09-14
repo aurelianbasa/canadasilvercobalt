@@ -26,8 +26,8 @@ const HeroBlock01 = ({
     >
       <Box
         sx={{
-          flexBasis: ['left', 'left', 'left', `3/5`],
-          [reverse ? 'ml' : 'mr']: ['left', 'left', 'left', 5],
+          flexBasis: ['left', 'left', 'left', `1/5`],
+          [reverse ? 'ml' : 'mr']: ['left', 'left', 'left', '1/5'],
           position: `relative`,
           textAlign: `left`
         }}
@@ -41,7 +41,7 @@ const HeroBlock01 = ({
       </Box>
       <Box
         sx={{
-          flexBasis: `2/5`,
+          flexBasis: `1/5`,
           textAlign: [`left`, 'left', 'left', `left`]
         }}
       >
