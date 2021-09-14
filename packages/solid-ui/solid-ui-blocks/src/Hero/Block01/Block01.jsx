@@ -42,7 +42,7 @@ const HeroBlock01 = ({
       <Box
         sx={{
           flexBasis: `2/5`,
-          textAlign: [`center`, null, null, `left`]
+          textAlign: [`left`, null, null, `left`]
         }}
       >
         <Reveal effect='fadeInDown'>
