@@ -15,7 +15,7 @@ const HeroBlock01 = ({
   <Container>
     <Flex
       sx={{
-        alignItems: [null, null, null, `left`],
+        alignItems: ['left', null, null, `left`],
         flexDirection: [
           reverse ? `column-reverse` : `column`,
           null,
