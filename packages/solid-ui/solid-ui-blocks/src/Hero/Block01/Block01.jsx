@@ -15,7 +15,7 @@ const HeroBlock01 = ({
   <Container>
     <Flex
       sx={{
-        alignItems: ['left', null, null, `left`],
+        alignItems: ['left', 'left', 'left', `left`],
         flexDirection: [
           reverse ? `column-reverse` : `column`,
           null,
@@ -26,8 +26,8 @@ const HeroBlock01 = ({
     >
       <Box
         sx={{
-          flexBasis: [null, null, null, `3/5`],
-          [reverse ? 'ml' : 'mr']: [null, null, null, 5],
+          flexBasis: ['left', null, null, `3/5`],
+          [reverse ? 'ml' : 'mr']: ['left', null, null, 5],
           position: `relative`,
           textAlign: `left`
         }}
