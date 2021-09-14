@@ -29,7 +29,7 @@ const HeroBlock01 = ({
           flexBasis: [null, null, null, `3/5`],
           [reverse ? 'ml' : 'mr']: [null, null, null, 5],
           position: `relative`,
-          textAlign: `left`
+          textAlign: `center`
         }}
       >
         <ContentImages
@@ -42,7 +42,7 @@ const HeroBlock01 = ({
       <Box
         sx={{
           flexBasis: `2/5`,
-          textAlign: [`left`, null, null, `left`]
+          textAlign: [`center`, null, null, `left`]
         }}
       >
         <Reveal effect='fadeInDown'>
