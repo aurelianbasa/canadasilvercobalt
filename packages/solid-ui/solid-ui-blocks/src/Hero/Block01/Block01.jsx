@@ -15,7 +15,7 @@ const HeroBlock01 = ({
   <Container>
     <Flex
       sx={{
-        alignItems: ['left', 'left', 'left', `left`],
+        alignItems: [null, null, null, `center`],
         flexDirection: [
           reverse ? `column-reverse` : `column`,
           null,
@@ -26,29 +26,27 @@ const HeroBlock01 = ({
     >
       <Box
         sx={{
-          flexBasis: ['left', 'left', 'left', `3/5`],
-          [reverse ? 'ml' : 'mr']: ['left', 'left', 'left', 5],
+          flexBasis: [null, null, null, `3/5`],
+          [reverse ? 'ml' : 'mr']: [null, null, null, 5],
           position: `relative`,
-          textAlign: `left`
+          textAlign: `center`
         }}
       >
         <ContentImages
           content={{ images }}
           loading='eager'
           reverse={reverse}
-          imagePosition='left'
+          imagePosition='center'
         />
       </Box>
       <Box
         sx={{
           flexBasis: `2/5`,
-          textAlign: [`left`, 'left', 'left', `left`]
+          textAlign: [`center`, null, null, `left`]
         }}
       >
         <Reveal effect='fadeInDown'>
-          <ContentText content={text} 
-          textAlign= 'left'
-          />
+          <ContentText content={text} />
         </Reveal>
         {buttons && (
           <Reveal

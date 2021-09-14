@@ -11,7 +11,9 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 const HeroBlock02 = ({ content: { text, buttons, form, images } }) => (
   <Container sx={{ textAlign: `left` }}>
     <Reveal effect='fadeInDown'>
-      <ContentText content={text} />
+      <ContentText content={text} 
+      Textalign="left"
+      />
     </Reveal>
     {buttons && (
       <>
