@@ -26,8 +26,8 @@ const HeroBlock01 = ({
     >
       <Box
         sx={{
-          flexBasis: ['left', null, null, `3/5`],
-          [reverse ? 'ml' : 'mr']: ['left', null, null, 5],
+          flexBasis: ['left', 'left', 'left', `3/5`],
+          [reverse ? 'ml' : 'mr']: ['left', 'left', 'left', 5],
           position: `relative`,
           textAlign: `left`
         }}
@@ -46,7 +46,9 @@ const HeroBlock01 = ({
         }}
       >
         <Reveal effect='fadeInDown'>
-          <ContentText content={text} />
+          <ContentText content={text} 
+          textAlign= 'left'
+          />
         </Reveal>
         {buttons && (
           <Reveal
