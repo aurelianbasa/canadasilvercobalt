@@ -36,13 +36,13 @@ const HeroBlock01 = ({
           content={{ images }}
           loading='eager'
           reverse={reverse}
-          imagePosition='center'
+          imagePosition='left'
         />
       </Box>
       <Box
         sx={{
           flexBasis: `2/5`,
-          textAlign: [`left`, null, null, `left`]
+          textAlign: [`left`, 'left', 'left', `left`]
         }}
       >
         <Reveal effect='fadeInDown'>
