@@ -12,8 +12,8 @@ const CallToActionBlock02 = ({ content: { container, text, buttons } }) => (
         sx={{
           flexDirection: [`column`, `row`],
           justifyContent: `space-between`,
-          alignItems: `center`,
-          textAlign: [`center`, `left`]
+          alignItems: `left`,
+          textAlign: [`left`, `left`]
         }}
       >
         <Box>

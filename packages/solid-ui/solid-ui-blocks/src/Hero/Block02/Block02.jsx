@@ -9,7 +9,7 @@ import QuickSignupForm from '@solid-ui-components/QuickSignupForm'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
 const HeroBlock02 = ({ content: { text, buttons, form, images } }) => (
-  <Container sx={{ textAlign: `center` }}>
+  <Container sx={{ textAlign: `left` }}>
     <Reveal effect='fadeInDown'>
       <ContentText content={text} />
     </Reveal>
