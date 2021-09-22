@@ -172,7 +172,7 @@
                   "variant": "links.hidden",
                   "buttons": [
                     {
-                      "text": "Ee-2Ox Process",
+                      "text": "Re-2Ox Process",
                       "type": "PAGE",
                       "link": "/projects#re-2ox-process",
                       "variant": "links.nav-dark"
