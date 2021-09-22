@@ -1,25 +1,43 @@
 {
   "text": [
     {
-      "text": "High Grade & Technology Leader",
-      "variant": "h4",
-      "color": "omegaDarker"
+      "text": "OVER 15,000+ LEADS GENERATED",
+      "color": "omegaDark",
+      "variant": "h4"
     },
     {
-      "text": "Canada Silver Cobalt Works Inc.",
+      "text": "Get **More Conversions** With Our Services",
       "variant": "h2"
     },
     {
-      "text": "We explore Mineral prospects, develop refinery grade materials, and everything in between.",
+      "text": "Lorem ipsum dolor sit amet, consectetur magna aliqua. Eaque ipsa quae ab illo inventore veritatis. Nemo enim ipsam voluptatem voluptas. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
       "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/site/index/feature-two.jpg",
+      "alt": "alt text",
+      "radius": "lg"
+    },
+    {
+      "src": "../../../assets/site/index/feature-two-overlay.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInRight", "float"],
+      "position": {
+        "top": "15%",
+        "left": "-5%"
+      }
     }
   ],
   "buttons": [
     {
-      "text": "Get in touch",
+      "text": "Get Started",
       "type": "MODAL",
-      "link": "contact",
-      "variant": "primary"
+      "link": "authentication",
+      "variant": "secondary-light"
     }
   ]
 }
