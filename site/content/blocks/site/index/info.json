@@ -1,16 +1,16 @@
 {
   "text": [
     {
-      "text": "OVER 15,000+ LEADS GENERATED",
+      "text": "HIGH GRADE & TECHNOLOGY LEADER",
       "color": "omegaDark",
       "variant": "h4"
     },
     {
-      "text": "Get **More Conversions** With Our Services",
+      "text": "Drill for structure, **Mine for grade**",
       "variant": "h2"
     },
     {
-      "text": "Lorem ipsum dolor sit amet, consectetur magna aliqua. Eaque ipsa quae ab illo inventore veritatis. Nemo enim ipsam voluptatem voluptas. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+      "text": "We explore Mineral prospects, develop refinery grade materials, and everything in between.",
       "variant": "medium"
     }
   ],
@@ -34,7 +34,7 @@
   ],
   "buttons": [
     {
-      "text": "Get Started",
+      "text": "Learn more",
       "type": "MODAL",
       "link": "authentication",
       "variant": "secondary-light"
