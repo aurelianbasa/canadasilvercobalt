@@ -61,9 +61,9 @@
               }
             },
             {
-              "text": "First Nations",
+              "text": "Community",
               "type": "PAGE",
-              "link": "/about#first-nations",
+              "link": "/about#community",
               "variant": "links.nav-dark",
               "icon": {
                 "src": "../../../assets/flexiblocks/icons/minerals.svg",
@@ -74,16 +74,6 @@
               "text": "Environment",
               "type": "PAGE",
               "link": "/about#environment",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../../assets/flexiblocks/icons/minerals.svg",
-                "color": "#3D8DFF"
-              }
-            },
-            {
-              "text": "Community",
-              "type": "PAGE",
-              "link": "/about#community",
               "variant": "links.nav-dark",
               "icon": {
                 "src": "../../../assets/flexiblocks/icons/minerals.svg",
