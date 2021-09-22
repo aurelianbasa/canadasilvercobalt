@@ -1,12 +1,12 @@
 {
   "text": [
     {
-      "text": "By Any Other Name",
+      "text": "What was Once, Will be Again",
       "color": "omegaDarker",
       "variant": "h1"
     },
     {
-      "text": "As global supply of energy metals remain in doubt, stability is only achieved by the return of a Canadian silver and cobalt heartland.",
+      "text": "Metals supply the future of energy. Only possible with the Canadian silver and cobalt heartland.",
       "color": "omegaDarker",
       "variant": "medium"
     }
@@ -18,12 +18,6 @@
     }
   ],
   "buttons": [
-    {
-      "text": "Our vision",
-      "type": "MODAL",
-      "link": "authentication",
-      "variant": "dark"
-    },
     {
       "text": "Watch the interview",
       "type": "VIDEO",
