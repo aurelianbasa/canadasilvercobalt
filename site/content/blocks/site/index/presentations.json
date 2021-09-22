@@ -1,37 +1,10 @@
 {
-  "text": [
+  "images": [
     {
-      "text": "The Company",
-      "variant": "h4",
-      "color": "omegaDarker"
-    },
-    {
-      "text": "Modern technique supported by veteran experience",
-      "variant": "h2"
-    },
-    {
-      "text": "Learn about our vision, our history, and our results so far.",
-      "variant": "medium"
-    }
-  ],
-  "buttons": [
-    {
-      "text": "Fact Sheet",
-      "type": "PAGE",
-      "link": "files/link-to-file.pdf",
-      "variant": "primary"
-    },
-    {
-      "text": "Presentation",
-      "type": "PAGE",
-      "link": "files/link-to-file.pdf",
-      "variant": "primary"
-    },
-    {
-      "text": "Full Details >",
-      "type": "PAGE",
-      "link": "https://google.com",
-      "variant": "secondary"
+      "src": "../../../assets/site/index/clients.jpg",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "lg"
     }
   ]
 }
