@@ -1,43 +1,72 @@
 {
   "text": [
     {
-      "text": "HIGH GRADE & TECHNOLOGY LEADER",
+      "text": "GROW YOUR BUSINESS",
       "color": "omegaDark",
       "variant": "h4"
     },
     {
-      "text": "Drill for structure, **Mine for grade**",
+      "text": "Best Marketing Service for **Technological Era**",
       "variant": "h2"
     },
     {
-      "text": "We explore Mineral prospects, develop refinery grade materials, and everything in between.",
+      "text": "Target your audience based on their interests. Lorem ipsum dolor sit amet, consectetur magna aliqua.",
       "variant": "medium"
     }
   ],
   "images": [
     {
-      "src": "../../../assets/site/index/feature-two.jpg",
+      "src": "../../../assets/site/index/feature-two.png",
       "alt": "alt text",
-      "radius": "lg"
+      "radius": "lg",
+      "shadow": "default"
     },
     {
       "src": "../../../assets/site/index/feature-two-overlay.png",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default",
-      "effects": ["fadeInRight", "float"],
+      "effects": ["fadeInDown", "floatFaster"],
       "position": {
-        "top": "15%",
-        "left": "-5%"
+        "top": "-30%",
+        "right": "5%"
       }
     }
   ],
-  "buttons": [
+  "collection": [
     {
-      "text": "Learn more",
-      "type": "MODAL",
-      "link": "authentication",
-      "variant": "secondary-light"
+      "text": [
+        {
+          "text": "Advanced Panel",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Tempor incididunt ut labore."
+        },
+        {
+          "text": "5",
+          "color": "beta",
+          "variant": "h2"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Report Metrics",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Consectetur magna aliqua."
+        },
+        {
+          "text": "85",
+          "color": "beta",
+          "variant": "h2"
+        }
+      ]
     }
   ]
 }
