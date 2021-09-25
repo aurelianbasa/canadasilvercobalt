@@ -39,7 +39,7 @@
         {
           "text": "Average grade",
           "color": "omegaDarker",
-          "variant": "h6"
+          "variant": "h5"
         },
         {
           "text": "Silver grade equivalent: 500 g/t"
@@ -47,7 +47,7 @@
         {
           "text": "5",
           "color": "beta",
-          "variant": "h3"
+          "variant": "h2"
         }
       ]
     },

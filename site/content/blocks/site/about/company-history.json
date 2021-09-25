@@ -2,95 +2,58 @@
   "text": [
     {
       "text": "COMPANY HISTORY",
+      "color": "beta",
+      "variant": "h4"
+    },
+    {
+      "text": "Simple **But Not Easy**",
       "variant": "h2"
     },
     {
-      "text": "The return of the Heartland",
-      "variant": "medium"
-    },
-    {
-      "text": "Canada shines when it empowers the local mining sector.",
+      "text": "Return to the Cobalt Silver Heartland.",
       "variant": "medium"
     }
   ],
   "images": [
     {
       "src": "../../../assets/site/about/company-history.jpg",
-      "alt": "alt text",
-      "radius": "lg",
-      "shadow": "lg"
-    }
+      "alt": "alt text"
+      }
   ],
   "collection": [
     {
       "text": [
         {
-          "text": "Acquisition",
+          "text": "Acquired Castle Mine",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "In late 2015, several past producing mines became available..."
+          "text": "The transaction included both surrounding claims and the Beaver and Violet mines in the Cobalt Camp."
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Potential",
+          "text": "Launched Re-2Ox Process",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Initial results were promising..."
+          "text": "Proven system to remove undesirables from ore concentrate was applied to various cobalt ores."
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Pedigree",
+          "text": "Discovery at Castle East",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "The team relied on camp veterans to discover new veins..."
-        }
-      ]
-    },
-    {
-      "text": [
-        {
-          "text": "Adaptable",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": "The company thrived when many others could not..."
-        }
-      ]
-    },
-    {
-      "text": [
-        {
-          "text": "Strategy",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": "Picked up key assets..."
-        }
-      ]
-    },
-    {
-      "text": [
-        {
-          "text": "Vision",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": "Positioned to benefit..."
+          "text": "Maiden Inferred Resource unveiled in 43-101 report."
         }
       ]
     }
