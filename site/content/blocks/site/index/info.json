@@ -1,16 +1,16 @@
 {
   "text": [
     {
-      "text": "GROW YOUR BUSINESS",
+      "text": "HIGH GRADE & TECHNOLOGY LEADER",
       "color": "omegaDark",
       "variant": "h4"
     },
     {
-      "text": "Best Marketing Service for **Technological Era**",
+      "text": "Drill for structure, **Mine for grade**",
       "variant": "h2"
     },
     {
-      "text": "Target your audience based on their interests. Lorem ipsum dolor sit amet, consectetur magna aliqua.",
+      "text": "We explore Mineral prospects, develop refinery grade materials, and everything in between.",
       "variant": "medium"
     }
   ],
@@ -29,7 +29,7 @@
       "effects": ["fadeInDown", "floatFaster"],
       "position": {
         "top": "-30%",
-        "right": "5%"
+        "right": "45%"
       }
     }
   ],
@@ -37,29 +37,29 @@
     {
       "text": [
         {
-          "text": "Advanced Panel",
+          "text": "Average grade",
           "color": "omegaDarker",
-          "variant": "h5"
+          "variant": "h6"
         },
         {
-          "text": "Tempor incididunt ut labore."
+          "text": "Silver grade equivalent: 500 g/t"
         },
         {
           "text": "5",
           "color": "beta",
-          "variant": "h2"
+          "variant": "h3"
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Report Metrics",
+          "text": "Our grade",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Consectetur magna aliqua."
+          "text": "8,582 g/t with cut off at 258 g/t equivalent"
         },
         {
           "text": "85",
