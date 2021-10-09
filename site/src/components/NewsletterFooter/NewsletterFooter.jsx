@@ -11,11 +11,15 @@ const styles = {
     display: [`inline-flex`, `inline-flex`],
     width: `full`,
     justifyContent: `space-between`,
-    bg: `omegaLighter`,
     borderRadius: `xl`,
+    bg: `white`,
+    borderWidth: `md`,
+    borderStyle: `solid`,
+    borderColor: `omegaLight`,
     p: 2
   },
   input: {
+    bg: `transparent`,
     width: `auto`,
     fontSize: 1,
     py: 0,
