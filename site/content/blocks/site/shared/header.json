@@ -10,12 +10,6 @@
     {
       "buttons": [
         {
-          "text": "Home",
-          "type": "PAGE",
-          "variant": "links.nav-dark",
-          "link": "/"
-        },
-        {
           "text": "About",
           "type": "SUB",
           "variant": "links.nav-dark",
@@ -24,71 +18,44 @@
               "text": "Overview",
               "type": "PAGE",
               "link": "/about",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../../assets/flexiblocks/icons/minerals.svg",
-                "color": "#276BF0"
-              }
+              "variant": "links.nav-dark"
             },
             {
               "text": "Management",
               "type": "PAGE",
               "link": "/about#management",
               "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../../assets/flexiblocks/icons/minerals.svg",
-                "color": "#FE7245"
-              }
+              "icon": {}
             },
             {
               "text": "Company History",
               "type": "PAGE",
               "link": "/about#company-history",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../../assets/flexiblocks/icons/minerals.svg",
-                "color": "#000000"
-              }
+              "variant": "links.nav-dark"
             },
             {
               "text": "Regional History",
               "type": "PAGE",
               "link": "/about#regional-history",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../../assets/flexiblocks/icons/minerals.svg",
-                "color": "#6E5BD8"
-              }
+              "variant": "links.nav-dark"
             },
             {
               "text": "First Nations",
               "type": "PAGE",
               "link": "/about#first-nations",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../../assets/flexiblocks/icons/minerals.svg",
-                "color": "#FF4A32"
-              }
+              "variant": "links.nav-dark"
             },
             {
               "text": "Environment",
               "type": "PAGE",
               "link": "/about#environment",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../../assets/flexiblocks/icons/minerals.svg",
-                "color": "#3D8DFF"
-              }
+              "variant": "links.nav-dark"
             },
             {
               "text": "Community",
               "type": "PAGE",
               "link": "/about#community",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../../assets/flexiblocks/icons/minerals.svg",
-                "color": "#3D8DFF"
-              }
+              "variant": "links.nav-dark"
             }
           ]
         },
@@ -307,6 +274,20 @@
           "type": "PAGE",
           "link": "/contact",
           "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "text": "TSX-V: CCW",
+          "type": "PAGE",
+          "variant": "dark",
+          "link": "/investors#stock-information-chart",
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/bx-line-chart.svg",
+            "color": "omegaLighter"
+          }
         }
       ]
     }
