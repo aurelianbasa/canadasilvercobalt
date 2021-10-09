@@ -45,7 +45,7 @@ const styles = {
   },
   logoContainer: {
     flexShrink: 0,
-    mr: [null, null, 3, 5]
+    mr: [null, null, 3]
   },
   desktopMenu: {
     display: [`none`, null, `block`],
@@ -94,7 +94,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                                 key={`item-${index}`}
                                 sx={{
                                   '& + &': {
-                                    ml: 4
+                                    ml: 3
                                   }
                                 }}
                               >
