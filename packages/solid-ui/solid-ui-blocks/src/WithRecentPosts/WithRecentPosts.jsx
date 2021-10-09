@@ -28,7 +28,7 @@ const WithRecentPosts = ({ children, limit = 3 }) => {
         text: post.excerpt
       },
       {
-        text: post.author.name,
+        text: post.author?.name,
         color: 'omegaDark'
       },
       {
@@ -48,13 +48,15 @@ const WithRecentPosts = ({ children, limit = 3 }) => {
         }
       }
     ],
-    avatar: {
-      src: {
-        childImageSharp: {
-          gatsbyImageData: getImageVariant(post.author.thumbnail, 'small')
+    avatar: post.author
+      ? {
+          src: {
+            childImageSharp: {
+              gatsbyImageData: getImageVariant(post.author.thumbnail, 'small')
+            }
+          }
         }
-      }
-    }
+      : null
   }))
 
   const wrappedBlock = Children.map(children, child =>
