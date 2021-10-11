@@ -37,6 +37,7 @@ type BlockContentText {
   color: String
   space: Int
   variant: String
+  align: [String]
 }
 
 ############################################
