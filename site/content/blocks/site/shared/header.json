@@ -10,6 +10,11 @@
     {
       "buttons": [
         {
+          "text": "TSX-V: CCW",
+          "type": "SUB",
+          "variant": "links.nav-dark"
+        },
+        {
           "text": "About",
           "type": "SUB",
           "variant": "links.nav-dark",
@@ -276,20 +281,6 @@
           "type": "PAGE",
           "link": "/contact",
           "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "buttons": [
-        {
-          "text": "TSX-V: CCW",
-          "type": "PAGE",
-          "variant": "dark",
-          "link": "/investors#stock-information-chart",
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-line-chart.svg",
-            "color": "omegaLighter"
-          }
         }
       ]
     }
