@@ -52,7 +52,11 @@ const FooterBlock01 = ({ content: { images, collection } }) => {
                   <ContentButtons
                     content={buttons}
                     variant='vertical'
-                    wrapperStyles={{ flexDirection: [null, `column`] }}
+                    wrapperStyles={{
+                      flexWrap: `wrap`,
+                      justifyContent: `center`,
+                      flexDirection: [null, `column`]
+                    }}
                   />
                 </Box>
               )
