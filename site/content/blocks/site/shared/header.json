@@ -10,11 +10,6 @@
     {
       "buttons": [
         {
-          "text": "TSX-V: CCW",
-          "type": "SUB",
-          "variant": "links.nav-dark"
-        },
-        {
           "text": "About",
           "type": "SUB",
           "variant": "links.nav-dark",

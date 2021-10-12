@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link as GLink } from 'gatsby'
 import Sticky from 'react-sticky-el'
-import { Container, Box, Flex, css } from 'theme-ui'
+import { Container, Box, Flex, Text, css } from 'theme-ui'
 import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
 import ContentImages from '@solid-ui-components/ContentImages'
@@ -45,6 +45,7 @@ const styles = {
   },
   logoContainer: {
     flexShrink: 0,
+    alignItems: `center`,
     mr: [null, null, 3]
   },
   desktopMenu: {
@@ -68,7 +69,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
         <Container variant='full' className='nav-container'>
           <Container px='4'>
             <Flex sx={styles.header}>
-              <Box sx={styles.logoContainer}>
+              <Flex sx={styles.logoContainer}>
                 <GLink to='/'>
                   <ContentImages
                     content={{ images }}
@@ -76,7 +77,19 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                     imageEffect='fadeIn'
                   />
                 </GLink>
-              </Box>
+                <Text
+                  sx={{
+                    fontSize: 1,
+                    borderLeftStyle: `solid`,
+                    borderLeftWidth: `md`,
+                    borderLeftColor: `omegaLight`,
+                    pl: 3,
+                    ml: 3
+                  }}
+                >
+                  TSX-V: CCW
+                </Text>
+              </Flex>
               {collection && (
                 <>
                   <Box sx={styles.desktopMenu}>
