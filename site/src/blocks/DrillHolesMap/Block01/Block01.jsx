@@ -87,9 +87,6 @@ const DrillHolesMapBlock01 = ({
 }) => {
   return (
     <Container>
-      {/* <Box sx={{ textAlign: `center` }}>
-        <ContentText content={text} />
-      </Box> */}
       <Box sx={styles.accordion}>
         <Accordion>
           <ContentContainer content={container} variant='cards.primary'>
