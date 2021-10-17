@@ -1,0 +1,16 @@
+{
+  "text": [
+    {
+      "text": "View Drill Holes Map",
+      "variant": "h5"
+    },
+    {
+      "text": "http://new.highwaybooks.com"
+    }
+  ],
+  "icon": {
+    "src": "../../../../assets/flexiblocks/icons/bx-hive.svg",
+    "color": "alpha",
+    "size": "sm"
+  }
+}
