@@ -8,6 +8,7 @@ import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 import Drawer from '@solid-ui-components/Drawer'
+import Search from '@widgets/Search'
 
 const styles = {
   wrapper: {
@@ -54,7 +55,8 @@ const styles = {
     flexGrow: 1
   },
   mobileMenu: {
-    display: [`block`, null, `none`]
+    display: [`block`, null, `none`],
+    order: [3, null, `unset`]
   }
 }
 
@@ -83,8 +85,8 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                     borderLeftStyle: `solid`,
                     borderLeftWidth: `md`,
                     borderLeftColor: `omegaLight`,
-                    pl: 3,
-                    ml: 3
+                    pl: [2, null, 3],
+                    ml: [2, null, 3]
                   }}
                 >
                   TSX-V: CCW
@@ -108,6 +110,9 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                                 sx={{
                                   '& + &': {
                                     ml: 3
+                                  },
+                                  '.level-1 + .level-1': {
+                                    ml: [1, null, null, 3]
                                   }
                                 }}
                               >
@@ -151,6 +156,13 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                       )}
                       <Divider space={5} />
                     </Drawer>
+                  </Box>
+                  <Box
+                    sx={{ order: [2, null, `unset`] }}
+                    ml={[`auto`, null, 3]}
+                    mr={[4, null, 0]}
+                  >
+                    <Search />
                   </Box>
                 </>
               )}
