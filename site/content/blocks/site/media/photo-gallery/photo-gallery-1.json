@@ -13,64 +13,86 @@
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/placeholder.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/gallery-thumbnail.jpg",
           "radius": "default",
-          "alt": "alt text"
+          "alt": "image thumbnail"
+        },
+        {
+          "src": "../../../../assets/site/media/photo-gallery/gallery-full.jpg",
+          "radius": "default",
+          "alt": "full image"
         }
       ]
     },
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/placeholder.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/gallery-thumbnail.jpg",
           "radius": "default",
-          "alt": "alt text"
+          "alt": "image thumbnail"
+        },
+        {
+          "src": "../../../../assets/site/media/photo-gallery/gallery-full.jpg",
+          "radius": "default",
+          "alt": "full image"
         }
       ]
     },
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/placeholder.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/gallery-thumbnail.jpg",
           "radius": "default",
-          "alt": "alt text"
+          "alt": "image thumbnail"
+        },
+        {
+          "src": "../../../../assets/site/media/photo-gallery/gallery-full.jpg",
+          "radius": "default",
+          "alt": "full image"
         }
       ]
     },
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/placeholder.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/gallery-thumbnail.jpg",
           "radius": "default",
-          "alt": "alt text"
+          "alt": "image thumbnail"
+        },
+        {
+          "src": "../../../../assets/site/media/photo-gallery/gallery-full.jpg",
+          "radius": "default",
+          "alt": "full image"
         }
       ]
     },
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/placeholder.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/gallery-thumbnail.jpg",
           "radius": "default",
-          "alt": "alt text"
+          "alt": "image thumbnail"
+        },
+        {
+          "src": "../../../../assets/site/media/photo-gallery/gallery-full.jpg",
+          "radius": "default",
+          "alt": "full image"
         }
       ]
     },
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/placeholder.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/gallery-thumbnail.jpg",
           "radius": "default",
-          "alt": "alt text"
+          "alt": "image thumbnail"
+        },
+        {
+          "src": "../../../../assets/site/media/photo-gallery/gallery-full.jpg",
+          "radius": "default",
+          "alt": "full image"
         }
       ]
-    }
-  ],
-  "buttons": [
-    {
-      "text": "View More",
-      "type": "PAGE",
-      "link": "/gallery",
-      "variant": "primary"
     }
   ]
 }

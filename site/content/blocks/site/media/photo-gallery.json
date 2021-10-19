@@ -13,54 +13,84 @@
     {
       "images": [
         {
-          "src": "../../../assets/site/media/gallery-placeholder.jpg",
+          "src": "../../../assets/site/media/gallery-thumbnail.jpg",
           "radius": "default",
-          "alt": "alt text"
+          "alt": "thumbnail image"
+        },
+        {
+          "src": "../../../assets/site/media/gallery-full.jpg",
+          "radius": "default",
+          "alt": "full image"
         }
       ]
     },
     {
       "images": [
         {
-          "src": "../../../assets/site/media/gallery-placeholder.jpg",
+          "src": "../../../assets/site/media/gallery-thumbnail.jpg",
           "radius": "default",
-          "alt": "alt text"
+          "alt": "thumbnail image"
+        },
+        {
+          "src": "../../../assets/site/media/gallery-full.jpg",
+          "radius": "default",
+          "alt": "full image"
         }
       ]
     },
     {
       "images": [
         {
-          "src": "../../../assets/site/media/gallery-placeholder.jpg",
+          "src": "../../../assets/site/media/gallery-thumbnail.jpg",
           "radius": "default",
-          "alt": "alt text"
+          "alt": "thumbnail image"
+        },
+        {
+          "src": "../../../assets/site/media/gallery-full.jpg",
+          "radius": "default",
+          "alt": "full image"
         }
       ]
     },
     {
       "images": [
         {
-          "src": "../../../assets/site/media/gallery-placeholder.jpg",
+          "src": "../../../assets/site/media/gallery-thumbnail.jpg",
           "radius": "default",
-          "alt": "alt text"
+          "alt": "thumbnail image"
+        },
+        {
+          "src": "../../../assets/site/media/gallery-full.jpg",
+          "radius": "default",
+          "alt": "full image"
         }
       ]
     },
     {
       "images": [
         {
-          "src": "../../../assets/site/media/gallery-placeholder.jpg",
+          "src": "../../../assets/site/media/gallery-thumbnail.jpg",
           "radius": "default",
-          "alt": "alt text"
+          "alt": "thumbnail image"
+        },
+        {
+          "src": "../../../assets/site/media/gallery-full.jpg",
+          "radius": "default",
+          "alt": "full image"
         }
       ]
     },
     {
       "images": [
         {
-          "src": "../../../assets/site/media/gallery-placeholder.jpg",
+          "src": "../../../assets/site/media/gallery-thumbnail.jpg",
           "radius": "default",
-          "alt": "alt text"
+          "alt": "thumbnail image"
+        },
+        {
+          "src": "../../../assets/site/media/gallery-full.jpg",
+          "radius": "default",
+          "alt": "full image"
         }
       ]
     }
