@@ -38,14 +38,14 @@ const IndexPage = props => {
       <Divider space='4' />
       <Info content={content['info']} />
       <Divider space='4' />
-      <Download content={content['download']} />
+      <WithRecentPosts>
+        <Blog content={content['latest-blogs']} />
+      </WithRecentPosts>
       <Divider space='4' />
       <Presentations content={content['presentations']} />
       <Divider space='5' />
       <Divider space='5' />
-      <WithRecentPosts>
-        <Blog content={content['latest-blogs']} />
-      </WithRecentPosts>
+      <Download content={content['download']} />
       <Divider space='5' />
       <Divider space='5' />
       <Footer content={content['footer']} />
