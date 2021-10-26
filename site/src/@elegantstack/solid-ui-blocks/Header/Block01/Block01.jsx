@@ -90,7 +90,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                   }}
                 >
                   TSX-V: CCW
-                  OTC: CCWOF
+                 
                 </Text>
               </Flex>
               {collection && (
