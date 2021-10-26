@@ -3,12 +3,12 @@
     {
       "text": "OVERVIEW",
       "color": "omegaLight",
-      "variant": "h4"
+      "variant": "h3"
     },
     {
       "text": "Alternative Energy starts at home",
       "color": "alphaLighter",
-      "variant": "h2",
+      "variant": "h1",
       "align": ["left"]
     },
     {
