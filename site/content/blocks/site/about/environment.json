@@ -21,7 +21,7 @@
   "images": [
     {
       "src": "../../../assets/site/about/environment.jpg",
-      "radius": "xl",
+      "radius": "lg",
       "alt": "alt text"
     }
   ]

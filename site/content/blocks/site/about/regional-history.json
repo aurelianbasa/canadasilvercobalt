@@ -21,7 +21,7 @@
   "images": [
     {
       "src": "../../../assets/site/about/regional-history.jpg",
-      "radius": "xl",
+      "radius": "lg",
       "alt": "alt text"
     }
   ]
