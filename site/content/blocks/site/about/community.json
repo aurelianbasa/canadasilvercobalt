@@ -3,11 +3,13 @@
     {
       "text": "COMMUNITY",
       "color": "alpha",
-      "variant": "h4"
+      "variant": "h4",
+      "align": ["left"]
     },
     {
       "text": "Partners in Development",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "The company has title to the 3,300 hectare property formerly known as the Castle Silver Mine. The property is acknowledged to be situated within the traditional territories of two First Nations. The company has an agreement with Matachewan First Nation, Temagami First Nation, and the Teme-Augama Anishnabai.",
