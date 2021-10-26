@@ -17,7 +17,8 @@
   "images": [
     {
       "src": "../../../assets/site/about/company-history.jpg",
-      "alt": "alt text"
+      "alt": "alt text",
+      "radius": "lg"
       }
   ],
   "collection": [

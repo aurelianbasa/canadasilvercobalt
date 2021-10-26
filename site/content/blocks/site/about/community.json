@@ -21,7 +21,7 @@
   "images": [
     {
       "src": "../../../assets/site/about/first-nations.jpg",
-      "radius": "xl",
+      "radius": "lg",
       "alt": "alt text"
     }
   ]
