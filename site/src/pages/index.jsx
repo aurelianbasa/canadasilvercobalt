@@ -44,9 +44,7 @@ const IndexPage = props => {
       <Divider space='4' />
       <Presentations content={content['presentations']} />
       <Divider space='5' />
-      <Divider space='5' />
       <Download content={content['download']} />
-      <Divider space='5' />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
