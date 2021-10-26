@@ -9,7 +9,7 @@ export default {
   overviewContainer: {
     bg: `omegaDarker`,
     borderRadius: `xl`,
-    py: 5,
-    px: [4, 0]
+    py: 6,
+    px: [4, 2]
   }
 }
