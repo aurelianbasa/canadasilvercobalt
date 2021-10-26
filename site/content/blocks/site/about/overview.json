@@ -19,7 +19,7 @@
   "images": [
     {
       "src": "../../../assets/site/about/overview.jpg",
-      "radius": "xl",
+      "radius": "lg",
       "alt": "alt text"
     }
   ],
