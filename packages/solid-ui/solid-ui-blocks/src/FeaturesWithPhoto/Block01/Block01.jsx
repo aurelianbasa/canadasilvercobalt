@@ -13,8 +13,9 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
 const FeaturesWithPhotoBlock01 = ({
   content: { text, images, collection, buttons },
+  reverse
 }) => (
-  <Container>
+  <Container sx={{ position: `relative` }}>
     <Flex
       sx={{
         alignItems: [null, `center`],
