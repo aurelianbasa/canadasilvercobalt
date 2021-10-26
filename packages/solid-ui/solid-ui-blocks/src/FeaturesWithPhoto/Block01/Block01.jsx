@@ -15,7 +15,7 @@ const FeaturesWithPhotoBlock01 = ({
   content: { text, images, collection, buttons },
   reverse
 }) => (
-  <Container sx={{ position: `relative` }}>
+  <Container>
     <Flex
       sx={{
         alignItems: [null, `center`],
