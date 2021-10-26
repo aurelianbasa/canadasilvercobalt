@@ -3,19 +3,23 @@
     {
       "text": "REGIONAL HISTORY",
       "color": "alpha",
-      "variant": "h4"
+      "variant": "h4",
+      "align": ["left"]
     },
     {
       "text": "Story of the Cobalt camp",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "Rich silver veins were long prophesied by early french fur traders who ventured up the Montreal river. The first significant discoveries coincided with the extension of the railway in 1903. Once the first shipment of silver slabs reached the south, news quickly spread and an invasion of prospectors occurred almost overnight.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     },
     {
       "text": "The camp grew rapidly and by 1906 there were 16 mines established all in various stages of operations. Exploration continued to fan out from Cobalt leading to the discovery of silver in Gowganda Lake, Elk Lake, and Maple Mountain areas in 1908. This exploration also led to discoveries of other mining camps, including Timmins in 1909, and Kirkland Lake in 1911.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [
