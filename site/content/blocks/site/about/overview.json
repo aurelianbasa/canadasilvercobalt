@@ -8,12 +8,14 @@
     {
       "text": "Alternative Energy starts at home",
       "color": "alphaLighter",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "Understanding the fragile nature of global supply chains, and the urgency of energy transiton underscores the necessity of developing secure sources of metals.",
       "variant": "medium",
-      "color": "white"
+      "color": "white",
+      "align": ["left"]
     }
   ],
   "images": [
