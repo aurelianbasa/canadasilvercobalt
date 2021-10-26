@@ -27,7 +27,7 @@ const AboutPage = props => {
       <Header content={content['header']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Container variant='cards.primary' sx={styles.overviewContainer}>
+      <Container variant='cards.paper' sx={styles.overviewContainer}>
         <Info content={content['overview']} />
       </Container>
       <Divider space='5' />
