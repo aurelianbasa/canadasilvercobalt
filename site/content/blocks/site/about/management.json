@@ -1,13 +1,15 @@
 {
   "text": [
     {
-      "text": "Management",
+      "text": "MANAGEMENT",
       "color": "alpha",
-      "variant": "h4"
+      "variant": "h4",
+      "align": ["left"]
     },
     {
       "text": "Next Generation of the Cobalt Camp",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     }
   ],
   "collection": [
