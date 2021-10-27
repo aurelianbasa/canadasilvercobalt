@@ -20,7 +20,8 @@
         },
         {
           "text": "3028 Quadra Court Coquitlam,BC V3B 5X6 Ph: 604-828-1475 Fax: 604-608-3512",
-          "variant": "medium"
+          "variant": "medium",
+          "align": ["center", "left", "left"]
         }
       ]
     },
