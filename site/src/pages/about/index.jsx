@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { Container } from 'theme-ui'
+import { Container, Card } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
@@ -27,8 +27,10 @@ const AboutPage = props => {
       <Header content={content['header']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Container variant='cards.paper-lg' sx={styles.overviewContainer}>
-        <Info content={content['overview']} />
+      <Container>
+        <Card variant='paper-lg' sx={styles.overviewContainer}>
+          <Info content={content['overview']} />
+        </Card>
       </Container>
       <Divider space='5' />
       <Divider space='5' />
