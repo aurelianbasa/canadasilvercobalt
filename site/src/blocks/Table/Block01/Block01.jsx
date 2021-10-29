@@ -8,6 +8,7 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
 const styles = {
   row: {
+    display: [`block`, `flex`],
     '& + &': {
       borderTopStyle: `solid`,
       borderTopWidth: `md`,
@@ -19,10 +20,10 @@ const styles = {
     py: [2, 3],
     m: 0,
     '& + &': {
-      borderLeftStyle: `solid`,
+      borderLeftStyle: [`none`, `solid`],
       borderLeftWidth: `sm`,
       borderLeftColor: `omega`,
-      pl: 4
+      pl: [0, 4]
     }
   }
 }
@@ -34,13 +35,13 @@ const ContentTable01 = ({ content: { text, collection, buttons } }) => (
     <Divider />
     <Card variant='paper'>
       {collection?.map(({ collection }, i) => (
-        <Flex key={`item-${i}`} sx={styles.row}>
+        <Box key={`item-${i}`} sx={styles.row}>
           {collection?.map(({ text }, i) => (
             <Box sx={styles.item}>
               <ContentText content={text} />
             </Box>
           ))}
-        </Flex>
+        </Box>
       ))}
     </Card>
     {buttons && (
