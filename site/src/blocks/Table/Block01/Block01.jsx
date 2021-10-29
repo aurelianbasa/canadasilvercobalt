@@ -10,13 +10,13 @@ const styles = {
   row: {
     '& + &': {
       borderTopStyle: `solid`,
-      borderTopWidth: `sm`,
-      borderTopColor: `omega`
+      borderTopWidth: `md`,
+      borderTopColor: `omegaLight`
     }
   },
   item: {
     flexBasis: `1/2`,
-    p: 2,
+    py: [2, 3],
     m: 0,
     '& + &': {
       borderLeftStyle: `solid`,
@@ -33,9 +33,13 @@ const ContentTable01 = ({ content: { text, collection, buttons } }) => (
     </Box>
     <Divider />
     <Card variant='paper'>
-      {collection?.map(({ text }, i) => (
+      {collection?.map(({ collection }, i) => (
         <Flex key={`item-${i}`} sx={styles.row}>
-          <ContentText content={text} sx={styles.item} />
+          {collection?.map(({ text }, i) => (
+            <Box sx={styles.item}>
+              <ContentText content={text} />
+            </Box>
+          ))}
         </Flex>
       ))}
     </Card>
