@@ -7,8 +7,15 @@
           "variant": "medium"
         },
         {
-          "text": "CCW on TSX Venture Exchange, CCWOF on OTC Markets Exchange, 4T9B on the Frankfurt Exchange",
-          "variant": "medium"
+          "text": "CCW on TSX Venture Exchange",
+          "space":0
+        },
+        {
+          "text": "CCWOF on OTC Markets Exchange",
+          "space":0
+        },
+        {  
+          "text": "4T9B on the Frankfurt Exchange",
         }
       ]
     },
