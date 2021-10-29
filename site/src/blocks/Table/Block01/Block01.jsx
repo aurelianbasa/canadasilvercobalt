@@ -12,7 +12,9 @@ const styles = {
     '& + &': {
       borderTopStyle: `solid`,
       borderTopWidth: `md`,
-      borderTopColor: `omegaLight`
+      borderTopColor: `omegaLight`,
+      pt: [2, 0],
+      mt: [2, 0]
     }
   },
   item: {
