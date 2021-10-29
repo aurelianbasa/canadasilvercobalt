@@ -47,7 +47,7 @@
         {
           "text": "500",
           "color": "beta",
-          "variant": "h2"
+          "variant": "h3"
         }
       ]
     },
@@ -64,7 +64,7 @@
         {
           "text": "8582",
           "color": "beta",
-          "variant": "h2"
+          "variant": "h3"
         }
       ]
     }

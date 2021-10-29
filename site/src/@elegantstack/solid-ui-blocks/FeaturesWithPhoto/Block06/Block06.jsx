@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container, Flex, Box } from 'theme-ui'
 import Divider from '@solid-ui-components/Divider'
-import ProgressBar from '@solid-ui-components/ProgressBar'
 import Counter from '@solid-ui-components/Counter'
 import FlexImage from '@solid-ui-components/FlexImage'
 import FlexContent from '@solid-ui-components/FlexContent'
@@ -46,12 +45,12 @@ const FeaturesWithPhotoBlock06 = ({
                     px: 2
                   }}
                 >
-                  <Box>
+                  <Box sx={{ flexBasis: [`1/2`, `2/3`] }}>
                     <ContentText content={text?.slice(0, 2)} />
                   </Box>
                   <ContentText
                     content={text?.[2]}
-                    variant='h2'
+                    variant='h5'
                     sx={{ color: `omegaDarker` }}
                     mb='0'
                     pl='3'
@@ -59,12 +58,6 @@ const FeaturesWithPhotoBlock06 = ({
                     <Counter from='0' to={text?.[2]?.text} duration={2} /> g/t
                   </ContentText>
                 </Flex>
-                <ProgressBar
-                  color={text?.[2]?.color || undefined}
-                  from='0%'
-                  to={text?.[2]?.text}
-                  duration={2}
-                />
               </Box>
             ))}
           </>
