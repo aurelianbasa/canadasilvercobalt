@@ -11,7 +11,8 @@
       "buttons": [
         {
           "text": "About",
-          "type": "SUB",
+          "type": "PAGE",
+          "link": "/about",
           "variant": "links.nav-dark",
           "buttons": [
             {
@@ -23,26 +24,26 @@
             {
               "text": "Management",
               "type": "PAGE",
-              "link": "/about#management",
+              "link": "/management",
               "variant": "links.nav-dark",
               "icon": {}
             },
             {
               "text": "Company History",
               "type": "PAGE",
-              "link": "/about#company-history",
+              "link": "/company-history",
               "variant": "links.nav-dark"
             },
             {
               "text": "Regional History",
               "type": "PAGE",
-              "link": "/about#regional-history",
+              "link": "/regional-history",
               "variant": "links.nav-dark"
             },
             {
               "text": "Community",
               "type": "PAGE",
-              "link": "/about#community",
+              "link": "/community",
               "variant": "links.nav-dark",
               "icon": {
                 "src": "../../../assets/flexiblocks/icons/minerals.svg",
@@ -52,7 +53,7 @@
             {
               "text": "Environment",
               "type": "PAGE",
-              "link": "/about#environment",
+              "link": "/environment",
               "variant": "links.nav-dark",
               "icon": {
                 "src": "../../../assets/flexiblocks/icons/minerals.svg",

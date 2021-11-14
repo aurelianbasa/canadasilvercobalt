@@ -1,0 +1,70 @@
+{
+  "text": [
+    {
+      "text": "Environment",
+      "color": "beta",
+      "variant": "h3",
+      "align": ["center"]
+    },
+    {
+      "text": "Alternative Energy starts at home",
+      "color": "alphaLighter",
+      "variant": "h1",
+      "align": ["left"]
+    },
+    {
+      "text": "Understanding the fragile nature of global supply chains, and the urgency of energy transiton underscores the necessity of developing secure sources of metals.",
+      "variant": "medium",
+      "color": "white",
+      "align": ["left"]
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/about/environment/overview.jpg",
+      "radius": "lg",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Intimate knowledge of the Cobalt camp",
+          "color": "white",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Deep commitment to longterm stability",
+          "color": "white",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Openness to partnership with like minded entities",
+          "color": "white",
+          "variant": "h5"
+        }
+      ]
+    }
+  ]
+}

@@ -28,5 +28,13 @@
       "radius": "lg",
       "alt": "alt text"
     }
+  ],
+  "buttons": [
+    {
+      "text": "Read More",
+      "type": "PAGE",
+      "link": "/about/community",
+      "variant": "primary"
+    }
   ]
 }
