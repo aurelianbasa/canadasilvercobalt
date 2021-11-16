@@ -2,7 +2,7 @@
   "images": [
     {
       "src": "../../../assets/site/shared/logo.svg",
-      "width": "180px",
+      "width": "160px",
       "alt": "alt text"
     }
   ],

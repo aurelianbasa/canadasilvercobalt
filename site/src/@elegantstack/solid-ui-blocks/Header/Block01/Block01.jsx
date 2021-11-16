@@ -69,7 +69,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
         css={css(styles.wrapper)}
       >
         <Container variant='full' className='nav-container'>
-          <Container px='4'>
+          <Container px={[2, 4]}>
             <Flex sx={styles.header}>
               <Flex sx={styles.logoContainer}>
                 <GLink to='/'>
@@ -85,12 +85,16 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                     borderLeftStyle: `solid`,
                     borderLeftWidth: `md`,
                     borderLeftColor: `omegaLight`,
-                    pl: [2, null, 3],
+                    lineHeight: 1.3,
+                    px: [2, null, 3],
                     ml: [2, null, 3]
                   }}
                 >
                   TSX-V: CCW
-                 
+                  <br />
+                  OTC: CCWOF
+                  <br />
+                  FF: 9TB
                 </Text>
               </Flex>
               {collection && (
