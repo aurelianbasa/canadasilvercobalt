@@ -34,7 +34,9 @@ const ImageComponent = ({ image, sx, ...props }) => {
           borderWidth: image.border || 0,
           borderColor: `white`,
           boxShadow: image.shadow || `unset`,
-          borderRadius: image.radius || `unset`,
+          img: {
+            borderRadius: image.radius || `unset`
+          },
           ...sx
         })}
         {...props}
