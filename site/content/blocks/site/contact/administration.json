@@ -31,6 +31,41 @@
         }
       ]
     },
+
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Head Office",
+              "variant": "h5"
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "3028 Quadra Court Coquitlam,",
+              "space": 0
+            },
+            {
+              "text": "BC V3B 5X6",
+              "space": 0
+            },
+            {
+              "text": "Phone: 604-828-1475",
+              "space": 0
+            },
+            {
+              "text": "Fax: 604-608-3512"
+            }
+          ]
+        }
+      ]
+    },
+
+
+
     {
       "collection": [
         {
