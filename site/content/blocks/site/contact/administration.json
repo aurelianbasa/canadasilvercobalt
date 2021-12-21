@@ -37,7 +37,7 @@
         {
           "text": [
             {
-              "text": "Head Office",
+              "text": "Mining Office",
               "variant": "h5"
             }
           ]
@@ -45,19 +45,19 @@
         {
           "text": [
             {
-              "text": "3028 Quadra Court Coquitlam,",
+              "text": "2875 Granada Avenue Rouyn-Noranda,",
               "space": 0
             },
             {
-              "text": "BC V3B 5X6",
+              "text": "QC J9Y 1J1",
               "space": 0
             },
             {
-              "text": "Phone: 604-828-1475",
+              "text": "Phone: 819-797-4144",
               "space": 0
             },
             {
-              "text": "Fax: 604-608-3512"
+              "text": "Fax: 819-762-2306"
             }
           ]
         }
