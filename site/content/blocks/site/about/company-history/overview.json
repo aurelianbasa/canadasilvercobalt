@@ -1,19 +1,19 @@
 {
   "text": [
     {
-      "text": "Company History",
+      "text": "COMPANY HISTORY",
       "color": "beta",
       "variant": "h3",
       "align": ["center"]
     },
     {
-      "text": "Alternative Energy starts at home",
+      "text": "Simple but not Easy",
       "color": "alphaLighter",
       "variant": "h1",
       "align": ["left"]
     },
     {
-      "text": "Understanding the fragile nature of global supply chains, and the urgency of energy transiton underscores the necessity of developing secure sources of metals.",
+      "text": "Return to the Cobalt Silver Heartland.",
       "variant": "medium",
       "color": "white",
       "align": ["left"]
@@ -34,7 +34,7 @@
       },
       "text": [
         {
-          "text": "Intimate knowledge of the Cobalt camp",
+          "text": "Acquired Castle Mine",
           "color": "white",
           "variant": "h5"
         }
@@ -47,7 +47,7 @@
       },
       "text": [
         {
-          "text": "Deep commitment to longterm stability",
+          "text": "Launched Re-2Ox Process",
           "color": "white",
           "variant": "h5"
         }
@@ -60,7 +60,7 @@
       },
       "text": [
         {
-          "text": "Openness to partnership with like minded entities",
+          "text": "Discovery at Castle East",
           "color": "white",
           "variant": "h5"
         }

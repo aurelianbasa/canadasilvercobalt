@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "MANAGEMENT",
+      "text": "OPERATIONS",
       "color": "alpha",
       "variant": "h4",
       "align": ["left"]
@@ -16,14 +16,14 @@
     {
       "text": [
         {
-          "text": "Frank Basa",
+          "text": "Frank Basa, P. Eng.",
           "variant": "h6"
         },
         {
-          "text": "CEO"
+          "text": "Chairman and CEO"
         },
         {
-          "text": "Joined...",
+          "text": "Metallurgist and Milling Expert",
           "color": "omega",
           "variant": "small"
         }
@@ -35,14 +35,14 @@
     {
       "text": [
         {
-          "text": "Matt Halliday",
+          "text": "Matt Halliday, P. Geo.",
           "variant": "h6"
         },
         {
-          "text": "President and VP Exploration"
+          "text": "President, COO and VP Exploration"
         },
         {
-          "text": "Joined...",
+          "text": "Lead Geologist",
           "color": "omega",
           "variant": "small"
         }
@@ -54,14 +54,14 @@
     {
       "text": [
         {
-          "text": "Gerhard Kiessling",
+          "text": "Ryan Webster, CFA, CPA",
           "variant": "h6"
         },
         {
-          "text": "Head Geologist"
+          "text": "Chief Financial Officer"
         },
         {
-          "text": "Joined...",
+          "text": "",
           "color": "omega",
           "variant": "small"
         }
@@ -80,7 +80,7 @@
           "text": "Director"
         },
         {
-          "text": "Joined...",
+          "text": "First Nations Consultant",
           "color": "omega",
           "variant": "small"
         }
@@ -92,14 +92,52 @@
     {
       "text": [
         {
-          "text": "Wayne Cheveldayoff",
+          "text": "Claude Duplessis, P. Eng.",
           "variant": "h6"
         },
         {
-          "text": "Corporate Communications"
+          "text": "Goldminds Geoservices"
         },
         {
-          "text": "Joined...",
+          "text": "Consultant on Quebec Properties",
+          "color": "omega",
+          "variant": "small"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/site/about/manager.png"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Jacques Monette",
+          "variant": "h6"
+        },
+        {
+          "text": "Director"
+        },
+        {
+          "text": "Underground Mining Consultant",
+          "color": "omega",
+          "variant": "small"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/site/about/manager.png"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Tina Whyte",
+          "variant": "h6"
+        },
+        {
+          "text": "Corporate Secretary"
+        },
+        {
+          "text": "",
           "color": "omega",
           "variant": "small"
         }
