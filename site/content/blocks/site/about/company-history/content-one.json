@@ -6,11 +6,11 @@
       "variant": "h4"
     },
     {
-      "text": "Sequence of **Acquisitions**",
+      "text": "Castle Mine",
       "variant": "h2"
     },
     {
-      "text": "Target your audience based on their interests. Lorem ipsum dolor sit amet, consectetur magna aliqua.",
+      "text": "The current flagship property of the company.",
       "variant": "medium"
     }
   ],
@@ -25,48 +25,36 @@
     {
       "text": [
         {
-          "text": "Castle Mine",
+          "text": "Acquisition",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "In 2015, the former-producing silver-cobalt Castle Mine, Beaver Mine and Violet Mine were transferred (from Granada Gold Mine Inc.) to a dormant shell company in exchange for shares that were distributed to Granada shareholders. Subsequent to 2015, the size of the Castle property has been enlarged through staking and acquisitions to 78 square km."
+          "text": "In 2015 the former-producing silver-cobalt Castle Mine, Beaver Mine, and Violet Mine were transferred to a dormant shell company in exchange for shares."
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Temiskaming Testing Labs",
+          "text": "Expansion",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "In 2020, the company acquired the Temiskaming Testing Laboratory (TTL) bulk processing facility in the Town of Cobalt, Ontario."
+          "text": "Subsequent to 2015, the property was enlarged through staking and acquisitions to 78 square km."
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Quebec Properties",
+          "text": "Discovery",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "In 2021, the company acquired 15 properties in Quebec and one in Ontario that are prospective for battery metals nickel, copper, cobalt."
-        }
-      ]
-    },
-    {
-      "text": [
-        {
-          "text": "Ebby-Otto Gold Exploration",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": " Also in 2021, the company acquired the Ebby-Otto gold exploration property 5 km away from Kirkland Lake Gold's Macassa Mine in the Abitibi gold belt just south of Kirkland Lake, Ontario."
+          "text": "A Maiden resource estimate was released to reflect the culmination of work on the property."
         }
       ]
     }

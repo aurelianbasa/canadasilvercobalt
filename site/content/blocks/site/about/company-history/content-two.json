@@ -1,17 +1,17 @@
 {
   "text": [
     {
-      "text": "Advanced Customer Service Platform",
+      "text": "Temiskaming Testing Laboratories",
       "color": "beta",
       "variant": "h4"
     },
     {
-      "text": "We Drive Acquisition for Growing Brands",
+      "text": "The Missing Link",
       "color": "omegaDarker",
       "variant": "h2"
     },
     {
-      "text": "Hassle-free platform and specialists to help you with your marketing campaigns.",
+      "text": "The company acquired the bulk processing facility located in the town of Cobalt, Ontario in 2020. Operations have commenced with the assistance of On-Site Labs who provide a range of milling and metallurgical services.",
       "color": "omegaDark",
       "variant": "medium"
     }
@@ -26,7 +26,7 @@
   ],
   "buttons": [
     {
-      "text": "Get Started Now",
+      "text": "Learn More",
       "type": "MODAL",
       "link": "authentication",
       "variant": "primary"

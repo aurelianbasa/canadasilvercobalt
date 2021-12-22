@@ -13,7 +13,7 @@
       "align": ["left"]
     },
     {
-      "text": "Return to the Cobalt Silver Heartland.",
+      "text": "A detailed review of acquisitions and advancement.",
       "variant": "medium",
       "color": "white",
       "align": ["left"]
@@ -34,7 +34,7 @@
       },
       "text": [
         {
-          "text": "Acquired Castle Mine",
+          "text": "Castle Mine Property",
           "color": "white",
           "variant": "h5"
         }
@@ -47,7 +47,7 @@
       },
       "text": [
         {
-          "text": "Launched Re-2Ox Process",
+          "text": "Temiskaming Testing Labs",
           "color": "white",
           "variant": "h5"
         }
@@ -60,7 +60,20 @@
       },
       "text": [
         {
-          "text": "Discovery at Castle East",
+          "text": "Quebec Battery Metal Properties",
+          "color": "white",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Ebby-Otto Gold Exploration",
           "color": "white",
           "variant": "h5"
         }

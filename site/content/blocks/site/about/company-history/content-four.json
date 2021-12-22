@@ -1,16 +1,16 @@
 {
   "text": [
     {
-      "text": "Communication Skills",
+      "text": "Company History",
       "color": "omegaDark",
       "variant": "h4"
     },
     {
-      "text": "**Unlimited Lessons** From All Languages Around The World",
+      "text": "Ebby-Otto **Gold** Exploration",
       "variant": "h2"
     },
     {
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "text": "Also in 2021, the company acquired the Ebby-Otto gold exploration property with the help of famed prospector Doug Robinson who was instrumental in the Castle East discovery.",
       "variant": "medium"
     }
   ],
@@ -29,7 +29,7 @@
       },
       "text": [
         {
-          "text": "Automatic interest detection",
+          "text": "5km from Macassa Mine",
           "variant": "h5"
         }
       ]
@@ -41,7 +41,7 @@
       },
       "text": [
         {
-          "text": "Daily email reports",
+          "text": "Within the Abitibi gold belt",
           "variant": "h5"
         }
       ]
@@ -53,7 +53,7 @@
       },
       "text": [
         {
-          "text": "Online tests at the end of the course",
+          "text": "Just south of Kirkland Lake, Ontario",
           "variant": "h5"
         }
       ]

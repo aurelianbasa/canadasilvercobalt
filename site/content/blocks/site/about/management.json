@@ -7,7 +7,7 @@
       "align": ["left"]
     },
     {
-      "text": "Next Generation of the Cobalt Camp",
+      "text": "Key Team Members",
       "variant": "h2",
       "align": ["left"]
     }
@@ -100,44 +100,6 @@
         },
         {
           "text": "Consultant on Quebec Properties",
-          "color": "omega",
-          "variant": "small"
-        }
-      ],
-      "avatar": {
-        "src": "../../../assets/site/about/manager.png"
-      }
-    },
-    {
-      "text": [
-        {
-          "text": "Jacques Monette",
-          "variant": "h6"
-        },
-        {
-          "text": "Director"
-        },
-        {
-          "text": "Underground Mining Consultant",
-          "color": "omega",
-          "variant": "small"
-        }
-      ],
-      "avatar": {
-        "src": "../../../assets/site/about/manager.png"
-      }
-    },
-    {
-      "text": [
-        {
-          "text": "Tina Whyte",
-          "variant": "h6"
-        },
-        {
-          "text": "Corporate Secretary"
-        },
-        {
-          "text": "",
           "color": "omega",
           "variant": "small"
         }
