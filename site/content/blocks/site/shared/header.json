@@ -22,7 +22,7 @@
               "variant": "links.nav-dark"
             },
             {
-              "text": "Management",
+              "text": "Corporate Directory",
               "type": "PAGE",
               "link": "/about/management",
               "variant": "links.nav-dark",
@@ -35,7 +35,7 @@
               "variant": "links.nav-dark"
             },
             {
-              "text": "Regional History",
+              "text": "Silver-Cobalt Camp History",
               "type": "PAGE",
               "link": "/about/regional-history",
               "variant": "links.nav-dark"

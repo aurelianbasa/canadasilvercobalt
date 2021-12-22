@@ -23,7 +23,7 @@
   ],
   "buttons": [
     {
-      "text": "",
+      "text": "Submit",
       "type": "MODAL",
       "link": "authentication",
       "variant": "secondary"
