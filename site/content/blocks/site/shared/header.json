@@ -41,7 +41,7 @@
               "variant": "links.nav-dark"
             },
             {
-              "text": "Community",
+              "text": "Sustainability",
               "type": "PAGE",
               "link": "/about/community",
               "variant": "links.nav-dark",
@@ -255,7 +255,7 @@
               "variant": "links.nav-dark"
             },
             {
-              "text": "Technical Data",
+              "text": "Technical Reports",
               "type": "PAGE",
               "link": "/investors#technical-data",
               "variant": "links.nav-dark"

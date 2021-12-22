@@ -1,12 +1,12 @@
 {
   "text": [
     {
-      "text": "The words from these guys are pure pleasure.",
+      "text": "Corporate Directory",
       "color": "omegaDark",
       "variant": "h4"
     },
     {
-      "text": "We Care About Our Customers",
+      "text": "Officers and Board of Directors",
       "variant": "h2"
     }
   ],
@@ -14,15 +14,15 @@
     {
       "text": [
         {
-          "text": "John Doe",
+          "text": "Frank Basa, P. Eng.",
           "variant": "h5"
         },
         {
-          "text": "CEO of CoolCompany",
+          "text": "Chairman and CEO",
           "variant": "small"
         },
         {
-          "text": "Sed commodo, est quis maximus fermentum, massa ipsum euismod neque, in varius risus tellus quis lacus. Sed ac bibendum odio."
+          "text": "Mr. Basa has over 28 years global experience in gold mining and development as a professional hydro-metallurgical engineer with expertise in milling, gravity concentration, flotation, leaching and refining of precious and base metals."
         }
       ],
       "avatar": {
@@ -33,15 +33,15 @@
     {
       "text": [
         {
-          "text": "Jane Smith",
+          "text": "Ryan Webster, CFA, CPA",
           "variant": "h5"
         },
         {
-          "text": "Developer at AwesomeCo",
+          "text": "Chief Financial Officer",
           "variant": "small"
         },
         {
-          "text": "Sed commodo, est quis maximus fermentum, massa ipsum euismod neque, in varius risus tellus quis lacus. Sed ac bibendum odio."
+          "text": "Mr. Webster brings over 15 years' experience as a finance professional in the mining industry. He holds a Chartered Professional Accountant (CMA) and is a Chartered Financial Analyst. Mr. Webster previously served as a consultant providing corporate finance services."
         }
       ],
       "avatar": {
@@ -52,15 +52,15 @@
     {
       "text": [
         {
-          "text": "Sarah Doe",
+          "text": "Matthew Halliday, P. Geo.",
           "variant": "h5"
         },
         {
-          "text": "Chief Internet Marketer",
+          "text": "President, and COO",
           "variant": "small"
         },
         {
-          "text": "Sed commodo, est quis maximus fermentum, massa ipsum euismod neque, in varius risus tellus quis lacus. Sed ac bibendum odio."
+          "text": "Mr. Halliday graduated from Dalhousie University in 2007 where he majored in Earth Sciences then spent the next 13 years in exploration and as a resource geologist with Kirkland Lake Gold, First Cobalt and SGS Geostat."
         }
       ],
       "avatar": {
@@ -71,15 +71,72 @@
     {
       "text": [
         {
-          "text": "Steve Grant",
+          "text": "Dianne Tookenay, MPA",
           "variant": "h5"
         },
         {
-          "text": "Freelancer Developer",
+          "text": "Director",
           "variant": "small"
         },
         {
-          "text": "Sed commodo, est quis maximus fermentum, massa ipsum euismod neque, in varius risus tellus quis lacus. Sed ac bibendum odio."
+          "text": "Ms. Tookenay holds a Masters of Public Administration from the University of Manitoba,  and has expert experience, knowledge and deep roots within the First Nation communities."
+        }
+      ],
+      "avatar": {
+        "src": "../../../../assets/site/about/management/sarah-doe.png",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Robert Setter",
+          "variant": "h5"
+        },
+        {
+          "text": "Director",
+          "variant": "small"
+        },
+        {
+          "text": "Mr. Setter is the former Senior Financial Editor for Report on Mining, a former public company Director and consultant for publicly traded resource companies since 2010."
+        }
+      ],
+      "avatar": {
+        "src": "../../../../assets/site/about/management/sarah-doe.png",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Tina Whyte",
+          "variant": "h5"
+        },
+        {
+          "text": "Corporate Secretary",
+          "variant": "small"
+        },
+        {
+          "text": "Tina Whyte brings over 20 years of experience in the corporate and securities industry. Her expertise spans to areas of corporate governance, continuous disclosure, financing transactions and regulatory filings and compliance."
+        }
+      ],
+      "avatar": {
+        "src": "../../../../assets/site/about/management/sarah-doe.png",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Jacques F. Monette",
+          "variant": "h5"
+        },
+        {
+          "text": "Director",
+          "variant": "small"
+        },
+        {
+          "text": "Mr. Monette is a career miner who has been engaged in every facet of underground mining for more than 40 years. His previous positions included Shaft Project Coordinator with Cementation Canada Inc., Vice President of Operations/Mining Division for Wabi Development Corp., and Operations Manager for Moran Mining and Tunneling."
         }
       ],
       "avatar": {
