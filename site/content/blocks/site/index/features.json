@@ -17,7 +17,7 @@
       },
       "buttons": [
         {
-          "text": "Learn More   ➜",
+          "text": "Castle East Discovery   ➜",
           "type": "PAGE",
           "link": "",
           "variant": "links.normal"
@@ -35,13 +35,13 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-brain.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-vial.svg",
         "bg": "#0072AB",
-        "color": "#003399"
+        "color": "#0055AB"
       },
       "buttons": [
         {
-          "text": "Learn More   ➜",
+          "text": "Re-2Ox Process   ➜",
           "type": "PAGE",
           "link": "",
           "variant": "links.normal"
@@ -59,13 +59,13 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-hive.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-component.svg",
         "bg": "#D1793B",
         "color": "#CC6633"
       },
       "buttons": [
         {
-          "text": "Learn More   ➜",
+          "text": "Graal Property   ➜",
           "type": "PAGE",
           "link": "",
           "variant": "links.normal"
@@ -89,7 +89,7 @@
       },
       "buttons": [
         {
-          "text": "Learn More   ➜",
+          "text": "Eby-Otto Exploration   ➜",
           "type": "PAGE",
           "link": "",
           "variant": "links.normal"
