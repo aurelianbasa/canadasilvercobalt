@@ -35,7 +35,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-vial.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-brain.svg",
         "bg": "#0072AB",
         "color": "#0055AB"
       },
@@ -59,7 +59,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-component.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-hive.svg",
         "bg": "#D1793B",
         "color": "#CC6633"
       },
