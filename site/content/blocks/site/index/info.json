@@ -20,17 +20,6 @@
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default"
-    },
-    {
-      "src": "../../../assets/site/index/feature-two-overlay.png",
-      "alt": "alt text",
-      "radius": "lg",
-      "shadow": "default",
-      "effects": ["fadeInDown", "floatFaster"],
-      "position": {
-        "top": "-30%",
-        "right": "45%"
-      }
     }
   ],
   "collection": [

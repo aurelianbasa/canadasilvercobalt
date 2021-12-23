@@ -7,6 +7,7 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block01'
+import Features from '@solid-ui-blocks/Features/Block02'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block06'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Presentations from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
@@ -35,6 +36,8 @@ const IndexPage = props => {
         <Hero content={content['hero']} reverse />
       </Container>
       <Divider space='4' />
+      <Divider space='4' />
+      <Features content={content['features']} />
       <Divider space='4' />
       <Info content={content['info']} />
       <Divider space='4' />

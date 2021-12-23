@@ -1,16 +1,16 @@
 {
   "text": [
     {
-      "text": "Learning Solution",
+      "text": "Sustainability",
       "color": "omegaDark",
       "variant": "h4"
     },
     {
-      "text": "**Start Learning** Foreign Languages Today",
+      "text": "Solid Foundations",
       "variant": "h2"
     },
     {
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "text": "Canada Silver Cobalt Works Inc. has title to the 3,300 hectare property formerly known as the Castle Silver Mine. The property was a past producing cobalt silver mine near the northern Ontario community of Gowganda, Ontario which is situated 85 km northwest of the historic Cobalt silver mining camp. This former Castle Silver Mine property is acknowledged to be situated within the traditional territories of two primary First Nations.",
       "variant": "medium"
     }
   ],
@@ -25,13 +25,13 @@
     {
       "text": [
         {
-          "text": "5.0/5.0",
+          "text": "3,300 ha",
           "color": "#2DC88A",
           "variant": "h2",
           "space": 1
         },
         {
-          "text": "Reviews Satisfied Users",
+          "text": "Property size",
           "variant": "h6"
         }
       ]
@@ -39,13 +39,13 @@
     {
       "text": [
         {
-          "text": "300K+",
+          "text": "85km",
           "color": "alpha",
           "variant": "h2",
           "space": 1
         },
         {
-          "text": "Monthly Downloads",
+          "text": "Distance from camp",
           "variant": "h6"
         }
       ]
@@ -53,13 +53,13 @@
     {
       "text": [
         {
-          "text": "99.99%",
+          "text": "2",
           "color": "beta",
           "variant": "h2",
           "space": 1
         },
         {
-          "text": "Satisfaction Rating",
+          "text": "Primary First Nations",
           "variant": "h6"
         }
       ]
