@@ -12,8 +12,8 @@
       ],
       "icon": {
         "src": "../../../assets/flexiblocks/icons/bx-dollar-circle.svg",
-        "bg": "#FFF2DD",
-        "color": "#FF9655"
+        "bg": "#C0C0C0",
+        "color": "#AAA9AD"
       },
       "buttons": [
         {
@@ -36,8 +36,8 @@
       ],
       "icon": {
         "src": "../../../assets/flexiblocks/icons/bx-brain.svg",
-        "bg": "#FEE9E3",
-        "color": "#F87488"
+        "bg": "#0072AB",
+        "color": "#003399"
       },
       "buttons": [
         {
@@ -60,8 +60,8 @@
       ],
       "icon": {
         "src": "../../../assets/flexiblocks/icons/bx-hive.svg",
-        "bg": "#E5FCF3",
-        "color": "#6DC9C8"
+        "bg": "#D1793B",
+        "color": "#CC6633"
       },
       "buttons": [
         {
@@ -84,8 +84,8 @@
       ],
       "icon": {
         "src": "../../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
-        "bg": "#F5E7FE",
-        "color": "#B887F8"
+        "bg": "#D7BE69",
+        "color": "#D4AF37"
       },
       "buttons": [
         {
