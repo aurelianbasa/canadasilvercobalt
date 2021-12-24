@@ -1,0 +1,169 @@
+{
+  "text": [
+    {
+      "text": "Canada Silver Cobalt Works",
+      "color": "beta",
+      "variant": "h4"
+    },
+    {
+      "text": "Why Invest with us?",
+      "color": "white",
+      "variant": "h2"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Highest Grade",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "In a safe jurisdiction and proven mining region",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "color": "beta"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Advanced Exploration",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "60,000m drill program near completion",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "color": "beta"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Resource Update",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Featuring many new high-grade silver veins",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-dna.svg",
+        "color": "beta"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Processing Facility",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Can process material and pour silver dore bars",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
+        "color": "beta"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Battery Metals",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Nickel and copper discoveries in Quebec",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-crown.svg",
+        "color": "beta"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Gold Prospects",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Proximate to KL Gold's Macassa mine",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-crown.svg",
+        "color": "beta"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Extraction Technology",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Re-2Ox Process enables clean recovery of battery metals",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-crown.svg",
+        "color": "beta"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Experienced Team",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Geology, Metallurgy, Milling, and Underground Mining",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-crown.svg",
+        "color": "beta"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Sustainable Commitment",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Long-term relationship with First Nations",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-data.svg",
+        "color": "beta"
+      }
+    }
+  ]
+}

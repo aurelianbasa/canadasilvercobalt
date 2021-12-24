@@ -12,6 +12,7 @@ import Features from '@solid-ui-blocks/Features/Block02'
 import Silver from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Presentations from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
+import WhyChooseUs from '@solid-ui-blocks/Features/Block01'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -49,6 +50,7 @@ const IndexPage = props => {
       <Divider space='4' />
       <Presentations content={content['presentations']} />
       <Divider space='5' />
+      <WhyChooseUs content={content['why-choose-us']} />
       <Download content={content['download']} />
       <Divider space='5' />
       <Footer content={content['footer']} />
