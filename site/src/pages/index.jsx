@@ -12,6 +12,8 @@ import Features from '@solid-ui-blocks/Features/Block06'
 import Silver from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Presentations from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
+import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import WhyChooseUs from '@solid-ui-blocks/Features/Block01'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
@@ -44,15 +46,19 @@ const IndexPage = props => {
       <Divider space='4' />
       <Info content={content['info']} />
       <Divider space='4' />
-      <WithRecentPosts>
-        <Blog content={content['latest-blogs']} />
-      </WithRecentPosts>
+      <FeatureOne content={content['feature-one']} reverse />
+      <Divider space='4' />
+      <FeatureTwo content={content['feature-two']} />
       <Divider space='4' />
       <Presentations content={content['presentations']} />
       <Divider space='5' />
       <WhyChooseUs content={content['why-choose-us']} />
       <Divider space='4' />
       <Download content={content['download']} />
+      <Divider space='4' />
+      <WithRecentPosts>
+        <Blog content={content['latest-blogs']} />
+      </WithRecentPosts>
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

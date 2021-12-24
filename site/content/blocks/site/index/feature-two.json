@@ -1,0 +1,61 @@
+{
+  "text": [
+    {
+      "text": "Battery Metals Production",
+      "color": "omega",
+      "variant": "h4"
+    },
+    {
+      "text": "**Environmentally Advanced** Re-2Ox Technology",
+      "variant": "h2"
+    },
+    {
+      "text": "Target your audience based on their interests. Lorem ipsum dolor sit amet, consectetur magna aliqua.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/site/index/technology.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "default"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "color": "white",
+        "bg": "beta"
+      },
+      "text": [
+        {
+          "text": "No pollution",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Removes discharges, impurities, undesirables."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
+        "color": "white",
+        "bg": "alpha"
+      },
+      "text": [
+        {
+          "text": "Adaptable to feed",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Can be used for nickel and copper processing, ideal for high-arsenic ores."
+        }
+      ]
+    }
+  ]
+}
