@@ -8,7 +8,7 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block06'
-import Features from '@solid-ui-blocks/Features/Block02'
+import Features from '@solid-ui-blocks/Features/Block06'
 import Silver from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Presentations from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
@@ -51,6 +51,7 @@ const IndexPage = props => {
       <Presentations content={content['presentations']} />
       <Divider space='5' />
       <WhyChooseUs content={content['why-choose-us']} />
+      <Divider space='4' />
       <Download content={content['download']} />
       <Divider space='5' />
       <Footer content={content['footer']} />

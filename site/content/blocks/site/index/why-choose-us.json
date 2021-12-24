@@ -2,12 +2,12 @@
   "text": [
     {
       "text": "Canada Silver Cobalt Works",
-      "color": "beta",
+      "color": "omega",
       "variant": "h4"
     },
     {
       "text": "Why Invest with us?",
-      "color": "white",
+      "color": "beta",
       "variant": "h2"
     }
   ],
@@ -16,7 +16,7 @@
       "text": [
         {
           "text": "Highest Grade",
-          "color": "white",
+          "color": "alpha",
           "variant": "h5"
         },
         {
@@ -33,7 +33,7 @@
       "text": [
         {
           "text": "Advanced Exploration",
-          "color": "white",
+          "color": "alpha",
           "variant": "h5"
         },
         {
@@ -50,7 +50,7 @@
       "text": [
         {
           "text": "Resource Update",
-          "color": "white",
+          "color": "alpha",
           "variant": "h5"
         },
         {
@@ -67,7 +67,7 @@
       "text": [
         {
           "text": "Processing Facility",
-          "color": "white",
+          "color": "alpha",
           "variant": "h5"
         },
         {
@@ -84,7 +84,7 @@
       "text": [
         {
           "text": "Battery Metals",
-          "color": "white",
+          "color": "alpha",
           "variant": "h5"
         },
         {
@@ -101,7 +101,7 @@
       "text": [
         {
           "text": "Gold Prospects",
-          "color": "white",
+          "color": "alpha",
           "variant": "h5"
         },
         {
@@ -118,7 +118,7 @@
       "text": [
         {
           "text": "Extraction Technology",
-          "color": "white",
+          "color": "alpha",
           "variant": "h5"
         },
         {
@@ -135,7 +135,7 @@
       "text": [
         {
           "text": "Experienced Team",
-          "color": "white",
+          "color": "alpha",
           "variant": "h5"
         },
         {
@@ -152,7 +152,7 @@
       "text": [
         {
           "text": "Sustainable Commitment",
-          "color": "white",
+          "color": "alpha",
           "variant": "h5"
         },
         {
