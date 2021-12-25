@@ -10,6 +10,7 @@ import Hero from '@solid-ui-blocks/Hero/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block06'
 import Features from '@solid-ui-blocks/Features/Block06'
 import Silver from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
+import Subscribe from '@solid-ui-blocks/CallToAction/Block02'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Presentations from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
@@ -45,6 +46,8 @@ const IndexPage = props => {
       <Silver content={content['silver']} /> 
       <Divider space='4' />
       <Info content={content['info']} />
+      <Divider space='4' />
+      <Subscribe content={content['subscribe']} />
       <Divider space='4' />
       <FeatureOne content={content['feature-one']} reverse />
       <Divider space='4' />
