@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Canada Silver Cobalt Works",
+      "text": "CANADA SILVER COBALT WORKS",
       "color": "omega",
       "variant": "h4"
     },
@@ -25,8 +25,8 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
-        "color": "beta"
+        "src": "../../../assets/flexiblocks/icons/bx-line-chart.svg",
+        "color": "omegaDark"
       }
     },
     {
@@ -42,8 +42,8 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
-        "color": "beta"
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "omegaDark"
       }
     },
     {
@@ -59,8 +59,8 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-dna.svg",
-        "color": "beta"
+        "src": "../../../assets/flexiblocks/icons/bx-layer-plus.svg",
+        "color": "omegaDark"
       }
     },
     {
@@ -76,8 +76,8 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
-        "color": "beta"
+        "src": "../../../assets/flexiblocks/icons/bx-dollar-circle.svg",
+        "color": "omegaDark"
       }
     },
     {
@@ -93,8 +93,8 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-crown.svg",
-        "color": "beta"
+        "src": "../../../assets/flexiblocks/icons/bx-data.svg",
+        "color": "omegaDark"
       }
     },
     {
@@ -105,13 +105,13 @@
           "variant": "h5"
         },
         {
-          "text": "Proximate to KL Gold's Macassa mine",
+          "text": "Proximate to Kirkland Lake Gold's Macassa mine",
           "color": "omega"
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-crown.svg",
-        "color": "beta"
+        "src": "../../../assets/flexiblocks/icons/bx-hive.svg",
+        "color": "omegaDark"
       }
     },
     {
@@ -127,8 +127,8 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-crown.svg",
-        "color": "beta"
+        "src": "../../../assets/flexiblocks/icons/bxs-vial.svg",
+        "color": "omegaDark"
       }
     },
     {
@@ -144,8 +144,8 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-crown.svg",
-        "color": "beta"
+        "src": "../../../assets/flexiblocks/icons/bx-brain.svg",
+        "color": "omegaDark"
       }
     },
     {
@@ -161,8 +161,8 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-data.svg",
-        "color": "beta"
+        "src": "../../../assets/flexiblocks/icons/bx-lock-alt.svg",
+        "color": "omegaDark"
       }
     }
   ]

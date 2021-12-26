@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Battery Metals Production",
+      "text": "BATTERY METALS PRODUCTION",
       "color": "omega",
       "variant": "h4"
     },
@@ -17,7 +17,7 @@
   "images": [
     {
       "src": "../../../assets/site/index/technology.png",
-      "alt": "alt text",
+      "alt": "Cobalt sulphate hexahydrate (22.6% Co)",
       "radius": "lg",
       "shadow": "default"
     }
@@ -25,7 +25,7 @@
   "collection": [
     {
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
         "color": "white",
         "bg": "beta"
       },
@@ -42,9 +42,9 @@
     },
     {
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
         "color": "white",
-        "bg": "alpha"
+        "bg": "beta"
       },
       "text": [
         {

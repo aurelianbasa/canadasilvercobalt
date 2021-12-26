@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Nickel & Copper",
+      "text": "NICKEL & COPPER",
       "color": "omega",
       "variant": "h4"
     },
@@ -17,7 +17,7 @@
   "images": [
     {
       "src": "../../../assets/site/index/primary.png",
-      "alt": "alt text",
+      "alt": "Drill core from Graal",
       "radius": "lg",
       "shadow": "default"
     }
@@ -25,9 +25,9 @@
   "collection": [
     {
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
         "color": "white",
-        "bg": "beta"
+        "bg": "alpha"
       },
       "text": [
         {
@@ -42,7 +42,7 @@
     },
     {
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
         "color": "white",
         "bg": "alpha"
       },
