@@ -70,20 +70,20 @@
             {
               "buttons": [
                 {
-                  "text": "Properties",
+                  "text": "Precious Metals",
                   "type": "SUB",
                   "variant": "links.disabled",
                   "buttons": [
                     {
-                      "text": "Castle Mine",
+                      "text": "Castle East Silver",
                       "type": "PAGE",
-                      "link": "/projects/castle-mine",
+                      "link": "/projects/castle-east",
                       "variant": "links.nav-dark"
                     },
                     {
-                      "text": "Castle East",
+                      "text": "Castle Mine",
                       "type": "PAGE",
-                      "link": "/projects/castle-east",
+                      "link": "/projects/castle-mine",
                       "variant": "links.nav-dark"
                     }
                   ]
@@ -100,7 +100,7 @@
                       "variant": "links.nav-dark"
                     },
                     {
-                      "text": "Ebby-Otto",
+                      "text": "Ebby-Otto Gold",
                       "type": "PAGE",
                       "link": "/projects/ebby-otto",
                       "variant": "links.nav-dark"
@@ -117,11 +117,37 @@
                       "type": "PAGE",
                       "link": "/projects/violet-mine",
                       "variant": "links.nav-dark"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "text": "Battery Metals",
+                  "type": "SUB",
+                  "variant": "links.disabled",
+                  "buttons": [
                     {
-                      "text": "Nourricier",
+                      "text": "Graal-Nourricier",
                       "type": "PAGE",
                       "link": "/projects/nourricier",
+                      "variant": "links.nav-dark"
+                    },
+                    {
+                      "text": "Re-2Ox Process",
+                      "type": "PAGE",
+                      "link": "/projects#re-2ox-process",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                },
+                {
+                  "text": "Operations",
+                  "type": "SUB",
+                  "variant": "links.disabled",
+                  "buttons": [
+                    {
+                      "text": "TTL Facility",
+                      "type": "PAGE",
+                      "link": "/projects#ttl-facility",
                       "variant": "links.nav-dark"
                     }
                   ]
@@ -134,7 +160,7 @@
               },
               "buttons": [
                 {
-                  "text": "Assets",
+                  "text": "Technical",
                   "type": "SUB",
                   "variant": "links.disabled",
                   "buttons": [
@@ -152,7 +178,7 @@
                   "variant": "links.hidden",
                   "buttons": [
                     {
-                      "text": "Re-2Ox Process",
+                      "text": "Reports",
                       "type": "PAGE",
                       "link": "/projects#re-2ox-process",
                       "variant": "links.nav-dark"
