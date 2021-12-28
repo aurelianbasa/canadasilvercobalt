@@ -1,0 +1,10 @@
+{
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/castle-mine/cross-section-1.png",
+      "alt": "alt text",
+      "radius": "xl",
+      "shadow": "lg"
+    }
+  ]
+}
