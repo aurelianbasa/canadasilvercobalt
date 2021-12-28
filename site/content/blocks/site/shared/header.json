@@ -81,7 +81,7 @@
                       "variant": "links.nav-dark"
                     },
                     {
-                      "text": "Castle East",
+                      "text": "Castle East Silver",
                       "type": "PAGE",
                       "link": "/projects/castle-east",
                       "variant": "links.nav-dark"
@@ -100,7 +100,7 @@
                       "variant": "links.nav-dark"
                     },
                     {
-                      "text": "Ebby-Otto",
+                      "text": "Ebby-Otto Gold",
                       "type": "PAGE",
                       "link": "/projects/ebby-otto",
                       "variant": "links.nav-dark"
@@ -128,12 +128,12 @@
               },
               "buttons": [
                 {
-                  "text": "Assets",
+                  "text": "Battery Metals",
                   "type": "SUB",
                   "variant": "links.disabled",
                   "buttons": [
                     {
-                      "text": "TTL Facility",
+                      "text": "Graal-Nouricier",
                       "type": "PAGE",
                       "link": "/projects#ttl-facility",
                       "variant": "links.nav-dark"
@@ -154,7 +154,57 @@
                   ]
                 }
               ]
+            },
+            {
+              "container": {
+                "bg": "omega"
+              },
+              "buttons": [
+                {
+                  "text": "Technical",
+                  "type": "SUB",
+                  "variant": "links.disabled",
+                  "buttons": [
+                    {
+                      "text": "Reports",
+                      "type": "PAGE",
+                      "link": "/projects#ttl-facility",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                },
+                {
+                  "text": "_",
+                  "type": "SUB",
+                  "variant": "links.hidden",
+                  "buttons": [
+                    {
+                      "text": "Results",
+                      "type": "PAGE",
+                      "link": "/projects#re-2ox-process",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                },
+                {
+                  "text": "_",
+                  "type": "SUB",
+                  "variant": "links.hidden",
+                  "buttons": [
+                    {
+                      "text": "Maps",
+                      "type": "PAGE",
+                      "link": "/projects#re-2ox-process",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                }    
+              ]
             }
+
+
+
+
           ]
         },
         {
