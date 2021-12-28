@@ -31,11 +31,9 @@ const ProjectItemPage = props => {
       <Info content={content['overview']} />
       <Divider space='4' />
       <Divider space='5' />
-      <Quote content={content['quote']} reverse />
+      <Quote content={content['quote-1']} />
       <Divider space='4' />
       <Download content={content['download']} />
-      <Divider space='4' />
-      <CrossSection content={content['cross-section-1']} />
       <Divider space='4' />
       <Container variant='narrow'>
         <Info content={content['info-1']} reverse />
@@ -44,8 +42,13 @@ const ProjectItemPage = props => {
         <Divider space='5' />
       </Container>
       <Divider space='5' />
+      <CrossSection content={content['cross-section-1']} />
+      <Divider space='4' />
+      <Quote content={content['quote-1']} />
+      <Divider space='4' />
       <CrossSection content={content['cross-section-2']} />
       <Divider space='4' />
+      <Quote content={content['quote-2']} />
       <Container variant='narrow'>
         <DrillMap content={content['drill-map']} />
       </Container>
