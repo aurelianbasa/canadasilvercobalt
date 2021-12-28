@@ -75,15 +75,15 @@
                   "variant": "links.disabled",
                   "buttons": [
                     {
-                      "text": "Castle East Silver",
-                      "type": "PAGE",
-                      "link": "/projects/castle-east",
-                      "variant": "links.nav-dark"
-                    },
-                    {
                       "text": "Castle Mine",
                       "type": "PAGE",
                       "link": "/projects/castle-mine",
+                      "variant": "links.nav-dark"
+                    },
+                    {
+                      "text": "Castle East",
+                      "type": "PAGE",
+                      "link": "/projects/castle-east",
                       "variant": "links.nav-dark"
                     }
                   ]
@@ -100,7 +100,7 @@
                       "variant": "links.nav-dark"
                     },
                     {
-                      "text": "Ebby-Otto Gold",
+                      "text": "Ebby-Otto",
                       "type": "PAGE",
                       "link": "/projects/ebby-otto",
                       "variant": "links.nav-dark"
@@ -119,38 +119,6 @@
                       "variant": "links.nav-dark"
                     }
                   ]
-                },
-                {
-                  "text": "Battery Metals",
-                  "type": "SUB",
-                  "variant": "links.disabled",
-                  "buttons": [
-                    {
-                      "text": "Graal-Nourricier",
-                      "type": "PAGE",
-                      "link": "/projects/nourricier",
-                      "variant": "links.nav-dark"
-                    },
-                    {
-                      "text": "Re-2Ox Process",
-                      "type": "PAGE",
-                      "link": "/projects#re-2ox-process",
-                      "variant": "links.nav-dark"
-                    }
-                  ]
-                },
-                {
-                  "text": "Operations",
-                  "type": "SUB",
-                  "variant": "links.disabled",
-                  "buttons": [
-                    {
-                      "text": "TTL Facility",
-                      "type": "PAGE",
-                      "link": "/projects#ttl-facility",
-                      "variant": "links.nav-dark"
-                    }
-                  ]
                 }
               ]
             },
@@ -160,7 +128,7 @@
               },
               "buttons": [
                 {
-                  "text": "Technical",
+                  "text": "Assets",
                   "type": "SUB",
                   "variant": "links.disabled",
                   "buttons": [
@@ -178,7 +146,7 @@
                   "variant": "links.hidden",
                   "buttons": [
                     {
-                      "text": "Reports",
+                      "text": "Re-2Ox Process",
                       "type": "PAGE",
                       "link": "/projects#re-2ox-process",
                       "variant": "links.nav-dark"
