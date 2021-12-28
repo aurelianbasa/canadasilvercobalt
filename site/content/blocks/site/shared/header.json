@@ -124,7 +124,7 @@
             },
             {
               "container": {
-                "bg": "omegaLighter"
+                "bg": "white"
               },
               "buttons": [
                 {
@@ -157,7 +157,27 @@
             },
             {
               "container": {
-                "bg": "omega"
+                "bg": "white"
+              },
+              "buttons": [
+                {
+                  "text": "Operations",
+                  "type": "SUB",
+                  "variant": "links.disabled",
+                  "buttons": [
+                    {
+                      "text": "TTL Facility",
+                      "type": "PAGE",
+                      "link": "/projects#ttl-facility",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "container": {
+                "bg": "omegaLighter"
               },
               "buttons": [
                 {
