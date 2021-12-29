@@ -1,0 +1,22 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Cross Section with Topography",
+          "color": "omegaDarker",
+          "variant": "h2",
+          "space": 3
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "The map shows the underground workings (pink lines) at Level 1 at a depth of 79 feet (24.1 m) and the exploration holes (yellow lines) that were drilled from Level 1. Also shown are seven of the 12 surface holes (blue lines) drilled by the company in 2011. The terrain details are from a drone survey completed in the spring of 2016 that provided current and accurate surface elevation.",
+          "color": "omegaDark"
+        }
+      ]
+    }
+  ]
+}
