@@ -1,16 +1,16 @@
 {
   "text": [
     {
-      "text": "BATTERY METALS PRODUCTION",
+      "text": "RESULTS",
       "color": "omega",
       "variant": "h4"
     },
     {
-      "text": "**Environmentally Advanced** Re-2Ox Technology",
+      "text": "Phases of **Development**",
       "variant": "h2"
     },
     {
-      "text": "Cobalt sulphate which meets EV battery manufacturer specifications using the proprietary Re-2Ox processing technique in lab tests at SGS Canada.",
+      "text": "Data allows interpretation of upper and lower contacts of the Nipissing diabase sill based on surface geology, underground mapping and historic drill hole information. Silver mineralization is historically spatially associated with the upper half of this intrusive body.",
       "variant": "medium"
     }
   ],
@@ -31,12 +31,12 @@
       },
       "text": [
         {
-          "text": "No pollution",
+          "text": "Phase 1",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Removes discharges, impurities, undesirables."
+          "text": "Selected drilling and sampling in Level 1 showed grades as high as 5.2% cobalt, 5.3% nickel and 13,208 g/t silver."
         }
       ]
     },
@@ -48,12 +48,12 @@
       },
       "text": [
         {
-          "text": "Adaptable to feed",
+          "text": "Phase 2",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Can be used for nickel and copper processing, ideal for high-arsenic ores."
+          "text": "Underground drilling in 2019 in Level 1 of the Castle Mine discovered high-grade gold (22 grams/tonne) along with high-grade silver, cobalt and nickel."
         }
       ]
     }
