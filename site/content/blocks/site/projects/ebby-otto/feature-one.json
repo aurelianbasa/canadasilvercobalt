@@ -1,0 +1,61 @@
+{
+  "text": [
+    {
+      "text": "ACQUISITION",
+      "color": "omega",
+      "variant": "h4"
+    },
+    {
+      "text": "Continued Discoveries",
+      "variant": "h2"
+    },
+    {
+      "text": "Doug Robinson is a highly respected geologist with an exceptional record of precious metal discoveries over the past 50 years, will continue to be involved as a consultant and will assist in the next steps in continuing gold exploration at the acquired property. The property was purchased in two parts:",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/castle-mine/feature-1.jpg",
+      "alt": "",
+      "radius": "lg",
+      "shadow": "default"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
+        "color": "white",
+        "bg": "alpha"
+      },
+      "text": [
+        {
+          "text": "Ebby-Otto",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "200 hectares from geologist Doug Robinson with a strike length of over 2 km"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
+        "color": "white",
+        "bg": "alpha"
+      },
+      "text": [
+        {
+          "text": "Tinney",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "and then right beside 610 hectares known as the “Tinney” property from a group of highly renowned prospectors."
+        }
+      ]
+    }
+  ]
+}
