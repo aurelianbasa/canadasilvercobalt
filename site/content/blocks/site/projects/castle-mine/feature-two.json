@@ -1,0 +1,61 @@
+{
+  "text": [
+    {
+      "text": "BATTERY METALS PRODUCTION",
+      "color": "omega",
+      "variant": "h4"
+    },
+    {
+      "text": "**Environmentally Advanced** Re-2Ox Technology",
+      "variant": "h2"
+    },
+    {
+      "text": "Cobalt sulphate which meets EV battery manufacturer specifications using the proprietary Re-2Ox processing technique in lab tests at SGS Canada.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/castle-mine/feature-2.png",
+      "alt": "",
+      "radius": "lg",
+      "shadow": "default"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
+        "color": "white",
+        "bg": "beta"
+      },
+      "text": [
+        {
+          "text": "No pollution",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Removes discharges, impurities, undesirables."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
+        "color": "white",
+        "bg": "beta"
+      },
+      "text": [
+        {
+          "text": "Adaptable to feed",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Can be used for nickel and copper processing, ideal for high-arsenic ores."
+        }
+      ]
+    }
+  ]
+}

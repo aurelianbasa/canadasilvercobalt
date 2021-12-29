@@ -48,11 +48,11 @@ const ProjectItemPage = props => {
       <Divider space='2' />
       <Quote content={content['quote-2']} />
       <Divider space='4' />
+      <CrossSection content={content['cross-section-3']} />
+      <Divider space='2' />
+      <Quote content={content['quote-3']} />
+      <Divider space='3' />
       <Container variant='narrow'>
-        <CrossSection content={content['cross-section-3']} />
-        <Divider space='2' />
-        <Quote content={content['quote-3']} />
-        <Divider space='3' />
         <DrillMap content={content['drill-map']} />
       </Container>
       <Divider space='5' />
