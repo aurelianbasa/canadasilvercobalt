@@ -7,6 +7,8 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Quote from '@solid-ui-blocks/Content/Block01'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import CrossSection from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
@@ -32,6 +34,10 @@ const ProjectItemPage = props => {
       <Divider space='4' />
       <Divider space='4' />
       <Download content={content['download']} />
+      <Divider space='4' />
+      <FeatureOne content={content['feature-one']} reverse />
+      <Divider space='4' />
+      <FeatureTwo content={content['feature-two']} />
       <Divider space='4' />
       <Container variant='narrow'>
         <Info content={content['info-1']} reverse />
