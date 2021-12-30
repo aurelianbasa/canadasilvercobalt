@@ -32,7 +32,7 @@ const ProjectItemPage = props => {
       <Divider space='4' />
       <Download content={content['download']} />
       <Divider space='5' />
-      <Content content={content['content-one']} />
+      <Content content={content['content-one']} reverse />
       <Divider space='4' />
       <Feature content={content['feature-one']} reverse />
       <Divider space='4' />
