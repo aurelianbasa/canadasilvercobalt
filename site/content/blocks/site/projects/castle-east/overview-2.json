@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "The Ramp",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Full scope of the **Discovery**",
+      "variant": "h2"
+    },
+    {
+      "text": "Extend down to the 400m level to access the high-grade silver material for bulk samples and to carry out advanced exploration drilling from underground locations.",
+      "variant": "medium"
+    },
+    {
+      "text": "Currently, Environmental tests are underway to obtain necessary permits.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/castle-east/overview-2.jpg",
+      "radius": "xl",
+      "alt": "Graphical illustration of the planned ramp to access the high-grade silver discoveries"
+    }
+  ]
+}

@@ -30,17 +30,20 @@ const ProjectItemPage = props => {
       <Divider space='5' />
       <Info content={content['overview']} />
       <Divider space='4' />
-      <Content content={content['content-one']} />
       <Download content={content['download']} />
+      <Divider space='4' />
+      <Info content={content['overview-2']} />
+      <Divider space='4' />
+      <Content content={content['content-one']} />
       <Divider space='5' />
       <Container variant='narrow'>
         <CrossSection content={content['cross-section-1']} />
+        <Divider space='2' />
+        <Content content={content['content-three']} />
         <Divider space='5' />
         <Info content={content['info-1']} reverse />
         <Divider space='5' />
         <Info content={content['info-2']} />
-        <Divider space='5' />
-        <CrossSection content={content['cross-section-2']} />
         <Divider space='5' />
         <DrillMap content={content['drill-map']} />
       </Container>
@@ -48,8 +51,12 @@ const ProjectItemPage = props => {
       <Content content={content['content-two']} />
       <Divider space='4' />
       <CrossSection content={content['cross-section-3']} />
+      <Divider space='2' />
+      <Content content={content['content-four']} />
       <Divider space='5' />
       <CrossSection content={content['cross-section-4']} />
+      <Divider space='2' />
+      <Content content={content['content-five']} />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
