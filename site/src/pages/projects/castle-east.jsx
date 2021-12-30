@@ -70,7 +70,7 @@ const ProjectItemPage = props => {
         <Divider space='5' />
         <Info content={content['info-2']} />
       </Container>
-
+      <Divider space='5' />
       <Container variant='narrow'>
       <table>
 		<thead>
@@ -143,10 +143,13 @@ const ProjectItemPage = props => {
 			</tr>
 		</tbody>
 	</table>
+  <Divider space='2' />
+  <Content content={content['content-six']} />
 </Container>
 
+
 <Divider space='5' />
-        <DrillMap content={content['drill-map']} />
+<DrillMap content={content['drill-map']} />
 
       <Divider space='5' />
       <Content content={content['content-two']} reverse />
