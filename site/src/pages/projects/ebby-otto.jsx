@@ -30,6 +30,8 @@ const ProjectItemPage = props => {
       <Divider space='5' />
       <Info content={content['overview']} />
       <Divider space='4' />
+      <Download content={content['download']} />
+      <Divider space='5' />
       <Content content={content['content-one']} />
       <Divider space='4' />
       <Feature content={content['feature-one']} reverse />
@@ -44,8 +46,6 @@ const ProjectItemPage = props => {
         <Info content={content['info-1']} reverse />
         <Divider space='5' />
         <Info content={content['info-2']} />
-        <Divider space='5' />
-        <Download content={content['download']} />
       </Container>
       <Divider space='5' />
       <Footer content={content['footer']} />
