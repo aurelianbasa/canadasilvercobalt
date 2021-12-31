@@ -24,23 +24,25 @@ const ProjectItemPage = props => {
     <Helmet>
     <style type='text/css'>{`
     table {
-			width:70%;
+			width:100%;
 			border:2px solid #606060;
 			border-collapse:collapse;
 			padding:5px;
 		}
 		table th {
 			border:2px solid #606060;
-			padding:5px;
+			padding:.5em 5px;
 			background: #f0f0f0;
 			color: #313030;
+      font-size: 1.2em;
 		}
 		table td {
 			border:2px solid #606060;
 			text-align:center;
-			padding:5px;
+			padding:.5em 5px;
 			background: #ffffff;
 			color: #313030;
+      font-size: 1.2em;
 		}
     `}</style>
     </Helmet>
