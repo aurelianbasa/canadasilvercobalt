@@ -24,7 +24,7 @@ const ProjectItemPage = props => {
     <Helmet>
     <style type='text/css'>{`
     table {
-			width:100%;
+			width:70%;
 			border:2px solid #606060;
 			border-collapse:collapse;
 			padding:5px;
