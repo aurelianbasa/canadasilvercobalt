@@ -1,0 +1,101 @@
+{
+  "text": [
+    {
+      "text": "Results",
+      "color": "beta",
+      "variant": "h4"
+    },
+    {
+      "text": "Strike Length",
+      "variant": "h2"
+    },
+    {
+      "text": "Early stage drill results have been excellent",
+      "variant": "medium"
+    },
+    {
+      "text": "Various levels of massive sulphides.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/nourricier/results.jpg",
+      "alt": "over 6km strike length"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Lac Suzanne NO",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "up to 10.31% Ni, 0.06% Cu and 0.05% Co over 0.3m"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "MHY Nord and MHY Ap",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "up to 0.84% Ni, 0.5% Cu, and 0.1% Co over 10.2m"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "MHY A (97-03)",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "up to 0.5% Ni, 0.14% Cu, and 0.05% Co over 0.6m"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Nourricier Noir",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "up to 0.59% Ni, and 0.6% Cu over 5.2m"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Nourricier A (97-C235)",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "up to 0.77% Ni, 0.34% Cu, and 0.1% Co over 1.2m"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Discovery (NRC-21-03)",
+          "color": "omega",
+          "variant": "h4"
+        },
+        {
+          "text": "Mineralized intersection of 5.7m, including 3.3m of massive sulphide lens"
+        }
+      ]
+    }
+  ]
+}
