@@ -25,7 +25,7 @@
           "variant": "h5"
         },
         {
-          "text": "Strong results from drilling containing nickel and copper at its Graal property in the Lac St-Jean region of Quebec."
+          "text": "Nov. 25: Strong results from drilling containing nickel and copper at its Graal property in the Lac St-Jean region of Quebec."
         }
       ],
       "images": [
@@ -53,12 +53,45 @@
           "color": "beta"
         },
         {
-          "text": "November 12, 2021",
+          "text": "Drilling at Graal Property",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Presentation at Proactive One2One Virtual Forum"
+          "text": "Nov. 25: Strong results from drilling containing nickel and copper at its Graal property in the Lac St-Jean region of Quebec."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/media/video-interviews/placeholder.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Watch Interview",
+          "type": "VIDEO",
+          "link": "https://www.youtube.com/embed/p7Uz4z8HltE?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        {
+          "text": "Innovation",
+          "color": "beta"
+        },
+        {
+          "text": "One2One Virtual Forum",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Nov. 12: Presentation at Proactive One2One Virtual Forum"
         }
       ],
       "images": [
@@ -86,12 +119,12 @@
           "color": "beta"
         },
         {
-          "text": "Interview Three",
+          "text": "MiningScout Interview",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "Sept. 20: About Advanced silver resources and EV products "
         }
       ],
       "images": [
@@ -104,7 +137,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/bNKdlnoAqIs?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/x6nLBiwzA6A?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
