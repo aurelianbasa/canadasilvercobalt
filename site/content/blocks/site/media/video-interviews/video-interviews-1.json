@@ -25,45 +25,12 @@
           "variant": "h5"
         },
         {
-          "text": "Nov. 25: Strong results from drilling containing nickel and copper at its Graal property in the Lac St-Jean region of Quebec."
+          "text": "Nov. 25: Strong results from drilling containing nickel and copper at the Graal property."
         }
       ],
       "images": [
         {
-          "src": "../../../../assets/site/media/video-interviews/placeholder.jpg",
-          "alt": "alt text"
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Watch Interview",
-          "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/p7Uz4z8HltE?autoplay=1&modestbranding=1&showinfo=0&rel=0",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "container": {
-        "variant": "cards.interactive"
-      },
-      "text": [
-        {
-          "text": "Innovation",
-          "color": "beta"
-        },
-        {
-          "text": "Drilling at Graal Property",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": "Nov. 25: Strong results from drilling containing nickel and copper at its Graal property in the Lac St-Jean region of Quebec."
-        }
-      ],
-      "images": [
-        {
-          "src": "../../../../assets/site/media/video-interviews/placeholder.jpg",
+          "src": "../../../assets/site/media/interview-1.jpg",
           "alt": "alt text"
         }
       ],

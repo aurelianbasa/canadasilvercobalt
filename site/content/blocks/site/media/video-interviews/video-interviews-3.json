@@ -1,11 +1,11 @@
 {
   "text": [
     {
-      "text": "Video Interviews 3",
+      "text": "",
       "variant": "h2"
     },
     {
-      "text": "Pariatur pariatur commodo sit aliquip commodo minim mollit.",
+      "text": "",
       "variant": "medium"
     }
   ],
@@ -20,12 +20,12 @@
           "color": "beta"
         },
         {
-          "text": "Interview One",
+          "text": "MoneyShow Interview",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "Apr. 23: Exceptional Silver Grades Plus a Green Extractive Technology for Battery Metals and Recycling"
         }
       ],
       "images": [
@@ -38,7 +38,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/WFOxZAmB_1Y?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/_wzloIyX5DE?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
@@ -53,12 +53,12 @@
           "color": "beta"
         },
         {
-          "text": "Interview Two",
+          "text": "Investor Update 2021",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "Jan 28: Interview with Frank Basa (CEO, Director) and Matthew Halliday (President and COO, Director)"
         }
       ],
       "images": [
@@ -71,7 +71,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/ippYts_JvUk?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/L7_zlBba2Ak?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
@@ -86,12 +86,12 @@
           "color": "beta"
         },
         {
-          "text": "Interview Three",
+          "text": "InvestorIntel Interview",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "Jan. 5: Frank Basa on Canada Silver Cobalt's recent high-grade gold mineralisation and silver vein discovery"
         }
       ],
       "images": [
@@ -104,7 +104,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/bNKdlnoAqIs?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/ZsFOsBtBafc?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
