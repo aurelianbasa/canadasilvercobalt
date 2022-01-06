@@ -1,11 +1,11 @@
 {
   "text": [
     {
-      "text": "Video Interviews 1",
+      "text": "2021",
       "variant": "h2"
     },
     {
-      "text": "Pariatur pariatur commodo sit aliquip commodo minim mollit.",
+      "text": "",
       "variant": "medium"
     }
   ],
@@ -20,12 +20,12 @@
           "color": "beta"
         },
         {
-          "text": "Interview One",
+          "text": "Drilling at Graal Property",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "Strong results from drilling containing nickel and copper at its Graal property in the Lac St-Jean region of Quebec."
         }
       ],
       "images": [
@@ -38,7 +38,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/WFOxZAmB_1Y?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/p7Uz4z8HltE?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
@@ -53,12 +53,12 @@
           "color": "beta"
         },
         {
-          "text": "Interview Two",
+          "text": "November 12, 2021",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "Presentation at Proactive One2One Virtual Forum"
         }
       ],
       "images": [
@@ -71,7 +71,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/ippYts_JvUk?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/eTXve7dpCGc?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
