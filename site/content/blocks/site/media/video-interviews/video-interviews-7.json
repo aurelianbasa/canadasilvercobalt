@@ -1,8 +1,8 @@
 {
   "text": [
     {
-      "text": "2021",
-      "variant": "h1"
+      "text": "",
+      "variant": "h2"
     },
     {
       "text": "",
@@ -20,17 +20,17 @@
           "color": "beta"
         },
         {
-          "text": "Drilling at Graal Property",
+          "text": "Underground at the Castle Mine",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Nov. 25: Strong results from drilling containing nickel and copper at the Graal property."
+          "text": "Going underground at the Castle Mine, a previously producing silver-cobalt mine"
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/interview-1.jpg",
+          "src": "../../../../assets/site/media/video-interviews/placeholder.jpg",
           "alt": "alt text"
         }
       ],
@@ -38,7 +38,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/p7Uz4z8HltE?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/CzaYLIj_SP8?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
@@ -53,12 +53,12 @@
           "color": "beta"
         },
         {
-          "text": "One2One Virtual Forum",
+          "text": "Flyover of Castle",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Nov. 12: Presentation at Proactive One2One Virtual Forum"
+          "text": "A drone flight over the Castle Mine property, a previously producing silver-cobalt underground mine with 3 shafts and 1 adit"
         }
       ],
       "images": [
@@ -71,7 +71,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/eTXve7dpCGc?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/r0CROGP80h0?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
@@ -86,12 +86,12 @@
           "color": "beta"
         },
         {
-          "text": "MiningScout Interview",
+          "text": "Initial Results",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Sept. 20: About Advanced silver resources and EV products "
+          "text": "Cobalt Stock Report interviews Frank Basa of Canada Cobalt Works"
         }
       ],
       "images": [
@@ -104,7 +104,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/x6nLBiwzA6A?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/q9KB5607mds?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]

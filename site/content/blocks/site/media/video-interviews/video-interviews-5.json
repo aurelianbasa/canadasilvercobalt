@@ -1,8 +1,8 @@
 {
   "text": [
     {
-      "text": "2021",
-      "variant": "h1"
+      "text": "",
+      "variant": "h2"
     },
     {
       "text": "",
@@ -20,17 +20,17 @@
           "color": "beta"
         },
         {
-          "text": "Drilling at Graal Property",
+          "text": "GoldInvest.de Interview",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Nov. 25: Strong results from drilling containing nickel and copper at the Graal property."
+          "text": "Aug. 19: Castle East high-grade silver discovery and plans going forward"
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/interview-1.jpg",
+          "src": "../../../../assets/site/media/video-interviews/placeholder.jpg",
           "alt": "alt text"
         }
       ],
@@ -38,7 +38,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/p7Uz4z8HltE?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/aD61Qukn-ec?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
@@ -53,12 +53,12 @@
           "color": "beta"
         },
         {
-          "text": "One2One Virtual Forum",
+          "text": "High grade numbers for cobalt, silver and nickel",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Nov. 12: Presentation at Proactive One2One Virtual Forum"
+          "text": "Apr 15: Discussion of drill holes and downhole camera and the results"
         }
       ],
       "images": [
@@ -71,7 +71,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/eTXve7dpCGc?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/Lhkl4-BSxjo?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
@@ -86,12 +86,12 @@
           "color": "beta"
         },
         {
-          "text": "MiningScout Interview",
+          "text": "Hitting New Silver Structures at Castle East",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Sept. 20: About Advanced silver resources and EV products "
+          "text": "March 10: Discussing progress exploring for silver on the Castle East cobalt-silver project"
         }
       ],
       "images": [
@@ -104,7 +104,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/x6nLBiwzA6A?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/zvVXEAg8Edo?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]

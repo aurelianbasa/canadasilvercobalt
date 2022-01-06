@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "2021",
+      "text": "Older",
       "variant": "h1"
     },
     {
@@ -20,17 +20,17 @@
           "color": "beta"
         },
         {
-          "text": "Drilling at Graal Property",
+          "text": "Cobalt on Fast Track at Castle",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Nov. 25: Strong results from drilling containing nickel and copper at the Graal property."
+          "text": "Rapid developments at the Castle mine have made Canada Cobalt the front runner in the Northern Ontario Cobalt race."
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/interview-1.jpg",
+          "src": "../../../../assets/site/media/video-interviews/placeholder.jpg",
           "alt": "alt text"
         }
       ],
@@ -38,7 +38,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/p7Uz4z8HltE?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/-irBTYjUG8c?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
@@ -53,12 +53,12 @@
           "color": "beta"
         },
         {
-          "text": "One2One Virtual Forum",
+          "text": "History Unfolds At Castle Mine",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Nov. 12: Presentation at Proactive One2One Virtual Forum"
+          "text": "Canada Cobalt has become the first company in Canada to drill underground for high-grade Cobalt"
         }
       ],
       "images": [
@@ -71,7 +71,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/eTXve7dpCGc?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/nm8ztnqh2Cs?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
@@ -86,12 +86,12 @@
           "color": "beta"
         },
         {
-          "text": "MiningScout Interview",
+          "text": "A Castle of Cobalt",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Sept. 20: About Advanced silver resources and EV products "
+          "text": "Video footage from the first level of the Castle mine in the Northern Ontario Cobalt Camp"
         }
       ],
       "images": [
@@ -104,7 +104,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/x6nLBiwzA6A?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/eG396WtEves?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
