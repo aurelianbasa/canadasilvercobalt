@@ -16,7 +16,7 @@
   ],
   "images": [
     {
-      "src": "../../../assets/site/index/feature-two.png",
+      "src": "../../../assets/site/index/barchart.svg",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default"
