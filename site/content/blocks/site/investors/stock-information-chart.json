@@ -1,13 +1,13 @@
 {
   "text": [
     {
-      "text": "Investors",
+      "text": "INVESTORS",
       "color": "alpha",
-      "variant": "h4"
+      "variant": "h3"
     },
     {
       "text": "Stock Chart",
-      "variant": "h2"
+      "variant": "h1"
     },
     {
       "text": "Find all of our relevant data below",
