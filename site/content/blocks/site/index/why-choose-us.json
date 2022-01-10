@@ -3,13 +3,12 @@
     {
       "text": "CANADA SILVER COBALT WORKS",
       "color": "omega",
-      "variant": "h4"
+      "variant": "h3"
     },
     {
       "text": "Why Invest with us?",
       "color": "beta",
-      "variant": "h2",
-      "align": ["center"]
+      "variant": "h1"
     }
   ],
   "collection": [

@@ -1,13 +1,13 @@
 {
   "text": [
     {
-      "text": "Corporate Directory",
+      "text": "DIRECTORY",
       "color": "omegaDark",
       "variant": "h4"
     },
     {
       "text": "Officers and Board of Directors",
-      "variant": "h2"
+      "variant": "h3"
     }
   ],
   "collection": [

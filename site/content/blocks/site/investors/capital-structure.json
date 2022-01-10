@@ -1,14 +1,14 @@
 {
   "text": [
     {
-      "text": "As of December 23, 2021",
+      "text": "Capital Structure",
       "color": "alpha",
-      "variant": "h4"
+      "variant": "h1"
     },
     {
-      "text": "Capital Structure",
-      "color": "omegaDarker",
-      "variant": "h2"
+      "text": "As of December 23, 2021",
+      "color": "omega",
+      "variant": "h4"
     }
   ],
   "collection": [

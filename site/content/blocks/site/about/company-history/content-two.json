@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Temiskaming Testing Laboratories",
+      "text": "Timiskaming Testing Laboratories",
       "color": "beta",
       "variant": "h4"
     },
@@ -18,7 +18,7 @@
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/homepage/fintech/feature-three.jpg",
+      "src": "../../../../assets/site/about/company-history/content-two.svg",
       "alt": "alt text",
       "radius": "xl",
       "effects": ["fadeInDown"]
