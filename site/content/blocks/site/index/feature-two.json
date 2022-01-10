@@ -3,15 +3,18 @@
     {
       "text": "BATTERY METALS PRODUCTION",
       "color": "omega",
-      "variant": "h4"
+      "variant": "h4",
+      "align": ["left"]
     },
     {
       "text": "**Environmentally Advanced** Re-2Ox Technology",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "Cobalt sulphate which meets EV battery manufacturer specifications using the proprietary Re-2Ox processing technique in lab tests at SGS Canada.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

@@ -34,8 +34,7 @@
       "text": "Read More",
       "type": "PAGE",
       "link": "/about/environment",
-      "variant": "primary",
-      "align": ["right"]
+      "variant": "primary"
     }
   ]
 }

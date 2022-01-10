@@ -3,15 +3,18 @@
     {
       "text": "SILVER-COBALT HEARTLAND",
       "color": "omegaDark",
-      "variant": "h4"
+      "variant": "h4",
+      "align": ["left"]
     },
     {
       "text": "Highest Grade Silver Deposit in the World",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "The Castle East Project in Northern Ontario: High Grades reduce amount of tonnage and processing needed for a profitable mine.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

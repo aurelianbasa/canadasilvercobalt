@@ -3,15 +3,18 @@
     {
       "text": "NICKEL & COPPER",
       "color": "omega",
-      "variant": "h4"
+      "variant": "h4",
+      "align": ["left"]
     },
     {
       "text": "**High Grade** Graal Deposit in Northern Quebec",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "Massive sulphides in drill core at Graal in XRF testing.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

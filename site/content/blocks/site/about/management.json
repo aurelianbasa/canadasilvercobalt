@@ -3,13 +3,11 @@
     {
       "text": "OPERATIONS",
       "color": "alpha",
-      "variant": "h4",
-      "align": ["left"]
+      "variant": "h4"
     },
     {
       "text": "Key Team Members",
-      "variant": "h2",
-      "align": ["left"]
+      "variant": "h2"
     }
   ],
   "collection": [
