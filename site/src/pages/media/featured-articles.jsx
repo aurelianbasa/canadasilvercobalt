@@ -26,7 +26,7 @@ const MediaPage = props => {
       <Cards content={content['featured-articles-1']} />
       <Divider space='1' />
       <Cards content={content['featured-articles-2']} />
-      <Divider space='1' />
+      <Divider space='5' />
       <Cards content={content['featured-articles-3']} />
       <Divider space='1' />
       <Cards content={content['featured-articles-4']} />

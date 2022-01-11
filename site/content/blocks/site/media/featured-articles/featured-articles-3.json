@@ -2,7 +2,7 @@
   "text": [
     {
       "text": "Older",
-      "variant": "h3"
+      "variant": "h1"
     },
     {
       "text": "",
@@ -15,26 +15,26 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "https://google.com"
+          "link": ""
         }
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "Resource World",
           "color": "alphaDark"
         },
         {
-          "text": "Excepteur adipisicing in nulla veniam sunt adipisicing",
+          "text": "Canada Cobalt Moves to fund Battery Sector strategy",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": ""
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/blog-1.jpg",
+          "src": "../../../../assets/site/media/featured-articles/resourceworld.png",
           "alt": "alt text"
         }
       ],
@@ -42,7 +42,7 @@
         {
           "text": "Read More",
           "type": "PAGE",
-          "link": "https://google.com",
+          "link": "https://resourceworld.com/canada-cobalt-moves-to-fund-battery-sector-strategy/",
           "variant": "primary"
         }
       ]
@@ -52,26 +52,26 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "https://google.com"
+          "link": ""
         }
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "Investor Intel",
           "color": "alphaDark"
         },
         {
-          "text": "Aliquip enim cillum velit excepteur velit officia",
+          "text": "Exceeding Technical Specifications of Cathode Producers",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": ""
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/blog-2.jpg",
+          "src": "../../../../assets/site/media/featured-articles/investorintel.png",
           "alt": "alt text"
         }
       ],
@@ -79,7 +79,7 @@
         {
           "text": "Read More",
           "type": "PAGE",
-          "link": "https://google.com",
+          "link": "https://investorintel.com/markets/technology-metals/technology-metals-intel/canada-cobalt-works-is-exceeding-the-technical-specifications-of-cathode-producers-in-asia/",
           "variant": "primary"
         }
       ]
@@ -89,26 +89,26 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "https://google.com"
+          "link": ""
         }
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "Small Cap Power",
           "color": "alphaDark"
         },
         {
-          "text": "Occaecat dolor id esse fugiat veniam ipsum pariatur",
+          "text": "Exploration Approach is Leading to High-Grade Cobalt",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": ""
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/blog-3.jpg",
+          "src": "../../../../assets/site/media/featured-articles/smallcappower.png",
           "alt": "alt text"
         }
       ],
@@ -116,7 +116,7 @@
         {
           "text": "Read More",
           "type": "PAGE",
-          "link": "https://google.com",
+          "link": "https://smallcappower.com/companies/ccw/articles/castle-silver-resources-stock-price/",
           "variant": "primary"
         }
       ]

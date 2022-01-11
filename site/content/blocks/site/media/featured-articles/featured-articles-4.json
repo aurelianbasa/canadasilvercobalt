@@ -1,11 +1,11 @@
 {
   "text": [
     {
-      "text": "Featured Articles",
+      "text": "",
       "variant": "h2"
     },
     {
-      "text": "Pariatur pariatur commodo sit aliquip commodo minim mollit.",
+      "text": "",
       "variant": "medium"
     }
   ],
@@ -15,26 +15,26 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "https://google.com"
+          "link": ""
         }
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "Small Cap Power",
           "color": "alphaDark"
         },
         {
-          "text": "Excepteur adipisicing in nulla veniam sunt adipisicing",
+          "text": "Canada Cobalt is Pushing a Path to Production",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": ""
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/blog-1.jpg",
+          "src": "../../../../assets/site/media/featured-articles/smallcappower.png",
           "alt": "alt text"
         }
       ],
@@ -42,7 +42,7 @@
         {
           "text": "Read More",
           "type": "PAGE",
-          "link": "https://google.com",
+          "link": "https://smallcappower.com/companies/ccw/articles/canada-cobalt-works-stock/",
           "variant": "primary"
         }
       ]

@@ -2,7 +2,7 @@
   "text": [
     {
       "text": "Recent",
-      "variant": "h3"
+      "variant": "h1"
     },
     {
       "text": "",
@@ -108,7 +108,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/miningdotcom.png",
+          "src": "../../../../assets/site/media/miningdotcom.png",
           "alt": "alt text"
         }
       ],
