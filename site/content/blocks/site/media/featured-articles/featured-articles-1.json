@@ -57,21 +57,21 @@
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "Yahoo!",
           "color": "alphaDark"
         },
         {
-          "text": "Aliquip enim cillum velit excepteur velit officia",
+          "text": "Goldspot discoveries engaged to apply Artificial Intelligence",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": ""
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/blog-2.jpg",
+          "src": "../../../assets/site/media/featured-articles/yahoo.png",
           "alt": "alt text"
         }
       ],
