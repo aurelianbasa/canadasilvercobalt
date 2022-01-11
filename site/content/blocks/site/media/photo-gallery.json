@@ -2,10 +2,10 @@
   "text": [
     {
       "text": "Photo Gallery",
-      "variant": "h2"
+      "variant": "h1"
     },
     {
-      "text": "Id nulla labore nostrud sit reprehenderit proident aute cillum proident veniam amet.",
+      "text": "",
       "variant": "medium"
     }
   ],
