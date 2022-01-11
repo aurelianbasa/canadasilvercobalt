@@ -1,8 +1,8 @@
 {
   "text": [
     {
-      "text": "2021",
-      "variant": "h2"
+      "text": "Recent",
+      "variant": "h3"
     },
     {
       "text": "",
@@ -20,16 +20,16 @@
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "Proactive",
           "color": "alphaDark"
         },
         {
-          "text": "Excepteur adipisicing in nulla veniam sunt adipisicing",
+          "text": "Battery Metals business prepared for monetization",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": ""
         }
       ],
       "images": [
@@ -42,7 +42,7 @@
         {
           "text": "Read More",
           "type": "PAGE",
-          "link": "https://google.com",
+          "link": "https://ca.proactiveinvestors.com/companies/news/965706/canada-silver-cobalt-prepares-battery-metals-business-for-monetization-965706.html",
           "variant": "primary"
         }
       ]
