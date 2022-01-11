@@ -15,7 +15,7 @@ const MediaPage = props => {
 
   return (
     <Layout {...props}>
-      <Seo title='Video Interviews' />
+      <Seo title='Featured Articles' />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
       <ModalSimple content={content['disclaimer']} />
