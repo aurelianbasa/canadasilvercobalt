@@ -15,7 +15,7 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "https://google.com"
+          "link": ""
         }
       },
       "text": [
@@ -52,7 +52,7 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "https://google.com"
+          "link": ""
         }
       },
       "text": [
@@ -61,7 +61,7 @@
           "color": "alphaDark"
         },
         {
-          "text": "Goldspot discoveries engaged to apply Artificial Intelligence",
+          "text": "Goldspot discoveries to apply Artificial Intelligence",
           "color": "omegaDarker",
           "variant": "h5"
         },
@@ -79,7 +79,7 @@
         {
           "text": "Read More",
           "type": "PAGE",
-          "link": "https://google.com",
+          "link": "https://finance.yahoo.com/news/goldspot-discoveries-engaged-canada-silver-163900849.html",
           "variant": "primary"
         }
       ]
@@ -89,26 +89,26 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "https://google.com"
+          "link": ""
         }
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "Mining.com",
           "color": "alphaDark"
         },
         {
-          "text": "Occaecat dolor id esse fugiat veniam ipsum pariatur",
+          "text": "Working on New Battery Recycling Initiative",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": ""
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/blog-3.jpg",
+          "src": "../../../assets/site/media/miningdotcom.png",
           "alt": "alt text"
         }
       ],
@@ -116,7 +116,7 @@
         {
           "text": "Read More",
           "type": "PAGE",
-          "link": "https://google.com",
+          "link": "https://www.mining.com/canada-silver-cobalt-working-on-new-battery-recycling-initiative/",
           "variant": "primary"
         }
       ]
