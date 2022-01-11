@@ -34,7 +34,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/featured-articles/proactive.jpg",
+          "src": "../../../../assets/site/media/featured-articles/proactive.jpg",
           "alt": "alt text"
         }
       ],
@@ -71,7 +71,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/featured-articles/yahoo.png",
+          "src": "../../../../assets/site/media/featured-articles/yahoo.png",
           "alt": "alt text"
         }
       ],
