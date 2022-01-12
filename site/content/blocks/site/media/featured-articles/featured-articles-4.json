@@ -52,26 +52,26 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "https://google.com"
+          "link": ""
         }
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "CBC",
           "color": "alphaDark"
         },
         {
-          "text": "Aliquip enim cillum velit excepteur velit officia",
+          "text": "Abandoned Canadian silver mines could boom again",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": ""
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/blog-2.jpg",
+          "src": "../../../../assets/site/media/featured-articles/cbc.png",
           "alt": "alt text"
         }
       ],
@@ -79,7 +79,7 @@
         {
           "text": "Read More",
           "type": "PAGE",
-          "link": "https://google.com",
+          "link": "https://www.cbc.ca/news/business/cobalt-canada-batteries-1.4903276",
           "variant": "primary"
         }
       ]
@@ -89,26 +89,26 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "https://google.com"
+          "link": ""
         }
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "BNN Bloomberg",
           "color": "alphaDark"
         },
         {
-          "text": "Occaecat dolor id esse fugiat veniam ipsum pariatur",
+          "text": "Targeting mineralization of base and precious metals",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": ""
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/blog-3.jpg",
+          "src": "../../../../assets/site/media/featured-articles/bnnbloomberg.png",
           "alt": "alt text"
         }
       ],
@@ -116,7 +116,7 @@
         {
           "text": "Read More",
           "type": "PAGE",
-          "link": "https://google.com",
+          "link": "https://www.bnnbloomberg.ca/targeting-mineralization-of-base-and-precious-metals-1.1252119",
           "variant": "primary"
         }
       ]
