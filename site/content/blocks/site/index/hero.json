@@ -15,8 +15,8 @@
     {
       "text": "Critical Metals for a Cleaner World",
       "color": "beta",
-      "variant": "h5",
-      "align": ["left"]
+      "variant": "h3",
+      "align": ["center"]
     }
   ],
   "images": [
