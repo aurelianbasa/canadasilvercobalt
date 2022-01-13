@@ -28,7 +28,7 @@ export default {
     },
     '::before': {
       background: `url(images/cobalt-bg.jpg) no-repeat center center`,
-      backgroundSize: `contain`
+      backgroundSize: `auto`
     }
   }
 }
