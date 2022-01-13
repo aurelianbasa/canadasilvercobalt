@@ -1,14 +1,14 @@
 {
   "text": [
     {
-      "text": "Highest **Silver** Grades in the World",
-      "color": "alphaDarker",
+      "text": "**Highest** Silver Grades in the World",
+      "color": "omega",
       "variant": "h1",
       "align": ["left"]
     },
     {
       "text": "Canada Silver **Cobalt** Works",
-      "color": "omega",
+      "color": "beta",
       "variant": "h1",
       "align": ["left"]
     },
