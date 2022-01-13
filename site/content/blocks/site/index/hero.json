@@ -2,7 +2,7 @@
   "text": [
     {
       "text": "Highest **Silver** Grades in the World",
-      "color": "alpha",
+      "color": "alphaDarker",
       "variant": "h1",
       "align": ["left"]
     },
