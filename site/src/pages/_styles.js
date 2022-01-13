@@ -22,8 +22,8 @@ export default {
     '::after': {
       background: `linear-gradient(
           180deg,
-          rgba(255,255,255,0.1) 0%,
-          rgba(255,255,255,0.3) 100%
+          rgba(255,255,255,0.3) 0%,
+          rgba(255,255,255,0.5) 100%
         )`
     },
     '::before': {
