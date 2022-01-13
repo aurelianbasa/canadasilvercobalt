@@ -14,8 +14,8 @@
     },
     {
       "text": "Critical Metals for a Cleaner World",
-      "color": "omegaDarker",
-      "variant": "medium",
+      "color": "beta",
+      "variant": "h5",
       "align": ["left"]
     }
   ],
@@ -28,6 +28,7 @@
   "buttons": [
     {
       "text": "Watch the interview",
+      "color":"omegaDarker",
       "type": "VIDEO",
       "link": "https://www.youtube.com/embed/yhqSOhMSET0?autoplay=1&modestbranding=1&showinfo=0&rel=0",
       "variant": "primary"
