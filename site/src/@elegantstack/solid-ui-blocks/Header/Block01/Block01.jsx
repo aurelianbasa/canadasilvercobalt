@@ -92,7 +92,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                 >
                   TSX-V: CCW
                   <br />
-                  OTC: CCWOF
+                  OTCQB: CCWOF
                   <br />
                   FF: 9TB
                 </Text>

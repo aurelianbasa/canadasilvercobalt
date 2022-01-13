@@ -1,13 +1,19 @@
 {
   "text": [
     {
-      "text": "**High Grade** And Technology Leader",
+      "text": "Highest **Silver** Grades in the World",
       "color": "omegaDarker",
       "variant": "h1",
       "align": ["left"]
     },
     {
-      "text": "Canada Silver Cobalt Works: Developing Critical Metals for a Cleaner World",
+      "text": "Canada Silver Cobalt Works",
+      "color": "omegaDarker",
+      "variant": "h3",
+      "align": ["left"]
+    },
+    {
+      "text": "Critical Metals for a Cleaner World",
       "color": "omegaDarker",
       "variant": "medium",
       "align": ["left"]
@@ -16,7 +22,7 @@
   "images": [
     {
       "src": "../../../assets/site/index/cobalt.png",
-      "alt": "Cut surface through a high-grade silver vein"
+      "alt": ""
     }
   ],
   "buttons": [
