@@ -1,84 +1,100 @@
 {
   "collection": [
-   {
-     "container": {
-       "variant": "cards.paper"
-     },
-     "text": [
-       {
-         "text": "Silver",
-         "color": "omegaDarker",
-         "variant": "h5"
-       },
-       {
-         "text": "For solar panels and consumer electronics."
-       }
-     ],
-     "icon": {
-       "src": "../../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
-       "bg": "#C0C0C0",
+    {
+      "text": [
+        {
+          "text": "Silver",
+          "variant": "h4"
+        },
+        {
+          "text": "For solar panels and consumer electronics"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
+        "bg": "#C0C0C0",
        "color": "#AAA9AD"
-     }
-   },
-   {
-     "container": {
-       "variant": "cards.paper"
-     },
-     "text": [
-       {
-         "text": "Nickel & Cobalt",
-         "color": "omegaDarker",
-         "variant": "h5"
-       },
-       {
-         "text": "For electric vehicle batteries."
-       }
-     ],
-     "icon": {
-       "src": "../../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
+      },
+      "buttons": [
+        {
+          "text": "Learn More   ➜",
+          "type": "PAGE",
+          "link": "",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Nickel & Cobalt",
+          "variant": "h4"
+        },
+        {
+          "text": "For electric vehicle batteries"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
        "bg": "#0072AB",
        "color": "#0055AB"
-     }
-   },
-   {
-     "container": {
-       "variant": "cards.paper"
-     },
-     "text": [
-       {
-         "text": "Copper",
-         "color": "omegaDarker",
-         "variant": "h5"
-       },
-       {
-         "text": "For wiring in construction and the electric grid."
-       }
-     ],
-     "icon": {
-       "src": "../../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
+      },
+      "buttons": [
+        {
+          "text": "Learn More   ➜",
+          "type": "PAGE",
+          "link": "",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Copper",
+          "variant": "h4"
+        },
+        {
+          "text": "For wiring in electric vehicles"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
        "bg": "#D1793B",
        "color": "#CC6633"
-     }
-   },
-   {
-     "container": {
-       "variant": "cards.paper"
-     },
-     "text": [
-       {
-         "text": "Gold",
-         "color": "omegaDarker",
-         "variant": "h5"
-       },
-       {
-         "text": "For circuit boards and microprocessors."
-       }
-     ],
-     "icon": {
-       "src": "../../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
-       "bg": "#D7BE69",
-       "color": "#D4AF37"
-     }
-   }
- ]
+      },
+      "buttons": [
+        {
+          "text": "Learn More   ➜",
+          "type": "PAGE",
+          "link": "",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Gold",
+          "variant": "h4"
+        },
+        {
+          "text": "For microprocessor and memory chips"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
+        "bg": "#D7BE69",
+        "color": "#D4AF37"
+      },
+      "buttons": [
+        {
+          "text": "Learn More   ➜",
+          "type": "PAGE",
+          "link": "",
+          "variant": "links.normal"
+        }
+      ]
+    }
+  ]
 }
