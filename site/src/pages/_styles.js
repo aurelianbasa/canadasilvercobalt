@@ -15,7 +15,7 @@ export default {
       size: `full`,
       top: [0, null, `50%`],
       left: 0,
-      transform: [`translate(0, 0)`, null, `translate(55%, -50%)`],
+      transform: [`translate(0, 0)`, null, `translate(0, 0)`],
       zIndex: -1,
       borderRadius: [0, null, `xl`]
     },
