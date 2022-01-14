@@ -44,6 +44,8 @@ const IndexPage = props => {
       <Divider space='4' />
       <Silver content={content['silver']} /> 
       <Divider space='4' />
+      <Subscribe content={content['interview']} />
+      <Divider space='4' />
       <Info content={content['info']} />
       <Divider space='4' />
       <Subscribe content={content['subscribe']} />

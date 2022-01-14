@@ -3,25 +3,25 @@
     {
       "text": [
         {
-          "text": "Presentations",
+          "text": "Investor Materials",
           "color": "alpha",
           "variant": "h4"
         },
         {
-          "text": "The downloads below reflect the latest updates the company has disclosed.",
+          "text": "",
           "color": "omegaDarker",
           "variant": "h3"
         }
       ],
       "buttons": [
         {
-          "text": "Download 1",
+          "text": "Presentation",
           "type": "PAGE",
           "link": "files/link-to-file.pdf",
           "variant": "primary"
         },
         {
-          "text": "Download 2",
+          "text": "Fact Sheet",
           "type": "PAGE",
           "link": "files/link-to-file.pdf",
           "variant": "primary"

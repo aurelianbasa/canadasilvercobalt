@@ -1,0 +1,30 @@
+{
+  "text": [
+    {
+      "text": "Learn more about us",
+      "color": "alpha",
+      "variant": "h5",
+      "align": ["center"]
+    },
+    {
+      "text": "Watch the latest interview",
+      "align": ["center"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "",
+      "color":"omegaDarker",
+      "type": "VIDEO",
+      "link": "https://www.youtube.com/embed/yhqSOhMSET0?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+      "variant": "primary",
+      "align": ["center"]
+    },
+    {
+      "text": "More Interviews   ➜",
+      "type": "PAGE",
+      "link": "files/link-to-file.pdf",
+      "variant": "primary"
+    }
+  ]
+}
