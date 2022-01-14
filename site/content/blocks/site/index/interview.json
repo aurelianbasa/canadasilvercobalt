@@ -1,4 +1,21 @@
 {
+  "buttons": [
+    {
+      "text": "Watch the latest interview",
+      "color":"omegaDarker",
+      "type": "VIDEO",
+      "link": "https://www.youtube.com/embed/yhqSOhMSET0?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+      "variant": "primary",
+      "align": ["center"]
+    },
+    {
+      "text": "More Interviews   ➜",
+      "align": ["center"],
+      "type": "PAGE",
+      "link": "files/link-to-file.pdf",
+      "variant": "secondary"
+    }
+  ],
   "text": [
     {
       "text": "Learn more about us",
@@ -9,22 +26,6 @@
     {
       "text": "Watch the latest interview",
       "align": ["center"]
-    }
-  ],
-  "buttons": [
-    {
-      "text": "",
-      "color":"omegaDarker",
-      "type": "VIDEO",
-      "link": "https://www.youtube.com/embed/yhqSOhMSET0?autoplay=1&modestbranding=1&showinfo=0&rel=0",
-      "variant": "primary",
-      "align": ["center"]
-    },
-    {
-      "text": "More Interviews   ➜",
-      "type": "PAGE",
-      "link": "files/link-to-file.pdf",
-      "variant": "primary"
     }
   ]
 }
