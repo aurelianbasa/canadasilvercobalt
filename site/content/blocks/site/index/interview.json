@@ -19,12 +19,12 @@
   "text": [
     {
       "text": "Learn more about us",
+      "align": ["center"],
       "color": "alpha",
-      "variant": "h5",
-      "align": ["center"]
+      "variant": "h5"
     },
     {
-      "text": "Watch the latest interview",
+      "text": "",
       "align": ["center"]
     }
   ]
