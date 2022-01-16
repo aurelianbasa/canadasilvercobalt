@@ -2,16 +2,16 @@
   "images": [
     {
       "src": "../../../assets/site/index/silver.jpg",
-      "alt": "Massive silver veins at Castle East (50,583 g/t Ag over 0.6m)",
+      "alt": "",
       "radius": "lg"
     },
     {
       "src": "../../../assets/site/index/silver-overlay.png",
       "alt": "",
-      "effects": ["fadeInDown", "float"],
+      "effects": ["fadeInDown"],
       "position": {
         "bottom": "-15%",
-        "left": "10%"
+        "left": "-30%"
       }
     }
   ]
