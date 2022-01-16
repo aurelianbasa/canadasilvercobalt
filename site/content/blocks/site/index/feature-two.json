@@ -23,6 +23,15 @@
       "alt": "Cobalt sulphate hexahydrate (22.6% Co)",
       "radius": "lg",
       "shadow": "default"
+    },
+    {
+      "src": "../../../assets/site/index/technology-overlay.png",
+      "alt": "",
+      "effects": ["fadeInDown"],
+      "position": {
+        "bottom": "70%",
+        "left": "-10%"
+      }
     }
   ],
   "collection": [
