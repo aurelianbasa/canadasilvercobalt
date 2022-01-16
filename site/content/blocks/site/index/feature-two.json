@@ -12,7 +12,7 @@
       "align": ["left"]
     },
     {
-      "text": "Cobalt sulphate which meets EV battery manufacturer specifications using the proprietary Re-2Ox processing technique in lab tests at SGS Canada.",
+      "text": "Cobalt sulphate which meets EV battery manufacturer specifications produced using the proprietary Re-2Ox process in lab tests at SGS Canada.",
       "variant": "medium",
       "align": ["left"]
     }
@@ -39,7 +39,7 @@
           "variant": "h5"
         },
         {
-          "text": "Removes discharges, impurities, undesirables."
+          "text": "All closed-loop hydrometallurgical, with not smelting involved. Removes discharges, impurities, undesirables."
         }
       ]
     },
@@ -51,7 +51,7 @@
       },
       "text": [
         {
-          "text": "Adaptable to feed",
+          "text": "Adaptable",
           "color": "omegaDarker",
           "variant": "h5"
         },
