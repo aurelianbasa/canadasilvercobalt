@@ -7,7 +7,7 @@
     },
     {
       "src": "../../../assets/site/index/silver-overlay.png",
-      "alt": "alt text",
+      "alt": "",
       "effects": ["fadeInDown", "float"],
       "position": {
         "bottom": "-15%",
