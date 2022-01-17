@@ -27,7 +27,7 @@
     {
       "src": "../../../assets/site/index/technology-overlay.png",
       "alt": "",
-      "effects": ["fadeInDown"],
+      "effects": ["fadeInLeft"],
       "position": {
         "bottom": "70%",
         "left": "-10%"
