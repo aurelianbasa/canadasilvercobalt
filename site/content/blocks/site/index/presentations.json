@@ -1,12 +1,13 @@
 {
-  "container": {
-    "bg": "linear-gradient(25deg, {{alpha}} 0%, {{beta}} 100%)"
-  },
   "text": [
     {
       "text": "Oxidized cobalt underground at the Castle Mine",
       "color": "alphaLight",
-      "variant": "h3"
+      "variant": "h3",
+      "position": {
+        "top": "-20%",
+        "right": "17.5%"
+      }
     },
     {
       "text": "",
