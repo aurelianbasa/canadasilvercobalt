@@ -1,7 +1,4 @@
-{
-  "container": {
-    "bg": "linear-gradient(25deg, {{alpha}} 0%, {{beta}} 100%)"
-  },
+{  
   "buttons": [
     {
       "text": "Watch the latest interview",
