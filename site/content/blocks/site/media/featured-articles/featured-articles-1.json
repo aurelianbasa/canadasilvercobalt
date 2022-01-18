@@ -1,0 +1,125 @@
+{
+  "text": [
+    {
+      "text": "Recent",
+      "variant": "h1"
+    },
+    {
+      "text": "",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": ""
+        }
+      },
+      "text": [
+        {
+          "text": "Proactive",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Battery Metals business prepared for monetization",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/media/featured-articles/proactive.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read More",
+          "type": "PAGE",
+          "link": "https://ca.proactiveinvestors.com/companies/news/965706/canada-silver-cobalt-prepares-battery-metals-business-for-monetization-965706.html",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": ""
+        }
+      },
+      "text": [
+        {
+          "text": "Yahoo!",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Goldspot discoveries to apply Artificial Intelligence",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/media/featured-articles/yahoo.png",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read More",
+          "type": "PAGE",
+          "link": "https://finance.yahoo.com/news/goldspot-discoveries-engaged-canada-silver-163900849.html",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": ""
+        }
+      },
+      "text": [
+        {
+          "text": "Mining.com",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Working on New Battery Recycling Initiative",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/media/featured-articles/miningdotcom.png",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read More",
+          "type": "PAGE",
+          "link": "https://www.mining.com/canada-silver-cobalt-working-on-new-battery-recycling-initiative/",
+          "variant": "primary"
+        }
+      ]
+    }
+  ]
+}

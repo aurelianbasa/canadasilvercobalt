@@ -1,36 +1,28 @@
 {
   "text": [
     {
-      "text": "HIGH GRADE & TECHNOLOGY LEADER",
+      "text": "CANADA'S SILVER-COBALT HEARTLAND",
       "color": "omegaDark",
-      "variant": "h4"
+      "variant": "h4",
+      "align": ["left"]
     },
     {
-      "text": "Drill for structure, **Mine for grade**",
-      "variant": "h2"
+      "text": "Highest Grade Silver Deposit in the World",
+      "variant": "h2",
+      "align": ["left"]
     },
     {
-      "text": "We explore Mineral prospects, develop refinery grade materials, and everything in between.",
-      "variant": "medium"
+      "text": "The Castle East Project in Northern Ontario: High Grades reduce amount of tonnage and processing needed for a profitable mine.",
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [
     {
-      "src": "../../../assets/site/index/feature-two.png",
+      "src": "../../../assets/site/index/barchart.svg",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default"
-    },
-    {
-      "src": "../../../assets/site/index/feature-two-overlay.png",
-      "alt": "alt text",
-      "radius": "lg",
-      "shadow": "default",
-      "effects": ["fadeInDown", "floatFaster"],
-      "position": {
-        "top": "-30%",
-        "right": "45%"
-      }
     }
   ],
   "collection": [

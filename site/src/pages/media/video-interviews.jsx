@@ -24,11 +24,21 @@ const MediaPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Cards content={content['video-interviews-1']} />
-      <Divider space='5' />
+      <Divider space='1' />
       <Cards content={content['video-interviews-2']} />
-      <Divider space='5' />
+      <Divider space='1' />
       <Cards content={content['video-interviews-3']} />
       <Divider space='5' />
+      <Cards content={content['video-interviews-4']} />
+      <Divider space='1' />
+      <Cards content={content['video-interviews-5']} />
+      <Divider space='5' />
+      <Cards content={content['video-interviews-6']} />
+      <Divider space='1' />
+      <Cards content={content['video-interviews-7']} />
+      <Divider space='5' />
+
+
       <Footer content={content['footer']} />
     </Layout>
   )

@@ -1,11 +1,11 @@
 {
   "text": [
     {
-      "text": "Video Interviews 1",
-      "variant": "h2"
+      "text": "2021",
+      "variant": "h1"
     },
     {
-      "text": "Pariatur pariatur commodo sit aliquip commodo minim mollit.",
+      "text": "",
       "variant": "medium"
     }
   ],
@@ -16,21 +16,21 @@
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "Proactive",
           "color": "beta"
         },
         {
-          "text": "Interview One",
+          "text": "Drilling at Graal Property",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "Nov. 25: Strong results from drilling containing nickel and copper at the Graal property."
         }
       ],
       "images": [
         {
-          "src": "../../../../assets/site/media/video-interviews/placeholder.jpg",
+          "src": "../../../../assets/site/media/video-interviews/proactive.jpg",
           "alt": "alt text"
         }
       ],
@@ -38,7 +38,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/WFOxZAmB_1Y?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/p7Uz4z8HltE?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
@@ -49,21 +49,21 @@
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "Proactive",
           "color": "beta"
         },
         {
-          "text": "Interview Two",
+          "text": "One2One Virtual Forum",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "Nov. 12: Presentation at Proactive One2One Virtual Forum"
         }
       ],
       "images": [
         {
-          "src": "../../../../assets/site/media/video-interviews/placeholder.jpg",
+          "src": "../../../../assets/site/media/video-interviews/proactive.jpg",
           "alt": "alt text"
         }
       ],
@@ -71,7 +71,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/ippYts_JvUk?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/eTXve7dpCGc?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
@@ -82,21 +82,21 @@
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "Miningscout",
           "color": "beta"
         },
         {
-          "text": "Interview Three",
+          "text": "MiningScout Interview",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "Sept. 20: About Advanced silver resources and EV products "
         }
       ],
       "images": [
         {
-          "src": "../../../../assets/site/media/video-interviews/placeholder.jpg",
+          "src": "../../../../assets/site/media/video-interviews/miningscout.png",
           "alt": "alt text"
         }
       ],
@@ -104,7 +104,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/bNKdlnoAqIs?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/x6nLBiwzA6A?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]

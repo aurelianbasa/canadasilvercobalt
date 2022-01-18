@@ -1,0 +1,125 @@
+{
+  "text": [
+    {
+      "text": "Older",
+      "variant": "h1"
+    },
+    {
+      "text": "",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": ""
+        }
+      },
+      "text": [
+        {
+          "text": "Resource World",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Canada Cobalt Moves to fund Battery Sector strategy",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/media/featured-articles/resourceworld.png",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read More",
+          "type": "PAGE",
+          "link": "https://resourceworld.com/canada-cobalt-moves-to-fund-battery-sector-strategy/",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": ""
+        }
+      },
+      "text": [
+        {
+          "text": "Investor Intel",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Exceeding Specifications of Cathode Producers",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/media/featured-articles/investorintel.png",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read More",
+          "type": "PAGE",
+          "link": "https://investorintel.com/markets/technology-metals/technology-metals-intel/canada-cobalt-works-is-exceeding-the-technical-specifications-of-cathode-producers-in-asia/",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": ""
+        }
+      },
+      "text": [
+        {
+          "text": "Small Cap Power",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Exploration is Leading to High-Grade Cobalt",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/media/featured-articles/smallcappower.png",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read More",
+          "type": "PAGE",
+          "link": "https://smallcappower.com/companies/ccw/articles/castle-silver-resources-stock-price/",
+          "variant": "primary"
+        }
+      ]
+    }
+  ]
+}

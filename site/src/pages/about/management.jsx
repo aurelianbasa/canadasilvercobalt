@@ -8,8 +8,6 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Testimonials from '@solid-ui-blocks/Testimonials/Block02'
-import ContentOne from '@solid-ui-blocks/Hero/Block02'
-import ContentTwo from '@solid-ui-blocks/Content/Block01'
 import CallToAction from '@solid-ui-blocks/CallToAction/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -37,12 +35,6 @@ const AboutManagementPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Testimonials content={content['testimonials']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <ContentOne content={content['content-one']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <ContentTwo content={content['content-two']} />
       <Divider space='5' />
       <Divider space='5' />
       <Container sx={styles.callToActionContainer}>

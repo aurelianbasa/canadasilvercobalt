@@ -1,0 +1,61 @@
+{
+  "text": [
+    {
+      "text": "STRATEGY",
+      "color": "omega",
+      "variant": "h4"
+    },
+    {
+      "text": "First Ever **Resource** Estimate",
+      "variant": "h2"
+    },
+    {
+      "text": "The mining approach taken at the Castle Mine was to drill from underground to locate the high-grade silver veins and then use drilling to continue to locate and follow the veins. Each vein could extend many hundreds of meters and could vary in silver grade along the way.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/castle-mine/feature-1.png",
+      "alt": "Drill core from Graal",
+      "radius": "lg",
+      "shadow": "default"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
+        "color": "white",
+        "bg": "alpha"
+      },
+      "text": [
+        {
+          "text": "Much of the cobalt in the Castle Mine remains untouched since there was no interest at the time.",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Exploration"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
+        "color": "white",
+        "bg": "alpha"
+      },
+      "text": [
+        {
+          "text": "Silver-cobalt mining economics could be enhanced by metal credits such as nickel and gold.",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Production"
+        }
+      ]
+    }
+  ]
+}

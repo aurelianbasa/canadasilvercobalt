@@ -3,19 +3,23 @@
     {
       "text": "ENVIRONMENT",
       "color": "alpha",
-      "variant": "h4"
+      "variant": "h4",
+      "align": ["left"]
     },
     {
       "text": "Principles of conservation",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
-      "text": "A central tenet of the company's commitment to environmental standards was to take whatever steps were required to ensure no wildlife would be disturbed. Activity continued in the area but great care was taken to ensure the nest was not disturbed. The eggs successfully hatched a few months later.",
-      "variant": "medium"
+      "text": "Environmental responsibility is a critical feature of today's world and Canada Silver Cobalt Works has embraced this responsibility in many ways, including reclamation activities at the past-producing Castle Mine.",
+      "variant": "medium",
+      "align": ["left"]
     },
     {
-      "text": "Since the historic Castle Silver mine property is a former producer, existing underground openings and surface structures had become hazards. Measures already taken include: the re-sloping of waste piles around surface openings, repairing protective fencing, and the back-filling of open shafts.",
-      "variant": "medium"
+      "text": "Also, in its development of the proprietary Re-2Ox processing technology which is a unique, clean, environmentally compliant technology unmatched in the base metals and recycling industries.",
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

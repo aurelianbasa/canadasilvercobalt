@@ -6,9 +6,10 @@ import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
-import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
 import DrillMap from '../../blocks/DrillHolesMap/Block01'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
+import Results from '@solid-ui-blocks/FeaturesWithPhoto/Block04'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 
@@ -32,10 +33,14 @@ const ProjectItemPage = props => {
         <DrillMap content={content['drill-map']} />
       </Container>
       <Divider space='5' />
+      <Results content={content['results']} />
+      <Divider space='5' />
       <Container variant='narrow'>
         <Info content={content['info-1']} reverse />
         <Divider space='5' />
         <Info content={content['info-2']} />
+        <Divider space='5' />
+        <Info content={content['info-3']} reverse />
         <Divider space='5' />
         <Download content={content['download']} />
       </Container>

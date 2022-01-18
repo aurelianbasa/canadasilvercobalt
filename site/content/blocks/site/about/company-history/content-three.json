@@ -1,16 +1,16 @@
 {
   "text": [
     {
-      "text": "Communication Skills",
+      "text": "COMPANY HISTORY",
       "color": "omegaDark",
       "variant": "h4"
     },
     {
-      "text": "**Unlimited Lessons** From All Languages Around The World",
+      "text": "Quebec **Battery Metals** Properties",
       "variant": "h2"
     },
     {
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "text": "In 2021, the company acquired 15 properties in Quebec and one in Ontario that are prospective for battery metals.",
       "variant": "medium"
     }
   ],
@@ -29,7 +29,7 @@
       },
       "text": [
         {
-          "text": "Automatic interest detection",
+          "text": "Nickel",
           "variant": "h5"
         }
       ]
@@ -41,7 +41,7 @@
       },
       "text": [
         {
-          "text": "Daily email reports",
+          "text": "Copper",
           "variant": "h5"
         }
       ]
@@ -53,7 +53,7 @@
       },
       "text": [
         {
-          "text": "Online tests at the end of the course",
+          "text": "Cobalt",
           "variant": "h5"
         }
       ]

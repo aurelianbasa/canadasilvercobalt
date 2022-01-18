@@ -1,0 +1,73 @@
+{
+  "text": [
+    {
+      "text": "BATTERY METALS PRODUCTION",
+      "color": "omega",
+      "variant": "h4",
+      "align": ["left"]
+    },
+    {
+      "text": "**Environmentally Advanced** Re-2Ox Technology",
+      "variant": "h2",
+      "align": ["left"]
+    },
+    {
+      "text": "Cobalt sulphate which meets EV battery manufacturer specifications produced using the proprietary Re-2Ox process in lab tests at SGS Canada.",
+      "variant": "medium",
+      "align": ["left"]
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/site/index/technology.png",
+      "alt": "Cobalt sulphate hexahydrate (22.6% Co)",
+      "radius": "lg",
+      "shadow": "default"
+    },
+    {
+      "src": "../../../assets/site/index/technology-overlay.png",
+      "alt": "",
+      "effects": ["fadeInLeft"],
+      "position": {
+        "bottom": "70%",
+        "left": "-10%"
+      }
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
+        "color": "white",
+        "bg": "beta"
+      },
+      "text": [
+        {
+          "text": "No pollution",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "All closed-loop hydrometallurgical, with not smelting involved. Removes discharges, impurities, undesirables."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
+        "color": "white",
+        "bg": "beta"
+      },
+      "text": [
+        {
+          "text": "Adaptable",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Can be used for nickel and copper processing, ideal for high-arsenic ores."
+        }
+      ]
+    }
+  ]
+}

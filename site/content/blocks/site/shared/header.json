@@ -22,7 +22,7 @@
               "variant": "links.nav-dark"
             },
             {
-              "text": "Management",
+              "text": "Corporate Directory",
               "type": "PAGE",
               "link": "/about/management",
               "variant": "links.nav-dark",
@@ -35,13 +35,13 @@
               "variant": "links.nav-dark"
             },
             {
-              "text": "Regional History",
+              "text": "Silver-Cobalt Camp History",
               "type": "PAGE",
               "link": "/about/regional-history",
               "variant": "links.nav-dark"
             },
             {
-              "text": "Community",
+              "text": "Sustainability",
               "type": "PAGE",
               "link": "/about/community",
               "variant": "links.nav-dark",
@@ -70,7 +70,7 @@
             {
               "buttons": [
                 {
-                  "text": "Properties",
+                  "text": "Precious Metals",
                   "type": "SUB",
                   "variant": "links.disabled",
                   "buttons": [
@@ -81,7 +81,7 @@
                       "variant": "links.nav-dark"
                     },
                     {
-                      "text": "Castle East",
+                      "text": "Castle East Silver",
                       "type": "PAGE",
                       "link": "/projects/castle-east",
                       "variant": "links.nav-dark"
@@ -100,7 +100,7 @@
                       "variant": "links.nav-dark"
                     },
                     {
-                      "text": "Ebby-Otto",
+                      "text": "Ebby-Otto Gold",
                       "type": "PAGE",
                       "link": "/projects/ebby-otto",
                       "variant": "links.nav-dark"
@@ -117,12 +117,6 @@
                       "type": "PAGE",
                       "link": "/projects/violet-mine",
                       "variant": "links.nav-dark"
-                    },
-                    {
-                      "text": "Nourricier",
-                      "type": "PAGE",
-                      "link": "/projects/nourricier",
-                      "variant": "links.nav-dark"
                     }
                   ]
                 }
@@ -130,18 +124,18 @@
             },
             {
               "container": {
-                "bg": "omegaLighter"
+                "bg": "white"
               },
               "buttons": [
                 {
-                  "text": "Assets",
+                  "text": "Battery Metals",
                   "type": "SUB",
                   "variant": "links.disabled",
                   "buttons": [
                     {
-                      "text": "TTL Facility",
+                      "text": "Graal-Nouricier",
                       "type": "PAGE",
-                      "link": "/projects#ttl-facility",
+                      "link": "/projects/nourricier",
                       "variant": "links.nav-dark"
                     }
                   ]
@@ -160,7 +154,77 @@
                   ]
                 }
               ]
+            },
+            {
+              "container": {
+                "bg": "white"
+              },
+              "buttons": [
+                {
+                  "text": "Operations",
+                  "type": "SUB",
+                  "variant": "links.disabled",
+                  "buttons": [
+                    {
+                      "text": "TTL Facility",
+                      "type": "PAGE",
+                      "link": "/projects#ttl-facility",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "container": {
+                "bg": "omegaLighter"
+              },
+              "buttons": [
+                {
+                  "text": "Technical",
+                  "type": "SUB",
+                  "variant": "links.disabled",
+                  "buttons": [
+                    {
+                      "text": "Reports",
+                      "type": "PAGE",
+                      "link": "/projects#ttl-facility",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                },
+                {
+                  "text": "_",
+                  "type": "SUB",
+                  "variant": "links.hidden",
+                  "buttons": [
+                    {
+                      "text": "Results",
+                      "type": "PAGE",
+                      "link": "/projects#re-2ox-process",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                },
+                {
+                  "text": "_",
+                  "type": "SUB",
+                  "variant": "links.hidden",
+                  "buttons": [
+                    {
+                      "text": "Maps",
+                      "type": "PAGE",
+                      "link": "/projects#re-2ox-process",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                }    
+              ]
             }
+
+
+
+
           ]
         },
         {
@@ -255,7 +319,7 @@
               "variant": "links.nav-dark"
             },
             {
-              "text": "Technical Data",
+              "text": "Technical Reports",
               "type": "PAGE",
               "link": "/investors#technical-data",
               "variant": "links.nav-dark"

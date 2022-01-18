@@ -1,19 +1,19 @@
 {
   "text": [
     {
-      "text": "Community",
+      "text": "Sustainability",
       "color": "beta",
       "variant": "h3",
       "align": ["center"]
     },
     {
-      "text": "Alternative Energy starts at home",
+      "text": "Partnership in Prosperity",
       "color": "alphaLighter",
       "variant": "h1",
       "align": ["left"]
     },
     {
-      "text": "Understanding the fragile nature of global supply chains, and the urgency of energy transiton underscores the necessity of developing secure sources of metals.",
+      "text": "Canada Silver Cobalt Works is strongly committed to working with advanced technology and community members including First Nations to achieve the most sustainable mining operations in the area. This commitment is evidenced by its agreements with local First Nations and its compliance with all provincial regulations.",
       "variant": "medium",
       "color": "white",
       "align": ["left"]
@@ -34,7 +34,7 @@
       },
       "text": [
         {
-          "text": "Intimate knowledge of the Cobalt camp",
+          "text": "Matachewan First Nation",
           "color": "white",
           "variant": "h5"
         }
@@ -47,7 +47,7 @@
       },
       "text": [
         {
-          "text": "Deep commitment to longterm stability",
+          "text": "Temagami First Nation",
           "color": "white",
           "variant": "h5"
         }
@@ -60,7 +60,7 @@
       },
       "text": [
         {
-          "text": "Openness to partnership with like minded entities",
+          "text": "Teme-Augama Anishnabao",
           "color": "white",
           "variant": "h5"
         }

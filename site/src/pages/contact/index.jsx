@@ -7,6 +7,8 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Contact from '../../blocks/Form/Block01'
+import Subscribe from '@solid-ui-blocks/CallToAction/Block02'
+import Table from '../../blocks/Table/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 
@@ -25,6 +27,11 @@ const AboutPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Contact content={content['contact']} />
+      <Divider space='2' />
+      <Subscribe content={content['subscribe']} />
+      <Divider space='2' />
+      <Table content={content['administration']} />
+      <Divider space='5' />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

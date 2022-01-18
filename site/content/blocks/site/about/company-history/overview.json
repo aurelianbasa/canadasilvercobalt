@@ -1,19 +1,19 @@
 {
   "text": [
     {
-      "text": "Company History",
+      "text": "COMPANY HISTORY",
       "color": "beta",
       "variant": "h3",
       "align": ["center"]
     },
     {
-      "text": "Alternative Energy starts at home",
+      "text": "Simple but not Easy",
       "color": "alphaLighter",
       "variant": "h1",
       "align": ["left"]
     },
     {
-      "text": "Understanding the fragile nature of global supply chains, and the urgency of energy transiton underscores the necessity of developing secure sources of metals.",
+      "text": "A detailed review of acquisitions and advancement.",
       "variant": "medium",
       "color": "white",
       "align": ["left"]
@@ -34,7 +34,7 @@
       },
       "text": [
         {
-          "text": "Intimate knowledge of the Cobalt camp",
+          "text": "Castle Mine Property",
           "color": "white",
           "variant": "h5"
         }
@@ -47,7 +47,7 @@
       },
       "text": [
         {
-          "text": "Deep commitment to longterm stability",
+          "text": "Temiskaming Testing Labs",
           "color": "white",
           "variant": "h5"
         }
@@ -60,7 +60,20 @@
       },
       "text": [
         {
-          "text": "Openness to partnership with like minded entities",
+          "text": "Quebec Battery Metal Properties",
+          "color": "white",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Ebby-Otto Gold Exploration",
           "color": "white",
           "variant": "h5"
         }

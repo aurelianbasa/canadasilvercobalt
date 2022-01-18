@@ -8,7 +8,6 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Content from '@solid-ui-blocks/FeaturesWithPhoto/Block07'
-import ContentTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import ContentThree from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import CallToAction from '@solid-ui-blocks/CallToAction/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
@@ -39,7 +38,7 @@ const AboutRegionalHistoryPage = props => {
       <Content content={content['content-one']} />
       <Divider space='5' />
       <Divider space='5' />
-      <ContentTwo content={content['content-two']} />
+      <Content content={content['content-two']} reverse />
       <Divider space='5' />
       <Divider space='5' />
       <Container>

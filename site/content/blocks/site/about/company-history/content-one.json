@@ -1,16 +1,16 @@
 {
   "text": [
     {
-      "text": "Unlimited Lessons",
+      "text": "COMPANY HISTORY",
       "color": "omegaDark",
       "variant": "h4"
     },
     {
-      "text": "Unlimited Collection of **Advanced Lessons**",
+      "text": "Castle Mine",
       "variant": "h2"
     },
     {
-      "text": "Target your audience based on their interests. Lorem ipsum dolor sit amet, consectetur magna aliqua.",
+      "text": "The current flagship property of the company.",
       "variant": "medium"
     }
   ],
@@ -25,36 +25,36 @@
     {
       "text": [
         {
-          "text": "Automatic interest detection",
+          "text": "Acquisition",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Tempor incididunt ut labore et dolore magna aliqua consectetur magna aliqua."
+          "text": "In 2015 the former-producing silver-cobalt Castle Mine, Beaver Mine, and Violet Mine were transferred to a dormant shell company in exchange for shares."
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Daily email reports",
+          "text": "Expansion",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Tempor incididunt ut labore et dolore magna aliqua consectetur magna aliqua."
+          "text": "Subsequent to 2015, the property was enlarged through staking and acquisitions to 78 square km."
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Daily email reports",
+          "text": "Discovery",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Tempor incididunt ut labore et dolore magna aliqua consectetur magna aliqua."
+          "text": "A Maiden resource estimate was released to reflect the culmination of work on the property."
         }
       ]
     }

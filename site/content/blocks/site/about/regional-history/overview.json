@@ -1,19 +1,19 @@
 {
   "text": [
     {
-      "text": "Regional History",
+      "text": "**Silver-Cobalt** Camp History",
       "color": "beta",
       "variant": "h3",
       "align": ["center"]
     },
     {
-      "text": "Alternative Energy starts at home",
+      "text": "Birth of Hard Rock Mining",
       "color": "alphaLighter",
       "variant": "h1",
       "align": ["left"]
     },
     {
-      "text": "Understanding the fragile nature of global supply chains, and the urgency of energy transiton underscores the necessity of developing secure sources of metals.",
+      "text": "An early discovery prompted by the extension of the railway, the Silver-Cobalt camp grew into one of the richest discoveries in history.",
       "variant": "medium",
       "color": "white",
       "align": ["left"]
@@ -34,7 +34,7 @@
       },
       "text": [
         {
-          "text": "Intimate knowledge of the Cobalt camp",
+          "text": "Over 100 operating mines during peak era",
           "color": "white",
           "variant": "h5"
         }
@@ -47,7 +47,7 @@
       },
       "text": [
         {
-          "text": "Deep commitment to longterm stability",
+          "text": "Opened up wider region for mineral exploration",
           "color": "white",
           "variant": "h5"
         }
@@ -60,7 +60,7 @@
       },
       "text": [
         {
-          "text": "Openness to partnership with like minded entities",
+          "text": "Improved technique opening up new discoveries today",
           "color": "white",
           "variant": "h5"
         }

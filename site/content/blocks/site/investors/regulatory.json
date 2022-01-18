@@ -1,0 +1,86 @@
+{
+  "text": [
+    {
+      "text": "From Exploration to Development",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Regulatory",
+      "variant": "h2"
+    },
+    {
+      "text": "Below are the published reports in accordance with national reporting standards:",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Financial Reports",
+          "variant": "h5"
+        },
+        {
+          "text": "2021"
+        },
+        {
+          "text": "2020"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-phone.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Management Discussion & Analysis",
+          "variant": "h5"
+        },
+        {
+          "text": "July 2020"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "NI 43-101 Technical Report for Castle Property",
+          "variant": "h5"
+        },
+        {
+          "text": "August 2015"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-mail-send.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "?",
+          "variant": "h5"
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    }
+  ]
+}

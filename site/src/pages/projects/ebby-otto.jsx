@@ -7,6 +7,8 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import Content from '@solid-ui-blocks/Content/Block01'
+import Feature from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import DrillMap from '../../blocks/DrillHolesMap/Block01'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Footer from '@solid-ui-blocks/Footer/Block01'
@@ -28,6 +30,14 @@ const ProjectItemPage = props => {
       <Divider space='5' />
       <Info content={content['overview']} />
       <Divider space='4' />
+      <Download content={content['download']} />
+      <Divider space='5' />
+      <Content content={content['content-one']} reverse />
+      <Divider space='4' />
+      <Feature content={content['feature-one']} reverse />
+      <Divider space='4' />
+      <Feature content={content['feature-two']} />
+      <Divider space='4' />
       <Container variant='narrow'>
         <DrillMap content={content['drill-map']} />
       </Container>
@@ -36,8 +46,6 @@ const ProjectItemPage = props => {
         <Info content={content['info-1']} reverse />
         <Divider space='5' />
         <Info content={content['info-2']} />
-        <Divider space='5' />
-        <Download content={content['download']} />
       </Container>
       <Divider space='5' />
       <Footer content={content['footer']} />

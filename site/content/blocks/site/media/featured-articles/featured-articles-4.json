@@ -1,0 +1,125 @@
+{
+  "text": [
+    {
+      "text": "",
+      "variant": "h2"
+    },
+    {
+      "text": "",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": ""
+        }
+      },
+      "text": [
+        {
+          "text": "Small Cap Power",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Canada Cobalt is Pushing a Path to Production",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/media/featured-articles/smallcappower.png",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read More",
+          "type": "PAGE",
+          "link": "https://smallcappower.com/companies/ccw/articles/canada-cobalt-works-stock/",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": ""
+        }
+      },
+      "text": [
+        {
+          "text": "CBC",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Abandoned Canadian silver mines could boom again",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/media/featured-articles/cbc.png",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read More",
+          "type": "PAGE",
+          "link": "https://www.cbc.ca/news/business/cobalt-canada-batteries-1.4903276",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": ""
+        }
+      },
+      "text": [
+        {
+          "text": "BNN Bloomberg",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Targeting mineralization of base and precious metals",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/media/featured-articles/bnnbloomberg.png",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read More",
+          "type": "PAGE",
+          "link": "https://www.bnnbloomberg.ca/targeting-mineralization-of-base-and-precious-metals-1.1252119",
+          "variant": "primary"
+        }
+      ]
+    }
+  ]
+}

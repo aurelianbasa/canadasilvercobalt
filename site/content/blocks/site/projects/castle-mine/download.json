@@ -1,16 +1,16 @@
 {
   "text": [
     {
-      "text": "Download Resources",
+      "text": "Technical Report",
       "variant": "h5"
     },
     {
-      "text": "Consequat excepteur venia Lorem labore eiusmod."
+      "text": "NI 43-101 Technical Report on the Castle Mine Property was published in 2015"
     }
   ],
   "buttons": [
     {
-      "text": "Downloads",
+      "text": "View",
       "type": "PAGE",
       "link": "files/link-to-file.pdf",
       "variant": "primary",

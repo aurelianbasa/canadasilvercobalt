@@ -1,0 +1,61 @@
+{
+  "text": [
+    {
+      "text": "RESULTS",
+      "color": "omega",
+      "variant": "h4"
+    },
+    {
+      "text": "Phases of **Development**",
+      "variant": "h2"
+    },
+    {
+      "text": "Data allows interpretation of upper and lower contacts of the Nipissing diabase sill based on surface geology, underground mapping and historic drill hole information. Silver mineralization is historically spatially associated with the upper half of this intrusive body.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/castle-mine/feature-2.png",
+      "alt": "",
+      "radius": "lg",
+      "shadow": "default"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
+        "color": "white",
+        "bg": "beta"
+      },
+      "text": [
+        {
+          "text": "Phase 1",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Selected drilling and sampling in Level 1 showed grades as high as 5.2% cobalt, 5.3% nickel and 13,208 g/t silver."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
+        "color": "white",
+        "bg": "beta"
+      },
+      "text": [
+        {
+          "text": "Phase 2",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Underground drilling in 2019 in Level 1 of the Castle Mine discovered high-grade gold (22 grams/tonne) along with high-grade silver, cobalt and nickel."
+        }
+      ]
+    }
+  ]
+}

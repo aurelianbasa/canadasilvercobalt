@@ -1,29 +1,29 @@
 {
   "text": [
     {
-      "text": "Let's get in touch",
+      "text": "Contact",
       "color": "omegaDark",
       "variant": "h4"
     },
     {
-      "text": "Ready to get started?",
+      "text": "",
       "variant": "h2",
       "space": 6
     },
     {
-      "text": "Get in touch to grow your business and increase sales.",
+      "text": "Get in touch with us",
       "color": "alpha",
       "variant": "medium"
     },
     {
-      "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua!",
+      "text": "",
       "color": "omegaDark",
       "variant": "medium"
     }
   ],
   "buttons": [
     {
-      "text": "Get Started",
+      "text": "Submit",
       "type": "MODAL",
       "link": "authentication",
       "variant": "secondary"

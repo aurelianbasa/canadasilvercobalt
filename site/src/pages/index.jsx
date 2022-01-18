@@ -8,8 +8,14 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block06'
+import Features from '@solid-ui-blocks/Features/Block02'
+import Silver from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
+import Subscribe from '@solid-ui-blocks/CallToAction/Block02'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
-import Presentations from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
+import Presentations from '@solid-ui-blocks/Hero/Block03'
+import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import WhyChooseUs from '@solid-ui-blocks/Features/Block01'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -35,16 +41,29 @@ const IndexPage = props => {
         <Hero content={content['hero']} reverse />
       </Container>
       <Divider space='4' />
+      <Features content={content['features']} />
+      <Divider space='4' />
+      <Silver content={content['silver']} /> 
+      <Divider space='4' />
+      <Subscribe content={content['interview']} />
       <Divider space='4' />
       <Info content={content['info']} />
+      <Divider space='4' />
+      <Subscribe content={content['subscribe']} />
+      <Divider space='4' />
+      <FeatureOne content={content['feature-one']} reverse />
+      <Divider space='4' />
+      <FeatureTwo content={content['feature-two']} />
+      <Divider space='4' />
+      <Presentations content={content['presentations']} />
+      <Divider space='5' />
+      <WhyChooseUs content={content['why-choose-us']} />
+      <Divider space='4' />
+      <Download content={content['download']} />
       <Divider space='4' />
       <WithRecentPosts>
         <Blog content={content['latest-blogs']} />
       </WithRecentPosts>
-      <Divider space='4' />
-      <Presentations content={content['presentations']} />
-      <Divider space='5' />
-      <Download content={content['download']} />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

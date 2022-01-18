@@ -2,10 +2,10 @@
   "text": [
     {
       "text": "Featured Articles",
-      "variant": "h2"
+      "variant": "h1"
     },
     {
-      "text": "Pariatur pariatur commodo sit aliquip commodo minim mollit.",
+      "text": "",
       "variant": "medium"
     }
   ],
@@ -15,26 +15,26 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "https://google.com"
+          "link": ""
         }
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "The Deep Dive",
           "color": "alphaDark"
         },
         {
-          "text": "Excepteur adipisicing in nulla veniam sunt adipisicing",
+          "text": "Major Silver Discovey in Northern Ontario",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": ""
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/blog-1.jpg",
+          "src": "../../../../assets/site/media/featured-articles/thedeepdive.png",
           "alt": "alt text"
         }
       ],
@@ -42,7 +42,7 @@
         {
           "text": "Read More",
           "type": "PAGE",
-          "link": "https://google.com",
+          "link": "https://thedeepdive.ca/canada-silver-cobalt-works-has-major-silver-discovery-in-northern-ontario/",
           "variant": "primary"
         }
       ]
@@ -52,26 +52,26 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "https://google.com"
+          "link": ""
         }
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "International Mining",
           "color": "alphaDark"
         },
         {
-          "text": "Aliquip enim cillum velit excepteur velit officia",
+          "text": "SGS Enlisted for Re-2Ox Pilot Plant build",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": ""
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/blog-2.jpg",
+          "src": "../../../../assets/site/media/featured-articles/internationalmining.png",
           "alt": "alt text"
         }
       ],
@@ -79,7 +79,7 @@
         {
           "text": "Read More",
           "type": "PAGE",
-          "link": "https://google.com",
+          "link": "https://im-mining.com/2021/01/18/canada-silver-cobalt-works-enlists-sgs-canada-for-re-2ox-pilot-plant-build/",
           "variant": "primary"
         }
       ]
@@ -89,26 +89,26 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "https://google.com"
+          "link": ""
         }
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "Yahoo!",
           "color": "alphaDark"
         },
         {
-          "text": "Occaecat dolor id esse fugiat veniam ipsum pariatur",
+          "text": "Goldspot discoveries to apply Artificial Intelligence",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": ""
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/media/blog-3.jpg",
+          "src": "../../../../assets/site/media/featured-articles/yahoo.png",
           "alt": "alt text"
         }
       ],
@@ -116,10 +116,18 @@
         {
           "text": "Read More",
           "type": "PAGE",
-          "link": "https://google.com",
+          "link": "https://finance.yahoo.com/news/goldspot-discoveries-engaged-canada-silver-163900849.html",
           "variant": "primary"
         }
       ]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "View More",
+      "type": "PAGE",
+      "link": "/media/featured-articles",
+      "variant": "primary"
     }
   ]
 }

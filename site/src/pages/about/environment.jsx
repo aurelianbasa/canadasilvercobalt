@@ -9,7 +9,6 @@ import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import ContentOne from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
 import ContentTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
-import CallToAction from '@solid-ui-blocks/CallToAction/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles'
@@ -42,7 +41,6 @@ const AboutEnvironmentPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Container sx={styles.callToActionContainer}>
-        <CallToAction content={content['call-to-action']} />
       </Container>
       <Divider space='5' />
       <Divider space='5' />

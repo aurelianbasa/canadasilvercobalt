@@ -1,9 +1,27 @@
 {
+  "text": [
+    {
+      "text": "Oxidized cobalt underground at the Castle Mine",
+      "color": "alphaLight",
+      "variant": "h3",
+      "position": {
+        "top": "-20%",
+        "right": "17.5%"
+      }
+    },
+    {
+      "text": "",
+      "color": "white",
+      "variant": "h1"
+    }
+  ],
   "images": [
     {
       "src": "../../../assets/site/index/clients.jpg",
       "alt": "alt text",
-      "radius": "lg"
+      "radius": "lg",
+      "shadow": "lg",
+      "effects": ["fadeInLeft"]
     }
   ]
 }

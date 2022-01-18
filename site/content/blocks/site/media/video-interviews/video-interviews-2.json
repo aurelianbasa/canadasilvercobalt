@@ -1,11 +1,11 @@
 {
   "text": [
     {
-      "text": "Video Interviews 2",
+      "text": "",
       "variant": "h2"
     },
     {
-      "text": "Pariatur pariatur commodo sit aliquip commodo minim mollit.",
+      "text": "",
       "variant": "medium"
     }
   ],
@@ -16,21 +16,21 @@
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "Amvest",
           "color": "beta"
         },
         {
-          "text": "Interview One",
+          "text": "Amvest Webinar",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "June 8: Webinar hosted by Amvest Capital of New York."
         }
       ],
       "images": [
         {
-          "src": "../../../../assets/site/media/video-interviews/placeholder.jpg",
+          "src": "../../../../assets/site/media/video-interviews/amvest.png",
           "alt": "alt text"
         }
       ],
@@ -38,7 +38,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/WFOxZAmB_1Y?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/YcVMDDi1KY8?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
@@ -49,21 +49,21 @@
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "Crux Investor",
           "color": "beta"
         },
         {
-          "text": "Interview Two",
+          "text": "Extraordinary 53.739g/t Ag, Typo or Reality?",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "June 30: The Lost Art or The Means of Processing High Grade"
         }
       ],
       "images": [
         {
-          "src": "../../../../assets/site/media/video-interviews/placeholder.jpg",
+          "src": "../../../../assets/site/media/video-interviews/crux.jpg",
           "alt": "alt text"
         }
       ],
@@ -71,7 +71,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/ippYts_JvUk?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/XHVxhVhyG9c?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]
@@ -82,21 +82,21 @@
       },
       "text": [
         {
-          "text": "Innovation",
+          "text": "Proactive",
           "color": "beta"
         },
         {
-          "text": "Interview Three",
+          "text": "Massive high-grade silver at the Robinson Zone",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "Apr. 27: Halliday telling Proactive this new vein returned assays of 51,612 grams per tonne over 0.41m."
         }
       ],
       "images": [
         {
-          "src": "../../../../assets/site/media/video-interviews/placeholder.jpg",
+          "src": "../../../../assets/site/media/video-interviews/proactive.jpg",
           "alt": "alt text"
         }
       ],
@@ -104,7 +104,7 @@
         {
           "text": "Watch Interview",
           "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/bNKdlnoAqIs?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+          "link": "https://www.youtube.com/embed/ft92rlMsZLs?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
         }
       ]

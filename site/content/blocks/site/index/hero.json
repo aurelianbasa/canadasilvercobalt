@@ -1,28 +1,28 @@
 {
   "text": [
     {
-      "text": "What was Once, **Will be Again**",
-      "color": "omegaDarker",
-      "variant": "h1"
+      "text": "Highest **Silver Grades in the World**",
+      "color": "omega",
+      "variant": "h1",
+      "align": ["left"]
     },
     {
-      "text": "Metals supply the future of energy. Possible only with the Canadian silver and cobalt heartland.",
+      "text": "Canada Silver **Cobalt** Works",
       "color": "omegaDarker",
-      "variant": "medium"
+      "variant": "h1",
+      "align": ["left"]
+    },
+    {
+      "text": "",
+      "color": "beta",
+      "variant": "h1",
+      "align": [""]
     }
   ],
   "images": [
     {
       "src": "../../../assets/site/index/cobalt.png",
-      "alt": "alt text"
-    }
-  ],
-  "buttons": [
-    {
-      "text": "Watch the interview",
-      "type": "VIDEO",
-      "link": "https://www.youtube.com/embed/yhqSOhMSET0?autoplay=1&modestbranding=1&showinfo=0&rel=0",
-      "variant": "primary"
+      "alt": ""
     }
   ]
 }
