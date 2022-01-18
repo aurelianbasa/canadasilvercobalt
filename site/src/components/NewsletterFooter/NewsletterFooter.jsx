@@ -10,8 +10,8 @@ const styles = {
   row: {
     display: [`inline-flex`, `inline-flex`],
     width: `full`,
-    justifyContent: `space-between`,
-    borderRadius: `xl`,
+    justifyContent: [`center`, `space-between`],
+    borderRadius: [`lg`, `xl`],
     bg: `white`,
     borderWidth: `md`,
     borderStyle: `solid`,
@@ -21,15 +21,16 @@ const styles = {
   input: {
     bg: `transparent`,
     width: `auto`,
-    fontSize: 1,
     py: 0,
-    pl: 2
+    pl: 2,
+    mt: [2, 0]
   },
   button: {
     minWidth: 120,
     fontSize: 1,
     px: 3,
-    py: 1
+    py: 1,
+    my: [3, 0]
   }
 }
 
