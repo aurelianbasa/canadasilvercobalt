@@ -30,7 +30,7 @@
       "effects": ["fadeInLeft"],
       "position": {
         "bottom": "70%",
-        "left": "-10%"
+        "left": "30%"
       }
     }
   ],
