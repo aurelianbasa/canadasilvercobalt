@@ -31,7 +31,7 @@ export default {
       backgroundSize: `cover`
     },
     captionContainer: {
-      bg: `alpha`,
+      bg: `beta`,
       borderRadius: `xl`,
       py: 5,
       px: [4, 0]
