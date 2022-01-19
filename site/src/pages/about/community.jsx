@@ -41,7 +41,7 @@ const AboutCommunityPage = props => {
       <ContentTwo content={content['content-two']} reverse />
       <Divider space='5' />
       <Divider space='5' />
-      <ContentThree content={content['content-three']} reverse />
+      <ContentThree content={content['content-three']} />
       <Divider space='5' />
       <Divider space='5' />
       <Container sx={styles.callToActionContainer}>

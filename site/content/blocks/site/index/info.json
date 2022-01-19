@@ -19,7 +19,7 @@
   ],
   "images": [
     {
-      "src": "../../../assets/site/index/barchart.svg",
+      "src": "../../../assets/site/index/barchart.png",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default"
