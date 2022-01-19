@@ -4,15 +4,6 @@
       "src": "../../../assets/site/index/silver.jpg",
       "alt": "",
       "radius": "lg"
-    },
-    {
-      "src": "../../../assets/site/index/silver-overlay.png",
-      "alt": "",
-      "effects": ["fadeInDown"],
-      "position": {
-        "bottom": "-15%",
-        "left": "30%"
-      }
     }
   ]
 }
