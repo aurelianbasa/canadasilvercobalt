@@ -34,7 +34,7 @@ export default {
     captionContainer: {
       bg: `beta`,
       borderRadius: `xl`,
-      py: 5,
+      py: 1,
       px: [4, 0]
     }
   }
