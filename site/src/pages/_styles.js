@@ -29,6 +29,7 @@ export default {
     '::before': {
       background: `url(images/cobalt-bg.jpg) no-repeat center center`,
       backgroundSize: `cover`
+      }
     },
     captionContainer: {
       bg: `beta`,
@@ -37,4 +38,3 @@ export default {
       px: [4, 0]
     }
   }
-}
