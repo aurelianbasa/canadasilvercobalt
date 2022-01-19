@@ -9,6 +9,7 @@ import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import ContentOne from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
 import ContentTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import ContentThree from '@solid-ui-blocks/Content/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles'
@@ -38,6 +39,9 @@ const AboutCommunityPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <ContentTwo content={content['content-two']} reverse />
+      <Divider space='5' />
+      <Divider space='5' />
+      <ContentThree content={content['content-three']} reverse />
       <Divider space='5' />
       <Divider space='5' />
       <Container sx={styles.callToActionContainer}>

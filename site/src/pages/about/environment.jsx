@@ -40,6 +40,9 @@ const AboutEnvironmentPage = props => {
       <ContentTwo content={content['content-two']} reverse />
       <Divider space='5' />
       <Divider space='5' />
+      <ContentTwo content={content['content-three']} />
+      <Divider space='5' />
+      <Divider space='5' />
       <Container sx={styles.callToActionContainer}>
       </Container>
       <Divider space='5' />
