@@ -1,0 +1,32 @@
+{
+    "collection": [
+      {
+        "text": [
+          {
+            "text": "50,583 g/t Silver",
+            "color": "omegaDarker",
+            "variant": "h1"
+          },
+          {
+            "text": "over 0.6m",
+            "color": "omegaDark",
+            "variant": "h3"
+          }
+        ]
+      },
+      {
+        "text": [
+          {
+            "text": "",
+            "color": "omegaDark",
+            "variant": "p"
+          },
+          {
+            "text": "",
+            "color": "omegaDark"
+          }
+        ]
+      }
+    ]
+  }
+  
