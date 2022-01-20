@@ -35,6 +35,7 @@ export default {
       bg: `alphaLighter`,
       borderRadius: `xl`,
       py: 1,
-      px: [1, 3]
+      px: [1, 3],
+      zindex: -2
     }
   }
