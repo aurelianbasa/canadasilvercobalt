@@ -33,9 +33,17 @@ export default {
     },
     captionContainer: {
       bg: `alphaLighter`,
-      borderRadius: `xl`,
-      py: 1,
-      px: [1, 3],
-      zindex: -2
+        borderRadius: `xl`,
+        position: `relative`,
+        py: [5, 6],
+        '::before': {
+          position: `absolute`,
+          content: `" "`,
+          size: `full`,
+          top: -3,
+          right: 0,
+          zIndex: -2,
+          borderRadius: `xl`
+        }
+      }
     }
-  }
