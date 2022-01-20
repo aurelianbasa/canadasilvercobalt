@@ -39,7 +39,7 @@ export default {
         '::before': {
           position: `absolute`,
           content: `" "`,
-          size: `full`,
+          size: `inherit`,
           top: 5,
           right: 0,
           zIndex: 2,
