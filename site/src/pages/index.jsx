@@ -44,7 +44,7 @@ const IndexPage = props => {
       <Divider space='4' />
       <Features content={content['features']} />
       <Divider space='4' /> 
-      <Container variant='narrow' sx={styles.captionContainer}>
+      <Container variant='wide' sx={styles.captionContainer}>
         <Silver content={content['silver']} /> 
         <Caption content={content['caption-one']} />
       </Container>

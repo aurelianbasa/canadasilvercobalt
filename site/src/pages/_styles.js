@@ -35,14 +35,14 @@ export default {
       bg: `alphaLighter`,
         borderRadius: `xl`,
         position: `relative`,
-        py: [0, 0],
+        py: [1, 1],
         '::before': {
           position: `absolute`,
           content: `" "`,
           size: `inherit`,
-          top: 5,
+          top: 1,
           right: 0,
-          zIndex: 2,
+          zIndex: 1,
           borderRadius: `xl`
         }
       }

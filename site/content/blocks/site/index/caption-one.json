@@ -3,9 +3,9 @@
       {
         "text": [
           {
-            "text": "50,583 g/t Silver",
-            "color": "omegaDarker",
-            "variant": "h2"
+            "text": "50,583 g/t Silver over 0.6m",
+            "color": "alpha",
+            "variant": "h3"
           },
           {
             "text": "",
@@ -17,7 +17,7 @@
       {
         "text": [
           {
-            "text": "over 0.6m",
+            "text": "",
             "color": "omegaDark",
             "variant": "h3"
           },
