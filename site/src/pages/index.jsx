@@ -59,7 +59,10 @@ const IndexPage = props => {
       <Divider space='4' />
       <FeatureTwo content={content['feature-two']} />
       <Divider space='4' />
-      <Presentations content={content['presentations']} />
+      <Container variant='wide' sx={styles.captionContainer}>
+        <Presentations content={content['presentations']} />
+        <Caption content={content['caption-two']} />
+      </Container>
       <Divider space='5' />
       <WhyChooseUs content={content['why-choose-us']} />
       <Divider space='4' />
