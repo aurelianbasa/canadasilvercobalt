@@ -34,15 +34,15 @@ export default {
     captionContainer: {
       bg: `alphaLighter`,
         borderRadius: `xl`,
-        position: `absolute`,
+        position: `relative`,
         py: [0, 0],
         '::before': {
           position: `absolute`,
           content: `" "`,
           size: `full`,
-          top: -5,
+          top: 5,
           right: 0,
-          zIndex: -4,
+          zIndex: 2,
           borderRadius: `xl`
         }
       }
