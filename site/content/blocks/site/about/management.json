@@ -1,12 +1,12 @@
 {
   "text": [
     {
-      "text": "OPERATIONS",
+      "text": "KEY OPERATIONS",
       "color": "alpha",
       "variant": "h4"
     },
     {
-      "text": "Key Team Members",
+      "text": "Team Members",
       "variant": "h3"
     }
   ],
@@ -97,7 +97,7 @@
           "text": "Consultant"
         },
         {
-          "text": "Head of Quebec Operations",
+          "text": "Quebec Operations",
           "color": "omega",
           "variant": "small"
         }

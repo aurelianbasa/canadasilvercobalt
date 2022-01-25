@@ -20,13 +20,5 @@
       "color": "omegaDark",
       "variant": "medium"
     }
-  ],
-  "buttons": [
-    {
-      "text": "Get Started",
-      "type": "MODAL",
-      "link": "authentication",
-      "variant": "secondary"
-    }
   ]
 }

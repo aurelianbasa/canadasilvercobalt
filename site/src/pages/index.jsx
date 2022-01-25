@@ -37,10 +37,11 @@ const IndexPage = props => {
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />
-      <Divider space='5' />
+      <Divider space='3' />
       <Container variant='wide' sx={styles.heroContainer}>
         <Hero content={content['hero']} reverse />
       </Container>
+      <Divider space='4' />
       <Divider space='4' />
       <Features content={content['features']} />
       <Divider space='4' /> 

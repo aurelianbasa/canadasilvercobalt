@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "CORPORATE",
+      "text": "MANAGEMENT",
       "color": "beta",
       "variant": "h3",
       "align": ["center"]
@@ -47,7 +47,7 @@
       },
       "text": [
         {
-          "text": "Deep commitment to longterm stability",
+          "text": "Deep commitment to long-term stability",
           "color": "white",
           "variant": "h5"
         }

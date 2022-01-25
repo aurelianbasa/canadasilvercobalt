@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Contact",
+      "text": "",
       "color": "omegaDark",
       "variant": "h4"
     },
@@ -23,9 +23,9 @@
   ],
   "buttons": [
     {
-      "text": "Submit",
+      "text": "Contact",
       "type": "MODAL",
-      "link": "authentication",
+      "link": "/contact",
       "variant": "secondary"
     }
   ]

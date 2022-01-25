@@ -23,15 +23,6 @@
       "alt": "",
       "radius": "lg",
       "shadow": "default"
-    },
-    {
-      "src": "../../../assets/site/index/technology-overlay.png",
-      "alt": "",
-      "effects": ["fadeInLeft"],
-      "position": {
-        "bottom": "70%",
-        "left": "30%"
-      }
     }
   ],
   "collection": [
