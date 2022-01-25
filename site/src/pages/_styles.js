@@ -13,7 +13,7 @@ export default {
       position: `absolute`,
       content: `" "`,
       size: `full`,
-      top: [0, null, `80%`],
+      top: [0, null, `65%`],
       left: 0,
       transform: [`translate(0, 0)`, null, `translate(0, 0)`],
       zIndex: -1,
