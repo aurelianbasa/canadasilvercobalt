@@ -36,7 +36,7 @@ const IndexPage = props => {
       <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
       <Header content={content['header']} />
-      <Divider space='6' />
+      <Divider space='5' />
       <Divider space='5' />
       <Container variant='wide' sx={styles.heroContainer}>
         <Hero content={content['hero']} reverse />

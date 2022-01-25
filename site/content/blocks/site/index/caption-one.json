@@ -3,14 +3,14 @@
       {
         "text": [
           {
-            "text": "50,583 g/t **Silver** over 0.6m (1,475 oz/ton",
+            "text": "50,583 g/t **Silver** over 0.6m",
             "color": "alpha",
-            "variant": "h4"
+            "variant": "h5"
           },
           {
             "text": "in CS-19-08-W01 at ~427m vertical depth",
             "color": "omegaDark",
-            "variant": "h5"
+            "variant": "p"
           }
         ]
       }
