@@ -12,16 +12,16 @@
       "text": "More Interviews   ➜",
       "align": ["center"],
       "type": "PAGE",
-      "link": "files/link-to-file.pdf",
+      "link": "",
       "variant": "primary-light"
     }
   ],
   "text": [
     {
-      "text": "Learn more about us",
+      "text": "Learn More",
       "align": ["left"],
       "color": "alpha",
-      "variant": "h5"
+      "variant": "h4"
     },
     {
       "text": "",
