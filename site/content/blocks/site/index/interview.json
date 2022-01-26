@@ -18,10 +18,10 @@
   ],
   "text": [
     {
-      "text": "Learn More",
+      "text": "**+** Battery Metals",
       "align": ["left"],
-      "color": "alpha",
-      "variant": "h4"
+      "color": "omegaDarker",
+      "variant": "h3"
     },
     {
       "text": "",

@@ -18,15 +18,15 @@
     {
       "text": [
         {
-          "text": "NI 43-101 Update for Castle East",
+          "text": "(May 2021) NI 43-101 Update for Castle East",
           "variant": "h5"
         },
         {
-          "text": "May 2021"
+          "text": ""
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-phone.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
         "bg": "white",
         "color": "alpha"
       }
@@ -34,15 +34,15 @@
     {
       "text": [
         {
-          "text": "NI 43-101 Mineral Resource Estimate for Castle East",
+          "text": "(July 2020) NI 43-101 Mineral Resource Estimate for Castle East",
           "variant": "h5"
         },
         {
-          "text": "July 2020"
+          "text": ""
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
         "bg": "white",
         "color": "alpha"
       }
@@ -50,31 +50,15 @@
     {
       "text": [
         {
-          "text": "NI 43-101 Technical Report for Castle Property",
+          "text": "(August 2015) NI 43-101 Technical Report for Castle Property",
           "variant": "h5"
         },
         {
-          "text": "August 2015"
+          "text": ""
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-mail-send.svg",
-        "bg": "white",
-        "color": "alpha"
-      }
-    },
-    {
-      "text": [
-        {
-          "text": "?",
-          "variant": "h5"
-        },
-        {
-          "text": "?"
-        }
-      ],
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
         "bg": "white",
         "color": "alpha"
       }
