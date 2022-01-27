@@ -131,11 +131,7 @@ const ProjectItemPage = props => {
                 <td>426</td>
                 <td>5,500</td>
                 <td>6,800</td>
-                <td>
-                  <a href='link/to/your/download/file' download>
-                    75,300
-                  </a>
-                </td>
+                <td>75,300</td>
               </tr>
               <tr>
                 <td>Total Inferred Mineral Resources</td>
