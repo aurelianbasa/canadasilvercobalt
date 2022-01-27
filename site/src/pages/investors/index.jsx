@@ -82,16 +82,16 @@ const MediaPage = props => {
             <thead>
               <tr>
               <th>Year</th>
-                <th>First</th>
-                <th>Second</th>
-                <th>Third</th>
-                <th>Year-End</th>
+                <th>Q1</th>
+                <th>Q2</th>
+                <th>Q3</th>
+                <th>Q4</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>2021</td>
-                <td>Q1</td>
+                <td><a href='site/content/assets/site/investors/financials/2021/2021-Q2-FS-CCW.pdf'>Q1</a></td>
                 <td>Q2</td>
                 <td>Q3</td>
                 <td>Q4</td>
@@ -118,7 +118,7 @@ const MediaPage = props => {
                 <td>Q4</td>
               </tr>
               <tr>
-                <td>2019</td>
+                <td>2017</td>
                 <td>Q1</td>
                 <td>Q2</td>
                 <td>Q3</td>
