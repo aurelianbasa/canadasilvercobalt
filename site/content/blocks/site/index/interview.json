@@ -13,12 +13,13 @@
       "align": ["center"],
       "type": "PAGE",
       "link": "",
-      "variant": "primary-light"
+      "variant": "primary-light",
+      "width": "100%"
     }
   ],
   "text": [
     {
-      "text": "**+** Battery Metals",
+      "text": "",
       "align": ["left"],
       "color": "omegaDarker",
       "variant": "h3"

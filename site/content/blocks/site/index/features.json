@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "**Critical Metals** for a Cleaner World",
+      "text": "**+** Battery Metals for a Cleaner World",
       "color": "beta",
       "variant": "h2",
       "align": ["center"] 
@@ -15,7 +15,7 @@
           "variant": "h4"
         },
         {
-          "text": "For solar panels, electric vehicles, and consumer electronics"
+          "text": "For solar panels, and electric vehicles"
         }
       ],
       "icon": {
