@@ -1,32 +1,18 @@
-{  
+{
   "buttons": [
     {
       "text": "Watch the latest interview",
-      "color": "omegaDarker",
       "type": "VIDEO",
       "link": "https://www.youtube.com/embed/yhqSOhMSET0?autoplay=1&modestbranding=1&showinfo=0&rel=0",
       "variant": "secondary",
-      "align": ["center"]
+      "width": "40%"
     },
     {
       "text": "More Interviews   ➜",
-      "align": ["center"],
       "type": "PAGE",
       "link": "",
       "variant": "primary-light",
-      "width": "80%"
-    }
-  ],
-  "text": [
-    {
-      "text": "",
-      "align": ["left"],
-      "color": "omegaDarker",
-      "variant": "h3"
-    },
-    {
-      "text": "",
-      "align": ["center"]
+      "width": "40%"
     }
   ]
 }

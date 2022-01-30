@@ -31,12 +31,12 @@
       },
       "text": [
         {
-          "text": "Much of the cobalt in the Castle Mine remains untouched since there was no interest at the time.",
+          "text": "Exploration",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Exploration"
+          "text": "Much of the cobalt in the Castle Mine remains untouched since there was no interest at the time."
         }
       ]
     },
@@ -48,12 +48,12 @@
       },
       "text": [
         {
-          "text": "Silver-cobalt mining economics could be enhanced by metal credits such as nickel and gold.",
+          "text": "Production",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Production"
+          "text": "Silver-cobalt mining economics could be enhanced by metal credits such as nickel and gold."
         }
       ]
     }
