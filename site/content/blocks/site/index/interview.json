@@ -5,15 +5,15 @@
       "type": "VIDEO",
       "link": "https://www.youtube.com/embed/yhqSOhMSET0?autoplay=1&modestbranding=1&showinfo=0&rel=0",
       "variant": "secondary",
-      "width": "50%",
+      "width": "30%",
       "space": 2
     },
     {
-      "text": "More Interviews   ➜",
+      "text": "More Interviews  ➜",
       "type": "PAGE",
       "link": "",
       "variant": "primary-light",
-      "width": "50%"
+      "width": "60%"
     }
   ]
 }

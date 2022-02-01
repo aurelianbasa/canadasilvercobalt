@@ -12,7 +12,7 @@ const StatsBlock01 = ({
   content: { text, container, collection, buttons }
 }) => (
   <Container sx={{ textAlign: `center` }}>
-    <ContentContainer content={container} variant='cards.paper-lg'>
+    <ContentContainer content={container} variant='cards.paper'>
       <ContentText content={text} />
       {text && collection && <Divider space={1} />}
       {collection && (
