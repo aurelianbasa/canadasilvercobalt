@@ -91,10 +91,10 @@ const MediaPage = props => {
             <tbody>
               <tr>
                 <td>2021</td>
-                <td><a href='/investors/files/Q2.pdf'>Q1</a></td>
-                <td><a href='investors/files/Q2.pdf'>Q2</a></td>
-                <td><a href='investors/files/Q2.pdf' download>Q2</a></td>
-                <td><a href='/investors/files/Q2.pdf' download>Q1</a></td>
+                <td><a href='../../files/Q2.pdf'>Q1</a></td>
+                <td><a href='../../files/Q2.pdf'>Q2</a></td>
+                <td><a href='../../files/Q2.pdf' download>Q2</a></td>
+                <td><a href='../../files/Q2.pdf' download>Q1</a></td>
               </tr>
               <tr>
               <td>2020</td>

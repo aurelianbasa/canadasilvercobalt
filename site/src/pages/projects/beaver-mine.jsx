@@ -34,13 +34,13 @@ const ProjectItemPage = props => {
       </Container>
       <Divider space='5' />
       <Container variant='narrow'>
+        <Location content={content['location']} />
+        <Divider space='5' />
         <Info content={content['info-1']} reverse />
         <Divider space='5' />
         <Info content={content['info-2']} />
         <Divider space='5' />
         <Download content={content['download']} />
-        <Divider space='5' />
-        <Location content={content['location']} />
       </Container>
       <Divider space='5' />
       <Footer content={content['footer']} />

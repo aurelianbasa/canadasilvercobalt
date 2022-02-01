@@ -7,7 +7,7 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block01'
-import Interview from '@solid-ui-blocks/Stats/Block01'
+import Interview from '../blocks/Stats/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block06'
 import Features from '@solid-ui-blocks/Features/Block02'
 import Silver from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
@@ -56,11 +56,11 @@ const IndexPage = props => {
       <Divider space='4' />
       <Info content={content['info']} />
       <Divider space='4' />
-      <Subscribe content={content['subscribe']} />
-      <Divider space='4' />
       <FeatureOne content={content['feature-one']} reverse />
       <Divider space='4' />
       <FeatureTwo content={content['feature-two']} />
+      <Divider space='4' />
+      <Download content={content['download']} />
       <Divider space='4' />
       <Container variant='wide' sx={styles.captionContainer}>
         <Presentations content={content['presentations']} />
@@ -69,7 +69,7 @@ const IndexPage = props => {
       <Divider space='5' />
       <WhyChooseUs content={content['why-choose-us']} />
       <Divider space='4' />
-      <Download content={content['download']} />
+      <Subscribe content={content['subscribe']} />
       <Divider space='4' />
       <WithRecentPosts>
         <Blog content={content['latest-blogs']} />
