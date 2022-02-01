@@ -10,10 +10,9 @@ import Hero from '@solid-ui-blocks/Hero/Block01'
 import Interview from '../blocks/Stats/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block06'
 import Features from '../blocks/Features/Block02'
-import Silver from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
+import Core from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import Subscribe from '@solid-ui-blocks/CallToAction/Block02'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
-import Presentations from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import WhyChooseUs from '@solid-ui-blocks/Features/Block01'
@@ -42,15 +41,14 @@ const IndexPage = props => {
       <Container variant='wide' sx={styles.heroContainer}>
         <Hero content={content['hero']} reverse />
       </Container>
-      <Divider space='5' />
-      <Divider space='5' />
-      <Interview content={content['interview']} />
       <Divider space='4' />
+      <Divider space='4' />
+      <Interview content={content['interview']} />
       <Divider space='4' />
       <Features content={content['features']} />
       <Divider space='4' /> 
       <Container variant='wide' sx={styles.captionContainer}>
-        <Silver content={content['silver']} /> 
+        <Core content={content['silver']} /> 
         <Caption content={content['caption-one']} />
       </Container>
       <Divider space='4' />
@@ -63,7 +61,7 @@ const IndexPage = props => {
       <Download content={content['download']} />
       <Divider space='4' />
       <Container variant='wide' sx={styles.captionContainer}>
-        <Presentations content={content['presentations']} />
+        <Core content={content['cobalt']} />
         <Caption content={content['caption-two']} />
       </Container>
       <Divider space='5' />

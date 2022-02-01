@@ -14,7 +14,7 @@
       "text": "Download",
       "type": "PAGE",
       "link": "files/link-to-file.pdf",
-      "variant": "primary-light"
+      "variant": "primary"
     }
   ]
 }
