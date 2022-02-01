@@ -106,5 +106,15 @@
         "src": "../../../assets/site/about/manager.png"
       }
     }
+  ],
+  "buttons": [
+    {
+      "text": "Read More",
+      "type": "PAGE",
+      "link": "/about/management",
+      "variant": "primary"
+    }
   ]
 }
+
+
