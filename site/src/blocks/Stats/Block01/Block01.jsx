@@ -20,20 +20,20 @@ const StatsBlock01 = ({
           <Flex
             sx={{
               flexWrap: `wrap`,
-              alignItems: `flex-start`,
+              alignItems: `center`,
               alignContent: `center`,
               justifyContent: `center`,
-              m: -1
+              m: 2
             }}
           >
             {collection?.map(({ text }, index) => (
               <Box
                 key={`item-${index}`}
                 sx={{
-                  flex: `1`,
+                  flex: `0`,
                   minWidth: 100,
                   textAlign: `center`,
-                  p: 1
+                  p: 0
                 }}
               >
                 <Reveal effect='fadeInGrow' delay={0.2 * (index + 2)}>
