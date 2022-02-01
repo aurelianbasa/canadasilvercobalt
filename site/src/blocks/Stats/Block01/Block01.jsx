@@ -14,7 +14,7 @@ const StatsBlock01 = ({
   <Container sx={{ textAlign: `center` }}>
     <ContentContainer content={container} variant='cards.paper-lg'>
       <ContentText content={text} />
-      {text && collection && <Divider space={3} />}
+      {text && collection && <Divider space={1} />}
       {collection && (
         <>
           <Flex
@@ -53,7 +53,6 @@ const StatsBlock01 = ({
       )}
       {buttons && (
         <>
-          <Divider />
           <ContentButtons content={buttons} />
         </>
       )}

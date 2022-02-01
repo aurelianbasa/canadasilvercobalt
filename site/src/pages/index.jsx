@@ -70,7 +70,7 @@ const IndexPage = props => {
       <WhyChooseUs content={content['why-choose-us']} />
       <Divider space='4' />
       <Subscribe content={content['subscribe']} />
-      <Divider space='4' />
+      <Divider space='2' />
       <WithRecentPosts>
         <Blog content={content['latest-blogs']} />
       </WithRecentPosts>
