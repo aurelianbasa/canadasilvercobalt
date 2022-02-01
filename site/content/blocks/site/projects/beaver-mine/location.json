@@ -1,0 +1,10 @@
+{
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/beaver-mine/location.jpg",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "lg"
+    }
+  ]
+}
