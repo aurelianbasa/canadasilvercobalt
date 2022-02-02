@@ -39,8 +39,9 @@ const AboutManagementPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Values content={content['values-intro']} />
-      <Divider space='2' />
+      <Divider space='3' />
       <Values content={content['values']} />
+      <Divider space='5' />
       <Container sx={styles.callToActionContainer}>
         <CallToAction content={content['call-to-action']} />
       </Container>
