@@ -7,6 +7,7 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import Values from '@solid-ui-blocks/Content/Block02'
 import Testimonials from '@solid-ui-blocks/Testimonials/Block02'
 import CallToAction from '@solid-ui-blocks/CallToAction/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
@@ -37,6 +38,10 @@ const AboutManagementPage = props => {
       <Testimonials content={content['testimonials']} />
       <Divider space='5' />
       <Divider space='5' />
+      <Values content={content['values-intro']} />
+      <Divider space='5' />
+      <Divider space='5' />
+      <Values content={content['values']} />
       <Container sx={styles.callToActionContainer}>
         <CallToAction content={content['call-to-action']} />
       </Container>

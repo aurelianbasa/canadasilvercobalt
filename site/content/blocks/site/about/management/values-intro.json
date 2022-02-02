@@ -1,0 +1,19 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Company Core Values and Initiatives",
+          "color": "omegaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "Who We Are.",
+          "color": "beta",
+          "variant": "h2",
+          "space": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Sustainable Development",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "We have a long history in Ontario and Quebec.",
+          "color": "omegaDark",
+          "space": 5
+        },
+        {
+          "text": "Health and Safety",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Safety is our top priority",
+          "color": "omegaDark",
+          "space": 5
+        },
+        {
+          "text": "Environment",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "We hold environmental responsibility in the highest regard.",
+          "color": "omegaDark",
+          "space": 5
+        },
+        {
+          "text": "Community",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "We are committed to local stakeholders",
+          "color": "omegaDark",
+          "space": 5
+        },
+        {
+          "text": "Work Culture",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Our staff feels safe, valued, and engaged.",
+          "color": "omegaDark"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "We are a small, dynamic team that achieves progress and strives for success without compromising economic, social, or environmental integrity. We aim to meet the demands of today without compromising the needs of tomorrow.",
+          "space": 5
+        },
+        {
+          "text": "With the COVID-19 pandemic still ongoing, we continue to enforce strict safety protocols to keep our staff safe during these trying times. Health and Safety is not solely a workplace topic, we believe that it is a mindset that defines a culture and allows our staff to return home at the end of the day.",
+          "space": 5
+        },
+        {
+          "text": "The Company aims to reduce our environmental impact and footprint as much as possible for the benefit of future generations. With our green Re-2Ox process and environmental baseline studies started at Castle East, we are actively following through on our environmental obligations.",
+          "space": 5
+        },
+        {
+          "text": "The Company has continually worked with local stakeholders and First Nations communities. The Company engages in meaningful involvement and participation in local activities and uses locally sourced goods and services wherever possible.",
+          "space": 5
+        },
+        {
+          "text": "We believe that our employees are critical to company success and will act as the foundation for our future growth. We encourage respect between peers, trust in leadership, and opportunities for professional development. We strive for success in all things through collaboration and hard work."
+        }
+      ]
+    }
+  ]
+}
