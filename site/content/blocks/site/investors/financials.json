@@ -39,6 +39,7 @@
               "variant": "cards.interactive",
               "link": {
                 "type": "MODAL",
+                "text": "Q2",
                 "link": "files/link-to-file.pdf"
               }
             }
