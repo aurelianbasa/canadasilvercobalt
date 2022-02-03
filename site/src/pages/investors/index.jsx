@@ -11,6 +11,7 @@ import Header from '@solid-ui-blocks/Header/Block01'
 import DropDown from '@solid-ui-blocks/Faq/Block01'
 import Faq from '@solid-ui-blocks/Faq/Block02'
 import Regulatory from '@solid-ui-blocks/Faq/Block01'
+import Stats from '../blocks/Stats/Block01'
 import Table from '../../blocks/Table/Block01'
 import StockChart from '../../blocks/StockChart/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
@@ -65,7 +66,7 @@ const MediaPage = props => {
       <Table content={content['capital-structure']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Table content={content['financials']} />
+      <Stats content={content['financials']} />
       <Divider space='5' />
       <Divider space='5' />
       <Content content={content['presentations']} />
