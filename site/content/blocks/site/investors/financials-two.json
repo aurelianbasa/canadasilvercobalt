@@ -3,36 +3,84 @@
     {
       "text": "2020",
       "color": "alpha",
-      "variant": "h3"
-    }
+      "variant": "h3",
+      "space": 2
+    },
+    {
+      "text": "2019",
+      "color": "alpha",
+      "variant": "h3",
+      "space": 2
+    }    
   ],
     "buttons": [
       {
+        "text": "Financials",
+        "type": "PAGE",
+        "link": "",
+        "variant": "primary-light",
+        "width": "75px"
+      },
+      {
         "text": "Q1",
         "type": "PAGE",
-        "link": "/financials/2020/Q1.pdf",
-        "variant": "primary",
+        "link": "/financials/2020/Q2.pdf",
+        "variant": "links.nav-dark",
         "width": "75px"
       },
       {
         "text": "Q2",
         "type": "PAGE",
-        "link": "/financials/2020/Q2.pdf",
-        "variant": "primary",
+        "link": "/financials/2020/Q3.pdf",
+        "variant": "links.nav-dark",
         "width": "75px"
       },
       {
         "text": "Q3",
         "type": "PAGE",
+        "link": "/financials/2020/Q1.pdf",
+        "variant": "links.nav-dark",
+        "width": "75px"
+      },
+      {
+        "text": "Q4",
+        "type": "PAGE",
+        "link": "/financials/2020/Q2.pdf",
+        "variant": "links.nav-dark",
+        "width": "75px"
+      },
+      {
+        "text": "MD & A",
+        "type": "PAGE",
+        "link": "",
+        "variant": "primary-light",
+        "width": "75px"
+      },
+      {
+        "text": "Q1",
+        "type": "PAGE",
         "link": "/financials/2020/Q3.pdf",
-        "variant": "primary",
+        "variant": "links.nav-dark",
+        "width": "75px"
+      },
+      {
+        "text": "Q2",
+        "type": "PAGE",
+        "link": "/financials/2020/Q3.pdf",
+        "variant": "links.nav-dark",
+        "width": "75px"
+      },{
+        "text": "Q3",
+        "type": "PAGE",
+        "link": "/financials/2020/Q3.pdf",
+        "variant": "links.nav-dark",
         "width": "75px"
       },
       {
         "text": "Q4",
         "type": "PAGE",
         "link": "/financials/2020/Q4.pdf",
-        "variant": "primary",
+        "variant": "links.nav-dark",
         "width": "75px"
       }
     ]
