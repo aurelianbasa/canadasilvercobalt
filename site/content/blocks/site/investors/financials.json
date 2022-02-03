@@ -12,28 +12,28 @@
         "type": "MODAL",
         "link": "",
         "variant": "secondary",
-        "width": "25%"
+        "width": "125px"
       },
       {
         "text": "Q1",
         "type": "MODAL",
         "link": "",
         "variant": "secondary",
-        "width": "25%"
+        "width": "125px"
       },
       {
         "text": "Q1",
         "type": "MODAL",
         "link": "",
         "variant": "secondary",
-        "width": "25%"
+        "width": "125px"
       },
       {
         "text": "Q2",
         "type": "MODAL",
         "link": "",
         "variant": "primary-light",
-        "width": "25%"
+        "width": "125px"
       }
     ]
   }
