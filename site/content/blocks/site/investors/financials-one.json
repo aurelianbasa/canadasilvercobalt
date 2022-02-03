@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "2021",
+      "text": "Financials",
       "color": "alpha",
       "variant": "h1"
     }
@@ -9,29 +9,29 @@
     "buttons": [
       {
         "text": "Q1",
-        "type": "MODAL",
-        "link": "",
-        "variant": "secondary",
-        "width": "75px"
-      },
-      {
-        "text": "Q1",
-        "type": "MODAL",
-        "link": "",
-        "variant": "secondary",
-        "width": "75px"
-      },
-      {
-        "text": "Q1",
-        "type": "MODAL",
-        "link": "",
-        "variant": "secondary",
+        "type": "PAGE",
+        "link": "/financials/2021/Q1.pdf",
+        "variant": "primary",
         "width": "75px"
       },
       {
         "text": "Q2",
-        "type": "MODAL",
-        "link": "",
+        "type": "PAGE",
+        "link": "/financials/2021/Q2.pdf",
+        "variant": "primary",
+        "width": "75px"
+      },
+      {
+        "text": "Q3",
+        "type": "PAGE",
+        "link": "/financials/2021/Q3.pdf",
+        "variant": "primary",
+        "width": "75px"
+      },
+      {
+        "text": "Q4",
+        "type": "PAGE",
+        "link": "/financials/2018/Q4.pdf",
         "variant": "primary-light",
         "width": "75px"
       }

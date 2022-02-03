@@ -3,35 +3,35 @@
     {
       "text": "2019",
       "color": "alpha",
-      "variant": "h1"
+      "variant": "h3"
     }
   ],
     "buttons": [
       {
         "text": "Q1",
-        "type": "MODAL",
-        "link": "",
-        "variant": "secondary",
+        "type": "PAGE",
+        "link": "/financials/2019/Q1.pdf",
+        "variant": "primary",
         "width": "75px"
       },
       {
         "text": "Q2",
-        "type": "MODAL",
-        "link": "",
-        "variant": "secondary",
+        "type": "PAGE",
+        "link": "/financials/2019/Q2.pdf",
+        "variant": "primary",
         "width": "75px"
       },
       {
         "text": "Q3",
-        "type": "MODAL",
-        "link": "",
-        "variant": "secondary",
+        "type": "PAGE",
+        "link": "/financials/2019/Q3.pdf",
+        "variant": "primary",
         "width": "75px"
       },
       {
         "text": "Q4",
-        "type": "MODAL",
-        "link": "",
+        "type": "PAGE",
+        "link": "/financials/2019/Q4.pdf",
         "variant": "primary",
         "width": "75px"
       }
