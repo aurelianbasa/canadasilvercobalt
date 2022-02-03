@@ -9,28 +9,28 @@
     "buttons": [
       {
         "text": "Q1",
-        "type": "MODAL",
+        "type": "PAGE",
         "link": "",
         "variant": "secondary",
         "width": "75px"
       },
       {
         "text": "Q2",
-        "type": "MODAL",
+        "type": "PAGE",
         "link": "../public/Q2.pdf",
         "variant": "secondary",
         "width": "75px"
       },
       {
         "text": "Q3",
-        "type": "MODAL",
+        "type": "PAGE",
         "link": "/public/Q2.pdf",
         "variant": "secondary",
         "width": "75px"
       },
       {
         "text": "Q4",
-        "type": "MODAL",
+        "type": "PAGE",
         "link": "public/Q2.pdf",
         "variant": "primary-light",
         "width": "75px"
