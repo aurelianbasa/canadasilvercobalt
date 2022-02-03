@@ -1,0 +1,117 @@
+{
+  "text": [
+    {
+      "text": "Capital Structure",
+      "color": "alpha",
+      "variant": "h1"
+    },
+    {
+      "text": "As of December 23, 2021",
+      "color": "omega",
+      "variant": "h4"
+    }
+  ],
+  "collection": [
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "2021",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "button": [
+            {
+              "text": "Q1",
+              "type": "PAGE",
+              "link": "files/link-to-file.pdf",
+              "variant": "primary",
+              "width": "250px"
+            }
+          ]
+        },
+        {
+          "button": [
+            {
+              "text": "Q2",
+              "type": "PAGE",
+              "link": "files/link-to-file.pdf",
+              "variant": "primary",
+              "width": "250px"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Stock Options Outstanding",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "10,553,000",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Warrants Outstanding",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "65,758,378",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Fully Diluted",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "253,799,194",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
