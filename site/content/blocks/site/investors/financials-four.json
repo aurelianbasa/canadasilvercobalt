@@ -11,28 +11,28 @@
         "text": "Q1",
         "type": "PAGE",
         "link": "/financials/2018/Q3.pdf",
-        "variant": "primary",
+        "variant": "links.nav-dark",
         "width": "75px"
       },
       {
         "text": "Q2",
         "type": "PAGE",
         "link": "/financials/2018/Q3.pdf",
-        "variant": "primary",
+        "variant": "links.nav-dark",
         "width": "75px"
       },
       {
         "text": "Q3",
         "type": "PAGE",
         "link": "/financials/2018/Q3.pdf",
-        "variant": "primary",
+        "variant": "links.nav-dark",
         "width": "75px"
       },
       {
         "text": "Q4",
         "type": "PAGE",
         "link": "/financials/2018/Q4.pdf",
-        "variant": "primary",
+        "variant": "links.nav-dark",
         "width": "75px"
       }
     ]

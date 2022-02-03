@@ -1,9 +1,17 @@
 {
   "text": [
     {
-      "text": "2021",
+      "text": "From Exploration to Development",
       "color": "alpha",
-      "variant": "h3"
+      "variant": "h4"
+    },
+    {
+      "text": "Technical Reports",
+      "variant": "h2"
+    },
+    {
+      "text": "Below are the published reports in accordance with national reporting standards:",
+      "variant": "medium"
     }
   ],
     "buttons": [
