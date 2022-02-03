@@ -25,6 +25,36 @@
           "text": ""
         }
       ],
+      "buttons": [
+        {
+          "text": "Q1",
+          "type": "PAGE",
+          "link": "/financials/2018/Q3.pdf",
+          "variant": "links.nav-dark",
+          "width": "75px"
+        },
+        {
+          "text": "Q2",
+          "type": "PAGE",
+          "link": "/financials/2018/Q3.pdf",
+          "variant": "links.nav-dark",
+          "width": "75px"
+        },
+        {
+          "text": "Q3",
+          "type": "PAGE",
+          "link": "/financials/2018/Q3.pdf",
+          "variant": "links.nav-dark",
+          "width": "75px"
+        },
+        {
+          "text": "Q4",
+          "type": "PAGE",
+          "link": "/financials/2018/Q4.pdf",
+          "variant": "links.nav-dark",
+          "width": "75px"
+        }
+      ],
       "icon": {
         "src": "../../../assets/flexiblocks/icons/bx-check.svg",
         "bg": "white",
