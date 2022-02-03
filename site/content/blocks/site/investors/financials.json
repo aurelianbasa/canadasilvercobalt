@@ -3,12 +3,12 @@
       {
         "buttons": [
           {
-            "text": “2021”,
+            "text": "2021",
             "type": "SUB",
             "variant": "links.nav-dark",
             "buttons": [
               {
-                "text": “Q1”,
+                "text": "Q1",
                 "type": "PAGE",
                 "link": "",
                 "variant": "links.nav-dark",
@@ -18,7 +18,7 @@
                 }
               },
               {
-                "text": “Q2”,
+                "text": "Q2",
                 "type": "PAGE",
                 "link": "/homepage/saas-v2/",
                 "variant": "links.nav-dark",
@@ -28,7 +28,7 @@
                 }
               },
               {
-                "text": “Q3”,
+                "text": "Q3",
                 "type": "PAGE",
                 "link": "/homepage/fintech/",
                 "variant": "links.nav-dark",
@@ -38,7 +38,7 @@
                 }
               },
               {
-                "text": “Q4”,
+                "text": "Q4",
                 "type": "PAGE",
                 "link": "/homepage/consulting/",
                 "variant": "links.nav-dark",
@@ -50,14 +50,14 @@
             ]
           },
           {
-            "text": “2020”,
+            "text": "2020",
             "variant": "links.nav-dark",
             "type": "SUB",
             "collection": [
               {
                 "buttons": [
                   {
-                    "text": “Q1”,
+                    "text": "Q1",
                     "type": "SUB",
                     "variant": "links.disabled",
                     "buttons": [
@@ -89,7 +89,7 @@
                     "variant": "links.hidden",
                     "buttons": [
                       {
-                        "text": "Fintech Startup",
+                        "text": "33",
                         "type": "PAGE",
                         "link": "/homepage/fintech/",
                         "variant": "links.nav-dark",
