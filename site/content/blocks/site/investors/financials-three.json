@@ -1,0 +1,41 @@
+{
+  "text": [
+    {
+      "text": "2019",
+      "color": "alpha",
+      "variant": "h1"
+    }
+  ],
+    "buttons": [
+      {
+        "text": "Q1",
+        "type": "MODAL",
+        "link": "",
+        "variant": "secondary",
+        "width": "75px"
+      },
+      {
+        "text": "Q2",
+        "type": "MODAL",
+        "link": "",
+        "variant": "secondary",
+        "width": "75px"
+      },
+      {
+        "text": "Q3",
+        "type": "MODAL",
+        "link": "",
+        "variant": "secondary",
+        "width": "75px"
+      },
+      {
+        "text": "Q4",
+        "type": "MODAL",
+        "link": "",
+        "variant": "primary",
+        "width": "75px"
+      }
+    ]
+  }
+  
+
