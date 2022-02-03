@@ -51,7 +51,7 @@ const MediaPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Container variant='narrow'>
-        <Header content={content['financials']} />
+        <Stats content={content['financials']} />
         <Divider space='5' />
         <DropDown content={content['technical-data']} />
       </Container>
