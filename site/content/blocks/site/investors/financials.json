@@ -24,7 +24,7 @@
           ]
         },
         {
-          "button": [
+          "text": [
             {
               "text": "Q1",
               "type": "PAGE",
@@ -35,15 +35,13 @@
           ]
         },
         {
-          "button": [
-            {
-              "text": "Q2",
-              "type": "PAGE",
-              "link": "files/link-to-file.pdf",
-              "variant": "primary",
-              "width": "250px"
+          "container": {
+              "variant": "cards.interactive",
+              "link": {
+                "type": "MODAL",
+                "link": "files/link-to-file.pdf"
+              }
             }
-          ]
         }
       ]
     },
