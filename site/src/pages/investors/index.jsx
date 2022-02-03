@@ -11,7 +11,6 @@ import DropDown from '@solid-ui-blocks/Faq/Block01'
 import Faq from '@solid-ui-blocks/Faq/Block02'
 import Regulatory from '@solid-ui-blocks/Faq/Block01'
 import Stats from '@solid-ui-blocks/CallToAction/Block02'
-import Financials from '../../blocks/Menu/Block01'
 import Table from '../../blocks/Table/Block01'
 import StockChart from '../../blocks/StockChart/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
@@ -39,7 +38,7 @@ const MediaPage = props => {
       <Divider space='5' />
       <Divider space='5' />
 
-      <Stats content={content['financials-one']} />
+      <Dropdown content={content['financials-one']} />
       <Divider space='2' />
       <Stats content={content['financials-two']} />
       <Divider space='2' />
@@ -52,7 +51,7 @@ const MediaPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Container variant='narrow'>
-        <Financials content={content['financials']} />
+        <Dropdown content={content['financials']} />
         <Divider space='5' />
         <DropDown content={content['technical-data']} />
       </Container>
