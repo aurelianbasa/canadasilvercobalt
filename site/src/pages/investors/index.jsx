@@ -37,8 +37,10 @@ const MediaPage = props => {
       <Divider space='5' />
       <Table content={content['capital-structure']} />
       <Divider space='5' />
-      <Container variant='wide' sx={styles.captionContainer}>
-      <Content content={content['presentations']} />
+      <Container variant='narrow' sx={styles.captionContainer}>
+      <Content content={content['materials-intro']} />
+      <Divider space='2' />
+      <Materials content={content['presentations']} />
       </Container>
       
       <Divider space='5' />

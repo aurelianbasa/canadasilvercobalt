@@ -1,18 +1,6 @@
 {
   "collection": [
     {
-      "text": [
-        {
-          "text": "Investor Materials",
-          "color": "omegaDarker",
-          "variant": "h3"
-        },
-        {
-          "text": "",
-          "color": "omegaDarker",
-          "variant": "h3"
-        }
-      ],
       "buttons": [
         {
           "text": "Presentation",

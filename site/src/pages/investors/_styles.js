@@ -7,15 +7,15 @@
 
 export default {
     captionContainer: {
-      bg: `alpha`,
+      bg: `omegaDarker`,
         borderRadius: `xl`,
         position: `relative`,
-        py: [1, 1],
+        py: [2, 2],
         '::before': {
           position: `absolute`,
           content: `" "`,
           size: `inherit`,
-          top: 1,
+          top: 2,
           right: 0,
           zIndex: 1,
           borderRadius: `xl`
