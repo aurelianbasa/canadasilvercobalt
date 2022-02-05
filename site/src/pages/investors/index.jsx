@@ -16,6 +16,7 @@ import Table from '../../blocks/Table/Block01'
 import StockChart from '../../blocks/StockChart/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import styles from './_styles'
 
 const MediaPage = props => {
   const { allBlockContent } = props.data
@@ -36,9 +37,13 @@ const MediaPage = props => {
       <Divider space='5' />
       <Table content={content['capital-structure']} />
       <Divider space='5' />
+      <Container variant='wide' sx={styles.captionContainer}>
       <Content content={content['presentations']} />
+      </Container>
+      
       <Divider space='5' />
       <Divider space='5' />
+      <Container variant='narrow'>
       <Content content={content['report-intro']} />
       <Divider space='1' />
       <Download content={content['report-one']} />
@@ -46,8 +51,7 @@ const MediaPage = props => {
       <Download content={content['report-two']} />
       <Divider space='2' />
       <Download content={content['report-three']} />
-
-      <Container variant='narrow'>
+      <Divider space='5' />
       <Content content={content['financials-intro']} />
       <Divider space='1' />
       <Stats content={content['financials-one']} />

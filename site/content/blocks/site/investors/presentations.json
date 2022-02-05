@@ -4,8 +4,8 @@
       "text": [
         {
           "text": "Investor Materials",
-          "color": "alpha",
-          "variant": "h4"
+          "color": "omegaDarker",
+          "variant": "h3"
         },
         {
           "text": "",
@@ -18,26 +18,13 @@
           "text": "Presentation",
           "type": "PAGE",
           "link": "/Presentation.pdf",
-          "variant": "primary"
+          "variant": "primary-light"
         },
         {
           "text": "Fact Sheet",
           "type": "PAGE",
           "link": "/Factsheet.pdf",
-          "variant": "primary"
-        }
-      ]
-    },
-    {
-      "text": [
-        {
-          "text": "The Fact Sheet is an executive summary featuring the company's purpose, core message, and primary achievements to date.",
-          "color": "omegaDark",
-          "variant": "p"
-        },
-        {
-          "text": "The investor presentation reviews each company initiative and provides updates and context to all company activities.",
-          "color": "omegaDark"
+          "variant": "primary-light"
         }
       ]
     }
