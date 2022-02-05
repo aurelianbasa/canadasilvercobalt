@@ -13,7 +13,7 @@
     {
       "text": "Download",
       "type": "PAGE",
-      "link": "files/link-to-file.pdf",
+      "link": "/Presentation.pdf",
       "variant": "primary"
     }
   ]

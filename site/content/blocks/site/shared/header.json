@@ -233,6 +233,12 @@
           "variant": "links.nav-dark",
           "buttons": [
             {
+              "text": "   2022   ",
+              "type": "PAGE",
+              "link": "/news/category/2022",
+              "variant": "links.nav-dark"
+            },
+            {
               "text": "   2021   ",
               "type": "PAGE",
               "link": "/news/category/2021",
