@@ -40,7 +40,7 @@ const MediaPage = props => {
       <Container variant='narrow' sx={styles.captionContainer}>
       <Content content={content['materials-intro']} />
       <Divider space='2' />
-      <Materials content={content['presentations']} />
+      <Content content={content['presentations']} />
       </Container>
       
       <Divider space='5' />
