@@ -1,0 +1,37 @@
+{
+  "text": [
+    {
+      "text": "2020",
+      "color": "alpha",
+      "variant": "h3"
+    }
+  ],
+    "buttons": [
+      {
+        "text": "Q1",
+        "type": "PAGE",
+        "link": "/mda/2020/Q1.pdf",
+        "variant": "links.nav-dark"
+      },
+      {
+        "text": "Q2",
+        "type": "PAGE",
+        "link": "/mda/2020/Q2.pdf",
+        "variant": "links.nav-dark"
+      },
+      {
+        "text": "Q3",
+        "type": "PAGE",
+        "link": "/mda/2020/Q4.pdf",
+        "variant": "links.nav-dark"
+      },
+      {
+        "text": "Q4",
+        "type": "PAGE",
+        "link": "/mda/2020/Q4.pdf",
+        "variant": "links.nav-dark"
+      }
+    ]
+  }
+  
+

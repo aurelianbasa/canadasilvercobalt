@@ -17,13 +17,13 @@
         {
           "text": "Presentation",
           "type": "PAGE",
-          "link": "files/link-to-file.pdf",
+          "link": "/Presentation.pdf",
           "variant": "primary"
         },
         {
           "text": "Fact Sheet",
           "type": "PAGE",
-          "link": "files/link-to-file.pdf",
+          "link": "/Factsheet.pdf",
           "variant": "primary"
         }
       ]

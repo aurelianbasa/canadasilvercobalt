@@ -11,29 +11,19 @@
         "text": "Q1",
         "type": "PAGE",
         "link": "/financials/2021/Q1.pdf",
-        "variant": "primary",
-        "width": "75px"
+        "variant": "links.nav-dark"
       },
       {
         "text": "Q2",
         "type": "PAGE",
         "link": "/financials/2021/Q2.pdf",
-        "variant": "primary",
-        "width": "75px"
+        "variant": "links.nav-dark"
       },
       {
         "text": "Q3",
         "type": "PAGE",
         "link": "/financials/2021/Q3.pdf",
-        "variant": "primary",
-        "width": "75px"
-      },
-      {
-        "text": "Q4",
-        "type": "PAGE",
-        "link": "/financials/2018/Q4.pdf",
-        "variant": "primary-light",
-        "width": "75px"
+        "variant": "links.nav-dark"
       }
     ]
   }

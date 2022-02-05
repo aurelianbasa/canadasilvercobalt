@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "NI 43-101 Technical Report for Castle Property",
+      "color": "alpha",
+      "variant": "h5"
+    },
+    {
+      "text": "August 2015"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Download",
+      "type": "PAGE",
+      "link": "/reports/2015august.pdf",
+      "variant": "primary"
+    }
+  ]
+}

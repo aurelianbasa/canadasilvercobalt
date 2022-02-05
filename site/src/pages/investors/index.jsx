@@ -8,6 +8,7 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Content from '@solid-ui-blocks/Content/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import DropDown from '@solid-ui-blocks/Faq/Block01'
+import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Faq from '@solid-ui-blocks/Faq/Block02'
 import Regulatory from '@solid-ui-blocks/Faq/Block01'
 import Stats from '@solid-ui-blocks/CallToAction/Block02'
@@ -33,10 +34,22 @@ const MediaPage = props => {
       <StockChart content={content['stock-information-chart']} />
       <Table content={content['stock-information-table']} />
       <Divider space='5' />
-      <Divider space='5' />
       <Table content={content['capital-structure']} />
       <Divider space='5' />
+      <Content content={content['presentations']} />
       <Divider space='5' />
+      <Divider space='5' />
+      <Content content={content['report-intro']} />
+      <Divider space='1' />
+      <Download content={content['report-one']} />
+      <Divider space='2' />
+      <Download content={content['report-two']} />
+      <Divider space='2' />
+      <Download content={content['report-three']} />
+
+      <Container variant='narrow'>
+      <Content content={content['financials-intro']} />
+      <Divider space='1' />
       <Stats content={content['financials-one']} />
       <Divider space='2' />
       <Stats content={content['financials-two']} />
@@ -45,16 +58,23 @@ const MediaPage = props => {
       <Divider space='2' />
       <Stats content={content['financials-four']} />
       <Divider space='5' />
+      <Content content={content['mda-intro']} />
+      <Divider space='1' />
+      <Stats content={content['mda-one']} />
+      <Divider space='2' />
+      <Stats content={content['mda-two']} />
+      <Divider space='2' />
+      <Stats content={content['mda-three']} />
+      <Divider space='2' />
+      <Stats content={content['mda-four']} />
       <Divider space='5' />
-      <Content content={content['presentations']} />
       <Divider space='5' />
-      <Divider space='5' />
-      <Container variant='narrow'>
+      </Container>
+
         <DropDown content={content['financials']} />
         <Divider space='5' />
         <Divider space='5' />
         <DropDown content={content['technical-data']} />
-      </Container>
       <Divider space='5' />
       <Divider space='5' />
       <Faq content={content['faq']} />

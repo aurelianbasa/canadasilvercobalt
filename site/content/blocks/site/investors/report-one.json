@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "NI 43-101 Update for Castle East",
+      "color": "alpha",
+      "variant": "h5"
+    },
+    {
+      "text": "May 2021"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Download",
+      "type": "PAGE",
+      "link": "/reports/2021may.pdf",
+      "variant": "primary"
+    }
+  ]
+}
