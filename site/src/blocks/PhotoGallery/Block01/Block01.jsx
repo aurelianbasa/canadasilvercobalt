@@ -48,7 +48,7 @@ const PhotoGalleryBlock01 = ({
       <ContentText content={text} />
       <Divider />
       <Grid columns={[1, 2, 3]}>
-        {collection?.map(({ images }, i) => {
+        {collection?.map(({ images, text }, i) => {
           const modalIdentifier = `${identifier}${i}-image`
           return (
             <React.Fragment key={`item-${i}`}>
@@ -71,6 +71,12 @@ const PhotoGalleryBlock01 = ({
                   content={{ images: [images[1]] }}
                   imageEffect='fadeIn'
                 />
+                {text && (
+                  <>
+                    <Divider space={2} />
+                    <ContentText content={text} />
+                  </>
+                )}
               </Modal>
             </React.Fragment>
           )
