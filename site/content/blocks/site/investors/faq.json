@@ -1,16 +1,16 @@
 {
   "text": [
     {
-      "text": "Find out more",
+      "text": "From Exploration to Development",
       "color": "alpha",
       "variant": "h4"
     },
     {
-      "text": "Frequently Asked Questions",
+      "text": "Technical Reports",
       "variant": "h2"
     },
     {
-      "text": "We aim for clarity in all our work.",
+      "text": "Below are the published reports in accordance with national reporting standards:",
       "variant": "medium"
     }
   ],
@@ -18,15 +18,45 @@
     {
       "text": [
         {
-          "text": "Question?",
+          "text": "(May 2021) NI 43-101 Update for Castle East",
           "variant": "h5"
         },
         {
-          "text": "Answer."
+          "text": ""
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Q1",
+          "type": "PAGE",
+          "link": "/financials/2018/Q3.pdf",
+          "variant": "links.nav-dark",
+          "width": "75px"
+        },
+        {
+          "text": "Q2",
+          "type": "PAGE",
+          "link": "/financials/2018/Q3.pdf",
+          "variant": "links.nav-dark",
+          "width": "75px"
+        },
+        {
+          "text": "Q3",
+          "type": "PAGE",
+          "link": "/financials/2018/Q3.pdf",
+          "variant": "links.nav-dark",
+          "width": "75px"
+        },
+        {
+          "text": "Q4",
+          "type": "PAGE",
+          "link": "/financials/2018/Q4.pdf",
+          "variant": "links.nav-dark",
+          "width": "75px"
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-phone.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
         "bg": "white",
         "color": "alpha"
       }
@@ -34,16 +64,15 @@
     {
       "text": [
         {
-          "text": "Question?",
+          "text": "(July 2020) NI 43-101 Mineral Resource Estimate for Castle East",
           "variant": "h5"
         },
         {
-          "text": "Answer."
+          "text": ""
         }
       ],
-
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
         "bg": "white",
         "color": "alpha"
       }
@@ -51,32 +80,15 @@
     {
       "text": [
         {
-          "text": "Question?",
+          "text": "(August 2015) NI 43-101 Technical Report for Castle Property",
           "variant": "h5"
         },
         {
-          "text": "Answer."
+          "text": ""
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-mail-send.svg",
-        "bg": "white",
-        "color": "alpha"
-      }
-    },
-    {
-      "text": [
-        {
-          "text": "Question?",
-          "variant": "h5"
-        },
-        {
-          "text": "Answer."
-        }
-      ],
-
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
         "bg": "white",
         "color": "alpha"
       }

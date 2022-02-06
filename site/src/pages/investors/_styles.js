@@ -7,7 +7,7 @@
 
 export default {
     captionContainer: {
-      bg: `omegaDarker`,
+      bg: `alpha`,
         borderRadius: `xl`,
         position: `relative`,
         py: [2, 2],

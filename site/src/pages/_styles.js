@@ -32,7 +32,7 @@ export default {
       }
     },
     captionContainer: {
-      bg: `alphaLighter`,
+      bg: `alpha`,
         borderRadius: `xl`,
         position: `relative`,
         py: [1, 1],
