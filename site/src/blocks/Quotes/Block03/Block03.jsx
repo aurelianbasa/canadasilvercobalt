@@ -1,15 +1,30 @@
 import React from 'react'
 import { Container, Flex, Box, css } from 'theme-ui'
 import { ImQuotesRight } from 'react-icons/im'
+import { AiFillStar } from 'react-icons/ai'
 import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
+import Tabs from '@solid-ui-components/Tabs'
 import ContentText from '@solid-ui-components/ContentText'
+import ContentImages from '@solid-ui-components/ContentImages'
 import ContentContainer from '@solid-ui-components/ContentContainer'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
+const styles = {
+  avatar: {
+    bg: `omegaLighter`,
+    borderTopColor: `omegaLighter`,
+    borderTopWidth: `xl`,
+    borderTopStyle: `solid`,
+    borderRadius: `lg`,
+    boxSizing: `content-box`,
+    verticalAlign: `baseline`
+  }
+}
+
 const TestimonialsBlock03 = ({
-  content: { text, collection },
+  content: { text, collection, buttons },
   reverse
 }) => (
   <Container>
@@ -32,6 +47,8 @@ const TestimonialsBlock03 = ({
           [reverse ? 'mt' : 'mb']: [5, null, null, 0]
         }}
       >
+        <Tabs variant='dots' position='bottom' space={3} autoplay>
+          {collection?.map(({ container, text, avatar }, index) => (
             <ContentContainer
               content={container}
               variant='cards.paper'
@@ -46,9 +63,28 @@ const TestimonialsBlock03 = ({
                   zIndex: 1
                 }}
               >
+                <Box sx={{ width: 150 }}>
+                  <ContentImages
+                    content={{ images: [avatar] }}
+                    sx={styles.avatar}
+                    imageEffect='fadeInRotate'
+                  />
+                </Box>
                 <Box sx={{ flex: [`100%`, 1], ml: [0, 4] }}>
                   <Reveal effect='fadeInUp'>
                     <ContentText content={text} />
+                    {Array.from({ length: 5 }, (_, i) => (
+                      <Reveal
+                        key={`item-${i}`}
+                        effect='fadeInRotate'
+                        delay={0.2 * (i + 1)}
+                        css={css({ display: `inline-block`, mt: 3 })}
+                      >
+                        <AiFillStar
+                          css={css({ color: `beta`, size: `icon.xs` })}
+                        />
+                      </Reveal>
+                    ))}
                   </Reveal>
                 </Box>
               </Flex>
@@ -63,6 +99,8 @@ const TestimonialsBlock03 = ({
                 })}
               />
             </ContentContainer>
+          ))}
+        </Tabs>
       </Box>
       <Box
         sx={{
