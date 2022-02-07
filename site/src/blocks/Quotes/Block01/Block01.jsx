@@ -7,6 +7,15 @@ import ContentContainer from '@solid-ui-components/ContentContainer'
 import { ImQuotesRight } from 'react-icons/im'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
+const styles = {
+  body: {
+    display: `flex`,
+    flexDirection: `column`,
+    justifyContent: `center`,
+    flex: 1
+  }
+}
+
 const TestimonialsBlock01 = ({ content: { text, collection } }) => (
   <Container>
     <Box sx={{ textAlign: `left` }}>

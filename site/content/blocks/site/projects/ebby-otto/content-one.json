@@ -1,7 +1,4 @@
-{
-  "collection": [
-    {
-      "text": [
+{      "text": [
         {
           "text": "Matt Halliday",
           "color": "alpha",
@@ -11,11 +8,7 @@
           "text": "President, P. Geo.",
           "color": "omegaDarker",
           "variant": "h4"
-        }
-      ]
-    },
-    {
-      "text": [
+        },
         {
           "text": "“These new gold properties have our geologists very excited about the 2022 field season. There are multiple geological features that are of extreme interest including three major fault structures:",
           "color": "omegaDark",
@@ -27,5 +20,4 @@
         }
       ]
     }
-  ]
-}
+
