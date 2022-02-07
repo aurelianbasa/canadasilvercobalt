@@ -3,11 +3,11 @@
     {
       "text": "Results",
       "color": "beta",
-      "variant": "h4"
+      "variant": "h3"
     },
     {
       "text": "Strike Length",
-      "variant": "h2"
+      "variant": "h1"
     },
     {
       "text": "Early stage drill results have been excellent",

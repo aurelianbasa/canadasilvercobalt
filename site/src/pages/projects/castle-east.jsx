@@ -76,10 +76,10 @@ const ProjectItemPage = props => {
         <Info content={content['info-2']} />
       </Container>
       <Divider space='5' />
-      <Divider space='5' />
       <Quote content={content['content-two']} />
       <Divider space='4' />
         <Content content={content['content-six']} />
+        <Divider space='2' />
         <Container variant='table'>
           <table>
             <thead>
