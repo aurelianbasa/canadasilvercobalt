@@ -1,0 +1,10 @@
+{
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/violet-mine/location.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "lg"
+    }
+  ]
+}

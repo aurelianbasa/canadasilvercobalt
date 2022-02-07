@@ -11,7 +11,6 @@ import Feature from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Quote from '@solid-ui-blocks/Content/Block01'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import CrossSection from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
-import DrillMap from '../../blocks/DrillHolesMap/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 
@@ -56,10 +55,6 @@ const ProjectItemPage = props => {
       <CrossSection content={content['cross-section-2']} />
       <Divider space='2' />
       <Quote content={content['quote-2']} />
-      <Divider space='3' />
-      <Container variant='narrow'>
-        <DrillMap content={content['drill-map']} />
-      </Container>
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

@@ -1,0 +1,10 @@
+{
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/ebby-otto/location.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "lg"
+    }
+  ]
+}

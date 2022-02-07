@@ -1,18 +1,18 @@
 {
   "text": [
     {
-      "text": "Download Resources",
-      "variant": "h5"
+      "text": "Resource Estimate",
+      "variant": "h4"
     },
     {
-      "text": "Consequat excepteur venia Lorem labore eiusmod."
+      "text": "Most recently update 43-101 from May, 2021."
     }
   ],
   "buttons": [
     {
-      "text": "Downloads",
+      "text": "View",
       "type": "PAGE",
-      "link": "files/link-to-file.pdf",
+      "link": "reports/2021may.pdf",
       "variant": "primary",
       "width": "250px"
     }

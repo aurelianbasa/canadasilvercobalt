@@ -2,7 +2,7 @@
   "text": [
     {
       "text": "Technical Report",
-      "variant": "h5"
+      "variant": "h4"
     },
     {
       "text": "NI 43-101 Technical Report on the Castle Mine Property was published in 2015"
@@ -12,7 +12,7 @@
     {
       "text": "View",
       "type": "PAGE",
-      "link": "files/link-to-file.pdf",
+      "link": "reports/2015august.pdf",
       "variant": "primary",
       "width": "250px"
     }

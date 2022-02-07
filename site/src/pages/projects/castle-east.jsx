@@ -63,24 +63,22 @@ const ProjectItemPage = props => {
       <Download content={content['download']} />
       <Divider space='4' />
       <Info content={content['overview-2']} reverse />
-      <Divider space='4' />
+      <Divider space='3' />
       <Quote content={content['content-one']} />
-      <Divider space='5' />
+      <Divider space='4' />
       <Container variant='narrow'>
         <CrossSection content={content['cross-section-1']} />
         <Divider space='2' />
         <Content content={content['content-three']} />
-        <Divider space='5' />
+        <Divider space='4' />
         <Info content={content['info-1']} reverse />
-        <Divider space='5' />
+        <Divider space='4' />
         <Info content={content['info-2']} />
       </Container>
       <Divider space='5' />
       <Divider space='5' />
       <Quote content={content['content-two']} />
-      <Divider space='5' />
-      <Container variant='narrow'>
-      <Divider space='2' />
+      <Divider space='4' />
         <Content content={content['content-six']} />
         <Container variant='table'>
           <table>
@@ -155,8 +153,6 @@ const ProjectItemPage = props => {
             </tbody>
           </table>
         </Container>
-      </Container>
-
       <Divider space='5' />
       <DrillMap content={content['drill-map']} />
       <Divider space='4' />

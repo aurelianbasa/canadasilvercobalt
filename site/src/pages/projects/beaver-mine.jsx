@@ -8,8 +8,6 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Location from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
-import DrillMap from '../../blocks/DrillHolesMap/Block01'
-import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 
@@ -28,10 +26,6 @@ const ProjectItemPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Info content={content['overview']} />
-      <Divider space='4' />
-      <Container variant='narrow'>
-        <DrillMap content={content['drill-map']} />
-      </Container>
       <Divider space='5' />
       <Container variant='narrow'>
         <Location content={content['location']} />
@@ -39,8 +33,6 @@ const ProjectItemPage = props => {
         <Info content={content['info-1']} reverse />
         <Divider space='5' />
         <Info content={content['info-2']} />
-        <Divider space='5' />
-        <Download content={content['download']} />
       </Container>
       <Divider space='5' />
       <Footer content={content['footer']} />
