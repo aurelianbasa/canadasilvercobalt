@@ -19,13 +19,25 @@
       "align": ["left"]
     }
   ],
+
   "images": [
     {
       "src": "../../../../assets/site/about/company-history/overview.jpg",
       "radius": "lg",
       "alt": "alt text"
+    },
+    {
+      "text": [
+        {
+          "text": "how about this now",
+          "variant": "medium"
+        }
+      ]
     }
   ],
+
+
+
   "collection": [
     {
       "icon": {
