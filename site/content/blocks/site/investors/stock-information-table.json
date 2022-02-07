@@ -24,30 +24,30 @@
               "text": "4T9B on the Frankfurt Exchange"
             }
           ]
-        }
-      ]
-    },
-    {
-      "buttons": [
-        {
-          "text": "CCW on TSX Venture Exchange",
-          "type": "PAGE",
-          "link": "https://money.tmx.com/en/quote/CCW",
-          "variant": "links.nav-dark",  
-          "space": 0
         },
         {
-          "text": "CCWOF on OTC Markets Exchange",
-          "type": "PAGE",
-          "link": "https://www.otcmarkets.com/stock/CCWOF/quote",
-          "variant": "links.nav-dark",
-          "space": 0
-        },
-        {
-          "text": "4T9B on the Frankfurt Exchange",
-          "type": "PAGE",
-          "link": "https://www.boerse-frankfurt.de/equity/canada-silver-cobalt-work",
-          "variant": "links.nav-dark"
+          "buttons": [
+            {
+              "text": "CCW on TSX Venture Exchange",
+              "type": "PAGE",
+              "link": "https://money.tmx.com/en/quote/CCW",
+              "variant": "links.nav-dark",  
+              "space": 0
+            },
+            {
+              "text": "CCWOF on OTC Markets Exchange",
+              "type": "PAGE",
+              "link": "https://www.otcmarkets.com/stock/CCWOF/quote",
+              "variant": "links.nav-dark",
+              "space": 0
+            },
+            {
+              "text": "4T9B on the Frankfurt Exchange",
+              "type": "PAGE",
+              "link": "https://www.boerse-frankfurt.de/equity/canada-silver-cobalt-work",
+              "variant": "links.nav-dark"
+            }
+          ]
         }
       ]
     }
