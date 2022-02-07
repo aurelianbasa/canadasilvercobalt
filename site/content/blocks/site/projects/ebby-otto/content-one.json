@@ -5,12 +5,14 @@
         {
           "text": "The latest drill results bring us closer to a significant expansion of silver resources in the next resource update which we have scheduled for Q1 2022. This supports our view that Castle East could progress into being a full-fledged mine, producing silver and other metal byproducts such as cobalt and nickel.",
           "color": "omegaDark",
-          "variant": "h6"
+          "variant": "h6",
+          "space": 2
         },
         {
           "text": "Matt Halliday",
           "color": "alpha",
-          "variant": "h4"
+          "variant": "h4",
+          "space": 0
         },
         {
           "text": "President, P. Geo.",

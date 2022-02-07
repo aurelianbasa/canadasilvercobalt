@@ -35,7 +35,16 @@ const TestimonialsBlock01 = ({ content: { text, collection } }) => (
               variant='cards.paper'
               sx={{ textAlign: `left` }}
             >
-              <ImQuotesRight css={css({ size: `icon.sm`, color: `alpha` })} />
+             <ImQuotesRight
+                  css={css({
+                    size: `icon.lg`,
+                    color: `omegaDarker`,
+                    position: `absolute`,
+                    bottom: `82%`,
+                    left: `90%`,
+                    transform: `translate(-50%, 0)`
+                  })}
+                />
               <ContentText content={text} />
             </ContentContainer>
           </Reveal>
