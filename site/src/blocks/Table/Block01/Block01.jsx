@@ -49,6 +49,7 @@ const ContentTable01 = ({ content: { text, collection, buttons } }) => (
     {buttons && (
       <>
         <Divider space={3} />
+        <Box sx={styles.item}>
         <Reveal
           effect='fadeInRight'
           delay={1}
@@ -56,6 +57,7 @@ const ContentTable01 = ({ content: { text, collection, buttons } }) => (
         >
           <ContentButtons content={buttons} />
         </Reveal>
+        </Box>
       </>
     )}
   </Container>
