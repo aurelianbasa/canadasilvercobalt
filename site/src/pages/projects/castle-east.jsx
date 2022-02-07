@@ -9,6 +9,7 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Content from '@solid-ui-blocks/Content/Block01'
+import Quote from '@solid-ui-blocks/Testimonials/Block03'
 import DrillMap from '../../blocks/DrillHolesMap/Block01'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import CrossSection from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
@@ -63,7 +64,7 @@ const ProjectItemPage = props => {
       <Divider space='4' />
       <Info content={content['overview-2']} reverse />
       <Divider space='4' />
-      <Content content={content['content-one']} reverse />
+      <Quote content={content['content-one']} reverse />
       <Divider space='5' />
       <Container variant='narrow'>
         <CrossSection content={content['cross-section-1']} />
