@@ -38,7 +38,7 @@ const TestimonialsBlock01 = ({ content: { text, collection } }) => (
              <ImQuotesRight
                   css={css({
                     size: `icon.lg`,
-                    color: `omegaDarker`,
+                    color: `alpha`,
                     position: `absolute`,
                     bottom: `15%`,
                     left: `95%`,
