@@ -42,7 +42,6 @@ const ContentTable01 = ({ content: { text, collection, buttons } }) => (
             <Box sx={styles.item}>
               <ContentText content={text} />
             </Box>
-            <ContentButtons content={buttons} />
           ))}
         </Box>
       ))}
