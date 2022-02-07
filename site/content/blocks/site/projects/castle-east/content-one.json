@@ -3,6 +3,11 @@
     {
       "text": [
         {
+          "text": "History shows that these richly mineralized shoots are never found in isolation. In this case, modern technology has opened a whole new domain of exploration.",
+          "color": "omegaDark",
+          "variant": "p"
+        },
+        {
           "text": "Doug Robinson",
           "color": "alpha",
           "variant": "h3"
@@ -11,19 +16,6 @@
           "text": "P. Eng.",
           "color": "omegaDarker",
           "variant": "h4"
-        }
-      ]
-    },
-    {
-      "text": [
-        {
-          "text": "History shows that these richly mineralized shoots are never found in isolation. In this case, modern technology has opened a whole new domain of exploration.",
-          "color": "omegaDark",
-          "variant": "p"
-        },
-        {
-          "text": "",
-          "color": "omegaDark"
         }
       ]
     }

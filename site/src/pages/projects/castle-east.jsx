@@ -65,7 +65,7 @@ const ProjectItemPage = props => {
       <Divider space='4' />
       <Info content={content['overview-2']} reverse />
       <Divider space='4' />
-      <Quote content={content['content-one']} />
+      <Quote content={content['content-one']} reverse />
       <Divider space='5' />
       <Container variant='narrow'>
         <CrossSection content={content['cross-section-1']} />
@@ -78,7 +78,7 @@ const ProjectItemPage = props => {
       </Container>
       <Divider space='5' />
       <Divider space='5' />
-      <Requote content={content['content-two']} />
+      <Requote content={content['content-two']} reverse />
       <Divider space='5' />
       <Container variant='narrow'>
       <Divider space='2' />
