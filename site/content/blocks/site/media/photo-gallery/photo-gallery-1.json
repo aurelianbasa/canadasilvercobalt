@@ -37,6 +37,12 @@
           "alt": "full image",
           "text": "testing if this does anything"
         }
+      ],
+      "text": [
+        {
+          "text": "how about this now",
+          "variant": "medium"
+        }
       ]
     },
     {
