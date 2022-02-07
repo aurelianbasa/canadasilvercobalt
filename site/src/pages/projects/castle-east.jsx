@@ -10,7 +10,6 @@ import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Content from '@solid-ui-blocks/Content/Block01'
 import Quote from '../../blocks/Quotes/Block01'
-import Requote from '../../blocks/Quotes/Block02'
 import DrillMap from '../../blocks/DrillHolesMap/Block01'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import CrossSection from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
@@ -65,7 +64,7 @@ const ProjectItemPage = props => {
       <Divider space='4' />
       <Info content={content['overview-2']} reverse />
       <Divider space='4' />
-      <Quote content={content['content-one']} reverse />
+      <Quote content={content['content-one']} />
       <Divider space='5' />
       <Container variant='narrow'>
         <CrossSection content={content['cross-section-1']} />
@@ -78,7 +77,7 @@ const ProjectItemPage = props => {
       </Container>
       <Divider space='5' />
       <Divider space='5' />
-      <Requote content={content['content-two']} reverse />
+      <Quote content={content['content-two']} />
       <Divider space='5' />
       <Container variant='narrow'>
       <Divider space='2' />

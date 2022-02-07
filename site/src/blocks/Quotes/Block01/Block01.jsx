@@ -40,8 +40,8 @@ const TestimonialsBlock01 = ({ content: { text, collection } }) => (
                     size: `icon.lg`,
                     color: `omegaDarker`,
                     position: `absolute`,
-                    bottom: `82%`,
-                    left: `90%`,
+                    bottom: `15%`,
+                    left: `95%`,
                     transform: `translate(-50%, 0)`
                   })}
                 />
