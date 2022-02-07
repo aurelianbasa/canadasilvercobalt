@@ -23,7 +23,7 @@ const TestimonialsBlock02 = ({ content: { text, collection } }) => (
             <Flex
               sx={{
                 alignItems: `left`,
-                flexDirection: [`column`, null, null, `row`]
+                flexDirection: [`column`]
               }}
             >
               <ContentContainer
@@ -48,7 +48,7 @@ const TestimonialsBlock02 = ({ content: { text, collection } }) => (
                 />
                 <ContentText content={text?.slice(0, 2)} />
               </ContentContainer>
-              <Box sx={{ flexBasis: `1/3`, flexGrow: 1 }}>
+              <Box sx={{ flexBasis: `1/2`, flexGrow: 1 }}>
                 <ContentText content={text?.slice(2)} />
               </Box>
             </Flex>
