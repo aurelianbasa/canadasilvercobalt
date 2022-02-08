@@ -33,7 +33,6 @@ const MediaPage = props => {
       <Divider space='5' />
       <StockChart content={content['stock-information-chart']} />
       <Gallery content={content['gallery']} />
-      <Table content={content['stock-information-table']} />
       <Divider space='5' />
       <Table content={content['capital-structure']} />
       <Divider space='5' />

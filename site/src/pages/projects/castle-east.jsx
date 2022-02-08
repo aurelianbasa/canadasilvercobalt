@@ -62,18 +62,16 @@ const ProjectItemPage = props => {
       <Divider space='5' />
       <Info content={content['overview']} />
       <Divider space='4' />
-
+      <Download content={content['download']} />
+      <Divider space='4' />
       <Milestones content={content['milestones-1']} />
-      <Divider space='5' />
+      <Divider space='1' />
       <Container variant='narrow'>
       <Stats content={content['stats']} />
       </Container>
-      <Divider space='5' />
+      <Divider space='1' />
       <Milestones content={content['milestones-2']} />
-      
-
-
-      <Download content={content['download']} />
+    
       <Divider space='4' />
       <Info content={content['overview-2']} reverse />
       <Divider space='3' />
