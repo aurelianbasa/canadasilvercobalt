@@ -25,7 +25,7 @@
         }
       ],
       "icon": {
-        "src": "../../../../../assets/flexiblocks/icons/bx-line-chart.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-line-chart.svg",
         "color": "omegaDark"
       }
     },
@@ -59,7 +59,7 @@
         }
       ],
       "icon": {
-        "src": "../../../../assets/flexiblocks/icons/bx-layer-plus.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-layer-plus.svg",
         "color": "omegaDark"
       }
     }

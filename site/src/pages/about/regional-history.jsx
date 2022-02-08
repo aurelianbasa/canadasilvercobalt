@@ -9,7 +9,6 @@ import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Content from '@solid-ui-blocks/FeaturesWithPhoto/Block07'
 import ContentThree from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
-import CallToAction from '@solid-ui-blocks/CallToAction/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles'
@@ -50,9 +49,6 @@ const AboutRegionalHistoryPage = props => {
       </Container>
       <Divider space='5' />
       <Divider space='5' />
-      <Container sx={styles.callToActionContainer}>
-        <CallToAction content={content['call-to-action']} />
-      </Container>
       <Divider space='5' />
       <Divider space='5' />
       <Footer content={content['footer']} />
