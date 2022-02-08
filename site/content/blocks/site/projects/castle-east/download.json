@@ -12,7 +12,7 @@
     {
       "text": "View",
       "type": "PAGE",
-      "link": "reports/2021may.pdf",
+      "link": "/reports/2021may.pdf",
       "variant": "primary",
       "width": "250px"
     }

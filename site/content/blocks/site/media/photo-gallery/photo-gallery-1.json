@@ -34,8 +34,7 @@
         {
           "src": "../../../../assets/site/media/photo-gallery/gallery-full.jpg",
           "radius": "default",
-          "alt": "full image",
-          "text": "testing if this does anything"
+          "alt": "full image"
         }
       ],
       "text": [

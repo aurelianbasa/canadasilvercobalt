@@ -188,20 +188,7 @@
                     {
                       "text": "Reports",
                       "type": "PAGE",
-                      "link": "/projects#ttl-facility",
-                      "variant": "links.nav-dark"
-                    }
-                  ]
-                },
-                {
-                  "text": "_",
-                  "type": "SUB",
-                  "variant": "links.hidden",
-                  "buttons": [
-                    {
-                      "text": "Results",
-                      "type": "PAGE",
-                      "link": "/projects#re-2ox-process",
+                      "link": "/investors#report-intro",
                       "variant": "links.nav-dark"
                     }
                   ]
@@ -321,19 +308,19 @@
             {
               "text": "Presentations",
               "type": "PAGE",
-              "link": "/investors#presentations",
+              "link": "/investors#materials-intro",
               "variant": "links.nav-dark"
             },
             {
               "text": "Technical Reports",
               "type": "PAGE",
-              "link": "/investors#technical-data",
+              "link": "/investors#report-intro",
               "variant": "links.nav-dark"
             },
             {
-              "text": "Frequently Asked Questions",
+              "text": "Financials",
               "type": "PAGE",
-              "link": "/investors#faq",
+              "link": "/investors#financials-intro",
               "variant": "links.nav-dark"
             }
           ]

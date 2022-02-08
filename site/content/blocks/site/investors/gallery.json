@@ -17,7 +17,7 @@
       ],
       "buttons": [
         {
-          "text": "View Profile   ➜",
+          "text": "View Chart   ➜",
           "type": "PAGE",
           "link": "https://money.tmx.com/en/quote/CCW",
           "variant": "primary-light"
@@ -41,7 +41,7 @@
       ],
       "buttons": [
         {
-          "text": "View Profile   ➜",
+          "text": "View Chart   ➜",
           "type": "PAGE",
           "link": "https://www.otcmarkets.com/stock/CCWOF/quote",
           "variant": "primary-light"
@@ -65,7 +65,7 @@
       ],
       "buttons": [
         {
-          "text": "View Profile   ➜",
+          "text": "View Chart   ➜",
           "type": "PAGE",
           "link": "https://www.boerse-frankfurt.de/equity/canada-silver-cobalt-work",
           "variant": "primary-light"
