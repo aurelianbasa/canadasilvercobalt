@@ -8,6 +8,7 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Materials from '@solid-ui-blocks/Hero/Block03'
 import Content from '@solid-ui-blocks/Content/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
+import Gallery from '@solid-ui-blocks/Blog/Block01'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Stats from '@solid-ui-blocks/CallToAction/Block02'
 import Table from '../../blocks/Table/Block01'
@@ -31,6 +32,7 @@ const MediaPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <StockChart content={content['stock-information-chart']} />
+      <Gallery content={content['gallery']} />
       <Table content={content['stock-information-table']} />
       <Divider space='5' />
       <Table content={content['capital-structure']} />

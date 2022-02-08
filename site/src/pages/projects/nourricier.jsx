@@ -8,6 +8,8 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
 import Location from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
+import Milestones from '@solid-ui-blocks/Features/Block01'
+import Stats from '@solid-ui-blocks/Stats/Block01'
 import Results from '@solid-ui-blocks/FeaturesWithPhoto/Block04'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -28,6 +30,16 @@ const ProjectItemPage = props => {
       <Divider space='5' />
       <Info content={content['overview']} />
       <Divider space='4' />
+      
+      <Milestones content={content['milestones-1']} />
+      <Divider space='5' />
+      <Container variant='narrow'>
+      <Stats content={content['stats']} />
+      </Container>
+      <Divider space='5' />
+      <Milestones content={content['milestones-2']} />
+      
+      
       <Divider space='5' />
       <Results content={content['results']} />
       <Divider space='5' />

@@ -9,6 +9,7 @@ import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Quote from '../../blocks/Quotes/Block01'
 import Location from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
+import Milestones from '@solid-ui-blocks/Features/Block01'
 import Feature from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -31,6 +32,13 @@ const ProjectItemPage = props => {
       <Divider space='2' />
       <Quote content={content['content-one']} />
       <Divider space='4' />
+
+      <Milestones content={content['milestones-1']} />
+      <Divider space='5' />
+      <Divider space='5' />
+      <Milestones content={content['milestones-2']} />
+
+      <Divider space='5' />
       <Feature content={content['feature-one']} reverse />
       <Divider space='4' />
       <Feature content={content['feature-two']} />

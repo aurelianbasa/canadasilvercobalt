@@ -10,6 +10,8 @@ import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Content from '@solid-ui-blocks/Content/Block01'
 import Quote from '../../blocks/Quotes/Block01'
+import Milestones from '@solid-ui-blocks/Features/Block01'
+import Stats from '@solid-ui-blocks/Stats/Block01'
 import DrillMap from '../../blocks/DrillHolesMap/Block01'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import CrossSection from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
@@ -60,6 +62,17 @@ const ProjectItemPage = props => {
       <Divider space='5' />
       <Info content={content['overview']} />
       <Divider space='4' />
+
+      <Milestones content={content['milestones-1']} />
+      <Divider space='5' />
+      <Container variant='narrow'>
+      <Stats content={content['stats']} />
+      </Container>
+      <Divider space='5' />
+      <Milestones content={content['milestones-2']} />
+      
+
+
       <Download content={content['download']} />
       <Divider space='4' />
       <Info content={content['overview-2']} reverse />

@@ -1,0 +1,60 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "34832",
+          "color": "omegaDarker",
+          "variant": "h1"
+        },
+        {
+          "text": "Meters Drilling",
+          "color": "beta",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "7",
+          "color": "omegaDarker",
+          "variant": "h1"
+        },
+        {
+          "text": "Structures",
+          "color": "beta",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "30416",
+          "color": "omegaDarker",
+          "variant": "h1"
+        },
+        {
+          "text": "g/t Silver",
+          "color": "beta",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "2",
+          "color": "omegaDarker",
+          "variant": "h1"
+        },
+        {
+          "text": "% Cobalt",
+          "color": "beta",
+          "variant": "h5"
+        }
+      ]
+    }
+  ]
+}

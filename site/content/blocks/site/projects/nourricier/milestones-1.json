@@ -1,0 +1,118 @@
+{
+  "text": [
+    {
+      "text": "MILESTONES",
+      "color": "omega",
+      "variant": "h3"
+    },
+    {
+      "text": "2021",
+      "color": "beta",
+      "variant": "h1"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Expanded claim package",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Acquired 888.56 hectares of land for a grand total of 6,113 hectares",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-line-chart.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Mineralized strike length",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "6km of near-surface copper, nickel, and cobalt",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Completed Strategic Study",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Airborne gravimetric and magnetic survey on select areas",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Diamond Drilling",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Completed 7,771.3 meters targeting geophysical anomalies",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Intercepted Massive Sulphides",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "With XRF results up to 2.79% Ni and 25.68% Cu",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Extensive Footprint",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Total of 31,201 hectares of EV properties across Quebec",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-layer-plus.svg",
+        "color": "omegaDark"
+      }
+    }
+  ]
+}

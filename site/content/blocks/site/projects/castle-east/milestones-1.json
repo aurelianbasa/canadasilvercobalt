@@ -1,0 +1,118 @@
+{
+  "text": [
+    {
+      "text": "MILESTONES",
+      "color": "omega",
+      "variant": "h3"
+    },
+    {
+      "text": "2021",
+      "color": "beta",
+      "variant": "h1"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Surface drilling",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Completed 34,832.1m of surface exploration diamond drilling",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-line-chart.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Drill Results",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "7 new structures with grades up to 30,416.91 g/t silver and 2.24% cobalt ",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Environmental Study",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Baseline study data collection in February 2021",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Ramp Permits",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Started the process in the fall of 2021 for the planned ramp",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "AI-based Drill targets",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Engaged GoldSpot to aid our technical staff",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Downhole Geophysics",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "To assist with geologic interpretation",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-layer-plus.svg",
+        "color": "omegaDark"
+      }
+    }
+  ]
+}
