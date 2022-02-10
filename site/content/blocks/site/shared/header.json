@@ -92,14 +92,14 @@
                     ]
                   },
                       {
-                        "text": "_",
+                        "text": "",
                         "type": "SUB",
                         "variant": "links.disabled",
                         "buttons": [
                       {
                         "text": "Technical Reports",
                         "type": "PAGE",
-                        "link": "/projects#reports-intro",
+                        "link": "/projects#report-intro",
                         "variant": "links.nav-dark"
                       }
                     ]
