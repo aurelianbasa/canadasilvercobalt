@@ -7,6 +7,7 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import Quote from '../../blocks/Quotes/Block01'
 import ContentOne from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
 import ContentTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import ContentThree from '@solid-ui-blocks/Content/Block01'
@@ -33,7 +34,9 @@ const AboutEnvironmentPage = props => {
           <Info content={content['overview']} />
         </Card>
       </Container>
-      <Divider space='5' />
+      <Divider space='3' />
+      <Quote content={content['quote']} />
+      <Divider space='4' />
       <Divider space='5' />
       <ContentOne content={content['content-one']} />
       <Divider space='5' />
