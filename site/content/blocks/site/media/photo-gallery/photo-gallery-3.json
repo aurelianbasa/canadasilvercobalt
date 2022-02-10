@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "TTL",
+      "text": "TTL (1 of 2)",
       "variant": "h2"
     },
     {
@@ -13,12 +13,12 @@
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/one-sm.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/ttl/seven-sm.png",
           "radius": "default",
           "alt": "image thumbnail"
         },
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/one.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/ttl/seven.png",
           "radius": "default",
           "alt": "full image"
         }
@@ -27,12 +27,12 @@
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/two-sm.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/ttl/eight-sm.png",
           "radius": "default",
           "alt": "image thumbnail"
         },
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/two.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/ttl/eight.png",
           "radius": "default",
           "alt": "full image"
         }
@@ -41,12 +41,12 @@
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/three-sm.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/ttl/nine-sm.png",
           "radius": "default",
           "alt": "image thumbnail"
         },
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/three.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/ttl/nine.png",
           "radius": "default",
           "alt": "full image"
         }
@@ -55,12 +55,12 @@
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/four-sm.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/ttl/ten-sm.png",
           "radius": "default",
           "alt": "image thumbnail"
         },
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/four.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/ttl/ten.png",
           "radius": "default",
           "alt": "full image"
         }
@@ -69,12 +69,12 @@
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/five-sm.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/ttl/eleven-sm.png",
           "radius": "default",
           "alt": "image thumbnail"
         },
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/five.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/ttl/eleven.png",
           "radius": "default",
           "alt": "full image"
         }
@@ -83,12 +83,12 @@
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/six-sm.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/ttl/twelve-sm.png",
           "radius": "default",
           "alt": "image thumbnail"
         },
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/six.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/ttl/twelve.png",
           "radius": "default",
           "alt": "full image"
         }

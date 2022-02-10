@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "NI 43-101 Mineral Resource Estimate for Castle East",
+      "color": "alpha",
+      "variant": "h5"
+    },
+    {
+      "text": "July 2020"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Download",
+      "type": "PAGE",
+      "link": "/reports/2020july.pdf",
+      "variant": "primary"
+    }
+  ]
+}

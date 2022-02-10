@@ -29,6 +29,12 @@
               "icon": {}
             },
             {
+              "text": "Company Values",
+              "type": "PAGE",
+              "link": "/about#values-intro",
+              "variant": "links.nav-dark"
+            },
+            {
               "text": "Company History",
               "type": "PAGE",
               "link": "/about/company-history",
@@ -68,6 +74,32 @@
           "type": "SUB",
           "collection": [
             {
+                "container": {
+                  "bg": "white"
+                },
+                "buttons": [
+                  {
+                    "text": "",
+                    "type": "SUB",
+                    "variant": "links.disabled",
+                    "buttons": [
+                      {
+                        "text": "Overview",
+                        "type": "PAGE",
+                        "link": "/projects#projects-row-1",
+                        "variant": "links.nav-dark"
+                      },
+                      {
+                        "text": "Technical Reports",
+                        "type": "PAGE",
+                        "link": "/projects#reports-intro",
+                        "variant": "links.nav-dark"
+                      }
+                    ]
+                  }
+                ]
+              }, 
+              {
               "buttons": [
                 {
                   "text": "Precious Metals",
@@ -157,7 +189,7 @@
             },
             {
               "container": {
-                "bg": "white"
+                "bg": "omegaLighter"
               },
               "buttons": [
                 {
@@ -174,43 +206,7 @@
                   ]
                 }
               ]
-            },
-            {
-              "container": {
-                "bg": "omegaLighter"
-              },
-              "buttons": [
-                {
-                  "text": "Technical",
-                  "type": "SUB",
-                  "variant": "links.disabled",
-                  "buttons": [
-                    {
-                      "text": "Reports",
-                      "type": "PAGE",
-                      "link": "/investors#report-intro",
-                      "variant": "links.nav-dark"
-                    }
-                  ]
-                },
-                {
-                  "text": "_",
-                  "type": "SUB",
-                  "variant": "links.hidden",
-                  "buttons": [
-                    {
-                      "text": "Maps",
-                      "type": "PAGE",
-                      "link": "/projects#re-2ox-process",
-                      "variant": "links.nav-dark"
-                    }
-                  ]
-                }    
-              ]
             }
-
-
-
 
           ]
         },

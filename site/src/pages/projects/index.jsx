@@ -1,10 +1,13 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
+import Content from '@solid-ui-blocks/Content/Block02'
+import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Projects from '@solid-ui-blocks/Blog/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
@@ -28,6 +31,15 @@ const ProjectsPage = props => {
       <Projects content={content['projects-row-2']} />
       <Divider space='5' />
       <Divider space='5' />
+      <Container variant='narrow'>
+      <Content content={content['report-intro']} />
+      <Divider space='1' />
+      <Download content={content['report-one']} />
+      <Divider space='2' />
+      <Download content={content['report-two']} />
+      <Divider space='2' />
+      <Download content={content['report-three']} />
+      <Divider space='3' />
       <Info content={content['ttl-facility']} />
       <Divider space='5' />
       <Divider space='5' />

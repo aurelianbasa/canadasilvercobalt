@@ -8,6 +8,7 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Management from '@solid-ui-blocks/Teams/Block02'
+import Values from '@solid-ui-blocks/Content/Block02'
 import CompanyHistory from '@solid-ui-blocks/FeaturesWithPhoto/Block07'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -35,6 +36,11 @@ const AboutPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Management content={content['management']} />
+      <Divider space='5' />
+      <Divider space='5' />
+      <Values content={content['values-intro']} />
+      <Divider space='3' />
+      <Values content={content['values']} />
       <Divider space='5' />
       <Divider space='5' />
       <CompanyHistory content={content['company-history']} />

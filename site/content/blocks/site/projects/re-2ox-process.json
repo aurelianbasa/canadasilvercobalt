@@ -27,7 +27,7 @@
   ],
   "buttons": [
     {
-      "text": "Button",
+      "text": "Visit Website",
       "type": "PAGE",
       "link": "/link-to-page",
       "variant": "dark"
