@@ -75,7 +75,7 @@
           "collection": [
             {
                 "container": {
-                  "bg": "white"
+                  "bg": "omegaLighter"
                 },
                 "buttons": [
                   {
@@ -88,7 +88,14 @@
                         "type": "PAGE",
                         "link": "/projects#projects-row-1",
                         "variant": "links.nav-dark"
-                      },
+                      }
+                    ]
+                  },
+                      {
+                        "text": "",
+                        "type": "SUB",
+                        "variant": "links.disabled",
+                        "buttons": [
                       {
                         "text": "Technical Reports",
                         "type": "PAGE",
@@ -113,28 +120,15 @@
                       "variant": "links.nav-dark"
                     },
                     {
-                      "text": "Castle East Silver",
-                      "type": "PAGE",
-                      "link": "/projects/castle-east",
-                      "variant": "links.nav-dark"
-                    }
-                  ]
-                },
-                {
-                  "text": "_",
-                  "type": "SUB",
-                  "variant": "links.hidden",
-                  "buttons": [
-                    {
                       "text": "Beaver Mine",
                       "type": "PAGE",
                       "link": "/projects/beaver-mine",
                       "variant": "links.nav-dark"
                     },
                     {
-                      "text": "Eby-Otto Gold",
+                      "text": "Violet Mine",
                       "type": "PAGE",
-                      "link": "/projects/ebby-otto",
+                      "link": "/projects/violet-mine",
                       "variant": "links.nav-dark"
                     }
                   ]
@@ -145,9 +139,15 @@
                   "variant": "links.hidden",
                   "buttons": [
                     {
-                      "text": "Violet Mine",
+                      "text": "Castle East Silver",
                       "type": "PAGE",
-                      "link": "/projects/violet-mine",
+                      "link": "/projects/castle-east",
+                      "variant": "links.nav-dark"
+                    },
+                    {
+                      "text": "Eby-Otto Gold",
+                      "type": "PAGE",
+                      "link": "/projects/ebby-otto",
                       "variant": "links.nav-dark"
                     }
                   ]
@@ -189,7 +189,7 @@
             },
             {
               "container": {
-                "bg": "omegaLighter"
+                "bg": "white"
               },
               "buttons": [
                 {
