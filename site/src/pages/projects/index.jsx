@@ -1,6 +1,5 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
@@ -31,7 +30,6 @@ const ProjectsPage = props => {
       <Projects content={content['projects-row-2']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Container variant='narrow'>
       <Content content={content['report-intro']} />
       <Divider space='1' />
       <Download content={content['report-one']} />
