@@ -34,6 +34,7 @@ const styles = {
   },
   modal: {
     width: `fit-content`,
+    textAlign: `center`,
     p: 3
   }
 }
@@ -70,6 +71,7 @@ const PhotoGalleryBlock01 = ({
                 <ContentImages
                   content={{ images: [images[1]] }}
                   imageEffect='fadeIn'
+                  sx={{ maxWidth: `80%`, maxHeight: `80%`, mx: `auto` }}
                 />
                 {text && (
                   <>
