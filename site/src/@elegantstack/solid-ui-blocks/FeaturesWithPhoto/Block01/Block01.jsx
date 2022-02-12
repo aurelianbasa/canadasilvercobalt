@@ -1,15 +1,16 @@
 import React from 'react'
 import { Container, Flex, Box } from 'theme-ui'
+import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
-import Counter from '@solid-ui-components/Counter'
+import ListItem from '@solid-ui-components/ListItem'
 import FlexImage from '@solid-ui-components/FlexImage'
 import FlexContent from '@solid-ui-components/FlexContent'
-import ContentText from '@solid-ui-components/ContentText'
 import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
+import ContentText from '@solid-ui-components/ContentText'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
-const FeaturesWithPhotoBlock06 = ({
+const FeaturesWithPhotoBlock01 = ({
   content: { text, images, collection, buttons },
   reverse
 }) => (
@@ -29,37 +30,23 @@ const FeaturesWithPhotoBlock06 = ({
         <ContentImages content={{ images }} reverse={reverse} />
       </FlexImage>
       <FlexContent reverse={reverse}>
-        <Box sx={{ textAlign: [`center`, `left`] }}>
+        <Box sx={{ textAlign: ['center', 'left'] }}>
           <ContentText content={text} />
         </Box>
         {collection && (
           <>
             <Divider space={3} />
-            {collection.map(({ text }, index) => (
-              <Box key={`item-${index}`} mb='4'>
-                <Flex
-                  sx={{
-                    justifyContent: `space-between`,
-                    alignItems: `center`,
-                    mb: 3,
-                    px: 2
-                  }}
-                >
-                  <Box sx={{ flexBasis: [`1/2`, `2/3`] }}>
-                    <ContentText content={text?.slice(0, 2)} />
-                  </Box>
-                  <ContentText
-                    content={text?.[2]}
-                    variant='h5'
-                    sx={{ color: `omegaDarker` }}
-                    mb='0'
-                    pl='3'
-                  >
-                    <Counter from='0' to={text?.[2]?.text} duration={2} /> g/t
-                  </ContentText>
-                </Flex>
-              </Box>
-            ))}
+            <Reveal
+              effect={reverse ? 'fadeInRight' : 'fadeInLeft'}
+              duration={1.5}
+            >
+              {collection.map((props, index) => (
+                <>
+                  <ListItem key={`item-${index}`} {...props} />
+                  <Divider space={2} />
+                </>
+              ))}
+            </Reveal>
           </>
         )}
         {buttons && (
@@ -73,4 +60,4 @@ const FeaturesWithPhotoBlock06 = ({
   </Container>
 )
 
-export default WithDefaultContent(FeaturesWithPhotoBlock06)
+export default WithDefaultContent(FeaturesWithPhotoBlock01)

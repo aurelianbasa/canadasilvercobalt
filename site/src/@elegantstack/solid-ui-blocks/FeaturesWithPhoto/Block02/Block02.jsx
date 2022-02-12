@@ -1,7 +1,8 @@
 import React from 'react'
-import { Container, Flex, Box } from 'theme-ui'
+import { Container, Flex, Box, Card, css } from 'theme-ui'
+import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
-import Counter from '@solid-ui-components/Counter'
+import ListItem from '@solid-ui-components/ListItem'
 import FlexImage from '@solid-ui-components/FlexImage'
 import FlexContent from '@solid-ui-components/FlexContent'
 import ContentText from '@solid-ui-components/ContentText'
@@ -9,7 +10,7 @@ import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
-const FeaturesWithPhotoBlock06 = ({
+const FeaturesWithPhotoBlock02 = ({
   content: { text, images, collection, buttons },
   reverse
 }) => (
@@ -29,48 +30,37 @@ const FeaturesWithPhotoBlock06 = ({
         <ContentImages content={{ images }} reverse={reverse} />
       </FlexImage>
       <FlexContent reverse={reverse}>
-        <Box sx={{ textAlign: [`center`, `left`] }}>
+        <Box sx={{ textAlign: ['center', 'left'] }}>
           <ContentText content={text} />
         </Box>
         {collection && (
           <>
             <Divider space={3} />
-            {collection.map(({ text }, index) => (
-              <Box key={`item-${index}`} mb='4'>
-                <Flex
-                  sx={{
-                    justifyContent: `space-between`,
-                    alignItems: `center`,
-                    mb: 3,
-                    px: 2
-                  }}
+            <Flex sx={{ flexWrap: `wrap`, maxWidth: 500, m: -2 }}>
+              {collection.map((props, index) => (
+                <Reveal
+                  key={`item-${index}`}
+                  effect='fadeInPop'
+                  delay={1 + 0.2 * (index + 1)}
+                  css={css({ flexBasis: [`1`, `1/2`] })}
                 >
-                  <Box sx={{ flexBasis: [`1/2`, `2/3`] }}>
-                    <ContentText content={text?.slice(0, 2)} />
-                  </Box>
-                  <ContentText
-                    content={text?.[2]}
-                    variant='h5'
-                    sx={{ color: `omegaDarker` }}
-                    mb='0'
-                    pl='3'
-                  >
-                    <Counter from='0' to={text?.[2]?.text} duration={2} /> g/t
-                  </ContentText>
-                </Flex>
-              </Box>
-            ))}
+                  <Card py='3' m='2'>
+                    <ListItem {...props} compact middle p='2' />
+                  </Card>
+                </Reveal>
+              ))}
+            </Flex>
           </>
         )}
         {buttons && (
-          <>
+          <Box sx={{ textAlign: [`center`, `left`] }}>
             <Divider space={3} />
             <ContentButtons content={buttons} />
-          </>
+          </Box>
         )}
       </FlexContent>
     </Flex>
   </Container>
 )
 
-export default WithDefaultContent(FeaturesWithPhotoBlock06)
+export default WithDefaultContent(FeaturesWithPhotoBlock02)

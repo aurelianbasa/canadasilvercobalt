@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Flex, Box } from 'theme-ui'
+import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
-import Counter from '@solid-ui-components/Counter'
 import FlexImage from '@solid-ui-components/FlexImage'
 import FlexContent from '@solid-ui-components/FlexContent'
 import ContentText from '@solid-ui-components/ContentText'
@@ -9,7 +9,19 @@ import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
-const FeaturesWithPhotoBlock06 = ({
+const styles = {
+  items: {
+    flexWrap: `wrap`,
+    mx: [-2, -4],
+    '& > div': {
+      flex: 1,
+      px: [2, 4],
+      textAlign: [`center`, `unset`]
+    }
+  }
+}
+
+const FeaturesWithPhotoBlock05 = ({
   content: { text, images, collection, buttons },
   reverse
 }) => (
@@ -35,31 +47,24 @@ const FeaturesWithPhotoBlock06 = ({
         {collection && (
           <>
             <Divider space={3} />
-            {collection.map(({ text }, index) => (
-              <Box key={`item-${index}`} mb='4'>
-                <Flex
-                  sx={{
-                    justifyContent: `space-between`,
-                    alignItems: `center`,
-                    mb: 3,
-                    px: 2
-                  }}
+            <Flex sx={styles.items}>
+              {collection.map(({ text }, index) => (
+                <Reveal
+                  key={`item-${index}`}
+                  effect='fadeInPop'
+                  delay={0.3 * (index + 1)}
                 >
-                  <Box sx={{ flexBasis: [`1/2`, `2/3`] }}>
-                    <ContentText content={text?.slice(0, 2)} />
-                  </Box>
-                  <ContentText
-                    content={text?.[2]}
-                    variant='h5'
-                    sx={{ color: `omegaDarker` }}
-                    mb='0'
-                    pl='3'
+                  <Flex
+                    sx={{
+                      flexDirection: `column`,
+                      height: `full`
+                    }}
                   >
-                    <Counter from='0' to={text?.[2]?.text} duration={2} /> g/t
-                  </ContentText>
-                </Flex>
-              </Box>
-            ))}
+                    <ContentText content={text} ml={0} />
+                  </Flex>
+                </Reveal>
+              ))}
+            </Flex>
           </>
         )}
         {buttons && (
@@ -73,4 +78,4 @@ const FeaturesWithPhotoBlock06 = ({
   </Container>
 )
 
-export default WithDefaultContent(FeaturesWithPhotoBlock06)
+export default WithDefaultContent(FeaturesWithPhotoBlock05)
