@@ -53,7 +53,15 @@ const StatsBlock01 = ({
       )}
       {buttons && (
         <>
-          <ContentButtons content={buttons} />
+          <ContentButtons
+            content={buttons}
+            wrapperStyles={{
+              display: 'grid',
+              gridTemplateColumns: [`1fr`, null, `1fr 1fr`],
+              justifyItems: `center`,
+              gap: [0, 4, 0]
+            }}
+          />
         </>
       )}
     </ContentContainer>
