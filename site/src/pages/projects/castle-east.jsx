@@ -29,9 +29,12 @@ const ProjectItemPage = props => {
           {`
 						table {
 							width:100%;
-							border:2px solid #606060;
-							border-collapse:collapse;
-							padding:5px;
+							border:1px solid #606060;
+							border-collapse:separate;
+              border-left: 0;
+              border-radius: 4px;
+              border-spacing: 0px;
+							padding:6px;
 						}
 						table th {
 							border:2px solid #606060;
