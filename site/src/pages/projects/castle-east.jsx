@@ -31,7 +31,7 @@ const ProjectItemPage = props => {
 							width:100%;
 							border:1px solid #606060;
 							border-collapse:separate;
-              border-left: 0;
+              border-left: 1;
               border-radius: 4px;
               border-spacing: 0px;
 							padding:6px;
