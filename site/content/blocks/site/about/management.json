@@ -52,25 +52,6 @@
     {
       "text": [
         {
-          "text": "Ryan Webster, CFA, CPA",
-          "variant": "h6"
-        },
-        {
-          "text": "Chief Financial Officer"
-        },
-        {
-          "text": "",
-          "color": "omega",
-          "variant": "small"
-        }
-      ],
-      "avatar": {
-        "src": "../../../assets/site/about/ryan.png"
-      }
-    },
-    {
-      "text": [
-        {
           "text": "Diane Tookenay",
           "variant": "h6"
         },
@@ -85,25 +66,6 @@
       ],
       "avatar": {
         "src": "../../../assets/site/about/diane.png"
-      }
-    },
-    {
-      "text": [
-        {
-          "text": "Claude Duplessis, P. Eng.",
-          "variant": "h6"
-        },
-        {
-          "text": "Consultant"
-        },
-        {
-          "text": "Quebec Operations",
-          "color": "omega",
-          "variant": "small"
-        }
-      ],
-      "avatar": {
-        "src": "../../../assets/site/about/claude.png"
       }
     }
   ],
