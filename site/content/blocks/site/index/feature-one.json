@@ -1,18 +1,18 @@
 {
   "text": [
     {
-      "text": "NICKEL & COPPER",
+      "text": "",
       "color": "omega",
       "variant": "h4",
       "align": ["left"]
     },
     {
-      "text": "**High Grade** Graal Deposit in Northern Quebec",
+      "text": "**Massive Sulphides** in Northern Quebec",
       "variant": "h2",
       "align": ["left"]
     },
     {
-      "text": "Massive sulphides in drill core at Graal in XRF testing.",
+      "text": "Graal property in Northern Quebec revealed high grade Nickel and Copper in XRF testing.",
       "variant": "medium",
       "align": ["left"]
     }
@@ -25,38 +25,39 @@
       "shadow": "default"
     }
   ],
+
   "collection": [
     {
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
-        "color": "white",
-        "bg": "alpha"
-      },
       "text": [
         {
           "text": "2.79%",
-          "color": "omegaDarker",
-          "variant": "h5"
+          "color": "beta",
+          "variant": "h2",
+          "space": 1
         },
         {
-          "text": "Nickel"
+          "text": "Nickel",
+          "variant": "h6"
+        },
+        {
+          "text": ""
         }
       ]
     },
     {
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-check.svg",
-        "color": "white",
-        "bg": "alpha"
-      },
       "text": [
         {
           "text": "25.68%",
-          "color": "omegaDarker",
-          "variant": "h5"
+          "color": "beta",
+          "variant": "h2",
+          "space": 1
         },
         {
-          "text": "Copper"
+          "text": "Copper",
+          "variant": "h6"
+        },
+        {
+          "text": ""
         }
       ]
     }
