@@ -52,11 +52,11 @@ const IndexPage = props => {
         <Caption content={content['caption-one']} />
       </Container>
       <Divider space='4' />
-      <Info content={content['info']} />
+      <Info content={content['info']} reverse />
       <Divider space='4' />
-      <FeatureOne content={content['feature-one']} reverse />
+      <FeatureOne content={content['feature-one']} />
       <Divider space='4' />
-      <FeatureTwo content={content['feature-two']} />
+      <FeatureTwo content={content['feature-two']} reverse />
       <Divider space='4' />
       <Download content={content['download']} />
       <Divider space='4' />
