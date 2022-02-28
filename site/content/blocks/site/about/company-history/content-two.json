@@ -23,13 +23,5 @@
       "radius": "xl",
       "effects": ["fadeInDown"]
     }
-  ],
-  "buttons": [
-    {
-      "text": "Learn More",
-      "type": "MODAL",
-      "link": "authentication",
-      "variant": "primary"
-    }
   ]
 }

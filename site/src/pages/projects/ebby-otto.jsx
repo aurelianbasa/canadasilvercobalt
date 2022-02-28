@@ -37,8 +37,6 @@ const ProjectItemPage = props => {
       <Divider space='2' />
       <Milestones content={content['milestones-2']} />
 
-      <Divider space='5' />
-      <Feature content={content['feature-one']} reverse />
       <Divider space='4' />
       <Feature content={content['feature-two']} />
       <Divider space='4' />

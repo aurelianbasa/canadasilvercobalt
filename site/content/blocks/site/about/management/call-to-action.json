@@ -24,7 +24,7 @@
   "buttons": [
     {
       "text": "Contact",
-      "type": "MODAL",
+      "type": "PAGE",
       "link": "/contact",
       "variant": "secondary"
     }
