@@ -12,7 +12,7 @@
       "align": ["left"]
     },
     {
-      "text": "High Grades reduce amount of tonnage and processing needed for a profitable mine.",
+      "text": "High grades at Castle East reduce the amount of tonnage and processing needed for a profitable mine.",
       "variant": "medium",
       "align": ["left"]
     }
@@ -29,7 +29,7 @@
     {
       "text": [
         {
-          "text": "Average grade",
+          "text": "Average industry grade",
           "color": "omegaDarker",
           "variant": "h5"
         },
