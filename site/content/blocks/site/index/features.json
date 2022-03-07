@@ -28,7 +28,7 @@
           "text": "High grade silver deposit at Castle East   ➜",
           "type": "PAGE",
           "link": "/projects/castle-east",
-          "variant": "links.normal"
+          "variant": "links.nav-dark"
         }
       ]
     },
@@ -52,7 +52,7 @@
           "text": "The Re-2Ox process with proven results   ➜",
           "type": "PAGE",
           "link": "/projects#re-2ox-process",
-          "variant": "links.normal"
+          "variant": "links.nav-dark"
         }
       ]
     },
@@ -76,7 +76,7 @@
           "text": "Impressive Copper results at Graal in Quebec   ➜",
           "type": "PAGE",
           "link": "/projects/nourricier",
-          "variant": "links.normal"
+          "variant": "links.nav-dark"
         }
       ]
     },
@@ -97,10 +97,10 @@
       },
       "buttons": [
         {
-          "text": "A prospective gold property near the Macassa mine   ➜",
+          "text": "A prospective Gold property near the Macassa mine   ➜",
           "type": "PAGE",
           "link": "/projects/ebby-otto",
-          "variant": "links.normal"
+          "variant": "links.nav-dark"
         }
       ]
     }
