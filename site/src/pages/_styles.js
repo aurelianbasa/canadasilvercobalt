@@ -22,13 +22,13 @@ export default {
     '::after': {
       background: `linear-gradient(
           180deg,
-          rgba(255,255,255,0.4) 0%,
+          rgba(255,255,255,0.6) 0%,
           rgba(255,255,255,0.1) 100%
         )`
     },
     '::before': {
       background: `url(images/cobalt-bg.jpg) no-repeat center center`,
-      backgroundSize: `auto`
+      backgroundSize: `cover`
       }
     },
     captionContainer: {
