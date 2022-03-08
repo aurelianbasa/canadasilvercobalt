@@ -7,11 +7,13 @@
     },
     {
       "text": "The property is in an area that has long held the interest of geologists because of its close proximity to the high-grade underground Macassa gold mine. The team is encouraged by numerous outcropping high-grade gold veins at Eby-Otto that have assayed up to 14.03 g/t Au in past sampling/drilling",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     },
     {
       "text": "The company is optimistic on the future of the property, especially in light of geologist Doug Robinson’s continued involvement. ",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

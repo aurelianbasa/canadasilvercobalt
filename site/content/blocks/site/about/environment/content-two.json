@@ -7,11 +7,13 @@
     },
     {
       "text": "Measures **Already** Taken",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "The Company takes numerous precautions to affect the terrain as little as possible when conducting exploration and other activities at its properties. After completing drilling at any location, the ground and vegetation are returned as much as possible to its pre-drilling form.  Pictured is a bird’s nest rescued during exploration.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

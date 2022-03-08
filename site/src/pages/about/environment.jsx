@@ -10,7 +10,6 @@ import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Quote from '../../blocks/Quotes/Block01'
 import ContentOne from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
 import ContentTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
-import ContentThree from '@solid-ui-blocks/Content/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles'
@@ -45,9 +44,6 @@ const AboutEnvironmentPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <ContentTwo content={content['content-three']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <ContentThree content={content['content-four']} />
       <Divider space='5' />
       <Divider space='5' />
       <Container sx={styles.callToActionContainer}>

@@ -34,7 +34,8 @@
       "text": "Read More",
       "type": "PAGE",
       "link": "/about/community",
-      "variant": "primary"
+      "variant": "primary",
+      "align": ["right"]
     }
   ]
 }

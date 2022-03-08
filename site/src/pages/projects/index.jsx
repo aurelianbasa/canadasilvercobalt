@@ -41,7 +41,7 @@ const ProjectsPage = props => {
       <Info content={content['ttl-facility']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Info content={content['re-2ox-process']} reverse />
+      <Info content={content['re-2ox-process']} />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

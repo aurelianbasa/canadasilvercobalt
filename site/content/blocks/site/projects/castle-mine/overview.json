@@ -7,15 +7,18 @@
     },
     {
       "text": "The only permitted underground asset in the Cobalt camp",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "The past-producing silver-cobalt Castle Silver Mine property is located 85 km northwest of Cobalt, Ontario, which is the centre of the historic Silver Cobalt Mining Camp.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     },
     {
       "text": "When acquired, the property size was 2,815 hectares, but in recent years the size has been expanded primarily to the north to a total of 7,800 hectares (78 km sq).",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

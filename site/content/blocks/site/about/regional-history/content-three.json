@@ -7,11 +7,13 @@
     },
     {
       "text": "**Drilling** Led to new discoveries",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "The drilling was largely focused in the underground workings left from the old mines. This drilling quickly led to discoveries of new veins and systems previous miners had missed.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

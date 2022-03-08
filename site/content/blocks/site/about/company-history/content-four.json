@@ -7,11 +7,13 @@
     },
     {
       "text": "Eby-Otto **Gold** Exploration",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "Also in 2021, the company acquired the Eby-Otto gold exploration property with the help of famed prospector Doug Robinson who was instrumental in the Castle East discovery.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

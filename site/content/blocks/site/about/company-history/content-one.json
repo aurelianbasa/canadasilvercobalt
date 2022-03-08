@@ -7,11 +7,13 @@
     },
     {
       "text": "Castle Mine",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "The current flagship property of the company.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

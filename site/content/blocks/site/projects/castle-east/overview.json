@@ -11,11 +11,13 @@
     },
     {
       "text": "Massive native silver grades up to 89,853 g/t (2,621 oz/ton) intersected during surface drilling at the Castle East Robinson Zone less than 2 km east of the Castle Mine shafts.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     },
     {
       "text": "The Company published the region’s first 43-101 resource estimate with a total of 7.56 million ounces of silver in inferred resources.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

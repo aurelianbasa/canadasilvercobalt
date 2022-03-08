@@ -34,7 +34,8 @@
       "text": "Read More",
       "type": "PAGE",
       "link": "/about/regional-history",
-      "variant": "primary"
+      "variant": "primary",
+      "align": ["right"]
     }
   ]
 }

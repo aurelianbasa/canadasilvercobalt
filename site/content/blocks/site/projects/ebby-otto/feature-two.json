@@ -7,11 +7,13 @@
     },
     {
       "text": "Prospective Opportunity",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "The Eby-Otto Property is a prospective land package of 1,000 hectares in the Kirkland Lake Gold camp located on the prolific Larder Lake-Cadillac Break. The property was purchased in 2021 from a team of local geologists.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

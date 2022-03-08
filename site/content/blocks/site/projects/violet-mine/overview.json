@@ -7,15 +7,18 @@
     },
     {
       "text": "Historic Producer",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "An early producer in the Cobalt camp, the Violet Mine was the site of several discoveries.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     },
     {
       "text": "The mine is close to the town of Cobalt and surrounded by many other high grade historic producers.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

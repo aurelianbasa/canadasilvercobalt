@@ -7,11 +7,13 @@
     },
     {
       "text": "First Ever **Resource** Estimate",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "The mining approach taken at the Castle Mine was to drill from underground to locate the high-grade silver veins and then use drilling to continue to locate and follow the veins. Each vein could extend many hundreds of meters and could vary in silver grade along the way.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

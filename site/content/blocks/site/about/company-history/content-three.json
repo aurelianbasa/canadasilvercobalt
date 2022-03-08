@@ -7,11 +7,13 @@
     },
     {
       "text": "**Battery Metals** Properties",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "In 2021, the company acquired 15 properties in Quebec and one in Ontario that are prospective for battery metals.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

@@ -47,13 +47,13 @@ const AboutPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Divider space='5' />
-      <Info content={content['regional-history']} reverse />
+      <Info content={content['regional-history']} />
       <Divider space='5' />
       <Divider space='5' />
       <Info content={content['community']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Info content={content['environment']} reverse />
+      <Info content={content['environment']} />
       <Divider space='5' />
       <Divider space='5' />
       <Footer content={content['footer']} />

@@ -3,19 +3,23 @@
     {
       "text": "Re-2Ox Process",
       "color": "alpha",
-      "variant": "h4"
+      "variant": "h4",
+      "align": ["left"]
     },
     {
       "text": "A purely hydrometallurgical approach for selective metals recovery",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "The process takes metal-rich mining concentrates or recycled battery materials and converts them into premium value-added battery materials. Lab tests exceed technical specifications of cathode producers in Asia.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     },
     {
       "text": "SGS Canada (Lakefield) is designing and building a Re-2Ox pilot plant. The Company recently expanded testing to include recovery of rubidium, an alkaline metal, obtained from a local deposit and also the recovery and metal recycling from lithium-ion, nickel-hydroxide and nickel cadmium batteries to capture valuable materials and divert spent batteries from landfills.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [
@@ -30,7 +34,8 @@
       "text": "Visit Website",
       "type": "PAGE",
       "link": "/link-to-page",
-      "variant": "dark"
+      "variant": "dark",
+      "align": ["right"]
     }
   ]
 }

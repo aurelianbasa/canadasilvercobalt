@@ -7,7 +7,8 @@
     },
     {
       "text": "The Castle East high-grade silver project is located in the Gowganda camp. In the 1900s, the Castle, Capitol and O’Brien mines were the most prolific in the area, accounting for about three-quarters of the total 80 million ounces silver mined.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     },
     {
       "text": "",

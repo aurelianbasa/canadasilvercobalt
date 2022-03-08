@@ -76,7 +76,8 @@
       "text": "Read More",
       "type": "PAGE",
       "link": "/about/company-history",
-      "variant": "primary"
+      "variant": "primary",
+      "align": ["right"]
     }
   ]
 }

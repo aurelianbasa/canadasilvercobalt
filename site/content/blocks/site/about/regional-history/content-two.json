@@ -6,12 +6,14 @@
       "variant": "h4"
     },
     {
-      "text": "Booms and Busts followed in subsequent decades",
-      "variant": "h2"
+      "text": "Booms and Busts followed",
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "Intensive mining activity continued in the Cobalt area until 1911. It was that year silver production reached its peak when over 31 million ounces were shipped out.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

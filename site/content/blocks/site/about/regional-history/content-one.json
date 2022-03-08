@@ -7,11 +7,13 @@
     },
     {
       "text": "Discovery of **Silver**",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "Rich silver veins were long prophesied by early french fur traders who ventured up the Montreal river. The first significant discoveries coincided with the extension of the railway in 1903. Once the first shipment of silver slabs reached the south, news quickly spread and an invasion of prospectors occurred almost overnight.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

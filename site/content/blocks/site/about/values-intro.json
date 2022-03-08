@@ -3,14 +3,16 @@
     {
       "text": [
         {
-          "text": "Company Core Values and Initiatives",
+          "text": "COMPANY INITIATIVES",
           "color": "omegaDark",
-          "variant": "h4"
+          "variant": "h4",
+          "align": ["left"]
         },
         {
-          "text": "Who We Are.",
+          "text": "Core Values",
           "color": "beta",
           "variant": "h2",
+          "align": ["left"],
           "space": 0
         }
       ]

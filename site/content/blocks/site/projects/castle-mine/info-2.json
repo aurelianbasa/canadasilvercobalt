@@ -7,11 +7,13 @@
     },
     {
       "text": "Management considers the property has the potential to host a significant cobalt plus high grade silver.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     },
     {
       "text": "There is also a strong likelihood future cobalt mining economics will be enhanced by metal credits such as nickel, silver and others. Drilling and sampling underground at Castle showed grades as high as 5.2% cobalt.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

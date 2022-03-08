@@ -7,11 +7,13 @@
     },
     {
       "text": "**Ore Grades** Over Time",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "In the Greater Silver-Cobalt Camp, silver and cobalt are typically found together in varying grades in quartz and calcite veins in or near the Nipissing Diabase, while gold and copper tend to be found in the Archean Volcanic rock. Historical records show that the Castle Mine’s average ore grades were:",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

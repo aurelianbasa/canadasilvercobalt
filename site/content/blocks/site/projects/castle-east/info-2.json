@@ -7,7 +7,8 @@
     },
     {
       "text": "The Robinson Discovery Zone vein shoot has been found 1.9 km east of Castle Shaft #3, and just below the middle of the Nipissing diabase at under-explored Castle East.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     },
     {
       "text": "",

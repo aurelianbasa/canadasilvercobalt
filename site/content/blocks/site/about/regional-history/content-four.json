@@ -11,7 +11,8 @@
     },
     {
       "text": "The late 1970s saw a merger between the remaining operating mines under the leadership of Paul Penna. Management took the controversial decision at the time to drill deeper into ore bodies and were rewarded handsomely. Operations continued steady in both Cobalt and Gowganda for nearly two decades before being abandoned.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

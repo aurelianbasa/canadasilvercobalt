@@ -7,11 +7,13 @@
     },
     {
       "text": "**Voluntary** Rehabilitation",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "Since the historic Castle Silver mine property is a former producer, existing underground openings and surface structures had become hazards for individuals working on the property and for those using the area for recreational purposes.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

@@ -7,15 +7,18 @@
     },
     {
       "text": "Full scope of the **Discovery**",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "The planned ramp will extend down to the 400m level to access the high-grade silver material for bulk samples and to carry out advanced exploration drilling from underground locations.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     },
     {
       "text": "Currently, Environmental tests are underway to obtain necessary permits.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

@@ -7,11 +7,13 @@
     },
     {
       "text": "Most of the claim is covered by overburden on a bedrock surface of Nipissing diabase. The O’Brien-Violet fault traverses the claim in a southeasterly direction cutting through the Nipissing, cobalt series and Keewatin formation.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     },
     {
       "text": "Management plans to focus on exploring for the cobalt and silver mineralization known to exist on the property in light of rising prices and the anticipated future growth potential in the cobalt and silver markets.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

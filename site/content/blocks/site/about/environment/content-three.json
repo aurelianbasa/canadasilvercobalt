@@ -7,11 +7,13 @@
     },
     {
       "text": "Mining techniques for a **Cleaner world**",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "Under the direction of its CEO Frank Basa, P.Eng., a top metallurgist and milling expert, the Company has developed a hydrometallurgical process: Re-2Ox.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

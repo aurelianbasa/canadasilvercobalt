@@ -7,11 +7,13 @@
     },
     {
       "text": "Phases of **Development**",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "Data allows interpretation of upper and lower contacts of the Nipissing diabase sill based on surface geology, underground mapping and historic drill hole information. Silver mineralization is historically spatially associated with the upper half of this intrusive body.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [
