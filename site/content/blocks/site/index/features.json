@@ -15,23 +15,41 @@
           "variant": "h4"
         },
         {
-          "text": "For solar panels, and electric vehicles"
+          "text": "For solar panels, and 5G networks"
         }
       ],
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
-        "bg": "#C0C0C0",
-       "color": "#AAA9AD"
-      },
-      "buttons": [
+      "collection": [
         {
-          "text": "High grade silver deposit at Castle East   ➜",
-          "type": "PAGE",
-          "link": "/projects/castle-east",
-          "variant": "links.nav-dark"
+          "text": [
+            {
+              "text": "Castle East",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
+            "alt": "alt text",
+            "color": "#AAA9AD"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Castle Mine",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
+            "alt": "alt text",
+            "color": "#AAA9AD"
+          }
         }
       ]
     },
+
     {
       "text": [
         {
@@ -39,23 +57,41 @@
           "variant": "h4"
         },
         {
-          "text": "For electric vehicle batteries"
+          "text": "For electric vehicle batteries and components"
         }
       ],
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
-       "bg": "#0072AB",
-       "color": "#0055AB"
-      },
-      "buttons": [
+      "collection": [
         {
-          "text": "The Re-2Ox process with proven results   ➜",
-          "type": "PAGE",
-          "link": "/projects#re-2ox-process",
-          "variant": "links.nav-dark"
+          "text": [
+            {
+              "text": "Quebec properties",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
+            "alt": "alt text",
+            "color": "#0055AB"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Re-2Ox Process",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
+            "alt": "alt text",
+            "color": "#0055AB"
+          }
         }
       ]
     },
+
     {
       "text": [
         {
@@ -63,23 +99,41 @@
           "variant": "h4"
         },
         {
-          "text": "For wiring in electric vehicles"
+          "text": "For wiring in electric vehicles and the grid"
         }
       ],
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
-       "bg": "#D1793B",
-       "color": "#CC6633"
-      },
-      "buttons": [
+      "collection": [
         {
-          "text": "Impressive Copper results at Graal in Quebec   ➜",
-          "type": "PAGE",
-          "link": "/projects/nourricier",
-          "variant": "links.nav-dark"
+          "text": [
+            {
+              "text": "Graal property",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
+            "alt": "alt text",
+            "color": "#CC6633"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Shillington property",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
+            "alt": "alt text",
+            "color": "#CC6633"
+          }
         }
       ]
     },
+
     {
       "text": [
         {
@@ -87,22 +141,42 @@
           "variant": "h4"
         },
         {
-          "text": "For microprocessor and memory chips"
+          "text": "For microprocessors and memory chips"
         }
       ],
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
-        "bg": "#D7BE69",
-        "color": "#D4AF37"
-      },
-      "buttons": [
+      "collection": [
         {
-          "text": "A prospective Gold property near the Macassa mine   ➜",
-          "type": "PAGE",
-          "link": "/projects/ebby-otto",
-          "variant": "links.nav-dark"
+          "text": [
+            {
+              "text": "Eby-Otto property",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
+            "alt": "alt text",
+            "color": "#D4AF37"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "TTL processing facility",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
+            "alt": "alt text",
+            "color": "#D4AF37"
+          }
         }
       ]
     }
+
+
+
   ]
 }
