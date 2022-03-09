@@ -166,7 +166,7 @@
                   "variant": "links.disabled",
                   "buttons": [
                     {
-                      "text": "Graal-Nourricier",
+                      "text": "Graal",
                       "type": "PAGE",
                       "link": "/projects/nourricier",
                       "variant": "links.nav-dark"

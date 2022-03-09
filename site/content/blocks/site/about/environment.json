@@ -33,6 +33,7 @@
     {
       "text": "Read More",
       "type": "PAGE",
+      "width": "100%",
       "link": "/about/environment",
       "variant": "primary",
       "align": ["right"]

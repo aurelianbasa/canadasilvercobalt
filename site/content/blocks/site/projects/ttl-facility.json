@@ -33,6 +33,7 @@
     {
       "text": "Visit Website",
       "type": "PAGE",
+      "width": "100%",
       "link": "/link-to-page",
       "variant": "dark",
       "align": ["right"]
