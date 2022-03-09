@@ -1,0 +1,95 @@
+{
+  "text": [
+    {
+      "text": "Main Projects",
+      "color": "omegaDarker",
+      "variant": "h1",
+      "align": ["center"] 
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Castle East",
+          "variant": "h4"
+        },
+        {
+          "text": "Highest silver grades, with a cobalt byproduct"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read more ➜",
+          "type": "PAGE",
+          "width": "100%",
+          "link": "/projects/castle-east",
+          "variant": "primary-light"
+        }
+      ]
+    },
+
+    {
+      "text": [
+        {
+          "text": "Castle Mine",
+          "variant": "h4"
+        },
+        {
+          "text": "Past producer of silver, with a cobalt byproduct"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read more ➜",
+          "type": "PAGE",
+          "width": "100%",
+          "link": "/projects/castle-mine",
+          "variant": "primary-light"
+        }
+      ]
+    },
+
+    {
+      "text": [
+        {
+          "text": "Graal",
+          "variant": "h4"
+        },
+        {
+          "text": "High-grade nickel and copper, with a cobalt byproduct"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read more ➜",
+          "type": "PAGE",
+          "width": "100%",
+          "link": "/projects/nourricier",
+          "variant": "primary-light"
+        }
+      ]
+    },
+
+    {
+      "text": [
+        {
+          "text": "Eby-Otto",
+          "variant": "h4"
+        },
+        {
+          "text": "Prospective gold property close to the Macassa mine"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read more ➜",
+          "type": "PAGE",
+          "width": "100%",
+          "link": "/projects/ebby-otto",
+          "variant": "primary-light"
+        }
+      ]
+    }
+  ]
+}

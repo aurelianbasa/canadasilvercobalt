@@ -1,215 +1,60 @@
 {
-  "text": [
-    {
-      "text": "**+ Battery Metals for a** Cleaner World",
-      "color": "beta",
-      "variant": "h1",
-      "align": ["center"] 
-    }
-  ],
-  "collection": [
-    {
-      "text": [
-        {
-          "text": "Silver",
-          "variant": "h4"
-        },
-        {
-          "text": "For solar panels, and 5G networks"
-        }
-      ],
-      "collection": [
-        {
-          "text": [
-            {
-              "text": "Highest silver grades",
-              "color": "omegaDark",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
-            "alt": "alt text",
-            "color": "#AAA9AD"
+    "text": [
+      {
+        "text": "**+ Battery Metals for a** Cleaner World",
+        "color": "beta",
+        "variant": "h1",
+        "align": ["center"] 
+      }
+    ],
+    "collection": [
+      {
+        "text": [
+          {
+            "text": "Silver",
+            "variant": "h4"
+          },
+          {
+            "text": "For solar panels, and 5G networks"
           }
-        },
-        {
-          "text": [
-            {
-              "text": "With a cobalt byproduct",
-              "color": "omegaDark",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
-            "alt": "alt text",
-            "color": "#AAA9AD"
+        ]
+      },
+  
+      {
+        "text": [
+          {
+            "text": "Nickel & Cobalt",
+            "variant": "h4"
+          },
+          {
+            "text": "For electric vehicle batteries"
           }
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Castle East  ➜",
-          "type": "PAGE",
-          "width": "100%",
-          "link": "/projects/castle-east",
-          "variant": "primary-light"
-        }
-      ]
-    },
-
-    {
-      "text": [
-        {
-          "text": "Cobalt",
-          "variant": "h4"
-        },
-        {
-          "text": "For electric vehicle batteries"
-        }
-      ],
-      "collection": [
-        {
-          "text": [
-            {
-              "text": "Past producer of silver",
-              "color": "omegaDark",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
-            "alt": "alt text",
-            "color": "#0055AB"
+        ]
+      },
+  
+      {
+        "text": [
+          {
+            "text": "Copper",
+            "variant": "h4"
+          },
+          {
+            "text": "For wiring in electric vehicles and the grid"
           }
-        },
-        {
-          "text": [
-            {
-              "text": "With a cobalt byproduct",
-              "color": "omegaDark",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
-            "alt": "alt text",
-            "color": "#0055AB"
+        ]
+      },
+  
+      {
+        "text": [
+          {
+            "text": "Gold",
+            "variant": "h4"
+          },
+          {
+            "text": "For microprocessors and memory chips"
           }
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Castle Mine  ➜",
-          "type": "PAGE",
-          "width": "100%",
-          "link": "/projects/castle-mine",
-          "variant": "primary-light"
-        }
-      ]
-    },
-
-    {
-      "text": [
-        {
-          "text": "Copper",
-          "variant": "h4"
-        },
-        {
-          "text": "For wiring in electric vehicles and the grid"
-        }
-      ],
-      "collection": [
-        {
-          "text": [
-            {
-              "text": "High-grade nickel and copper",
-              "color": "omegaDark",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
-            "alt": "alt text",
-            "color": "#CC6633"
-          }
-        },
-        {
-          "text": [
-            {
-              "text": "With a cobalt byproduct",
-              "color": "omegaDark",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
-            "alt": "alt text",
-            "color": "#CC6633"
-          }
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Graal  ➜",
-          "type": "PAGE",
-          "width": "100%",
-          "link": "/projects/nourricier",
-          "variant": "primary-light"
-        }
-      ]
-    },
-
-    {
-      "text": [
-        {
-          "text": "Gold",
-          "variant": "h4"
-        },
-        {
-          "text": "For microprocessors and memory chips"
-        }
-      ],
-      "collection": [
-        {
-          "text": [
-            {
-              "text": "Prospective gold property",
-              "color": "omegaDark",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
-            "alt": "alt text",
-            "color": "#D4AF37"
-          }
-        },
-        {
-          "text": [
-            {
-              "text": "Close to the Macassa mine",
-              "color": "omegaDark",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
-            "alt": "alt text",
-            "color": "#D4AF37"
-          }
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Eby-Otto  ➜",
-          "type": "PAGE",
-          "width": "100%",
-          "link": "/projects/ebby-otto",
-          "variant": "primary-light"
-        }
-      ]
-    }
-  ]
-}
+        ]
+      }
+    ]
+  }
+  
