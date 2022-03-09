@@ -22,7 +22,11 @@
   "images": [
     {
       "src": "../../../assets/site/index/cobalt.png",
-      "alt": ""
+      "alt": "",
+      "position": {
+        "top": "80%",
+        "right": "60%"
+      }
     }
   ]
 }
