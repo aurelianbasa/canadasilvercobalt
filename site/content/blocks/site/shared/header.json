@@ -113,6 +113,7 @@
                   "type": "SUB",
                   "variant": "links.disabled",
                   "buttons": [
+                    
                     {
                       "text": "Castle Mine",
                       "type": "PAGE",
