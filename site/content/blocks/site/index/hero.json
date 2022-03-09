@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "**Canada Silver Cobalt Works Inc.**",
+      "text": "Highest Silver Grades in the World",
       "color": "omegaDarker",
       "variant": "h1",
       "align": ["left"]
@@ -13,9 +13,9 @@
       "align": ["left"]
     },
     {
-      "text": "Highest Silver Grades in the World",
+      "text": "Canada Silver Cobalt Works Inc.",
       "color": "omegaDarker",
-      "variant": "h1",
+      "variant": "h3",
       "align": ["left"]
     }
   ],
