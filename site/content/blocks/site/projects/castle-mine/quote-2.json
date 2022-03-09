@@ -6,6 +6,7 @@
           "text": "Cross Section with Topography",
           "color": "omegaDarker",
           "variant": "h2",
+          "align": ["left"],
           "space": 3
         }
       ]
@@ -14,7 +15,8 @@
       "text": [
         {
           "text": "Longitudinal section through Castle No. 3 workings. View looking NE. Image shows topography from the drone survey completed in the spring of 2016 as well as the underground workings and historic drill hole intersection points.",
-          "color": "omegaDark"
+          "color": "omegaDark",
+          "align": ["left"]
         }
       ]
     }

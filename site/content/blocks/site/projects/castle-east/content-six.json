@@ -19,11 +19,13 @@
         {
           "text": "Note that mineral resources that are not mineral reserves do not have demonstrated economic viability. Please refer to Canada Silver Cobalt Works Press Release May 28, 2020, for the resource estimate.",
           "color": "omega",
-          "variant": "p"
+          "variant": "p",
+          "align": ["left"]
         },
         {
           "text": "Report reference: Rachidi, M. 2020, NI 43-101 Technical Report Mineral Resource Estimate for Castle East, Robinson Zone, Ontario, Canada, with an effective date of May 28, 2020, and a signature date of July 13, 2020.",
-          "color": "omega"
+          "color": "omega",
+          "align": ["left"]
         }
       ]
     }

@@ -54,7 +54,7 @@
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/castle-east",
-          "variant": "links.nav-dark"
+          "variant": "secondary"
         }
       ]
     },
@@ -105,7 +105,7 @@
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/castle-mine",
-          "variant": "links.nav-dark"
+          "variant": "secondary"
         }
       ]
     },
@@ -156,7 +156,7 @@
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/nourricier",
-          "variant": "links.nav-dark"
+          "variant": "secondary"
         }
       ]
     },
@@ -207,7 +207,7 @@
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/ebby-otto",
-          "variant": "links.nav-dark"
+          "variant": "secondary"
         }
       ]
     }

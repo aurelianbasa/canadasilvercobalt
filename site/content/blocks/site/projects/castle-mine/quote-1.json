@@ -6,6 +6,7 @@
           "text": "Cross Section of Underground",
           "color": "omegaDarker",
           "variant": "h2",
+          "align": ["left"],
           "space": 3
         }
       ]
@@ -14,7 +15,8 @@
       "text": [
         {
           "text": "Longitudinal section through Castle No.3 workings. View looking North. Mining occurred on 11 different levels during the 1900s down to approximately 850 feet (259.1m)",
-          "color": "omegaDark"
+          "color": "omegaDark",
+          "align": ["left"]
         }
       ]
     }

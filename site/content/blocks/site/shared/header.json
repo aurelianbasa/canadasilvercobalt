@@ -90,23 +90,15 @@
                         "variant": "links.nav-dark"
                       }
                     ]
-                  },
-                      {
-                        "text": "",
-                        "type": "SUB",
-                        "variant": "links.disabled",
-                        "buttons": [
-                      {
-                        "text": "Technical Reports",
-                        "type": "PAGE",
-                        "link": "/projects#report-intro",
-                        "variant": "links.nav-dark"
-                      }
-                    ]
                   }
                 ]
               }, 
+
               {
+                "container": {
+                  "bg": "white"
+                },
+                
               "buttons": [
                 {
                   "text": "Precious Metals",
@@ -155,10 +147,12 @@
                 }
               ]
             },
+
             {
               "container": {
                 "bg": "white"
               },
+
               "buttons": [
                 {
                   "text": "Battery Metals",
