@@ -4,7 +4,7 @@
       "text": "Main Projects",
       "color": "omegaDarker",
       "variant": "h1",
-      "align": ["center"] 
+      "align": ["left"] 
     }
   ],
   "collection": [
@@ -15,7 +15,7 @@
           "variant": "h4"
         },
         {
-          "text": "Highest silver grades, with a cobalt byproduct"
+          "text": "Highest silver grades in the world, with a cobalt byproduct"
         }
       ],
       "buttons": [
@@ -36,7 +36,7 @@
           "variant": "h4"
         },
         {
-          "text": "Past producer of silver, with a cobalt byproduct"
+          "text": "Past producer of high-grade silver, with a cobalt byproduct"
         }
       ],
       "buttons": [
