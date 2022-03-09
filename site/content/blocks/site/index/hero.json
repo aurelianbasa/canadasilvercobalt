@@ -4,20 +4,19 @@
       "text": "**Canada Silver Cobalt Works Inc.**",
       "color": "omegaDarker",
       "variant": "h1",
-      "align": ["left"],
-      "space": 2
+      "align": ["left"]
+    },
+    {
+      "text": "",
+      "color": "omegaDarker",
+      "variant": "h1",
+      "align": ["left"]
     },
     {
       "text": "Highest Silver Grades in the World",
       "color": "omegaDarker",
       "variant": "h1",
       "align": ["left"]
-    },
-    {
-      "text": "",
-      "color": "beta",
-      "variant": "h1",
-      "align": [""]
     }
   ],
   "images": [
