@@ -88,7 +88,14 @@
                         "type": "PAGE",
                         "link": "/projects#projects-row-1",
                         "variant": "links.nav-dark"
-                      },
+                      }
+                    ]
+                  },
+                      {
+                        "text": "",
+                        "type": "SUB",
+                        "variant": "links.disabled",
+                        "buttons": [
                       {
                         "text": "Technical Reports",
                         "type": "PAGE",
@@ -107,18 +114,6 @@
                   "variant": "links.disabled",
                   "buttons": [
                     {
-                      "text": "Castle East Silver",
-                      "type": "PAGE",
-                      "link": "/projects/castle-east",
-                      "variant": "links.nav-dark"
-                    },
-                    {
-                      "text": "Eby-Otto Gold",
-                      "type": "PAGE",
-                      "link": "/projects/ebby-otto",
-                      "variant": "links.nav-dark"
-                    },
-                    {
                       "text": "Castle Mine",
                       "type": "PAGE",
                       "link": "/projects/castle-mine",
@@ -134,6 +129,25 @@
                       "text": "Violet Mine",
                       "type": "PAGE",
                       "link": "/projects/violet-mine",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                },
+                {
+                  "text": "_",
+                  "type": "SUB",
+                  "variant": "links.hidden",
+                  "buttons": [
+                    {
+                      "text": "Castle East Silver",
+                      "type": "PAGE",
+                      "link": "/projects/castle-east",
+                      "variant": "links.nav-dark"
+                    },
+                    {
+                      "text": "Eby-Otto Gold",
+                      "type": "PAGE",
+                      "link": "/projects/ebby-otto",
                       "variant": "links.nav-dark"
                     }
                   ]
@@ -155,7 +169,14 @@
                       "type": "PAGE",
                       "link": "/projects/nourricier",
                       "variant": "links.nav-dark"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "text": "_",
+                  "type": "SUB",
+                  "variant": "links.hidden",
+                  "buttons": [
                     {
                       "text": "Re-2Ox Process",
                       "type": "PAGE",

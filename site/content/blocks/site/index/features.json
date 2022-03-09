@@ -22,7 +22,7 @@
         {
           "text": [
             {
-              "text": "Castle East",
+              "text": "Highest silver grades",
               "color": "omegaDark",
               "variant": "h6"
             }
@@ -36,7 +36,7 @@
         {
           "text": [
             {
-              "text": "Castle Mine",
+              "text": "With a cobalt byproduct",
               "color": "omegaDark",
               "variant": "h6"
             }
@@ -47,13 +47,21 @@
             "color": "#AAA9AD"
           }
         }
+      ],
+      "buttons": [
+        {
+          "text": "Castle East  ➜",
+          "type": "PAGE",
+          "link": "/projects/castle-east",
+          "variant": "links.nav-dark"
+        }
       ]
     },
 
     {
       "text": [
         {
-          "text": "Nickel & Cobalt",
+          "text": "Cobalt",
           "variant": "h4"
         },
         {
@@ -64,7 +72,7 @@
         {
           "text": [
             {
-              "text": "Quebec properties",
+              "text": "Past producer of silver",
               "color": "omegaDark",
               "variant": "h6"
             }
@@ -78,7 +86,7 @@
         {
           "text": [
             {
-              "text": "Re-2Ox Process",
+              "text": "With a cobalt byproduct",
               "color": "omegaDark",
               "variant": "h6"
             }
@@ -88,6 +96,14 @@
             "alt": "alt text",
             "color": "#0055AB"
           }
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Castle Mine  ➜",
+          "type": "PAGE",
+          "link": "/projects/castle-mine",
+          "variant": "links.nav-dark"
         }
       ]
     },
@@ -106,7 +122,7 @@
         {
           "text": [
             {
-              "text": "Graal property",
+              "text": "High-grade nickel and copper",
               "color": "omegaDark",
               "variant": "h6"
             }
@@ -120,7 +136,7 @@
         {
           "text": [
             {
-              "text": "Shillington property",
+              "text": "With a cobalt byproduct",
               "color": "omegaDark",
               "variant": "h6"
             }
@@ -130,6 +146,14 @@
             "alt": "alt text",
             "color": "#CC6633"
           }
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Graal  ➜",
+          "type": "PAGE",
+          "link": "/projects/nourricier",
+          "variant": "links.nav-dark"
         }
       ]
     },
@@ -148,7 +172,7 @@
         {
           "text": [
             {
-              "text": "Eby-Otto property",
+              "text": "Prospective gold property",
               "color": "omegaDark",
               "variant": "h6"
             }
@@ -162,7 +186,7 @@
         {
           "text": [
             {
-              "text": "TTL processing facility",
+              "text": "Close to the Macassa mine",
               "color": "omegaDark",
               "variant": "h6"
             }
@@ -173,10 +197,15 @@
             "color": "#D4AF37"
           }
         }
+      ],
+      "buttons": [
+        {
+          "text": "Eby-Otto  ➜",
+          "type": "PAGE",
+          "link": "/projects/ebby-otto",
+          "variant": "links.nav-dark"
+        }
       ]
     }
-
-
-
   ]
 }
