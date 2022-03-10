@@ -35,7 +35,7 @@ const FeaturesBlock02 = ({ content: { text, collection, buttons } }) => (
                   <ContentText content={text?.[1]} />
                   {buttons && (
                     <>
-                      <Divider space={2} />
+                      <Divider space={1} />
                       <ContentButtons content={buttons} />
                     </>
                   )}
@@ -47,7 +47,7 @@ const FeaturesBlock02 = ({ content: { text, collection, buttons } }) => (
       )}
       {buttons && (
         <>
-          <Divider space={3} />
+          <Divider space={2} />
           <ContentButtons content={buttons} />
         </>
       )}

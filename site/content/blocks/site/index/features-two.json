@@ -12,6 +12,7 @@
       "text": [
         {
           "text": "Castle East",
+          "color": "omega",
           "variant": "h4"
         },
         {
@@ -24,7 +25,7 @@
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/castle-east",
-          "variant": "primary-light"
+          "variant": "dark"
         }
       ]
     },
@@ -33,10 +34,11 @@
       "text": [
         {
           "text": "Castle Mine",
+          "color": "omega",
           "variant": "h4"
         },
         {
-          "text": "Past producer of high-grade silver and cobalt"
+          "text": "Past producer of high-grade silver and cobalt in Ontario"
         }
       ],
       "buttons": [
@@ -45,7 +47,7 @@
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/castle-mine",
-          "variant": "primary-light"
+          "variant": "dark"
         }
       ]
     },
@@ -54,10 +56,11 @@
       "text": [
         {
           "text": "Graal",
+          "color": "omega",
           "variant": "h4"
         },
         {
-          "text": "High-grade nickel, copper, and cobalt"
+          "text": "High-grade nickel, copper, and cobalt in Quebec"
         }
       ],
       "buttons": [
@@ -66,7 +69,7 @@
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/nourricier",
-          "variant": "primary-light"
+          "variant": "dark"
         }
       ]
     },
@@ -75,6 +78,7 @@
       "text": [
         {
           "text": "Eby-Otto",
+          "color": "omega",
           "variant": "h4"
         },
         {
@@ -87,7 +91,7 @@
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/ebby-otto",
-          "variant": "primary-light"
+          "variant": "dark"
         }
       ]
     }
