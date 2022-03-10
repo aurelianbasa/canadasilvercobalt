@@ -42,8 +42,8 @@ const IndexPage = props => {
         <Hero content={content['hero']} reverse />
         <Divider space={-3} />
       </Container>
-      <Divider space='4' />
-      <Divider space='4' />
+      <Divider space='5' />
+      <Divider space='5' />
       <Interview content={content['interview']} />
       <Divider space='3' />
       <Features content={content['features']} />
