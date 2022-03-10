@@ -30,7 +30,7 @@
       "text": [
         {
           "text": "Average industry grade",
-          "color": "omegaDarker",
+          "color": "beta",
           "variant": "h5"
         },
         {
@@ -47,7 +47,7 @@
       "text": [
         {
           "text": "Our grade",
-          "color": "omegaDarker",
+          "color": "beta",
           "variant": "h5"
         },
         {
