@@ -43,7 +43,7 @@ const IndexPage = props => {
         <Divider space={-4} />
       </Container>
       <Divider space='4' />
-      <Divider space='3' />
+      <Divider space='4' />
       <Interview content={content['interview']} />
       <Divider space='3' />
       <Features content={content['features']} />
