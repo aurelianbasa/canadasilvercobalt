@@ -51,7 +51,7 @@ const FeaturesWithPhotoBlock06 = ({
                   <ContentText
                     content={text?.[2]}
                     variant='h5'
-                    sx={{ color: `omegaDarker` }}
+                    sx={{ color: `beta` }}
                     mb='0'
                     pl='3'
                   >
