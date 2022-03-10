@@ -12,7 +12,7 @@
       "text": [
         {
           "text": "Castle East",
-          "color": "omega",
+          "color": "alpha",
           "variant": "h4"
         },
         {
@@ -21,7 +21,7 @@
       ],
       "buttons": [
         {
-          "text": "Read more ➜",
+          "text": "Read more    ➜",
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/castle-east",
@@ -34,7 +34,7 @@
       "text": [
         {
           "text": "Castle Mine",
-          "color": "omega",
+          "color": "alpha",
           "variant": "h4"
         },
         {
@@ -43,7 +43,7 @@
       ],
       "buttons": [
         {
-          "text": "Read more ➜",
+          "text": "Read more    ➜",
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/castle-mine",
@@ -56,7 +56,7 @@
       "text": [
         {
           "text": "Graal",
-          "color": "omega",
+          "color": "alpha",
           "variant": "h4"
         },
         {
@@ -65,7 +65,7 @@
       ],
       "buttons": [
         {
-          "text": "Read more ➜",
+          "text": "Read more    ➜",
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/nourricier",
@@ -78,7 +78,7 @@
       "text": [
         {
           "text": "Eby-Otto",
-          "color": "omega",
+          "color": "alpha",
           "variant": "h4"
         },
         {
@@ -87,7 +87,7 @@
       ],
       "buttons": [
         {
-          "text": "Read more ➜",
+          "text": "Read more    ➜",
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/ebby-otto",

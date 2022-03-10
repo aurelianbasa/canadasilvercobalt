@@ -14,7 +14,7 @@ const FeaturesBlock02 = ({ content: { text, collection, buttons } }) => (
     <Reveal effect='fadeInUp'>
       {collection && (
         <>
-          <Divider />
+          <Divider space={-1} />
           <Flex sx={{ flexWrap: `wrap`, m: -3 }}>
             {collection?.map(({ text, icon, buttons, container }, index) => (
               <Box
@@ -47,7 +47,7 @@ const FeaturesBlock02 = ({ content: { text, collection, buttons } }) => (
       )}
       {buttons && (
         <>
-          <Divider space={2} />
+          <Divider space={1} />
           <ContentButtons content={buttons} />
         </>
       )}
