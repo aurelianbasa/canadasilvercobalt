@@ -1,12 +1,19 @@
+
 {
-    "buttons": [
-      {
-        "text": "More News Releases  ➜",
-        "type": "PAGE",
-        "link": "/news/category/2022",
-        "variant": "primary-light",
-        "width": "100%"
-      }
-    ]
-  }
-  
+  "buttons": [
+    {
+      "text": "Subscribe",
+      "type": "PAGE",
+      "link": "https://us15.list-manage.com/subscribe?u=9609677b5d7b4f5074f5f896f&id=322055171a",
+      "variant": "secondary",
+      "width": "100%"
+    },
+    {
+      "text": "More News Releases  ➜",
+      "type": "PAGE",
+      "link": "/news/category/2022",
+      "variant": "primary-light",
+      "width": "100%"
+    }
+  ]
+}

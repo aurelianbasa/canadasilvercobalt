@@ -14,7 +14,15 @@
       "text": "Subscribe",
       "type": "PAGE",
       "link": "https://us15.list-manage.com/subscribe?u=9609677b5d7b4f5074f5f896f&id=322055171a",
-      "variant": "primary-light"
+      "variant": "primary",
+      "width": "40%"
+    },
+    {
+      "text": "More News Releases  ➜",
+      "type": "PAGE",
+      "link": "/news/category/2022",
+      "variant": "primary-light",
+      "width": "60%"
     }
   ]
 }
