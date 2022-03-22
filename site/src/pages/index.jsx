@@ -75,7 +75,7 @@ const IndexPage = props => {
       <WithRecentPosts>
         <Blog content={content['latest-blogs']} />
       </WithRecentPosts>
-      <Divider space='1' />
+      <Divider space='2' />
       <Interview content={content['button']} reverse />
       <Divider space='5' />
       <Footer content={content['footer']} />
