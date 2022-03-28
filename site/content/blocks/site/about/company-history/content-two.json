@@ -3,14 +3,12 @@
     {
       "text": "Temiskaming Testing Laboratories",
       "color": "beta",
-      "variant": "h3",
-      "align": ["left"]
+      "variant": "h3"
     },
     {
       "text": "The Missing Link",
       "color": "omegaDarker",
-      "variant": "h1",
-      "align": ["left"]
+      "variant": "h1"
     },
     {
       "text": "The company acquired the assay lab and bulk processing facility located in the town of Cobalt, Ontario in 2020. Onsite Labs operates the assay lab as an independent third-party and Canada Silver Cobalt operates the ‘mini-mill’ bulk processing facility which also has a bullion furnace for producing silver dore bars.",
@@ -21,7 +19,7 @@
   ],
   "images": [
     {
-      "src": "../../../../assets/site/about/company-history/content-two.svg",
+      "src": "../../../../assets/site/about/company-history/content-two.jpg",
       "alt": "alt text",
       "radius": "xl",
       "effects": ["fadeInDown"]
