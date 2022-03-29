@@ -11,7 +11,7 @@
     {
       "text": "More Interviews  ➜",
       "type": "PAGE",
-      "link": "/media#video-interviews",
+      "link": "/media/video-interviews",
       "variant": "primary-light",
       "width": "60%"
     }

@@ -74,22 +74,12 @@
           "type": "SUB",
           "collection": [
             {
-                "container": {
-                  "bg": "omegaLighter"
-                },
                 "buttons": [
-                  {
-                    "text": "",
-                    "type": "SUB",
-                    "variant": "links.disabled",
-                    "buttons": [
                       {
                         "text": "Overview",
                         "type": "PAGE",
                         "link": "/projects#projects-row-1",
                         "variant": "links.nav-dark"
-                      }
-                    ]
                   }
                 ]
               }, 
@@ -262,19 +252,19 @@
             {
               "text": "Photo Gallery",
               "type": "PAGE",
-              "link": "/media#photo-gallery",
+              "link": "/media/photo-gallery",
               "variant": "links.nav-dark"
             },
             {
               "text": "Video Interviews",
               "type": "PAGE",
-              "link": "/media#video-interviews",
+              "link": "/media/video-interviews",
               "variant": "links.nav-dark"
             },
             {
               "text": "Featured Articles",
               "type": "PAGE",
-              "link": "/media#featured-articles",
+              "link": "/media/featured-articles",
               "variant": "links.nav-dark"
             }
           ]
