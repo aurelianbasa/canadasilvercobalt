@@ -83,6 +83,19 @@
                   }
                 ]
               }, 
+              {
+                "text": "_",
+                "type": "SUB",
+                "variant": "links.hidden",
+                "buttons": [
+                  {
+                    "text": "Technical Reports",
+                    "type": "PAGE",
+                    "link": "/projects#re-2ox-process",
+                    "variant": "links.nav-dark"
+                  }
+                ]           
+          },
 
               {
                 "container": {
@@ -139,10 +152,6 @@
             },
 
             {
-              "container": {
-                "bg": "white"
-              },
-
               "buttons": [
                 {
                   "text": "Battery Metals",
@@ -173,9 +182,6 @@
               ]
             },
             {
-              "container": {
-                "bg": "white"
-              },
               "buttons": [
                 {
                   "text": "Operations",
