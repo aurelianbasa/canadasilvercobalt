@@ -76,27 +76,13 @@
             {
                 "buttons": [
                       {
-                        "text": "Overview",
+                        "text": "Technical Reports",
                         "type": "PAGE",
-                        "link": "/projects#projects-row-1",
+                        "link": "/projects#technical-reports",
                         "variant": "links.nav-dark"
                   }
                 ]
               }, 
-              {
-                "text": "_",
-                "type": "SUB",
-                "variant": "links.hidden",
-                "buttons": [
-                  {
-                    "text": "Technical Reports",
-                    "type": "PAGE",
-                    "link": "/projects#re-2ox-process",
-                    "variant": "links.nav-dark"
-                  }
-                ]           
-          },
-
               {
                 "container": {
                   "bg": "white"
@@ -150,7 +136,6 @@
                 }
               ]
             },
-
             {
               "buttons": [
                 {
@@ -169,7 +154,7 @@
                 {
                   "text": "_",
                   "type": "SUB",
-                  "variant": "links.hidden",
+                  "variant": "small",
                   "buttons": [
                     {
                       "text": "Re-2Ox Process",
