@@ -63,7 +63,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
         css={css(styles.wrapper)}
       >
         <Container variant='full' className='nav-container'>
-          <Container px='4'>
+          <Container px='2'>
             <Flex sx={styles.header}>
               <Box sx={styles.logoContainer}>
                 <GLink to='/'>
@@ -91,7 +91,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                                 key={`item-${index}`}
                                 sx={{
                                   '& + &': {
-                                    ml: 4
+                                    ml: 2
                                   }
                                 }}
                               >
