@@ -177,7 +177,7 @@
             {
               "container": {
                 "bg": "omegaLighter",
-                "space": 0
+                "space": -2
               },
                 "buttons": [
                     {
