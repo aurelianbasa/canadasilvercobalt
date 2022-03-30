@@ -17,12 +17,12 @@ const styles = {
       position: `fixed`,
       transition: `all 250ms ease-in`,
       // overflow: `hidden`,
-      py: 3
+      py: 2
     },
     '.nav-sticky .nav-container': {
       bg: `headerActiveBg`,
       boxShadow: `0 0 25px rgba(140,152,164,.25)`,
-      py: [3, null, 2],
+      py: [2, null, 1],
       '.button-group-link.level-1, button-group-link.level-1:visited': {
         color: `headerActiveColor`
       }
@@ -31,7 +31,7 @@ const styles = {
     '.button-group-button': {
       minWidth: 120,
       fontSize: 1,
-      px: 3,
+      px: 2,
       py: 1
     }
   },
