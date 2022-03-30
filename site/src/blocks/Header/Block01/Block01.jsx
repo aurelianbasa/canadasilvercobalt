@@ -17,21 +17,21 @@ const styles = {
       position: `fixed`,
       transition: `all 250ms ease-in`,
       // overflow: `hidden`,
-      py: 2
+      py: 0
     },
     '.nav-sticky .nav-container': {
       bg: `headerActiveBg`,
       boxShadow: `0 0 25px rgba(140,152,164,.25)`,
-      py: [2, null, 1],
+      py: [0, null, 1],
       '.button-group-link.level-1, button-group-link.level-1:visited': {
         color: `headerActiveColor`
       }
     },
     //Make buttons in header smaller
     '.button-group-button': {
-      minWidth: 120,
+      minWidth: 100,
       fontSize: 1,
-      px: 2,
+      px: 1,
       py: 1
     }
   },
@@ -47,7 +47,7 @@ const styles = {
   desktopMenu: {
     display: [`none`, null, `block`],
     minWidth: `auto`,
-    flexGrow: 1
+    flexGrow: 0
   },
   mobileMenu: {
     display: [`block`, null, `none`]
