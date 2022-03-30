@@ -17,7 +17,7 @@ const styles = {
       position: `fixed`,
       transition: `all 250ms ease-in`,
       // overflow: `hidden`,
-      py: 0
+      py: 2
     },
     '.nav-sticky .nav-container': {
       bg: `headerActiveBg`,
@@ -47,7 +47,7 @@ const styles = {
   desktopMenu: {
     display: [`none`, null, `block`],
     minWidth: `auto`,
-    flexGrow: 0
+    flexGrow: 1
   },
   mobileMenu: {
     display: [`block`, null, `none`]

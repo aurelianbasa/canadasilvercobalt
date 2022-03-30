@@ -130,6 +130,7 @@
                 {
                   "text": "Battery Metals",
                   "type": "SUB",
+                  "space": 0,
                   "variant": "links.disabled",
                   "buttons": [
                     {
@@ -160,6 +161,7 @@
                 {
                   "text": "Operations",
                   "type": "SUB",
+                  "space": 0,
                   "variant": "links.disabled",
                   "buttons": [
                     {
@@ -174,7 +176,8 @@
             },
             {
               "container": {
-                "bg": "omegaLighter"
+                "bg": "omegaLighter",
+                "space": 0
               },
                 "buttons": [
                     {
