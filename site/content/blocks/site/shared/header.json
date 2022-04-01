@@ -75,7 +75,7 @@
           "collection": [
               {
                 "container": {
-                  "bg": "white"
+                  "bg": "omegaLighter"
                 },
               "buttons": [
                 {
@@ -176,14 +176,14 @@
             },
             {
               "container": {
-                "bg": "omegaLighter"
+                "bg": "omegaDarker"
               },
                 "buttons": [
                     {
                       "text": "Technical Reports",
                       "type": "PAGE",
                       "link": "/projects#technical-reports",
-                      "variant": "links.nav-dark"
+                      "variant": "links.nav-light"
                 }
               ]
             } 

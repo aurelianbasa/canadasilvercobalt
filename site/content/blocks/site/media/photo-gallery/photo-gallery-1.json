@@ -99,6 +99,90 @@
           "alt": "full image"
         }
       ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../assets/site/media/photo-gallery/recent/one-sm.jpg",
+          "radius": "default",
+          "alt": "thumbnail image"
+        },
+        {
+          "src": "../../../../assets/site/media/photo-gallery/recent/one.jpg",
+          "radius": "default",
+          "alt": "full image"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../assets/site/media/photo-gallery/recent/two-sm.jpg",
+          "radius": "default",
+          "alt": "thumbnail image"
+        },
+        {
+          "src": "../../../../assets/site/media/photo-gallery/recent/two.jpg",
+          "radius": "default",
+          "alt": "full image"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../assets/site/media/photo-gallery/recent/three-sm.jpg",
+          "radius": "default",
+          "alt": "thumbnail image"
+        },
+        {
+          "src": "../../../../assets/site/media/photo-gallery/recent/three.jpg",
+          "radius": "default",
+          "alt": "full image"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../assets/site/media/photo-gallery/recent/four-sm.jpg",
+          "radius": "default",
+          "alt": "thumbnail image"
+        },
+        {
+          "src": "../../../../assets/site/media/photo-gallery/recent/four.jpg",
+          "radius": "default",
+          "alt": "full image"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../assets/site/media/photo-gallery/recent/five-sm.jpg",
+          "radius": "default",
+          "alt": "thumbnail image"
+        },
+        {
+          "src": "../../../../assets/site/media/photo-gallery/recent/five.jpg",
+          "radius": "default",
+          "alt": "full image"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../assets/site/media/photo-gallery/recent/six-sm.jpg",
+          "radius": "default",
+          "alt": "thumbnail image"
+        },
+        {
+          "src": "../../../../assets/site/media/photo-gallery/recent/six.jpg",
+          "radius": "default",
+          "alt": "full image"
+        }
+      ]
     }
   ]
 }
