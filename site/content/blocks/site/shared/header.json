@@ -83,32 +83,6 @@
                   "type": "SUB",
                   "variant": "links.disabled",
                   "buttons": [
-                    
-                    {
-                      "text": "Castle Mine",
-                      "type": "PAGE",
-                      "link": "/projects/castle-mine",
-                      "variant": "links.nav-dark"
-                    },
-                    {
-                      "text": "Beaver Mine",
-                      "type": "PAGE",
-                      "link": "/projects/beaver-mine",
-                      "variant": "links.nav-dark"
-                    },
-                    {
-                      "text": "Violet Mine",
-                      "type": "PAGE",
-                      "link": "/projects/violet-mine",
-                      "variant": "links.nav-dark"
-                    }
-                  ]
-                },
-                {
-                  "text": "_",
-                  "type": "SUB",
-                  "variant": "links.hidden",
-                  "buttons": [
                     {
                       "text": "Castle East Silver",
                       "type": "PAGE",
@@ -122,6 +96,38 @@
                       "variant": "links.nav-dark"
                     }
                   ]
+                },
+                {
+                  "text": "_",
+                  "type": "SUB",
+                  "variant": "links.hidden",
+                  "buttons": [
+                    {
+                      "text": "Castle Mine",
+                      "type": "PAGE",
+                      "link": "/projects/castle-mine",
+                      "variant": "links.nav-dark"
+                    },
+                    {
+                      "text": "Beaver Mine",
+                      "type": "PAGE",
+                      "link": "/projects/beaver-mine",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                },
+                {
+                  "text": "_",
+                  "type": "SUB",
+                  "variant": "links.hidden",
+                  "buttons": [
+                    {
+                      "text": "Violet Mine",
+                      "type": "PAGE",
+                      "link": "/projects/violet-mine",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
                 }
               ]
             },
@@ -130,7 +136,6 @@
                 {
                   "text": "Battery Metals",
                   "type": "SUB",
-                  "space": 0,
                   "variant": "links.disabled",
                   "buttons": [
                     {
@@ -153,15 +158,10 @@
                       "variant": "links.nav-dark"
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "buttons": [
+                },
                 {
                   "text": "Operations",
                   "type": "SUB",
-                  "space": 0,
                   "variant": "links.disabled",
                   "buttons": [
                     {
@@ -176,8 +176,7 @@
             },
             {
               "container": {
-                "bg": "omegaLighter",
-                "space": -2
+                "bg": "omegaLighter"
               },
                 "buttons": [
                     {
