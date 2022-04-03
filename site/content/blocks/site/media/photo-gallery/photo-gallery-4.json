@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "TTL (2 of 2)",
+      "text": "Castle Mine",
       "variant": "h2"
     },
     {
@@ -13,12 +13,12 @@
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/one-sm.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/castle-mine/1-sm.jpg",
           "radius": "default",
           "alt": "image thumbnail"
         },
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/one.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/castle-mine/one.jpg",
           "radius": "default",
           "alt": "full image"
         }
@@ -27,12 +27,12 @@
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/two-sm.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/castle-mine/2-sm.jpg",
           "radius": "default",
           "alt": "image thumbnail"
         },
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/two.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/castle-mine/2.jpg",
           "radius": "default",
           "alt": "full image"
         }
@@ -41,12 +41,12 @@
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/three-sm.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/castle-mine/3-sm.jpg",
           "radius": "default",
           "alt": "image thumbnail"
         },
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/three.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/castle-mine/3.jpg",
           "radius": "default",
           "alt": "full image"
         }
@@ -55,12 +55,12 @@
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/four-sm.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/castle-mine/4-sm.jpg",
           "radius": "default",
           "alt": "image thumbnail"
         },
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/four.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/castle-mine/4.jpg",
           "radius": "default",
           "alt": "full image"
         }
@@ -69,12 +69,12 @@
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/five-sm.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/castle-mine/5-sm.jpg",
           "radius": "default",
           "alt": "image thumbnail"
         },
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/five.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/castle-mine/5.jpg",
           "radius": "default",
           "alt": "full image"
         }
@@ -83,12 +83,12 @@
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/six-sm.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/castle-mine/6-sm.jpg",
           "radius": "default",
           "alt": "image thumbnail"
         },
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/six.jpg",
+          "src": "../../../../assets/site/media/photo-gallery/castle-mine/6.jpg",
           "radius": "default",
           "alt": "full image"
         }

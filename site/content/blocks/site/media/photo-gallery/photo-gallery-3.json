@@ -41,12 +41,12 @@
     {
       "images": [
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/nine-sm.png",
+          "src": "../../../../assets/site/media/photo-gallery/ttl/nine-sm.jpg",
           "radius": "default",
           "alt": "image thumbnail"
         },
         {
-          "src": "../../../../assets/site/media/photo-gallery/ttl/nine.png",
+          "src": "../../../../assets/site/media/photo-gallery/ttl/nine.jpg",
           "radius": "default",
           "alt": "full image"
         }
