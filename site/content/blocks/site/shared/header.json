@@ -73,63 +73,15 @@
           "variant": "links.nav-dark",
           "type": "SUB",
           "collection": [
-            {
+              {
                 "container": {
                   "bg": "omegaLighter"
                 },
-                "buttons": [
-                  {
-                    "text": "",
-                    "type": "SUB",
-                    "variant": "links.disabled",
-                    "buttons": [
-                      {
-                        "text": "Overview",
-                        "type": "PAGE",
-                        "link": "/projects#projects-row-1",
-                        "variant": "links.nav-dark"
-                      }
-                    ]
-                  }
-                ]
-              }, 
-
-              {
-                "container": {
-                  "bg": "white"
-                },
-                
               "buttons": [
                 {
                   "text": "Precious Metals",
                   "type": "SUB",
                   "variant": "links.disabled",
-                  "buttons": [
-                    
-                    {
-                      "text": "Castle Mine",
-                      "type": "PAGE",
-                      "link": "/projects/castle-mine",
-                      "variant": "links.nav-dark"
-                    },
-                    {
-                      "text": "Beaver Mine",
-                      "type": "PAGE",
-                      "link": "/projects/beaver-mine",
-                      "variant": "links.nav-dark"
-                    },
-                    {
-                      "text": "Violet Mine",
-                      "type": "PAGE",
-                      "link": "/projects/violet-mine",
-                      "variant": "links.nav-dark"
-                    }
-                  ]
-                },
-                {
-                  "text": "_",
-                  "type": "SUB",
-                  "variant": "links.hidden",
                   "buttons": [
                     {
                       "text": "Castle East Silver",
@@ -144,15 +96,42 @@
                       "variant": "links.nav-dark"
                     }
                   ]
+                },
+                {
+                  "text": "_",
+                  "type": "SUB",
+                  "variant": "links.hidden",
+                  "buttons": [
+                    {
+                      "text": "Castle Mine",
+                      "type": "PAGE",
+                      "link": "/projects/castle-mine",
+                      "variant": "links.nav-dark"
+                    },
+                    {
+                      "text": "Beaver Mine",
+                      "type": "PAGE",
+                      "link": "/projects/beaver-mine",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
+                },
+                {
+                  "text": "_",
+                  "type": "SUB",
+                  "variant": "links.hidden",
+                  "buttons": [
+                    {
+                      "text": "Violet Mine",
+                      "type": "PAGE",
+                      "link": "/projects/violet-mine",
+                      "variant": "links.nav-dark"
+                    }
+                  ]
                 }
               ]
             },
-
             {
-              "container": {
-                "bg": "white"
-              },
-
               "buttons": [
                 {
                   "text": "Battery Metals",
@@ -179,14 +158,7 @@
                       "variant": "links.nav-dark"
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "container": {
-                "bg": "white"
-              },
-              "buttons": [
+                },
                 {
                   "text": "Operations",
                   "type": "SUB",
@@ -201,8 +173,21 @@
                   ]
                 }
               ]
-            }
-
+            },
+            {
+              "container": {
+                "bg": "omegaLighter"
+              },
+                "buttons": [
+                    {
+                      "text": "Technical Reports",
+                      "type": "PAGE",
+                      "link": "/projects#technical-reports",
+                      "variant": "primary",
+                      "width": "100%"
+                }
+              ]
+            } 
           ]
         },
         {
@@ -262,19 +247,19 @@
             {
               "text": "Photo Gallery",
               "type": "PAGE",
-              "link": "/media#photo-gallery",
+              "link": "/media/photo-gallery",
               "variant": "links.nav-dark"
             },
             {
               "text": "Video Interviews",
               "type": "PAGE",
-              "link": "/media#video-interviews",
+              "link": "/media/video-interviews",
               "variant": "links.nav-dark"
             },
             {
               "text": "Featured Articles",
               "type": "PAGE",
-              "link": "/media#featured-articles",
+              "link": "/media/featured-articles",
               "variant": "links.nav-dark"
             }
           ]

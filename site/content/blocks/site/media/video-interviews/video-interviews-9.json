@@ -1,0 +1,114 @@
+{
+    "text": [
+      {
+        "text": "2022",
+        "variant": "h1"
+      },
+      {
+        "text": "",
+        "variant": "medium"
+      }
+    ],
+    "collection": [
+      {
+        "container": {
+          "variant": "cards.interactive"
+        },
+        "text": [
+          {
+            "text": "Mar. 15, 2022",
+            "color": "beta"
+          },
+          {
+            "text": "Upcoming Year to be a Busy One",
+            "color": "omegaDarker",
+            "variant": "h5"
+          },
+          {
+            "text": "Resource update coming shortly for Castle East."
+          }
+        ],
+        "images": [
+          {
+            "src": "../../../../assets/site/media/video-interviews/stockpulse.jpg",
+            "alt": "alt text"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Watch Interview",
+            "type": "VIDEO",
+            "link": "https://www.youtube.com/embed/fqzSj8PooME?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+            "variant": "secondary"
+          }
+        ]
+      },
+      {
+        "container": {
+          "variant": "cards.interactive"
+        },
+        "text": [
+          {
+            "text": "Mar. 14, 2022",
+            "color": "beta"
+          },
+          {
+            "text": "First 3 drill holes from Graal property",
+            "color": "omegaDarker",
+            "variant": "h5"
+          },
+          {
+            "text": "Massive sulphides intercepted in 20 of 21 drill holes."
+          }
+        ],
+        "images": [
+          {
+            "src": "../../../../assets/site/media/video-interviews/proactive.jpg",
+            "alt": "alt text"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Watch Interview",
+            "type": "VIDEO",
+            "link": "https://www.youtube.com/embed/tfkfyXiOtwU?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+            "variant": "secondary"
+          }
+        ]
+      },
+      {
+        "container": {
+          "variant": "cards.interactive"
+        },
+        "text": [
+          {
+            "text": "Feb. 23, 2022",
+            "color": "beta"
+          },
+          {
+            "text": "Potential Copper and Nickel targets at Graal",
+            "color": "omegaDarker",
+            "variant": "h5"
+          },
+          {
+            "text": "Starting drill program in search of VMS-style deposit"
+          }
+        ],
+        "images": [
+          {
+            "src": "../../../../assets/site/media/video-interviews/northernminer.jpg",
+            "alt": "alt text"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Watch Interview",
+            "type": "VIDEO",
+            "link": "https://www.youtube.com/embed/JudIsG-UTJ8?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+            "variant": "secondary"
+          }
+        ]
+      }
+    ]
+  }
+  

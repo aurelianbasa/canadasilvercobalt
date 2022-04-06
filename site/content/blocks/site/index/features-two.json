@@ -12,6 +12,7 @@
       "text": [
         {
           "text": "Castle East",
+          "color": "alpha",
           "variant": "h4"
         },
         {
@@ -20,11 +21,11 @@
       ],
       "buttons": [
         {
-          "text": "Read more ➜",
+          "text": "Read more    ➜",
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/castle-east",
-          "variant": "primary-light"
+          "variant": "dark"
         }
       ]
     },
@@ -33,19 +34,20 @@
       "text": [
         {
           "text": "Castle Mine",
+          "color": "alpha",
           "variant": "h4"
         },
         {
-          "text": "Past producer of high-grade silver and cobalt"
+          "text": "Past producer of high-grade silver and cobalt in Ontario"
         }
       ],
       "buttons": [
         {
-          "text": "Read more ➜",
+          "text": "Read more    ➜",
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/castle-mine",
-          "variant": "primary-light"
+          "variant": "dark"
         }
       ]
     },
@@ -54,19 +56,20 @@
       "text": [
         {
           "text": "Graal",
+          "color": "alpha",
           "variant": "h4"
         },
         {
-          "text": "High-grade nickel, copper, and cobalt"
+          "text": "High-grade nickel, copper, and cobalt in Quebec"
         }
       ],
       "buttons": [
         {
-          "text": "Read more ➜",
+          "text": "Read more    ➜",
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/nourricier",
-          "variant": "primary-light"
+          "variant": "dark"
         }
       ]
     },
@@ -75,6 +78,7 @@
       "text": [
         {
           "text": "Eby-Otto",
+          "color": "alpha",
           "variant": "h4"
         },
         {
@@ -83,11 +87,11 @@
       ],
       "buttons": [
         {
-          "text": "Read more ➜",
+          "text": "Read more    ➜",
           "type": "PAGE",
           "width": "100%",
           "link": "/projects/ebby-otto",
-          "variant": "primary-light"
+          "variant": "dark"
         }
       ]
     }

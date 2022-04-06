@@ -5,26 +5,26 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "/projects/castle-east"
+          "link": "/projects/castle-mine"
         }
       },
       "text": [
         {
-          "text": "Discovery",
+          "text": "Past Producer",
           "color": "alphaDark"
         },
         {
-          "text": "Castle East",
+          "text": "Castle Mine",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Recent drilling drilling has uncovered seven high-grade veins, the highest at 30,416.91 g/t silver."
+          "text": "The only permitted underground asset in the Cobalt camp. Past production totalled 9.5 million oz silver, and 300,000 lbs cobalt."
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/projects/castle-east.png",
+          "src": "../../../assets/site/projects/castle-mine.png",
           "alt": "alt text"
         }
       ],
@@ -32,7 +32,7 @@
         {
           "text": "View Project",
           "type": "PAGE",
-          "link": "/projects/castle-east",
+          "link": "/projects/castle-mine",
           "variant": "primary"
         }
       ]
@@ -42,26 +42,26 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "/projects/ebby-otto"
+          "link": "/projects/beaver-mine"
         }
       },
       "text": [
         {
-          "text": "Prospect",
+          "text": "Past Producer",
           "color": "alphaDark"
         },
         {
-          "text": "Eby-Otto",
+          "text": "Beaver Mine",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "The property is in an area that has long held the interest of geologists because of its close proximity to the high-grade underground Macassa gold mine."
+          "text": "In total, 7.1 million oz of silver, and 140,000 lbs cobalt were produced."
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/projects/ebby-otto.png",
+          "src": "../../../assets/site/projects/beaver-mine.jpg",
           "alt": "alt text"
         }
       ],
@@ -69,7 +69,7 @@
         {
           "text": "View Project",
           "type": "PAGE",
-          "link": "/projects/ebby-otto",
+          "link": "/projects/beaver-mine",
           "variant": "primary"
         }
       ]
@@ -79,26 +79,26 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "/projects/nourricier"
+          "link": "/projects/violet-mine"
         }
       },
       "text": [
         {
-          "text": "Prospect",
+          "text": "Past Producer",
           "color": "alphaDark"
         },
         {
-          "text": "Graal",
+          "text": "Violet Mine",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "The best results from the rock and drill core sampling returned grades of up to 10.31% Nickel, 4.9% Copper and 1% Cobalt."
+          "text": " During its initial production phase the mine output was 897,000 oz of silver."
         }
       ],
       "images": [
         {
-          "src": "../../../assets/site/projects/nourricier.png",
+          "src": "../../../assets/site/projects/violet-mine.jpg",
           "alt": "alt text"
         }
       ],
@@ -106,7 +106,7 @@
         {
           "text": "View Project",
           "type": "PAGE",
-          "link": "/projects/nourricier",
+          "link": "/projects/violet-mine",
           "variant": "primary"
         }
       ]

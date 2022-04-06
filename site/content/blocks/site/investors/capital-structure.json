@@ -41,7 +41,7 @@
             {
               "text": "Stock Options Outstanding",
               "variant": "h5",
-              "space": 0
+              "space": 1
             }
           ]
         },
@@ -50,6 +50,11 @@
             {
               "text": "10,553,000",
               "variant": "medium",
+              "space": 1
+            },
+            {
+              "text": "($0.10 - $0.70)",
+              "variant": "small",
               "space": 0
             }
           ]
@@ -63,7 +68,7 @@
             {
               "text": "Warrants Outstanding",
               "variant": "h5",
-              "space": 0
+              "space": 1
             }
           ]
         },
@@ -72,6 +77,11 @@
             {
               "text": "65,758,378",
               "variant": "medium",
+              "space": 1
+            },
+            {
+              "text": "($0.24 - $0.80)",
+              "variant": "small",
               "space": 0
             }
           ]

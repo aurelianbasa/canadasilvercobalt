@@ -7,6 +7,7 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import Button from '../../blocks/Stats/Block01'
 import Management from '@solid-ui-blocks/Teams/Block02'
 import Values from '@solid-ui-blocks/Content/Block02'
 import CompanyHistory from '@solid-ui-blocks/FeaturesWithPhoto/Block07'
@@ -35,9 +36,12 @@ const AboutPage = props => {
       </Container>
       <Divider space='5' />
       <Divider space='5' />
+      <Container variant='narrow'>
       <Management content={content['management']} />
       <Divider space='5' />
+      <Button content={content['button']} reverse />
       <Divider space='5' />
+      </Container>
       <Values content={content['values-intro']} />
       <Divider space='3' />
       <Values content={content['values']} />
