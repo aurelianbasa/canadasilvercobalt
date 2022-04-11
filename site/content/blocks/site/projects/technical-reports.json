@@ -3,14 +3,14 @@
     {
       "text": [
         {
-          "text": "",
-          "color": "omegaDark",
+          "text": "Technical Reports",
+          "color": "beta",
           "variant": "h5"
         },
         {
-          "text": "Technical Reports",
+          "text": "",
           "color": "beta",
-          "variant": "h3",
+          "variant": "h6",
           "space": 0
         }
       ]

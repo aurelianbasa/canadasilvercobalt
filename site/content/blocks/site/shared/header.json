@@ -79,6 +79,12 @@
                 },
               "buttons": [
                 {
+                  "text": "Overview",
+                  "type": "PAGE",
+                  "link": "/projects",
+                  "variant": "links.nav-dark"
+                },
+                {
                   "text": "Precious Metals",
                   "type": "SUB",
                   "variant": "links.disabled",
