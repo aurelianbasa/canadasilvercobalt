@@ -73,17 +73,23 @@
           "variant": "links.nav-dark",
           "type": "SUB",
           "collection": [
+            {
+              "container": {
+                "bg": "omegaLighter"
+              },
+            "buttons": [
+              {
+            "text": "Overview",
+            "type": "PAGE",
+            "link": "/projects",
+            "variant": "links.nav-dark"
+              } ]
+          },
               {
                 "container": {
                   "bg": "omegaLighter"
                 },
               "buttons": [
-                {
-                  "text": "Overview",
-                  "type": "PAGE",
-                  "link": "/projects",
-                  "variant": "links.nav-dark"
-                },
                 {
                   "text": "Precious Metals",
                   "type": "SUB",
