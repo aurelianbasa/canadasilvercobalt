@@ -71,20 +71,9 @@
         {
           "text": "Projects",
           "variant": "links.nav-dark",
-          "type": "SUB",
+          "type": "PAGE",
+          "link": "/projects",
           "collection": [
-            {
-              "container": {
-                "bg": "omegaLighter"
-              },
-            "buttons": [
-              {
-            "text": "Overview",
-            "type": "PAGE",
-            "link": "/projects",
-            "variant": "links.nav-dark"
-              } ]
-          },
               {
                 "container": {
                   "bg": "omegaLighter"
