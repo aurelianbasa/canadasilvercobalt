@@ -46,10 +46,10 @@ export const PostFooter = ({ previous, next }) => {
     <Box sx={styles.wrapper}>
       <Flex sx={styles.flex}>
         <Box sx={styles.item}>
-          {previous && <PostLink post={previous} title='Previous Article' />}
+          {previous && <PostLink post={previous} title='Previous News Release' />}
         </Box>
         <Box sx={{ ...styles.item, ...styles.next }}>
-          {next && <PostLink post={next} title='Next Article' />}
+          {next && <PostLink post={next} title='Next News Release' />}
         </Box>
       </Flex>
     </Box>
