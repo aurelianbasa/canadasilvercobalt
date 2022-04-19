@@ -27,23 +27,23 @@ export default {
         )`
     },
     '::before': {
-      background: `url(images/cobalt-bg.jpg) no-repeat center center`,
+      background: `url(images/cobalt-bg-optimized.jpg) no-repeat center center`,
       backgroundSize: `cover`
-      }
-    },
-    captionContainer: {
-      bg: `alphaLighter`,
-        borderRadius: `xl`,
-        position: `relative`,
-        py: [1, 1],
-        '::before': {
-          position: `absolute`,
-          content: `" "`,
-          size: `inherit`,
-          top: 1,
-          right: 0,
-          zIndex: 1,
-          borderRadius: `xl`
-        }
-      }
     }
+  },
+  captionContainer: {
+    bg: `alphaLighter`,
+    borderRadius: `xl`,
+    position: `relative`,
+    py: [1, 1],
+    '::before': {
+      position: `absolute`,
+      content: `" "`,
+      size: `inherit`,
+      top: 1,
+      right: 0,
+      zIndex: 1,
+      borderRadius: `xl`
+    }
+  }
+}
