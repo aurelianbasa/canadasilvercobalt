@@ -3,7 +3,7 @@
     {
       "text": [
         {
-          "text": "Cross Section with Topography",
+          "text": "Cross Section",
           "color": "omegaDarker",
           "variant": "h2",
           "align": ["left"],
@@ -14,7 +14,7 @@
     {
       "text": [
         {
-          "text": "Longitudinal section through Castle No. 3 workings. View looking NE. Image shows topography from the drone survey completed in the spring of 2016 as well as the underground workings and historic drill hole intersection points.",
+          "text": "Cress Section looking Northeast through the Castle mine workings.  Image shows IP data along Line0E from a 2011 induced polarization (IP) geophysical survey. Colour gradation for IP indicates High Resistivity (blue) to Low Resistivity (red).  In this section, the blue roughly correlates with the diabase intrusive unit that is already well defined from underground drilling and workings.",
           "color": "omegaDark",
           "align": ["left"]
         }
