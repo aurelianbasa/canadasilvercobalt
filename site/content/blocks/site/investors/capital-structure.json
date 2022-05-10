@@ -6,7 +6,7 @@
       "variant": "h1"
     },
     {
-      "text": "As of December 23, 2021",
+      "text": "As of May 4, 2022",
       "color": "omega",
       "variant": "h4"
     }
@@ -26,7 +26,7 @@
         {
           "text": [
             {
-              "text": "177,487,816",
+              "text": "202,848,316",
               "variant": "medium",
               "space": 0
             }
@@ -48,12 +48,12 @@
         {
           "text": [
             {
-              "text": "10,553,000",
+              "text": "6,853,335",
               "variant": "medium",
               "space": 1
             },
             {
-              "text": "($0.10 - $0.70)",
+              "text": "($0.20 - $0.70)",
               "variant": "small",
               "space": 0
             }
@@ -75,12 +75,12 @@
         {
           "text": [
             {
-              "text": "65,758,378",
+              "text": "89,197,539",
               "variant": "medium",
               "space": 1
             },
             {
-              "text": "($0.24 - $0.80)",
+              "text": "($0.21 - $0.80)",
               "variant": "small",
               "space": 0
             }
@@ -102,7 +102,7 @@
         {
           "text": [
             {
-              "text": "253,799,194",
+              "text": "298,899,190",
               "variant": "medium",
               "space": 0
             }
