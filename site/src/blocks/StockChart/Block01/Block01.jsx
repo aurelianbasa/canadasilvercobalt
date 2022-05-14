@@ -31,7 +31,10 @@ const StockChartBlock01 = ({ content: { text, buttons } }) => {
       'https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js'
     script.async = false
     script.innerHTML = JSON.stringify(chartProps)
-    document.getElementById(containerId).appendChild(script)
+    const container = document.getElementById(containerId)
+    if (container) {
+      container.appendChild(script)
+    }
     return () => {
       const container = document.getElementById(containerId)
       if (container) container.innerHTML = ''
