@@ -48,7 +48,7 @@ const StockChartBlock01 = ({ content: { text, buttons } }) => {
       </Box>
       <Divider />
       <Box sx={{ height: `400px`, bg: `white` }}>
-        <div id={containerId}></div>
+        <div id={CONTAINER_ID}></div>
       </Box>
       {buttons && (
         <>
