@@ -8,7 +8,8 @@ import Header from '@solid-ui-blocks/Header/Block01'
 import Content from '@solid-ui-blocks/Content/Block02'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Projects from '@solid-ui-blocks/Blog/Block01'
-import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import FirstInfo from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import SecondInfo from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 
@@ -37,11 +38,12 @@ const ProjectsPage = props => {
       <Download content={content['report-two']} />
       <Divider space='2' />
       <Download content={content['report-three']} />
-      <Divider space='3' />
-      <Info content={content['ttl-facility']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Info content={content['re-2ox-process']} />
+      <FirstInfo content={content['ttl-facility']} />
+      <Divider space='5' />
+      <Divider space='5' />
+      <SecondInfo content={content['re-2ox-process']} />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

@@ -5,7 +5,8 @@ import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
-import Materials from '@solid-ui-blocks/Hero/Block03'
+import MaterialsOne from '@solid-ui-blocks/Hero/Block03'
+import MaterialsTwo from '@solid-ui-blocks/Hero/Block03'
 import Content from '@solid-ui-blocks/Content/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Gallery from '@solid-ui-blocks/Blog/Block01'
@@ -34,13 +35,15 @@ const MediaPage = props => {
       <StockChart content={content['stock-information-chart']} />
       <Gallery content={content['gallery']} />
       <Divider space='5' />
+      <Divider space='5' />
       <Table content={content['capital-structure']} />
       <Divider space='5' />
       <Container sx={styles.captionContainer}>
-      <Materials content={content['materials-intro']} />
+      <MaterialsOne content={content['materials-intro']} />
       <Divider space='0' />
-      <Materials content={content['presentations']} />
+      <MaterialsTwo content={content['presentations']} />
       </Container>
+      <Divider space='5' />
       <Divider space='5' />
       <Container variant='narrow'>
       <Content content={content['report-intro']} />
