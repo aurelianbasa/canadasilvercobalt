@@ -8,7 +8,7 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 const CONTAINER_ID = 'tradingview-chart-mini-widget'
 
 const StockChartBlock01 = ({ content: { text, buttons } }) => {
-  const containerId = `${CONTAINER_ID}-${Math.random()}`
+  // const containerId = `${CONTAINER_ID}-${Math.random()}`
 
   const chartProps = {
     symbol: 'TSXV:CCW',
@@ -31,12 +31,12 @@ const StockChartBlock01 = ({ content: { text, buttons } }) => {
       'https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js'
     script.async = false
     script.innerHTML = JSON.stringify(chartProps)
-    const container = document.getElementById(containerId)
+    const container = document.getElementById(CONTAINER_ID)
     if (container) {
       container.appendChild(script)
     }
     return () => {
-      const container = document.getElementById(containerId)
+      const container = document.getElementById(CONTAINER_ID)
       if (container) container.innerHTML = ''
     }
   }, [])
