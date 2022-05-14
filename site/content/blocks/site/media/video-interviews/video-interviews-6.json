@@ -36,7 +36,7 @@
       ],
       "buttons": [
         {
-          "text": "Watch Interview",
+          "text": "Watch Video",
           "type": "VIDEO",
           "link": "https://www.youtube.com/embed/-irBTYjUG8c?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
@@ -69,7 +69,7 @@
       ],
       "buttons": [
         {
-          "text": "Watch Interview",
+          "text": "Watch Video",
           "type": "VIDEO",
           "link": "https://www.youtube.com/embed/nm8ztnqh2Cs?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
@@ -102,7 +102,7 @@
       ],
       "buttons": [
         {
-          "text": "Watch Interview",
+          "text": "Watch Video",
           "type": "VIDEO",
           "link": "https://www.youtube.com/embed/eG396WtEves?autoplay=1&modestbranding=1&showinfo=0&rel=0",
           "variant": "secondary"
