@@ -59,7 +59,7 @@ module.exports = {
       resolve: '@elegantstack/gatsby-theme-flexiblog-minimal',
       options: {
         basePath: '/news',
-        siteUrl: 'https://canadasilvercobalt.com',
+        siteUrl: 'https://canadasilvercobaltworks.com',
         fonts: fontFile.fonts,
         services: {
           algolia: true
@@ -75,7 +75,7 @@ module.exports = {
   // Customize your site metadata
   siteMetadata: {
     //General Site Metadata
-    siteUrl: 'https://canadasilvercobalt.com',
+    siteUrl: 'https://canadasilvercobaltworks.com',
     title: 'Canada Silver Cobalt',
     name: 'Canada Silver Cobalt',
     description: 'My site description...',
@@ -95,7 +95,7 @@ module.exports = {
       },
       {
         name: 'Instagram',
-        url: 'https://github.com/gatsbyjs'
+        url: 'https://instagram.com/canadacobaltworks'
       }
     ],
 
