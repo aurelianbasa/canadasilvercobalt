@@ -30,9 +30,9 @@ const Seo = ({
   const imageSrc = getSrc(getImageVariant(thumbnail, 'hero'))
   const imageUrl =
     imageSrc &&
-    (imageSrc.startsWith('//') ? imageSrc : siteUrl && `${siteUrl}${imageSrc}`)
-
-  console.log(getImageVariant(thumbnail, 'hero'), imageUrl)
+    (imageSrc.startsWith('//')
+      ? 'https:' + imageSrc
+      : siteUrl && `${siteUrl}${imageSrc}`)
 
   /**
    * Meta Tags
