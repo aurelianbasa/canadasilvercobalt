@@ -16,6 +16,39 @@
         },
         "text": [
           {
+            "text": "Jun. 6, 2022",
+            "color": "beta"
+          },
+          {
+            "text": "VTEM Survey Planned at Lowney-Lac Edouard",
+            "color": "omegaDarker",
+            "variant": "h5"
+          },
+          {
+            "text": "Proactive"
+          }
+        ],
+        "images": [
+          {
+            "src": "../../../../assets/site/media/video-interviews/proactive.jpg",
+            "alt": "alt text"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Watch Video",
+            "type": "VIDEO",
+            "link": "https://www.youtube.com/embed/E8KkXwK4Hgk?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+            "variant": "secondary"
+          }
+        ]
+      },
+      {
+        "container": {
+          "variant": "cards.interactive"
+        },
+        "text": [
+          {
             "text": "Jun. 2, 2022",
             "color": "beta"
           },
@@ -42,7 +75,39 @@
             "variant": "secondary"
           }
         ]
+      },
+      {
+        "container": {
+          "variant": "cards.interactive"
+        },
+        "text": [
+          {
+            "text": "May 31, 2022",
+            "color": "beta"
+          },
+          {
+            "text": "Investor Presentation at the Global Mining Symposium",
+            "color": "omegaDarker",
+            "variant": "h5"
+          },
+          {
+            "text": "Northern Miner"
+          }
+        ],
+        "images": [
+          {
+            "src": "../../../../assets/site/media/video-interviews/northernminer.jpg",
+            "alt": "alt text"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Watch Video",
+            "type": "VIDEO",
+            "link": "https://www.youtube.com/embed/KDMtBSKSTQc?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+            "variant": "secondary"
+          }
+        ]
       }
     ]
   }
-  
