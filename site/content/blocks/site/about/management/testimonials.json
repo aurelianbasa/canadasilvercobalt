@@ -105,25 +105,6 @@
         "src": "../../../../assets/site/about/management/tina.png",
         "alt": "alt text"
       }
-    },
-    {
-      "text": [
-        {
-          "text": "Jacques F. Monette",
-          "variant": "h5"
-        },
-        {
-          "text": "Director",
-          "variant": "small"
-        },
-        {
-          "text": "Mr. Monette is a career miner who has been engaged in every facet of underground mining for more than 40 years. His previous positions included Shaft Project Coordinator with Cementation Canada Inc., Vice President of Operations/Mining Division for Wabi Development Corp., and Operations Manager for Moran Mining and Tunneling."
-        }
-      ],
-      "avatar": {
-        "src": "../../../../assets/site/about/management/jacques.png",
-        "alt": "alt text"
-      }
     }
   ]
 }

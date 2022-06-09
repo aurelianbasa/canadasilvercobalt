@@ -94,7 +94,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                   <br />
                   OTCQB: CCWOF
                   <br />
-                  FF: 9TB
+                  FF: 4T9B
                 </Text>
               </Flex>
               {collection && (
