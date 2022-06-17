@@ -13,7 +13,9 @@
         {
           "text": [
             {
-              "text": "Exploration Geologist,",
+              "text": "Exploration Geologist",
+              "color": "alpha",
+              "variant": "h5",
               "space": 0
             }
           ]
@@ -34,11 +36,11 @@
         {
           "text": [
             {
-              "text": "Competitive,",
+              "text": "Competitive",
               "space": 0
             },
             {
-              "text": "3 weeks vacation equivalent at 6%,",
+              "text": "3 weeks vacation equivalent at 6%",
               "space": 0
             },
             {
@@ -55,7 +57,7 @@
         {
           "text": [
             {
-              "text": "Core duties",
+              "text": "Primary Duties",
               "variant": "h5"
             }
           ]
@@ -63,11 +65,11 @@
         {
           "text": [
             {
-              "text": "Drill hole planning, drill hole tracking, monitoring, and spreadsheet tracking,",
+              "text": "Drill hole planning/tracking, monitoring, spreadsheet tracking",
               "space": 0
             },
             {
-              "text": "Lithological and geological identification and interpretation,",
+              "text": "Lithological and geological identification and interpretation",
               "space": 0
             },
             {
@@ -137,7 +139,7 @@
         {
           "text": [
             {
-              "text": "ASAP,",
+              "text": "ASAP",
               "space": 0
             }
           ]
@@ -158,11 +160,13 @@
         {
           "text": [
             {
-              "text": "Gerhard Kiessling,",
+              "text": "Gerhard Kiessling",
+              "variant": "h6",
+              "color": "alpha",
               "space": 0
             },
             {
-              "text": "gerhardk@canadasilvercobaltworks.com,",
+              "text": "gerhardk@canadasilvercobaltworks.com",
               "space": 0
             }
           ]
