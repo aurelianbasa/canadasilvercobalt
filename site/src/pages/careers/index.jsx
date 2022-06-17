@@ -26,7 +26,7 @@ const AboutPage = props => {
       <Header content={content['header']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Container variant='full' sx={styles.heroContainer}>
+      <Container variant='full'>
         <Hero content={content['hero']} reverse />
       </Container>
       <Divider space='5' />
