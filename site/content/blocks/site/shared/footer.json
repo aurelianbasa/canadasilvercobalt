@@ -47,15 +47,15 @@
       ],
       "buttons": [
         {
-          "text": "News",
-          "type": "PAGE",
-          "link": "/news",
-          "variant": "links.nav-light"
-        },
-        {
           "text": "Contact",
           "type": "PAGE",
           "link": "/contact",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Careers",
+          "type": "PAGE",
+          "link": "/careers",
           "variant": "links.nav-light"
         },
         {

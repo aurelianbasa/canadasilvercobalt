@@ -6,8 +6,8 @@ import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
-import Contact from '../../blocks/Form/Block01'
-import Subscribe from '@solid-ui-blocks/CallToAction/Block02'
+import Hero from '@solid-ui-blocks/Hero/Block01'
+import Content from '@solid-ui-blocks/Content/Block01'
 import Table from '../../blocks/Table/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -26,10 +26,12 @@ const AboutPage = props => {
       <Header content={content['header']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Contact content={content['contact']} />
-      <Divider space='3' />
-      <Subscribe content={content['subscribe']} />
-      <Divider space='3' />
+      <Container variant='full' sx={styles.heroContainer}>
+        <Hero content={content['hero']} reverse />
+      </Container>
+      <Divider space='5' />
+      <Content content={content['content-one']} />
+      <Divider space='5' />
       <Table content={content['administration']} />
       <Divider space='5' />
       <Divider space='5' />
@@ -40,7 +42,7 @@ const AboutPage = props => {
 
 export const query = graphql`
   query siteContactBlockContent {
-    allBlockContent(filter: { page: { in: ["site/contact", "site/shared"] } }) {
+    allBlockContent(filter: { page: { in: ["site/careers", "site/shared"] } }) {
       nodes {
         ...BlockContent
       }

@@ -1,0 +1,23 @@
+{
+  "text": [
+    {
+      "text": "Careers",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "We are a small but unique and rapidly growing company. With high-grade silver, cobalt, nickel, copper, and gold exploration properties across Ontario and Quebec, we are well positioned for success in both the precious metals and battery metals sectors. In May 2020, the company released the first-ever resource in the greater Cobalt Camp. A total of 7.56 million ounces of silver in Inferred resources comprising very high-grade silver (8,582 grams per tonne un-cut or 250.2 oz/ton). With continuing success in 2021 and 2022, the future is promising.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/site/careers/hero.jpg",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "xl",
+      "effects": ["fadeInLeft"]
+    }
+  ]
+}
