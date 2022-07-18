@@ -76,12 +76,12 @@ module.exports = {
   siteMetadata: {
     //General Site Metadata
     siteUrl: 'https://canadasilvercobaltworks.com',
-    title: 'Canada Silver Cobalt',
-    name: 'Canada Silver Cobalt',
-    description: 'My site description...',
-    address: 'New York, NY',
-    email: 'email@example.com',
-    phone: '+1 (888) 888-8888',
+    title: 'Canada Silver Cobalt Works',
+    name: 'Canada Silver Cobalt Works',
+    description: 'Highest Silver grades in the world. Latest resource estimate at Castle East marks first grassroots discovery in decades for the Northern Ontario silver cobalt camp.',
+    address: 'Coquitlam, British Columbia',
+    email: 'waynecheveldayoff@gmail.com',
+    phone: '+1 (416) 710-2410',
 
     //Site Social Media Links
     social: [

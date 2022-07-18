@@ -1,18 +1,18 @@
 {
   "text": [
     {
-      "text": "Download Resources",
+      "text": "Summary Report",
       "variant": "h5"
     },
     {
-      "text": "Consequat excepteur venia Lorem labore eiusmod."
+      "text": "Report detailing key information and planned exploration phases"
     }
   ],
   "buttons": [
     {
       "text": "Downloads",
       "type": "PAGE",
-      "link": "files/link-to-file.pdf",
+      "link": "/reports/eby-otto-summary.pdf",
       "variant": "primary",
       "width": "250px"
     }
