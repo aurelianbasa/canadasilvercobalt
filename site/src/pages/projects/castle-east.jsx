@@ -106,8 +106,6 @@ const ProjectItemPage = props => {
                 <th>Co (g/t)</th>
                 <th>Cu (g/t)</th>
                 <th>Ni (g/t)</th>
-                <th>Pb (g/t)</th>
-                <th>Zn (g/t)</th>
                 <th>AgEq (g/t)</th>
                 <th>Tonnes</th>
                 <th>Ag (oz.)</th>
@@ -121,8 +119,6 @@ const ProjectItemPage = props => {
                 <td>946</td>
                 <td>349</td>
                 <td>790</td>
-                <td>16</td>
-                <td>12</td>
                 <td>8,042</td>
                 <td>8,100</td>
                 <td>2,073,000</td>
@@ -134,8 +130,6 @@ const ProjectItemPage = props => {
                 <td>2,308</td>
                 <td>325</td>
                 <td>336</td>
-                <td>30</td>
-                <td>52</td>
                 <td>8,998</td>
                 <td>19,300</td>
                 <td>5,487,200</td>
@@ -148,8 +142,6 @@ const ProjectItemPage = props => {
                 <td>2,101</td>
                 <td>453</td>
                 <td>118</td>
-                <td>108</td>
-                <td>426</td>
                 <td>5,500</td>
                 <td>6,800</td>
                 <td>75,300</td>
@@ -160,8 +152,6 @@ const ProjectItemPage = props => {
                 <td>2,537</td>
                 <td>628</td>
                 <td>467</td>
-                <td>41</td>
-                <td>52</td>
                 <td>7,325</td>
                 <td>32,900</td>
                 <td>7,567,000</td>
