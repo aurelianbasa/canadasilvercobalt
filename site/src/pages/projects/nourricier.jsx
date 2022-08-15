@@ -8,6 +8,7 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
 import Location from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
+import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Milestones from '@solid-ui-blocks/Features/Block01'
 import Stats from '@solid-ui-blocks/Stats/Block01'
 import Results from '@solid-ui-blocks/FeaturesWithPhoto/Block04'
@@ -29,6 +30,8 @@ const ProjectItemPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Info content={content['overview']} />
+      <Divider space='2' />
+      <Download content={content['download']} />
       <Divider space='4' />
       <Container variant='narrow'>
       <Location content={content['location']} />

@@ -53,6 +53,8 @@ const MediaPage = props => {
       <Download content={content['report-two']} />
       <Divider space='2' />
       <Download content={content['report-three']} />
+      <Divider space='2' />
+      <Download content={content['report-four']} />
       <Divider space='3' />
       <Content content={content['financials-intro']} />
       <Divider space='1' />
