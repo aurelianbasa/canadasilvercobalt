@@ -33,13 +33,13 @@ const ProjectsPage = props => {
       <Divider space='5' />
       <Content content={content['technical-reports']} />
       <Divider space='1' />
+      <Download content={content['report-four']} />
+      <Divider space='2' />
       <Download content={content['report-one']} />
       <Divider space='2' />
       <Download content={content['report-two']} />
-      <Divider space='2' />
-      <Download content={content['report-three']} />
       <Divider space='5' />
-      <Download content={content['report-four']} />
+      <Download content={content['report-three']} />
       <Divider space='5' />
       <Divider space='5' />
       <FirstInfo content={content['ttl-facility']} />
