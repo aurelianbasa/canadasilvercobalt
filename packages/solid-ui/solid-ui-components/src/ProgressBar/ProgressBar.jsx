@@ -22,8 +22,8 @@ const ProgressBar = ({ from, to, delay, duration, color, bg }) => (
       delay={delay}
       animate={{
         width: [
-          parseFloat(from).toFixed(4) + '%',
-          parseFloat(to).toFixed(4) + '%'
+          parseFloat(from).toFixed(2) + '%',
+          parseFloat(to).toFixed(2) + '%'
         ]
       }}
       css={css({
