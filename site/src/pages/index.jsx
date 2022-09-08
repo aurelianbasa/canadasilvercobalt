@@ -8,7 +8,6 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block01'
 import Button from '../blocks/Stats/Block01'
-import Comparison from '../blocks/FeaturesWithPhoto/Block06'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block06'
 import Features from '@solid-ui-blocks/Features/Block05'
 import Core from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
@@ -43,9 +42,6 @@ const IndexPage = props => {
         <Hero content={content['hero']} reverse />
         <Divider space={-3} />
       </Container>
-      <Divider space='5' />
-      <Divider space='5' />
-      <Comparison content={content['comparison']} />
       <Divider space='5' />
       <Divider space='5' />
       <Button content={content['interview']} />
