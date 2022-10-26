@@ -16,6 +16,7 @@ import Milestones from '@solid-ui-blocks/Features/Block01'
 import Feature from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import styles from './_styles'
 
 const ProjectItemPage = props => {
   const { allBlockContent } = props.data
