@@ -10,10 +10,13 @@ import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Quote from '../../blocks/Quotes/Block01'
 import Location from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
+import Core from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
+import Caption from '@solid-ui-blocks/Content/Block01'
 import Milestones from '@solid-ui-blocks/Features/Block01'
 import Feature from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import styles from './_styles'
 
 const ProjectItemPage = props => {
   const { allBlockContent } = props.data
@@ -33,6 +36,13 @@ const ProjectItemPage = props => {
       <Divider space='2' />
       <Download content={content['download']} />
       <Divider space='4' />
+
+
+      <Container variant='wide' sx={styles.captionContainer}>
+        <Core content={content['drill']} />
+        <Caption content={content['caption']} />
+      </Container>
+
       <Quote content={content['content-one']} />
       <Divider space='4' />
 
