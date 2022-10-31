@@ -57,9 +57,7 @@ const StatsBlock01 = ({
             content={buttons}
             wrapperStyles={{
               display: 'grid',
-              gridTemplateColumns: [`1fr`, null, `1fr 1fr`],
-              justifyItems: `center`,
-              gap: [0, 4, 0]
+              justifyItems: `center`
             }}
           />
         </>

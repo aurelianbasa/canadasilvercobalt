@@ -29,19 +29,13 @@
               "icon": {}
             },
             {
-              "text": "Company Values",
-              "type": "PAGE",
-              "link": "/about#values-intro",
-              "variant": "links.nav-dark"
-            },
-            {
               "text": "Company History",
               "type": "PAGE",
               "link": "/about/company-history",
               "variant": "links.nav-dark"
             },
             {
-              "text": "Silver-Cobalt Camp History",
+              "text": "Regional History",
               "type": "PAGE",
               "link": "/about/regional-history",
               "variant": "links.nav-dark"
@@ -190,6 +184,12 @@
               ]
             } 
           ]
+        },
+        {
+          "text": "ESG",
+          "type": "PAGE",
+          "link": "/esg",
+          "variant": "links.nav-dark"
         },
         {
           "text": "News",
