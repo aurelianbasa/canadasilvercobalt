@@ -195,7 +195,13 @@
                 "type": "PAGE",
                 "link": "/esg",
                 "variant": "links.nav-dark"
-            }
+            },
+            {
+              "text": "Company Values",
+              "type": "PAGE",
+              "link": "/esg#values",
+              "variant": "links.nav-dark"
+          }
 					]
         },
         {
