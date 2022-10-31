@@ -7,10 +7,7 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
-import Button from '../../blocks/Stats/Block02'
-import Management from '@solid-ui-blocks/Teams/Block02'
 import Values from '@solid-ui-blocks/Content/Block02'
-import CompanyHistory from '@solid-ui-blocks/FeaturesWithPhoto/Block07'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles'
@@ -36,28 +33,12 @@ const EsgPage = props => {
       </Container>
       <Divider space='5' />
       <Divider space='5' />
-      <Container variant='narrow'>
-      <Management content={content['management']} />
+      
       <Divider space='5' />
-      <Button content={content['button']} reverse />
       <Divider space='5' />
-      </Container>
       <Values content={content['values-intro']} />
       <Divider space='3' />
       <Values content={content['values']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <CompanyHistory content={content['company-history']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <Divider space='5' />
-      <Info content={content['regional-history']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <Info content={content['community']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <Info content={content['environment']} />
       <Divider space='5' />
       <Divider space='5' />
       <Footer content={content['footer']} />
@@ -74,4 +55,4 @@ export const query = graphql`
     }
   }
 `
-export default AboutPage
+export default EsgPage
