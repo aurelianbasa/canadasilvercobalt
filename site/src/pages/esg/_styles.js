@@ -21,6 +21,26 @@ export default {
       ${t.colors.omega} 100%
     )`
   },
+  testimonialsContainer: {
+    position: `relative`,
+    pt: 6,
+    pb: 5,
+    '::before': {
+      position: `absolute`,
+      content: `" "`,
+      width: `full`,
+      height: `full`,
+      top: 0,
+      right: 0,
+      zIndex: -1,
+      borderRadius: `xl`,
+      background: `linear-gradient(
+        180deg,
+        #f7f9fe 0%,
+        #f4f4f8 100%
+      )`
+    }
+  },
   callToActionContainer: {
     position: `relative`,
     '::before': {

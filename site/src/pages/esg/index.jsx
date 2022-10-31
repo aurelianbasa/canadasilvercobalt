@@ -6,6 +6,7 @@ import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
+import Testimonials from '../blocks/Quotes/Block03'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Values from '@solid-ui-blocks/Content/Block02'
 import Footer from '@solid-ui-blocks/Footer/Block01'
@@ -33,7 +34,9 @@ const EsgPage = props => {
       </Container>
       <Divider space='5' />
       <Divider space='5' />
-      
+      <Container variant='wide' sx={styles.testimonialsContainer}>
+        <Testimonials content={content['testimonials']} />
+      </Container>
       <Divider space='5' />
       <Divider space='5' />
       <Values content={content['values-intro']} />
