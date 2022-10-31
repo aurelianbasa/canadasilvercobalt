@@ -15,13 +15,13 @@ import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles'
 
-const AboutPage = props => {
+const EsgPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
   return (
     <Layout {...props}>
-      <Seo title='About' />
+      <Seo title='ESG' />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
       <ModalSimple content={content['disclaimer']} />
@@ -66,8 +66,8 @@ const AboutPage = props => {
 }
 
 export const query = graphql`
-  query siteAboutBlockContent {
-    allBlockContent(filter: { page: { in: ["site/about", "site/shared"] } }) {
+  query siteEsgBlockContent {
+    allBlockContent(filter: { page: { in: ["site/esg", "site/shared"] } }) {
       nodes {
         ...BlockContent
       }
