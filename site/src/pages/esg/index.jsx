@@ -7,7 +7,6 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Testimonials from '../../blocks/Quotes/Block03'
-import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Values from '@solid-ui-blocks/Content/Block02'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -25,13 +24,6 @@ const EsgPage = props => {
       <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
       <Header content={content['header']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <Container>
-        <Card variant='paper-lg' sx={styles.overviewContainer}>
-          <Info content={content['overview']} />
-        </Card>
-      </Container>
       <Divider space='5' />
       <Divider space='5' />
       <Container variant='wide' sx={styles.testimonialsContainer}>
