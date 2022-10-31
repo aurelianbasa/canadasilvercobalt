@@ -6,8 +6,9 @@
       "align": ["left"]
     },
     {
-      "text": "We released a Self-Assessment derived from The UN's Sustainable Development Goals and the Responsible Mining Index criteria. The report outlines initiatives taken by the company and goals to be achieved in the future.",
+      "text": "We released a Self-Assessment derived from The United Nations framework Sustainable Development Goals and the Responsible Mining Index criteria. The report outlines initiatives taken by the company and goals to be achieved in the future.",
       "variant": "medium",
+      "color": "omegaDarker",
       "align": ["left"]
     }
   ],
@@ -28,7 +29,7 @@
         }
       ],
       "avatar": {
-        "src": "../../../../assets/site/esg/headshot.png",
+        "src": "../../../assets/site/esg/headshot.png",
         "alt": "alt text"
       }
     }
@@ -39,12 +40,6 @@
       "type": "PAGE",
       "link": "/Sustainability.pdf",
       "variant": "primary"
-    },
-    {
-      "text": "Contact us ➜",
-      "type": "PAGE",
-      "link": "/contact",
-      "variant": "secondary"
     }
   ]
 }

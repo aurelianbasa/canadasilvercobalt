@@ -34,12 +34,12 @@ export default {
       right: 0,
       zIndex: -1,
       borderRadius: `xl`,
-      background: `linear-gradient(
-        180deg,
-        #f7f9fe 0%,
-        #f4f4f8 100%
+      background: t => `linear-gradient(
+        150deg,
+        ${t.colors.omegaLight} 50%,
+        ${t.colors.omega} 100%
       )`
-    }
+    },
   },
   callToActionContainer: {
     position: `relative`,

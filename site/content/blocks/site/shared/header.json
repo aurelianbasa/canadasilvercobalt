@@ -186,12 +186,12 @@
           ]
         },
         {
-          "text": "Sustainability",
+          "text": "ESG",
           "type": "SUB",
           "variant": "links.nav-dark",
 				"buttons": [
               {
-                "text": "ESG Report",
+                "text": "Sustainability Report",
                 "type": "PAGE",
                 "link": "/esg",
                 "variant": "links.nav-dark"
