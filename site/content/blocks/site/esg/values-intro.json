@@ -1,0 +1,21 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "COMPANY INITIATIVES",
+          "color": "omegaDark",
+          "variant": "h4",
+          "align": ["left"]
+        },
+        {
+          "text": "Core Values",
+          "color": "beta",
+          "variant": "h2",
+          "align": ["left"],
+          "space": 0
+        }
+      ]
+    }
+  ]
+}

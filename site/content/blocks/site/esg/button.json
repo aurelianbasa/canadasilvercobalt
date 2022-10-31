@@ -1,0 +1,12 @@
+
+{
+    "buttons": [
+      {
+        "text": "Officers and Board of Directors  ➜",
+        "type": "PAGE",
+        "link": "/about/management",
+        "variant": "primary-light",
+        "width": "100%"
+      }
+    ]
+  }

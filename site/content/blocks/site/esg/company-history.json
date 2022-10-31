@@ -1,0 +1,84 @@
+{
+  "text": [
+    {
+      "text": "COMPANY HISTORY",
+      "color": "beta",
+      "variant": "h4"
+    },
+    {
+      "text": "Long-term **Vision**",
+      "variant": "h2"
+    },
+    {
+      "text": "",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/site/about/company-history.png",
+      "alt": "alt text",
+      "radius": "lg"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Acquired Castle Mine",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "The transaction included both surrounding claims and the Beaver and Violet mines in the Cobalt Camp."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Launched Re-2Ox Process",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Proven system to remove undesirables from ore concentrate was applied to various cobalt ores."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Discovery at Castle East",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Maiden Inferred Resource unveiled in 43-101 report."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Acquired Battery Metals Deposits",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Recent discovery of high-grade nickel, copper, and cobalt in Northern Quebec."
+        }
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Read More",
+      "type": "PAGE",
+      "width": "100%",
+      "link": "/about/company-history",
+      "variant": "primary",
+      "align": ["right"]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Sustainable Development",
+          "color": "omegaDarker",
+          "variant": "h4",
+          "align": ["left"]
+        },
+        {
+          "text": "We have a long history in Ontario and Quebec.",
+          "color": "omegaDark",
+          "align": ["left"],
+          "space": 5
+        },
+        {
+          "text": "Health and Safety",
+          "color": "omegaDarker",
+          "variant": "h4",
+          "align": ["left"]
+        },
+        {
+          "text": "Safety is our top priority",
+          "color": "omegaDark",
+          "align": ["left"],
+          "space": 5
+        },
+        {
+          "text": "Environment",
+          "color": "omegaDarker",
+          "variant": "h4",
+          "align": ["left"]
+        },
+        {
+          "text": "We hold environmental responsibility in the highest regard.",
+          "color": "omegaDark",
+          "align": ["left"],
+          "space": 5
+        },
+        {
+          "text": "Community",
+          "color": "omegaDarker",
+          "variant": "h4",
+          "align": ["left"]
+        },
+        {
+          "text": "We are committed to local stakeholders",
+          "color": "omegaDark",
+          "align": ["left"],
+          "space": 5
+        },
+        {
+          "text": "Work Culture",
+          "color": "omegaDarker",
+          "variant": "h4",
+          "align": ["left"]
+        },
+        {
+          "text": "Our staff feels safe, valued, and engaged.",
+          "color": "omegaDark",
+          "align": ["left"]
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "We are a small, dynamic team that achieves progress and strives for success without compromising economic, social, or environmental integrity. We aim to meet the demands of today without compromising the needs of tomorrow.",
+          "align": ["left"],
+          "space": 4
+        },
+        {
+          "text": "With the COVID-19 pandemic still ongoing, we continue to enforce strict safety protocols to keep our staff safe. Health and Safety is a mindset that defines a culture and allows our staff to return home at the end of the day.",
+          "align": ["left"],
+          "space": 4
+        },
+        {
+          "text": "We aim to reduce our environmental impact and footprint as much as possible for the benefit of future generations. With our Re-2Ox process and environmental baseline studies, we are actively meeting our environmental obligations.",
+          "align": ["left"],
+          "space": 4
+        },
+        {
+          "text": "We work with local stakeholders and First Nations communities. The Company engages in meaningful involvement and uses locally sourced goods and services wherever possible.",
+          "align": ["left"],
+          "space": 4
+        },
+        {
+          "text": "Our employees are critical to company success and are the foundation for our future growth. We encourage respect between peers, trust in leadership, and opportunities for professional development.",
+          "align": ["left"]
+        }
+      ]
+    }
+  ]
+}
