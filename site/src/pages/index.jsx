@@ -7,7 +7,7 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block01'
-import Button from '../blocks/Stats/Block01'
+import TopButton from '../blocks/Stats/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block06'
 import Features from '@solid-ui-blocks/Features/Block05'
 import Core from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
@@ -18,6 +18,7 @@ import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import WhyChooseUs from '@solid-ui-blocks/Features/Block01'
 import Caption from '@solid-ui-blocks/Content/Block01'
 import Blog from '@solid-ui-blocks/Blog/Block01'
+import BottomButton from '../blocks/Stats/Block02'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import WithRecentPosts from '@solid-ui-blocks/WithRecentPosts'
@@ -44,7 +45,7 @@ const IndexPage = props => {
       </Container>
       <Divider space='5' />
       <Divider space='5' />
-      <Button content={content['interview']} />
+      <TopButton content={content['interview']} />
       <Divider space='3' />
       <Features content={content['features']} />
       <Divider space='3' /> 
@@ -76,7 +77,7 @@ const IndexPage = props => {
         <Blog content={content['latest-blogs']} />
       </WithRecentPosts>
       <Divider space='2' />
-      <Button content={content['button']} reverse />
+      <BottomButton content={content['button']} reverse />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
