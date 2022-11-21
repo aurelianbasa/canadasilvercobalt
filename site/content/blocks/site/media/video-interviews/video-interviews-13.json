@@ -1,0 +1,48 @@
+{
+    "text": [
+      {
+        "text": "2022",
+        "variant": "h1"
+      },
+      {
+        "text": "",
+        "variant": "medium"
+      }
+    ],
+    "collection": [
+      {
+        "container": {
+          "variant": "cards.interactive"
+        },
+        "text": [
+          {
+            "text": "Nov. 15, 2022",
+            "color": "beta"
+          },
+          {
+            "text": "Matt Halliday Highlights Government Policy Changes and Next Steps",
+            "color": "omegaDarker",
+            "variant": "h5"
+          },
+          {
+            "text": "Precious Metals Summit"
+          }
+        ],
+        "images": [
+          {
+            "src": "../../../../assets/site/media/video-interviews/default.png",
+            "alt": "alt text"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Watch Video",
+            "type": "VIDEO",
+            "link": "https://www.youtube.com/embed/5chnujw7JVo?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+            "variant": "secondary"
+          }
+        ]
+    }
+
+]
+}
