@@ -10,6 +10,42 @@
       }
     ],
     "collection": [
+      
+      {
+        "container": {
+          "variant": "cards.interactive"
+        },
+        "text": [
+          {
+            "text": "Nov. 24, 2022",
+            "color": "beta"
+          },
+          {
+            "text": "Company Presentation at Proactive One2One Investor Forum",
+            "color": "omegaDarker",
+            "variant": "h5"
+          },
+          {
+            "text": "Proactive"
+          }
+        ],
+        "images": [
+          {
+            "src": "../../../../assets/site/media/video-interviews/proactive.jpg",
+            "alt": "alt text"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Watch Video",
+            "type": "VIDEO",
+            "link": "https://www.youtube.com/embed/MkqXP7m2GUg?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+            "variant": "secondary"
+          }
+        ]
+      },
+      
+      
       {
         "container": {
           "variant": "cards.interactive"
