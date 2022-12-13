@@ -6,7 +6,7 @@
       "variant": "h3"
     },
     {
-      "text": "2021",
+      "text": "",
       "color": "beta",
       "variant": "h1"
     }
@@ -20,7 +20,7 @@
           "variant": "h5"
         },
         {
-          "text": "Acquired 888.56 hectares of land for a grand total of 6,113 hectares",
+          "text": "Acquired 888.56 hectares of land in 2021 for a grand total of 6,113 hectares",
           "color": "omega"
         }
       ],
@@ -100,17 +100,17 @@
     {
       "text": [
         {
-          "text": "Extensive Footprint",
+          "text": "Borehole Geophysics",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "Total of 31,201 hectares of EV properties across Quebec",
+          "text": "To quantify potential thickness around the sulphide intersections",
           "color": "omega"
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-layer-plus.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
         "color": "omegaDark"
       }
     }

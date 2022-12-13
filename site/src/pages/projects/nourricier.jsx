@@ -41,8 +41,6 @@ const ProjectItemPage = props => {
         </Container>
       <Milestones content={content['milestones-1']} />
       <Divider space='5' />
-      <Milestones content={content['milestones-2']} />
-      <Divider space='5' />
       <Results content={content['results']} />
       <Divider space='5' />
       <Stats content={content['stats']} />

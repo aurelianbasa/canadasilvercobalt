@@ -15,6 +15,23 @@
     {
       "text": [
         {
+          "text": "Further Sampling",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Field mapping, further channel sampling, and prospecting",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-layer-plus.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
           "text": "Drill Targets",
           "color": "alpha",
           "variant": "h5"
@@ -37,7 +54,7 @@
           "variant": "h5"
         },
         {
-          "text": "For the 2022 field season, including an MMI sampling program",
+          "text": "Diamond drilling commenced in late 2022 with results expected in 2023",
           "color": "omega"
         }
       ],
@@ -45,23 +62,10 @@
         "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
         "color": "omegaDark"
       }
-    },
-    {
-      "text": [
-        {
-          "text": "Further Sampling",
-          "color": "alpha",
-          "variant": "h5"
-        },
-        {
-          "text": "Field mapping, further channel sampling, and prospecting",
-          "color": "omega"
-        }
-      ],
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-layer-plus.svg",
-        "color": "omegaDark"
-      }
     }
   ]
 }
+
+
+
+
