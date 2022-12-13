@@ -1,0 +1,31 @@
+{
+  "text": [
+    {
+      "text": "Eby-Otto Project",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Prospective mining claim package",
+      "variant": "h2",
+      "align": ["left"]
+    },
+    {
+      "text": "The Eby-Otto and Tinney area was originally discovered by silver prospectors originating from the town of Cobalt prospecting for silver.",
+      "variant": "medium",
+      "align": ["left"]
+    },
+    {
+      "text": "But instead of silver, they found occurrences of gold near the shore of Otto Lake in 1906.",
+      "variant": "medium",
+      "align": ["left"]
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/ebby-otto/overview.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ]
+}

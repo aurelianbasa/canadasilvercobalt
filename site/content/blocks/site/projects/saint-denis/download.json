@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Summary Report",
+      "variant": "h5"
+    },
+    {
+      "text": "Report detailing key information and planned exploration phases"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Downloads",
+      "type": "PAGE",
+      "link": "/reports/eby-otto-summary.pdf",
+      "variant": "primary",
+      "width": "250px"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "text": [
+    {
+      "text": "Lowney-Lac Edouard",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Joint Exploration with Rio Tinto",
+      "variant": "h2",
+      "align": ["left"]
+    },
+    {
+      "text": "Lowney-Lac Edouard is located in central Quebec, East of La Tuque, approximately 200 km north of Port City of Trois-Rivieres. The property is close to the past-producing nickel-copper Lac Edouard Mine which had grades of 1.5% nickel and 0.5% copper.",
+      "variant": "small",
+      "align": ["left"]
+    },
+    {
+      "text": "A joint airborne VTEM geophysical survey with Rio Tinto has been completed to better understand the geological potential. The preliminary maps of the survey have been provided and the Company is awaiting the final report from Geotech.",
+      "variant": "medium",
+      "align": ["small"]
+    },
+    {
+      "text": "Five anomalies are identified with the VTEM System B-Field Z-data profiles map. The Company plans to follow-up the results of the geophysical survey once the data has been reviewed. Drill targets are currently being identified based on the geophysical results.",
+      "variant": "medium",
+      "align": ["small"]
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/lowney-lac-edouard/overview.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ]
+}

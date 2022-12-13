@@ -1,0 +1,10 @@
+{
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/lowney-lac-edouard/location.jpg",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "lg"
+    }
+  ]
+}

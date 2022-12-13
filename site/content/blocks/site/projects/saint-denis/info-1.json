@@ -1,0 +1,26 @@
+{
+  "text": [
+    {
+      "text": "History",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "The property represents the core mining claims of Doug Robinson and Jim Reed, two of the foremost geological experts in the region.",
+      "variant": "medium",
+      "align": ["left"]
+    },
+    {
+      "text": "Significant work includes an airborne drone-based geophysical survey, substantial hand stripping and identification of drill targets.",
+      "variant": "medium",
+      "align": ["left"]
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/ebby-otto/info-1.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ]
+}

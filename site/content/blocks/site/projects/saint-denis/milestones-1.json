@@ -1,0 +1,67 @@
+{
+  "text": [
+    {
+      "text": "MILESTONES",
+      "color": "omega",
+      "variant": "h3"
+    },
+    {
+      "text": "2021",
+      "color": "beta",
+      "variant": "h1"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Acquired Prospects",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "1,000 hectares near Kirkland Lake Gold's Macassa Mine",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-line-chart.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Permits Obtained",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "For diamond drilling, geophysics, and line-cutting",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "omegaDark"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Preliminary Sampling",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Channel sampling and prospecting which will guide future drill planning",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-layer-plus.svg",
+        "color": "omegaDark"
+      }
+    }
+  ]
+}
