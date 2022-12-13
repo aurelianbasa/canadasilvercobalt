@@ -7,6 +7,7 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import Content from '@solid-ui-blocks/Content/Block01'
 import Location from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -29,7 +30,9 @@ const ProjectItemPage = props => {
       <Divider space='5' />
       <Container variant='narrow'>
         <Location content={content['location']} />
-        <Divider space='5' />
+        <Divider space='2' />
+        <Content content={content['content']} />
+        <Divider space='4' />
       </Container>
       <Divider space='5' />
       <Footer content={content['footer']} />

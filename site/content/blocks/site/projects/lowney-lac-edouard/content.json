@@ -1,0 +1,24 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Preliminary Results",
+          "color": "omegaDarker",
+          "variant": "h2",
+          "align": ["left"],
+          "space": 3
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Five anomalies are identified with the VTEM System B-Field Z-data profiles map. The Company plans to follow-up the results of the geophysical survey once the data has been reviewed. Drill targets are currently being identified based on the geophysical results.",
+          "color": "omegaDark",
+          "align": ["left"]
+        }
+      ]
+    }
+  ]
+}
