@@ -6,19 +6,19 @@
       "variant": "h4"
     },
     {
-      "text": "Prospective Opportunity",
+      "text": "Highly Prospective Ground",
       "variant": "h2",
       "align": ["left"]
     },
     {
-      "text": "The Eby-Otto Property is a prospective land package of 1,000 hectares in the Kirkland Lake Gold camp located on the prolific Larder Lake-Cadillac Break. The property was purchased in 2021 from a team of local geologists.",
+      "text": "The claims package is approximately 5 kilometres north west of Power Metal's West Joe Dyke and Main Dyke where high-grade drill results have been reported.",
       "variant": "medium",
       "align": ["left"]
     }
   ],
   "images": [
     {
-      "src": "../../../../assets/site/projects/ebby-otto/feature-2.jpg",
+      "src": "../../../../assets/site/projects/saint-denis/feature-2.jpg",
       "alt": "",
       "radius": "lg",
       "shadow": "default"
@@ -33,12 +33,12 @@
       },
       "text": [
         {
-          "text": "Promising Location",
+          "text": "Long-term demand forecast",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Within 5 km of the Macassa Gold Mine operated by Kirkland Lake Gold. Macassa is one of the highest-grade gold mines in the world."
+          "text": "Lithium, Tantalum, and Cesium are all part of the Critical metals list where governments are investing heavily, and demand is set to increase as new technologies use these metals."
         }
       ]
     },
@@ -50,12 +50,12 @@
       },
       "text": [
         {
-          "text": "Early Exploration",
+          "text": "Connected Infrastructure",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Gold-bearing veins outcropping at the surface in several places and follow-up exploration is planned for 2022."
+          "text": "Rail infrastructure in place to ship ore, highly skilled labour market from long history of mining operations in the region, power and water connections secure, reliable and cost efficient."
         }
       ]
     },
@@ -67,12 +67,12 @@
       },
       "text": [
         {
-          "text": "Initial Plans",
+          "text": "Mining-friendly Region",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Geological mapping, the stripping of outcrops, and channel sampling, in preparation for a subsequent drill program, which began in late 2022."
+          "text": "Canada's and Ontario's Critical Metals strategy perfectly coincides with the company strategy of developing a Lithium-Cesium-Tantalum resource close to multiple producing mines."
         }
       ]
     }

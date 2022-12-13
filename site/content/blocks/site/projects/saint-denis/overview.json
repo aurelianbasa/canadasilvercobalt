@@ -1,29 +1,29 @@
 {
   "text": [
     {
-      "text": "Eby-Otto Project",
+      "text": "The Saint Denis",
       "color": "alpha",
       "variant": "h4"
     },
     {
-      "text": "Prospective mining claim package",
+      "text": "Lithium in an emerging Camp",
       "variant": "h2",
       "align": ["left"]
     },
     {
-      "text": "The Eby-Otto and Tinney area was originally discovered by silver prospectors originating from the town of Cobalt prospecting for silver.",
+      "text": "The property totals 230 square kilometres adjacent and contiguous to Power Metal's Case Lake Lithium property.",
       "variant": "medium",
       "align": ["left"]
     },
     {
-      "text": "But instead of silver, they found occurrences of gold near the shore of Otto Lake in 1906.",
+      "text": "Geological data points to a common environment for the occurence of Lithium-Cesium-Tantalum pegmatites. Published results from Power Metals have substantiated these claims.",
       "variant": "medium",
       "align": ["left"]
     }
   ],
   "images": [
     {
-      "src": "../../../../assets/site/projects/ebby-otto/overview.jpg",
+      "src": "../../../../assets/site/projects/saint-denis/overview.jpg",
       "radius": "xl",
       "alt": "alt text"
     }

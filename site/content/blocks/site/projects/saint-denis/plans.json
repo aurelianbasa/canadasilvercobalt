@@ -1,12 +1,12 @@
 {
   "text": [
     {
-      "text": "",
+      "text": "PLANS",
       "color": "omega",
       "variant": "h3"
     },
     {
-      "text": "2022",
+      "text": "",
       "color": "beta",
       "variant": "h1"
     }
@@ -15,29 +15,12 @@
     {
       "text": [
         {
-          "text": "Further Sampling",
+          "text": "Prospecting",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "Field mapping, further channel sampling, and prospecting",
-          "color": "omega"
-        }
-      ],
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-layer-plus.svg",
-        "color": "omegaDark"
-      }
-    },
-    {
-      "text": [
-        {
-          "text": "Drill Targets",
-          "color": "alpha",
-          "variant": "h5"
-        },
-        {
-          "text": "High-value targets based on existing field mapping",
+          "text": "LIDAR, Geophysics, Field mapping",
           "color": "omega"
         }
       ],
@@ -49,12 +32,12 @@
     {
       "text": [
         {
-          "text": "Exploration Program",
+          "text": "Sampling",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "Diamond drilling commenced in late 2022 with results expected in 2023",
+          "text": "Stripping, Channel sampling",
           "color": "omega"
         }
       ],
@@ -62,10 +45,23 @@
         "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
         "color": "omegaDark"
       }
+    },
+    {
+      "text": [
+        {
+          "text": "Drilling",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Drill targets, 1000m shallow drilling of 10 holes",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-layer-plus.svg",
+        "color": "omegaDark"
+      }
     }
   ]
 }
-
-
-
-
