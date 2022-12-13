@@ -72,7 +72,6 @@ const ProjectItemPage = props => {
       <Divider space='1' />
       <Stats content={content['stats']} />
       <Divider space='1' />
-      <Milestones content={content['milestones-2']} />
       </Container>
       <Divider space='4' />
       <Info content={content['overview-2']} reverse />
