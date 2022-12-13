@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "The St. Denis Lithium Acquisition",
+      "color": "beta",
+      "variant": "h3"
+    },
+    {
+      "text": "Full Spectrum of Battery Metals",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "In 2022, the company acquired 200 square km of prospective lithium properties in northern Ontario.",
+      "color": "omegaDark",
+      "variant": "medium",
+      "align": ["left"]
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/about/company-history/content-five.jpg",
+      "alt": "alt text",
+      "radius": "xl",
+      "effects": ["fadeInDown"]
+    }
+  ]
+}

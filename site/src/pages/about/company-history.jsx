@@ -49,6 +49,7 @@ const AboutCompanyHistoryPage = props => {
         </Card>
       </Container>
       <Divider space='5' />
+      <ContentTwo content={content['content-five']} />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
