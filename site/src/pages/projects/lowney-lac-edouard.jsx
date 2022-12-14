@@ -31,6 +31,10 @@ const ProjectItemPage = props => {
       <Container variant='narrow'>
         <Location content={content['location']} />
         <Divider space='2' />
+        <Content content={content['content-2']} />
+        <Divider space='4' />
+        <Location content={content['location-2']} />
+        <Divider space='2' />
         <Content content={content['content']} />
         <Divider space='4' />
       </Container>

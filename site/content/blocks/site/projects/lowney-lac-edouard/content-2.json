@@ -1,0 +1,24 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Further Exploration Work Planned",
+          "color": "omegaDarker",
+          "variant": "h2",
+          "align": ["left"],
+          "space": 3
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Plans are for additional exploration work including the identification of drill targets and eventual drilling.",
+          "color": "omegaDark",
+          "align": ["left"]
+        }
+      ]
+    }
+  ]
+}
