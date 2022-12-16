@@ -3,7 +3,7 @@
     {
       "text": "PLANS",
       "color": "beta",
-      "variant": "h2"
+      "variant": "h3"
     },
     {
       "text": "",
@@ -39,7 +39,8 @@
         },
         {
           "text": "Stripping, Channel sampling",
-          "color": "omega"
+          "color": "omega",
+          "variant": "h5"
         }
       ],
       "icon": {

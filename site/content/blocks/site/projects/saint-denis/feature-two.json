@@ -1,13 +1,13 @@
 {
   "text": [
     {
-      "text": "STRATEGY",
+      "text": "",
       "color": "omega",
       "variant": "h4"
     },
     {
       "text": "Highly Prospective Ground",
-      "variant": "h2",
+      "variant": "h3",
       "align": ["left"]
     },
     {
@@ -72,7 +72,7 @@
           "variant": "h5"
         },
         {
-          "text": "Canada's and Ontario's Critical Metals strategy perfectly coincides with the company strategy of developing a Lithium-Cesium-Tantalum resource."
+          "text": "Government initiatives validate the company strategy of developing a Lithium-Cesium-Tantalum resource."
         }
       ]
     }

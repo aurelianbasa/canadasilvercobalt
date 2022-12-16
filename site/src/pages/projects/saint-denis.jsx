@@ -28,10 +28,10 @@ const ProjectItemPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Info content={content['overview']} />
-      <Divider space='2' />
-      <Quote content={content['content-one']} />
-      <Divider space='4' />
+      <Divider space='3' />
       <Milestones content={content['plans']} />
+      <Divider space='4' />
+      <Quote content={content['content-one']} />
       <Divider space='4' />
       <Feature content={content['feature-two']} />
       <Divider space='4' />
