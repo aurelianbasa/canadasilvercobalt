@@ -2,8 +2,8 @@
   "text": [
     {
       "text": "PLANS",
-      "color": "omega",
-      "variant": "h3"
+      "color": "beta",
+      "variant": "h2"
     },
     {
       "text": "",
@@ -17,11 +17,12 @@
         {
           "text": "Prospecting",
           "color": "alpha",
-          "variant": "h5"
+          "variant": "h3"
         },
         {
           "text": "LIDAR, Geophysics, Field mapping",
-          "color": "omega"
+          "color": "omega",
+          "variant": "h5"
         }
       ],
       "icon": {
@@ -34,7 +35,7 @@
         {
           "text": "Sampling",
           "color": "alpha",
-          "variant": "h5"
+          "variant": "h3"
         },
         {
           "text": "Stripping, Channel sampling",
@@ -43,7 +44,8 @@
       ],
       "icon": {
         "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
-        "color": "omegaDark"
+        "color": "omegaDark",
+        "variant": "h5"
       }
     },
     {
@@ -51,11 +53,12 @@
         {
           "text": "Drilling",
           "color": "alpha",
-          "variant": "h5"
+          "variant": "h3"
         },
         {
           "text": "Drill targets, 1000m shallow drilling of 10 holes",
-          "color": "omega"
+          "color": "omega",
+          "variant": "h5"
         }
       ],
       "icon": {
