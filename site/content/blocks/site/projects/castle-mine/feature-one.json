@@ -20,8 +20,7 @@
     {
       "src": "../../../../assets/site/projects/castle-mine/feature-1.png",
       "alt": "Drill core from Graal",
-      "radius": "lg",
-      "shadow": "default"
+      "radius": "lg"
     }
   ],
   "collection": [

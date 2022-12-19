@@ -3,8 +3,7 @@
     {
       "src": "../../../../assets/site/projects/castle-mine/cross-section-2.jpg",
       "alt": "alt text",
-      "radius": "lg",
-      "shadow": "lg"
+      "radius": "lg"
     }
   ]
 }

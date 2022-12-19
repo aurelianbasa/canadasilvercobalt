@@ -16,7 +16,6 @@
       "src": "../../../assets/site/careers/hero.jpg",
       "alt": "alt text",
       "radius": "lg",
-      "shadow": "xl",
       "effects": ["fadeInLeft"]
     }
   ]

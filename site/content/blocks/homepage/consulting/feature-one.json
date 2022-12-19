@@ -24,7 +24,7 @@
       "src": "../../../assets/flexiblocks/homepage/consulting/feature-one-overlay.png",
       "alt": "alt text",
       "radius": "lg",
-      "shadow": "default",
+      ,
       "effects": ["fadeInLeft", "float"],
       "position": {
         "bottom": "15%",
