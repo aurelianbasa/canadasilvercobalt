@@ -21,8 +21,7 @@
     {
       "src": "../../../assets/site/index/barchart.png",
       "alt": "alt text",
-      "radius": "lg",
-      "shadow": "default"
+      "radius": "lg"
     }
   ],
   "collection": [

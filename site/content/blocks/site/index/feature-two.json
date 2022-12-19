@@ -21,8 +21,7 @@
     {
       "src": "../../../assets/site/index/technology.png",
       "alt": "",
-      "radius": "lg",
-      "shadow": "default"
+      "radius": "lg"
     }
   ],
   "collection": [

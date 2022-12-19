@@ -21,8 +21,7 @@
     {
       "src": "../../../assets/site/index/primary.jpg",
       "alt": "Drill core from Graal",
-      "radius": "lg",
-      "shadow": "default"
+      "radius": "lg"
     }
   ],
 
