@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
@@ -31,6 +32,20 @@ const IndexPage = props => {
 
   return (
     <Layout theme={theme} {...props}>
+      
+      <Helmet>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-073DEWFNCX">
+      </script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-073DEWFNCX');
+      </script>
+      </Helmet>
+      
+      
+      
       <Seo title='Home' />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
