@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { Container } from 'theme-ui'
+import { Google } from 'gatsby-plugin-gtag'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
@@ -31,29 +32,8 @@ const IndexPage = props => {
 
   return (
     <Layout theme={theme} {...props}>
-      
-      {site.google_analytics ? (
-            <script
-              async
-              src={`https://www.googletagmanager.com/gtag/js?id=${
-                G-073DEWFNCX
-              }`}
-            />
-          ) : null}
-          {site.google_analytics ? (
-            <script>
-              {`window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', '${site.google_analytics}');
-      `}
-            </script>
-          ) : null}
-      
-      
-      
       <Seo title='Home' />
+      <Google href='www.canadasilvercobaltworks.com'></Google>
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
       <ModalSimple content={content['disclaimer']} />
