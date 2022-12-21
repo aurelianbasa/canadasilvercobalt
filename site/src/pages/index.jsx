@@ -1,5 +1,4 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
@@ -33,16 +32,24 @@ const IndexPage = props => {
   return (
     <Layout theme={theme} {...props}>
       
-      <Helmet>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-073DEWFNCX">
-      </script>
-      <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-073DEWFNCX');
-      </script>
-      </Helmet>
+      {site.google_analytics ? (
+            <script
+              async
+              src={`https://www.googletagmanager.com/gtag/js?id=${
+                G-073DEWFNCX
+              }`}
+            />
+          ) : null}
+          {site.google_analytics ? (
+            <script>
+              {`window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', '${site.google_analytics}');
+      `}
+            </script>
+          ) : null}
       
       
       
