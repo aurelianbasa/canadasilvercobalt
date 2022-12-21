@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { Container } from 'theme-ui'
+import { Tracker } from 'gatsby-plugin-gtag'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
@@ -93,4 +94,11 @@ export const query = graphql`
     }
   }
 `
-export default IndexPage
+
+export default IndexPage (
+  <div>
+    <Tracker href="https://www.canadasilvercobaltworks.com/">
+      Canada Silver Cobalt Works
+    </Tracker>
+  </div>
+)
