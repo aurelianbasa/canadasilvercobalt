@@ -25,6 +25,7 @@
       "images": [
         {
           "src": "../../../assets/site/projects/castle-mine.png",
+          "radius": "xl",
           "alt": "alt text"
         }
       ],
@@ -62,6 +63,7 @@
       "images": [
         {
           "src": "../../../assets/site/projects/beaver-mine.jpg",
+          "radius": "xl",
           "alt": "alt text"
         }
       ],
@@ -99,6 +101,7 @@
       "images": [
         {
           "src": "../../../assets/site/projects/violet-mine.jpg",
+          "radius": "xl",
           "alt": "alt text"
         }
       ],

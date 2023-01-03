@@ -38,7 +38,7 @@ const ProjectsPage = props => {
       <Download content={content['report-one']} />
       <Divider space='2' />
       <Download content={content['report-two']} />
-      <Divider space='5' />
+      <Divider space='2' />
       <Download content={content['report-three']} />
       <Divider space='5' />
       <Divider space='5' />
