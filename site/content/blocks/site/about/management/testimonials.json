@@ -27,6 +27,7 @@
       ],
       "avatar": {
         "src": "../../../../assets/site/about/management/frank-sm.png",
+        "radius": "lg",
         "alt": "alt text"
       }
     },
@@ -46,6 +47,7 @@
       ],
       "avatar": {
         "src": "../../../../assets/site/about/management/suttie-sm.png",
+        "radius": "lg",
         "alt": "alt text"
       }
     },
@@ -65,6 +67,7 @@
       ],
       "avatar": {
         "src": "../../../../assets/site/about/management/matt-sm.png",
+        "radius": "lg",
         "alt": "alt text"
       }
     },
@@ -84,6 +87,7 @@
       ],
       "avatar": {
         "src": "../../../../assets/site/about/management/gerhard-sm.png",
+        "radius": "lg",
         "alt": "alt text"
       }
     },
@@ -109,6 +113,46 @@
     {
       "text": [
         {
+          "text": "Daniel Barrette",
+          "variant": "h5"
+        },
+        {
+          "text": "Director",
+          "variant": "small"
+        },
+        {
+          "text": "Mr. Barrette possesses over 15 years experience in the mining industry, including as COO for Gilla Inc. until its RTO with Snoke Distribution Canada Ltd. and also President & CEO of Affinor Resources Inc."
+        }
+      ],
+      "avatar": {
+        "src": "../../../../assets/site/about/management/daniel.png",
+        "radius": "lg",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Annemette Jorgensen",
+          "variant": "h5"
+        },
+        {
+          "text": "Director",
+          "variant": "small"
+        },
+        {
+          "text": "Ms. Jorgensen has over 20 years expertise in corporate development, finance, media, public relations, investor relations expertise and directorship experience with TSXV listed Issuers."
+        }
+      ],
+      "avatar": {
+        "src": "../../../../assets/site/about/management/annemette.png",
+        "radius": "lg",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
           "text": "Tina Whyte",
           "variant": "h5"
         },
@@ -122,6 +166,7 @@
       ],
       "avatar": {
         "src": "../../../../assets/site/about/management/tina.png",
+        "radius": "lg",
         "alt": "alt text"
       }
     }
