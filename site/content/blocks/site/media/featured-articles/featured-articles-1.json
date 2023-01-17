@@ -20,11 +20,11 @@
       },
       "text": [
         {
-          "text": "Proactive",
+          "text": "Innovation News Network",
           "color": "alphaDark"
         },
         {
-          "text": "Battery Metals business prepared for monetization",
+          "text": "ESG-compliant Re-2Ox technology revolutionises battery metals processing",
           "color": "omegaDarker",
           "variant": "h5"
         },
@@ -34,7 +34,7 @@
       ],
       "images": [
         {
-          "src": "../../../../assets/site/media/featured-articles/proactive.jpg",
+          "src": "../../../../assets/site/media/featured-articles/innovation.png",
           "alt": "alt text"
         }
       ],
@@ -42,7 +42,7 @@
         {
           "text": "Read More",
           "type": "PAGE",
-          "link": "https://ca.proactiveinvestors.com/companies/news/965706/canada-silver-cobalt-prepares-battery-metals-business-for-monetization-965706.html",
+          "link": "https://www.innovationnewsnetwork.com/re-2ox-technology-revolutionises-battery-metals-processing/28926/",
           "variant": "primary"
         }
       ]

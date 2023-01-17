@@ -27,5 +27,16 @@
       "radius": "xl",
       "alt": "alt text"
     }
+  ],
+  "buttons": [
+    {
+      "text": "Read Article from Innovation News Network",
+      "type": "PAGE",
+      "width": "100%",
+      "link": "/Re2oxarticle.pdf",
+      "variant": "primary",
+      "align": ["right"]
+    }
   ]
 }
+
