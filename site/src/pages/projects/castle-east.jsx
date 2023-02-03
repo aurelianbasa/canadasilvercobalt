@@ -90,7 +90,7 @@ const ProjectItemPage = props => {
         <Divider space='2' />
         <Content content={content['content-seven']} />
       </Container>
-      <Divider space='5' />
+      <Divider space='3' />
 
       <Quote content={content['content-eight']} />
 
@@ -163,7 +163,7 @@ const ProjectItemPage = props => {
         </Container>
         </Container>
         
-      <Divider space='3' />
+      <Divider space='4' />
       <DrillMap content={content['drill-map']} />
       <Divider space='3' />
       <Quote content={content['content-two']} />
