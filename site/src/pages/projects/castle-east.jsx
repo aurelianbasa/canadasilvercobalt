@@ -96,7 +96,7 @@ const ProjectItemPage = props => {
 
       <Divider space='4' />
         <Content content={content['content-six']} />
-        
+        <Divider space='2' />
         <Container variant='narrow'>
         <Container variant='table'>
           <table>
@@ -163,11 +163,11 @@ const ProjectItemPage = props => {
         </Container>
         </Container>
         
-      <Divider space='5' />
+      <Divider space='3' />
       <DrillMap content={content['drill-map']} />
-      <Divider space='4' />
+      <Divider space='3' />
       <Quote content={content['content-two']} />
-      <Divider space='5' />
+      <Divider space='3' />
       <CrossSection content={content['cross-section-3']} />
       <Divider space='2' />
       <Content content={content['content-four']} />
