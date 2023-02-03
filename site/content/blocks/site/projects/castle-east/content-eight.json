@@ -1,0 +1,25 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Historically, gold has been directly associated with silver in the Cobalt Camp. The gold values in the silver dore bar produced when the historic mines were in production accounted for 3 to 5 percent of the total 1,000 ounces by weight. Using the January 13, 2023, close price of gold and silver, the contained gold value of these bars would be 2-4 times the contained silver value in USD.",
+          "color": "omegaDark",
+          "variant": "h6",
+          "space": 2
+        },
+        {
+          "text": "Frank Basa",
+          "color": "alpha",
+          "variant": "h4",
+          "space": 0
+        },
+        {
+          "text": "CEO, P. Eng.",
+          "color": "omegaDarker",
+          "variant": "h5"
+        }
+      ]
+    }
+  ]
+}
