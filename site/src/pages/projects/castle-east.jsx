@@ -82,6 +82,11 @@ const ProjectItemPage = props => {
         <Info content={content['info-1']} reverse />
         <Divider space='4' />
         <Info content={content['info-2']} />
+        <Divider space='3' />
+        </Container>
+        <Container variant='narrow'>
+        <Quote content={content['content-two']} />
+        <Divider space='3' />
         <Content content={content['content-three']} />     
         <Divider space='2' />
         <CrossSection content={content['cross-section-1']} />
@@ -163,8 +168,6 @@ const ProjectItemPage = props => {
         
       <Divider space='4' />
       <DrillMap content={content['drill-map']} />
-      <Divider space='3' />
-      <Quote content={content['content-two']} />
       <Divider space='3' />
       <CrossSection content={content['cross-section-3']} />
       <Divider space='2' />
