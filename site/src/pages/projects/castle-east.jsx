@@ -82,19 +82,17 @@ const ProjectItemPage = props => {
         <Info content={content['info-1']} reverse />
         <Divider space='4' />
         <Info content={content['info-2']} />
+        <Content content={content['content-three']} />     
+        <Divider space='2' />
         <CrossSection content={content['cross-section-1']} />
-        <Divider space='2' />
-        <Content content={content['content-three']} />
         <Divider space='4' />
-        <CrossSection content={content['cross-section-2']} />
-        <Divider space='2' />
         <Content content={content['content-seven']} />
+        <Divider space='2' />
+        <CrossSection content={content['cross-section-2']} />
       </Container>
       <Divider space='3' />
 
-      <Quote content={content['content-eight']} />
-
-      <Divider space='4' />
+    
         <Content content={content['content-six']} />
         <Divider space='2' />
         <Container variant='narrow'>
