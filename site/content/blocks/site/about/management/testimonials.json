@@ -133,26 +133,6 @@
     {
       "text": [
         {
-          "text": "Annemette Jorgensen",
-          "variant": "h5"
-        },
-        {
-          "text": "Director",
-          "variant": "small"
-        },
-        {
-          "text": "Ms. Jorgensen has over 20 years expertise in corporate development, finance, media, public relations, investor relations expertise and directorship experience with TSXV listed Issuers."
-        }
-      ],
-      "avatar": {
-        "src": "../../../../assets/site/about/management/annemette.png",
-        "radius": "lg",
-        "alt": "alt text"
-      }
-    },
-    {
-      "text": [
-        {
           "text": "Tina Whyte",
           "variant": "h5"
         },
