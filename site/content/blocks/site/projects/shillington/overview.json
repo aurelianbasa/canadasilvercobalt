@@ -1,0 +1,31 @@
+{
+  "text": [
+    {
+      "text": "Shillington",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Copper Exploration Asset",
+      "variant": "h2",
+      "align": ["left"]
+    },
+    {
+      "text": "The fully owned Shillington Copper Property falls north of Castle East, near Gowganda, Ontario. The property has the potential to become a valuable copper exploration asset given the current market demand.",
+      "variant": "medium",
+      "align": ["left"]
+    },
+    {
+      "text": "The 2190-hectare property was acquired in 2020 to expand the land package and exploration potential north of Castle East given the geology and controlling structures nearby. The Company completed a ground-truthing and prospecting program in 2021 over a 2 square kilometre area and identified strong mineralization from grab and outcrop samples. A future exploration program is planned to define the extent of this potential high-grade copper mineralised area.",
+      "variant": "medium",
+      "align": ["left"]
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/shillington/overview.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ]
+}

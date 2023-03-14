@@ -163,6 +163,12 @@
                       "type": "PAGE",
                       "link": "/projects/lowney-lac-edouard",
                       "variant": "links.nav-dark"
+                    },
+                    {
+                      "text": "Shillington",
+                      "type": "PAGE",
+                      "link": "/projects/shillington",
+                      "variant": "links.nav-dark"
                     }
                   ]
                 },
