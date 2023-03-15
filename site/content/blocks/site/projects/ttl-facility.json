@@ -30,19 +30,20 @@
   ],
   "buttons": [
     {
-      "text": "Read Article from CIM Magazine",
+      "text": "Article in CIM Magazine",
       "type": "PAGE",
-      "width": "50%",
+      "width": "40%",
       "link": "/TTLarticle.pdf",
       "variant": "primary",
       "align": ["right"]
     },
     {
-      "text": "Watch a demonstration of the circuit",
+      "text": "Demonstration of the circuit",
       "type": "VIDEO",
       "link": "https://www.youtube.com/embed/9NsQ-Q7NiTU?autoplay=1&modestbranding=1&showinfo=0&rel=0",
       "variant": "secondary",
-      "width": "50%"
+      "width": "40%",
+      "align": ["right"]
     }
   ]
 }
