@@ -30,7 +30,7 @@
   ],
   "buttons": [
     {
-      "text": "Article in CIM Magazine",
+      "text": "Read Article",
       "type": "PAGE",
       "width": "40%",
       "link": "/TTLarticle.pdf",
