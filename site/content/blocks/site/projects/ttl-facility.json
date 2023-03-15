@@ -30,6 +30,14 @@
   ],
   "buttons": [
     {
+      "text": "Watch a demonstration of the circuit",
+      "type": "VIDEO",
+      "link": "https://www.youtube.com/embed/9NsQ-Q7NiTU?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+      "variant": "secondary",
+      "width": "100%",
+      "space": 2
+    },
+    {
       "text": "Read Article from CIM Magazine",
       "type": "PAGE",
       "width": "100%",
