@@ -1,5 +1,4 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
@@ -24,37 +23,6 @@ const ProjectItemPage = props => {
 
   return (
     <Layout {...props}>
-      <Helmet>
-        <style type='text/css'>
-          {`
-						table {
-							width:100%;
-							border:1px solid #606060;
-							border-collapse:separate;
-              border-left: 1;
-              border-radius: 4px;
-              border-spacing: 0px;
-							padding:6px;
-						}
-						table th {
-							border:2px solid #606060;
-							padding:.5em 5px;
-							background: #f0f0f0;
-							color: #313030;
-							font-size: 1.2em;
-						}
-						table td {
-							border:2px solid #606060;
-							text-align:center;
-							padding:.5em 5px;
-							background: #ffffff;
-							color: #313030;
-							font-size: 1.2em;
-						}
-    			`}
-        </style>
-      </Helmet>
-
       <Seo title='Castle East Project' />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
@@ -101,71 +69,8 @@ const ProjectItemPage = props => {
         <Container variant='narrow'>
         <Content content={content['content-six']} />
         <Divider space='2' />
-        <Container variant='table'>
-          <table>
-            <thead>
-              <tr>
-                <th>Inferred Mineral Resources</th>
-                <th>Ag (g/t)</th>
-                <th>Co (g/t)</th>
-                <th>Cu (g/t)</th>
-                <th>Ni (g/t)</th>
-                <th>AgEq (g/t)</th>
-                <th>Tonnes</th>
-                <th>Ag (oz.)</th>
-                <th>AgEq (oz.)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Zone 1A</td>
-                <td>7,960</td>
-                <td>946</td>
-                <td>349</td>
-                <td>790</td>
-                <td>8,042</td>
-                <td>8,100</td>
-                <td>2,073,000</td>
-                <td>2,094,000</td>
-              </tr>
-              <tr>
-                <td>Zone 1B</td>
-                <td>8,843</td>
-                <td>2,308</td>
-                <td>325</td>
-                <td>336</td>
-                <td>8,998</td>
-                <td>19,300</td>
-                <td>5,487,200</td>
-                <td>5,583,200</td>
-              </tr>
-              <tr>
-                <td>Zone 2A</td>
-                <td>38</td>
-                <td>5,673</td>
-                <td>2,101</td>
-                <td>453</td>
-                <td>118</td>
-                <td>5,500</td>
-                <td>6,800</td>
-                <td>75,300</td>
-              </tr>
-              <tr>
-                <td>Total Inferred Mineral Resources</td>
-                <td>7,149</td>
-                <td>2,537</td>
-                <td>628</td>
-                <td>467</td>
-                <td>7,325</td>
-                <td>32,900</td>
-                <td>7,567,000</td>
-                <td>7,752,000</td>
-              </tr>
-            </tbody>
-          </table>
+       <CrossSection content={content['resource-table']} />
         </Container>
-        </Container>
-        
       <Divider space='4' />
       <DrillMap content={content['drill-map']} />
       <Divider space='3' />
