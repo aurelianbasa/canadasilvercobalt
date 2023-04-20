@@ -133,6 +133,26 @@
     {
       "text": [
         {
+          "text": "Ronald Goguen, Sr.",
+          "variant": "h5"
+        },
+        {
+          "text": "Director",
+          "variant": "small"
+        },
+        {
+          "text": "Mr. Goguen has more than 40 years experience in the mining exploration industry. He served as President and CEO of Major Drilling Group International from 1980 to 2000 and as a director of Northeast Bank from 1990 and was named Atlantic Canada's Entrepreneur of the Year in 1995. He is currently Chairman of Colibri Resource Corporation and CEO of ONTOP Capital Limited."
+        }
+      ],
+      "avatar": {
+        "src": "../../../../assets/site/about/management/placeholder.png",
+        "radius": "lg",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
           "text": "Tina Whyte",
           "variant": "h5"
         },
