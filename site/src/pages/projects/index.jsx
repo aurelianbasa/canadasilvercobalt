@@ -33,6 +33,8 @@ const ProjectsPage = props => {
       <Divider space='5' />
       <Content content={content['technical-reports']} />
       <Divider space='1' />
+      <Download content={content['report-five']} />
+      <Divider space='2' />
       <Download content={content['report-four']} />
       <Divider space='2' />
       <Download content={content['report-one']} />

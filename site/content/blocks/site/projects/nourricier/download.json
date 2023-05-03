@@ -5,14 +5,14 @@
       "variant": "h5"
     },
     {
-      "text": "Most recently updated 43-101 from August, 2022."
+      "text": "Most recently updated 43-101 from May, 2023."
     }
   ],
   "buttons": [
     {
       "text": "Downloads",
       "type": "PAGE",
-      "link": "/reports/2022august.pdf",
+      "link": "/reports/2023may.pdf",
       "variant": "primary",
       "width": "250px"
     }

@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "NI 43-101 Technical Report for Graal Property",
+      "color": "alpha",
+      "variant": "h5"
+    },
+    {
+      "text": "May 2023"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Download",
+      "type": "PAGE",
+      "link": "/reports/2023may.pdf",
+      "variant": "primary"
+    }
+  ]
+}
