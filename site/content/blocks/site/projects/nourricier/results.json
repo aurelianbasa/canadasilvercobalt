@@ -21,79 +21,79 @@
   "images": [
     {
       "src": "../../../../assets/site/projects/nourricier/results.jpg",
-      "alt": "over 6km strike length"
+      "alt": ""
     }
   ],
   "collection": [
     {
       "text": [
         {
-          "text": "Lac Suzanne NO",
+          "text": "",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "up to 10.31% Ni, 0.06% Cu and 0.05% Co over 0.3m"
+          "text": ""
         }
       ]
     },
     {
       "text": [
         {
-          "text": "MHY Nord and MHY Ap",
+          "text": "",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "up to 0.84% Ni, 0.5% Cu, and 0.1% Co over 10.2m"
+          "text": ""
         }
       ]
     },
     {
       "text": [
         {
-          "text": "MHY A (97-03)",
+          "text": "",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "up to 0.5% Ni, 0.14% Cu, and 0.05% Co over 0.6m"
+          "text": ""
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Nourricier Noir",
+          "text": "",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "up to 0.59% Ni, and 0.6% Cu over 5.2m"
+          "text": ""
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Nourricier A (97-C235)",
+          "text": "",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "up to 0.77% Ni, 0.34% Cu, and 0.1% Co over 1.2m"
+          "text": ""
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Discovery (NRC-21-03)",
+          "text": "",
           "color": "omega",
           "variant": "h4"
         },
         {
-          "text": "Mineralized intersection of 5.7m, including 3.3m of massive sulphide lens"
+          "text": ""
         }
       ]
     }
