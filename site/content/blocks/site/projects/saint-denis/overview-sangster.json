@@ -1,0 +1,31 @@
+{
+  "text": [
+    {
+      "text": "SANGSTER BLOCK",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "",
+      "variant": "h2",
+      "align": ["left"]
+    },
+    {
+      "text": "St. Denis property includes the 2,337 hectare Sangster block located in a similar very prospective geological setting with numerous pegmatites at the surface.",
+      "variant": "medium",
+      "align": ["left"]
+    },
+    {
+      "text": "A newly staked area of the Sangster block was reported on a Noranda Exploration geological map from 1995 as having a 1 km by 130m “pegmatite” on it.",
+      "variant": "medium",
+      "align": ["left"]
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/projects/saint-denis/feature-3.jpg",
+      "radius": "xl",
+      "alt": "alt text"
+    }
+  ]
+}
