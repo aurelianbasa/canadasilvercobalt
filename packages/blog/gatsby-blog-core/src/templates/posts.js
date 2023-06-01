@@ -41,7 +41,7 @@ export const pageQuery = graphql`
     posts: allArticle(
       filter: { private: { ne: true }, draft: { ne: true } }
       sort: { fields: [date], order: DESC }
-      limit: 1000
+      limit: $limit
     ) @skip(if: $paginatePostsPage) {
       group(field: category___name, limit: 10) {
         categoryName: fieldValue
