@@ -6,8 +6,8 @@ export default PostsPage
 export const pageQuery = graphql`
   query PostsPageQuery(
     $paginatePostsPage: Boolean!
-    $skip: Boolean!
-    $limit: Boolean!
+    $skip: Int
+    $limit: Int
     $includeExcerpt: Boolean!
     $includeTimeToRead: Boolean!
     $imageQuality: Int!
@@ -55,7 +55,7 @@ export const pageQuery = graphql`
     paginatedPosts: allArticle(
       filter: { private: { ne: true }, draft: { ne: true } }
       sort: { fields: [date], order: DESC }
-      limit: $limit
+      limit: 100
       skip: $skip
     ) @include(if: $paginatePostsPage) {
       nodes {
