@@ -30,7 +30,7 @@ export const pageQuery = graphql`
     recentPosts: allArticle(
       filter: { private: { ne: true }, draft: { ne: true } }
       sort: { fields: [date], order: DESC }
-      limit: 60
+      limit: 6
     ) {
       nodes {
         ...ArticlePreview
@@ -62,6 +62,7 @@ export const pageQuery = graphql`
         ...ArticlePreview
         ...ArticleThumbnailRegular
       }
+      ...ArticlePagination
     }
   }
 `
