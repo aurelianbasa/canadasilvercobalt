@@ -102,8 +102,8 @@ module.exports = pluginOptions => {
 
   const pagingParam = pluginOptions.pagingParam || 'page'
   const paginatePostsPage = pluginOptions.paginatePostsPage || false
-  const homePostsPerPage = pluginOptions.homePostsPerPage || 6
-  const collectionPostsPerPage = pluginOptions.collectionPostsPerPage || 6
+  const homePostsPerPage = pluginOptions.homePostsPerPage || 60
+  const collectionPostsPerPage = pluginOptions.collectionPostsPerPage || 60
 
   const mobileMenu = null // Will populate by: utils/queryMobileMenu.js
 

@@ -32,6 +32,8 @@ export const pageQuery = graphql`
       nodes {
         ...ArticlePreview
         ...ArticleThumbnailRegular
+      }
+      ...ArticlePagination
     }
   }
 `
