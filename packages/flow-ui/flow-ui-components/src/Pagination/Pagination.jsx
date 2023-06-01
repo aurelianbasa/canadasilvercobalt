@@ -22,7 +22,7 @@ const styles = {
     width: `1/3`
   },
   number: {
-    py: 20
+    py: 2
   },
   button: {
     minWidth: `full`
