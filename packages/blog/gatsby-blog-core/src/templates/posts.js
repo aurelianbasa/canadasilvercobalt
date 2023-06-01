@@ -5,9 +5,6 @@ export default PostsPage
 
 export const pageQuery = graphql`
   query PostsPageQuery(
-    $paginatePostsPage: Boolean!
-    $skip: Int
-    $limit: Int
     $includeExcerpt: Boolean!
     $includeTimeToRead: Boolean!
     $imageQuality: Int!
@@ -51,18 +48,4 @@ export const pageQuery = graphql`
         }
       }
     }
-
-    paginatedPosts: allArticle(
-      filter: { private: { ne: true }, draft: { ne: true } }
-      sort: { fields: [date], order: DESC }
-      limit: $limit
-      skip: $skip
-    ) @include(if: $paginatePostsPage) {
-      nodes {
-        ...ArticlePreview
-        ...ArticleThumbnailRegular
-      }
-      ...ArticlePagination
-    }
-  }
 `
