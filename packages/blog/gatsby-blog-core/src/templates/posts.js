@@ -6,6 +6,8 @@ export default PostsPage
 export const pageQuery = graphql`
   query PostsPageQuery(
     $paginatePostsPage: Boolean!
+    $skip: Boolean!
+    $limit: Boolean!
     $includeExcerpt: Boolean!
     $includeTimeToRead: Boolean!
     $imageQuality: Int!
