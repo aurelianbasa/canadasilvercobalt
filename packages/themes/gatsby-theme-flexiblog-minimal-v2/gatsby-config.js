@@ -2,7 +2,7 @@ const overrideFonts = require('./src/@elegantstack/flow-ui-theme/theme/typograph
 
 module.exports = options => {
   options = {
-    paginatePostsPage: true,
+    paginatePostsPage: false,
     homePostsPerPage: 10,
     ...options,
     fonts: options.fonts || overrideFonts.fonts

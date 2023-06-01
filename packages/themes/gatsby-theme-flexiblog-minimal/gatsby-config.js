@@ -1,6 +1,6 @@
 module.exports = options => {
   options = {
-    paginatePostsPage: true,
+    paginatePostsPage: false,
     homePostsPerPage: 9,
     ...options
   }

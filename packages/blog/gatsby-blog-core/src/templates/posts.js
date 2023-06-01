@@ -41,7 +41,7 @@ export const pageQuery = graphql`
     posts: allArticle(
       filter: { private: { ne: true }, draft: { ne: true } }
       sort: { fields: [date], order: DESC }
-      limit: $limit
+      limit: 1000
     ) @skip(if: $paginatePostsPage) {
       group(field: category___name, limit: 10) {
         categoryName: fieldValue
@@ -55,7 +55,7 @@ export const pageQuery = graphql`
     paginatedPosts: allArticle(
       filter: { private: { ne: true }, draft: { ne: true } }
       sort: { fields: [date], order: DESC }
-      limit: 100
+      limit: $limit
       skip: $skip
     ) @include(if: $paginatePostsPage) {
       nodes {
