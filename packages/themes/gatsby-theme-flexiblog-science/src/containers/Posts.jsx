@@ -156,7 +156,6 @@ const Posts = ({
                   <CardList
                     nodes={group.nodes}
                     variant={['horizontal-md', 'vertical']}
-                    limit={6}
                     columns={[1, 2, 3, 3]}
                     omitCategory
                   />
@@ -171,7 +170,6 @@ const Posts = ({
                   <CardList
                     nodes={group.nodes}
                     variant={['horizontal-md', 'horizontal']}
-                    limit={6}
                     columns={[1, 1, 2]}
                     omitCategory
                   />

@@ -65,7 +65,7 @@ module.exports = {
       }
     },
     {
-      resolve: '@elegantstack/gatsby-theme-flexiblog-minimal',
+      resolve: '@elegantstack/gatsby-theme-flexiblog-science',
       options: {
         basePath: '/news',
         siteUrl: 'https://canadasilvercobaltworks.com',
