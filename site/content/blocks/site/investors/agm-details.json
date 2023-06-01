@@ -1,0 +1,16 @@
+    {
+      "buttons": [
+        {
+          "text": "Document 1",
+          "type": "PAGE",
+          "link": "/",
+          "variant": "primary"
+        },
+        {
+          "text": "Document 2",
+          "type": "PAGE",
+          "link": "/",
+          "variant": "primary"
+        }
+      ]
+    }
