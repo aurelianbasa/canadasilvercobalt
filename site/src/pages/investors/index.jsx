@@ -89,8 +89,11 @@ const MediaPage = props => {
       <Container sx={styles.captionContainer}>
       <MaterialsOne content={content['agm']} />
       <Divider space='0' />
-      <MaterialsTwo content={content['agm-details']} />
+      <Download content={content['agm-details-1']} />
+      <Divider space='2' />
+      <Download content={content['agm-details-2']} />
       </Container>
+      
       <Divider space='5' />
       <Divider space='5' />
       <Footer content={content['footer']} />

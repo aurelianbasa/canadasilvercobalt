@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Document 2",
+      "color": "alpha",
+      "variant": "h5"
+    },
+    {
+      "text": "Date"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Download",
+      "type": "PAGE",
+      "link": "/",
+      "variant": "primary"
+    }
+  ]
+}
