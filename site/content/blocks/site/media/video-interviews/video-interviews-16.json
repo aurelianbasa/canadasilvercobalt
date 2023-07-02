@@ -1,7 +1,7 @@
 {
     "text": [
       {
-        "text": "",
+        "text": "2023",
         "variant": "h1"
       },
       {
@@ -17,11 +17,11 @@
         },
         "text": [
           {
-            "text": "Feb. 17, 2023",
+            "text": "Jun. 2, 2023",
             "color": "beta"
           },
           {
-            "text": "Update on the Graal property in Quebec",
+            "text": "Tailings Recovery Permit Application",
             "color": "omegaDarker",
             "variant": "h5"
           },
@@ -39,7 +39,7 @@
           {
             "text": "Watch Video",
             "type": "VIDEO",
-            "link": "https://www.youtube.com/embed/yGk7lC5qwoY?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+            "link": "https://www.youtube.com/embed/-P9_mFXczSU?autoplay=1&modestbranding=1&showinfo=0&rel=0",
             "variant": "secondary"
           }
         ]
@@ -53,21 +53,21 @@
         },
         "text": [
           {
-            "text": "Dec. 9, 2022",
+            "text": "Apr. 26, 2023",
             "color": "beta"
           },
           {
-            "text": "Polymetallic Projects in Canada with Upcoming Spinout",
+            "text": "The St-Denis Lithium-Cesium Project and Next Steps",
             "color": "omegaDarker",
             "variant": "h5"
           },
           {
-            "text": "Commodity TV"
+            "text": "Stockpulse"
           }
         ],
         "images": [
           {
-            "src": "../../../../assets/site/media/video-interviews/commoditytv.jpg",
+            "src": "../../../../assets/site/media/video-interviews/stockpulse.jpg",
             "alt": "alt text"
           }
         ],
@@ -75,7 +75,7 @@
           {
             "text": "Watch Video",
             "type": "VIDEO",
-            "link": "https://www.commodity-tv.com/embed/watch&v=3441",
+            "link": "https://www.youtube.com/embed/0ybRr-67QIk?autoplay=1&modestbranding=1&showinfo=0&rel=0",
             "variant": "secondary"
           }
         ]
@@ -90,16 +90,16 @@
         },
         "text": [
           {
-            "text": "Dec. 7, 2022",
+            "text": "Apr. 13, 2023",
             "color": "beta"
           },
           {
-            "text": "Tia Borden from MiningIR speaks to Matt Halliday",
+            "text": "Proactive Investor Virtual One2One Forum 2023",
             "color": "omegaDarker",
             "variant": "h5"
           },
           {
-            "text": "Mining IR"
+            "text": "Proactive"
           }
         ],
         "images": [
@@ -112,7 +112,7 @@
           {
             "text": "Watch Video",
             "type": "VIDEO",
-            "link": "https://www.youtube.com/embed/JUqYwzBBjW8?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+            "link": "https://www.youtube.com/embed/uXxTiqo-XMk?autoplay=1&modestbranding=1&showinfo=0&rel=0",
             "variant": "secondary"
           }
         ]
