@@ -25,16 +25,16 @@ const green = {
 
 const colors = {
   ...baseColors,
-  alphaLighter: blue[100],
-  alphaLight: blue[300],
-  alpha: blue[600],
-  alphaDark: blue[800],
-  alphaDarker: blue[900],
-  betaLighter: green[100],
-  betaLight: green[300],
-  beta: green[600],
-  betaDark: green[800],
-  betaDarker: green[900]
+  alphaLighter: green[100],
+  alphaLight: green[300],
+  alpha: green[600],
+  alphaDark: green[800],
+  alphaDarker: green[900],
+  betaLighter: blue[100],
+  betaLight: blue[300],
+  beta: blue[600],
+  betaDark: blue[800],
+  betaDarker: blue[900]
 }
 
 export default colors
