@@ -1,0 +1,58 @@
+{
+    "text": [
+      {
+        "text": "2023",
+        "variant": "h1"
+      },
+      {
+        "text": "",
+        "variant": "medium"
+      }
+    ],
+    "collection": [
+      
+      {
+        "container": {
+          "variant": "cards.interactive"
+        },
+        "text": [
+          {
+            "text": "Jul. 10, 2023",
+            "color": "beta"
+          },
+          {
+            "text": "Survey gives Cause for Confidence",
+            "color": "omegaDarker",
+            "variant": "h5"
+          },
+          {
+            "text": "Proactive"
+          }
+        ],
+        "images": [
+          {
+            "src": "../../../../assets/site/media/video-interviews/proactive.jpg",
+            "alt": "alt text"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Watch Video",
+            "type": "VIDEO",
+            "link": "https://www.youtube.com/embed/oSImXDkyRtg?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+            "variant": "secondary"
+          }
+        ]
+      }
+
+      
+
+    
+
+      
+      
+      
+
+
+]
+}
