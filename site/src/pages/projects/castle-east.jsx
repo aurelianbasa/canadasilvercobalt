@@ -43,8 +43,6 @@ const ProjectItemPage = props => {
       </Container>
       <Divider space='4' />
       <Info content={content['overview-2']} reverse />
-      <Divider space='3' />
-      <Quote content={content['content-one']} />
       <Divider space='4' />
       <Container variant='narrow'>
         <Info content={content['info-1']} reverse />
