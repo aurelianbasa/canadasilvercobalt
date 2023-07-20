@@ -20,6 +20,43 @@
       },
       "text": [
         {
+          "text": "Ontario Mining Review",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Driving the Energy Transition Forward with Silver and Battery Metals",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/media/featured-articles/omr.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read More",
+          "type": "PAGE",
+          "link": "/OMRarticle.pdf",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": ""
+        }
+      },
+      "text": [
+        {
           "text": "Innovation News Network",
           "color": "alphaDark"
         },
@@ -43,43 +80,6 @@
           "text": "Read More",
           "type": "PAGE",
           "link": "https://www.innovationnewsnetwork.com/re-2ox-technology-revolutionises-battery-metals-processing/28926/",
-          "variant": "primary"
-        }
-      ]
-    },
-    {
-      "container": {
-        "variant": "cards.interactive",
-        "link": {
-          "type": "PAGE",
-          "link": ""
-        }
-      },
-      "text": [
-        {
-          "text": "Yahoo!",
-          "color": "alphaDark"
-        },
-        {
-          "text": "Goldspot discoveries to apply Artificial Intelligence",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": ""
-        }
-      ],
-      "images": [
-        {
-          "src": "../../../../assets/site/media/featured-articles/yahoo.png",
-          "alt": "alt text"
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Read More",
-          "type": "PAGE",
-          "link": "https://finance.yahoo.com/news/goldspot-discoveries-engaged-canada-silver-163900849.html",
           "variant": "primary"
         }
       ]
