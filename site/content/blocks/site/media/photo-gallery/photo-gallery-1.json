@@ -13,6 +13,54 @@
     {
       "images": [
         {
+          "src": "../../../../assets/site/media/photo-gallery/castle-east/seven-sm.jpg",
+          "radius": "default",
+          "alt": "image thumbnail"
+        },
+        {
+          "src": "../../../../assets/site/media/photo-gallery/castle-east/seven.jpg",
+          "radius": "default",
+          "alt": "full image"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../assets/site/media/photo-gallery/castle-east/eight-sm.jpg",
+          "radius": "default",
+          "alt": "image thumbnail"
+        },
+        {
+          "src": "../../../../assets/site/media/photo-gallery/castle-east/eight.jpg",
+          "radius": "default",
+          "alt": "full image"
+        }
+      ],
+      "text": [
+        {
+          "text": "Captions can go here",
+          "variant": "medium"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../../assets/site/media/photo-gallery/castle-east/nine-sm.jpg",
+          "radius": "default",
+          "alt": "image thumbnail"
+        },
+        {
+          "src": "../../../../assets/site/media/photo-gallery/castle-east/nine.jpg",
+          "radius": "default",
+          "alt": "full image"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
           "src": "../../../../assets/site/media/photo-gallery/recent/six-sm.jpg",
           "radius": "default",
           "alt": "thumbnail image"
