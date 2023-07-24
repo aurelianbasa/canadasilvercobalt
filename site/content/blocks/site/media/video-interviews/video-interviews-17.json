@@ -17,6 +17,40 @@
         },
         "text": [
           {
+            "text": "Jul. 24, 2023",
+            "color": "beta"
+          },
+          {
+            "text": "High-Grade Gold at the Silver-Cobalt Castle Mine Property",
+            "color": "omegaDarker",
+            "variant": "h5"
+          },
+          {
+            "text": "Proactive"
+          }
+        ],
+        "images": [
+          {
+            "src": "../../../../assets/site/media/video-interviews/proactive.jpg",
+            "alt": "alt text"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Watch Video",
+            "type": "VIDEO",
+            "link": "https://www.youtube.com/embed/8NxE8Kk-XKo?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+            "variant": "secondary"
+          }
+        ]
+      },
+
+      {
+        "container": {
+          "variant": "cards.interactive"
+        },
+        "text": [
+          {
             "text": "Jul. 10, 2023",
             "color": "beta"
           },
