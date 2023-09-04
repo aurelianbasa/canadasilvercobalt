@@ -82,7 +82,7 @@
         {
           "text": "Forum",
           "type": "PAGE",
-          "link": "https://www.crucible.live",
+          "link": "https://www.crucible.live/c/works/",
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../assets/flexiblocks/icons/crucible.svg",
