@@ -29,12 +29,12 @@ module.exports = {
         shortname: process.env.DISQUS_SHORTNAME
       }
     },
-    // {
-    //   resolve: 'gatsby-plugin-mailchimp',
-    //   options: {
-    //     endpoint: process.env.MAILCHIMP_END_POINT
-    //   }
-    // },
+     {
+       resolve: 'gatsby-plugin-mailchimp',
+       options: {
+         endpoint: 'https://us15.list-manage.com/subscribe?u=9609677b5d7b4f5074f5f896f&id=322055171a'
+       }
+     },
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
@@ -71,8 +71,8 @@ module.exports = {
         siteUrl: 'https://canadasilvercobaltworks.com',
         fonts: fontFile.fonts,
         services: {
-          algolia: true
-          // mailchimp: true
+          algolia: true,
+          mailchimp: true
         },
         sources: {
           contentful: true,
