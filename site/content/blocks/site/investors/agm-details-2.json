@@ -1,19 +1,19 @@
 {
   "text": [
     {
-      "text": "Document 2",
+      "text": "Proxy Form",
       "color": "alpha",
       "variant": "h5"
     },
     {
-      "text": "Date"
+      "text": "September 2023"
     }
   ],
   "buttons": [
     {
       "text": "Download",
       "type": "PAGE",
-      "link": "/",
+      "link": "/agm/proxy.pdf",
       "variant": "primary"
     }
   ]
