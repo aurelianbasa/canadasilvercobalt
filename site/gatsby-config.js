@@ -32,7 +32,7 @@ module.exports = {
      {
        resolve: 'gatsby-plugin-mailchimp',
        options: {
-         endpoint: 'https://us15.list-manage.com/subscribe?u=9609677b5d7b4f5074f5f896f&id=322055171a'
+         endpoint: 'https://canadacobaltworks.us15.list-manage.com/subscribe/post?u=9609677b5d7b4f5074f5f896f&amp;id=322055171a&amp;f_id=00e0c3e1f0'
        }
      },
     {
