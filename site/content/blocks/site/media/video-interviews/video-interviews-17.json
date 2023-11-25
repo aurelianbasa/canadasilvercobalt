@@ -11,6 +11,41 @@
     ],
     "collection": [
       
+
+      {
+        "container": {
+          "variant": "cards.interactive"
+        },
+        "text": [
+          {
+            "text": "Nov. 22, 2023",
+            "color": "beta"
+          },
+          {
+            "text": "Pivot to Purely Precious Metals Play",
+            "color": "omegaDarker",
+            "variant": "h5"
+          },
+          {
+            "text": "Investing News Network"
+          }
+        ],
+        "images": [
+          {
+            "src": "../../../../assets/site/media/video-interviews/inn.png",
+            "alt": "alt text"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Watch Video",
+            "type": "VIDEO",
+            "link": "https://www.youtube.com/embed/ean-8z-8lC0?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+            "variant": "secondary"
+          }
+        ]
+      },
+
       {
         "container": {
           "variant": "cards.interactive"
