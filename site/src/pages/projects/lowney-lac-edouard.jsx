@@ -31,12 +31,18 @@ const ProjectItemPage = props => {
       <Container variant='narrow'>
         <Location content={content['location']} />
         <Divider space='2' />
-        <Content content={content['content-2']} />
+        <Content content={content['content']} />
         <Divider space='4' />
         <Location content={content['location-2']} />
         <Divider space='2' />
-        <Content content={content['content']} />
+        <Content content={content['content-2']} />
         <Divider space='4' />
+        <Location content={content['location-3']} />
+        <Divider space='2' />
+        <Content content={content['content-3']} />
+        <Divider space='4' />
+        <Location content={content['location-4']} />
+        <Divider space='2' />
       </Container>
       <Divider space='5' />
       <Footer content={content['footer']} />
