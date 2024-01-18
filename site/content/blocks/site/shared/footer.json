@@ -1,7 +1,7 @@
 {
   "images": [
     {
-      "src": "../../../assets/site/shared/logo.png",
+      "src": "../../../assets/site/shared/logo.svg",
       "alt": "alt text"
     }
   ],
