@@ -47,8 +47,6 @@ const IndexPage = props => {
       <Divider space='5' />
       <TopButton content={content['interview']} />
       <Divider space='3' />
-      <Features content={content['features']} />
-      <Divider space='3' /> 
       <Features content={content['features-two']} />
       <Divider space='4' /> 
       <Container variant='wide' sx={styles.captionContainer}>
@@ -58,11 +56,7 @@ const IndexPage = props => {
       <Divider space='4' />
       <Info content={content['info']} reverse />
       <Divider space='4' />
-      <FeatureOne content={content['feature-one']} />
-      <Divider space='4' />
-      <FeatureTwo content={content['feature-two']} reverse />
-      <Divider space='4' />
-      <Download content={content['download']} />
+      <FeatureTwo content={content['feature-two']} />
       <Divider space='4' />
       <Container variant='wide' sx={styles.captionContainer}>
         <Core content={content['cobalt']} />

@@ -1,10 +1,16 @@
 {
   "text": [
     {
-      "text": "Main Projects",
+      "text": "Mainly Focused on Silver and Gold in Northern Ontario",
       "color": "omegaDarker",
       "variant": "h1",
-      "align": ["center"] 
+      "align": ["left"] 
+    },
+    {
+      "text": "With a High-Grade Gravity Processing Plant in Place",
+      "color": "omegaDarker",
+      "variant": "h2",
+      "align": ["left"] 
     }
   ],
   "collection": [
@@ -55,34 +61,12 @@
     {
       "text": [
         {
-          "text": "Graal",
+          "text": "Temiskaming Testing Labs",
           "color": "alpha",
           "variant": "h4"
         },
         {
-          "text": "High-grade nickel, copper, and cobalt in Quebec"
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Read more    ➜",
-          "type": "PAGE",
-          "width": "100%",
-          "link": "/projects/nourricier",
-          "variant": "dark"
-        }
-      ]
-    },
-
-    {
-      "text": [
-        {
-          "text": "Eby-Otto",
-          "color": "alpha",
-          "variant": "h4"
-        },
-        {
-          "text": "Prospective gold property close to the Macassa mine"
+          "text": "High-grade bulk processing facility for production of silver dore bars"
         }
       ],
       "buttons": [
