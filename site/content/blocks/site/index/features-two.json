@@ -1,41 +1,37 @@
 {
   "text": [
     {
-      "text": "Mainly Focused on Silver and Gold in Northern Ontario",
+      "text": "Leading the Way In Redeveloping Canada's High-Grade Silver-Cobalt Camp in Northern Ontario",
       "color": "omegaDarker",
       "variant": "h1",
       "align": ["left"] 
     },
     {
-      "text": "With a High-Grade Gravity Processing Plant in Place",
+      "text": "Major Multi-Mineral Deposit of High-Grade Silver with Gold and Cobalt in a Safe Jurisdiction",
       "color": "omegaDarker",
-      "variant": "h2",
+      "variant": "h3",
+      "align": ["left"] 
+    },
+    {
+      "text": "Silver and Cobalt Critically Important for Solar Panels and EV Batteries in the Energy Transition",
+      "color": "omegaDarker",
+      "variant": "h3",
+      "align": ["left"] 
+    },
+    {
+      "text": "Important Gravity Processing Plant in Place for Processing the Camp's High-Grade Silver",
+      "color": "omegaDarker",
+      "variant": "h3",
+      "align": ["left"] 
+    },
+    {
+      "text": "Located Along the Prolific Abitibi Greenstone Belt with Numerous Operating Gold Mines Nearby",
+      "color": "omegaDarker",
+      "variant": "h3",
       "align": ["left"] 
     }
   ],
   "collection": [
-    {
-      "text": [
-        {
-          "text": "Castle East",
-          "color": "alpha",
-          "variant": "h4"
-        },
-        {
-          "text": "Highest silver grades in the world, with a cobalt byproduct"
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Read more    ➜",
-          "type": "PAGE",
-          "width": "100%",
-          "link": "/projects/castle-east",
-          "variant": "dark"
-        }
-      ]
-    },
-
     {
       "text": [
         {
@@ -57,7 +53,27 @@
         }
       ]
     },
-
+    {
+      "text": [
+        {
+          "text": "Castle East",
+          "color": "alpha",
+          "variant": "h4"
+        },
+        {
+          "text": "Highest silver grades in the world, with gold present and a cobalt byproduct"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Read more    ➜",
+          "type": "PAGE",
+          "width": "100%",
+          "link": "/projects/castle-east",
+          "variant": "dark"
+        }
+      ]
+    },
     {
       "text": [
         {

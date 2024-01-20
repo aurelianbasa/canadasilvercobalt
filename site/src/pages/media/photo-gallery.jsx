@@ -23,15 +23,15 @@ const MediaPage = props => {
       <Header content={content['header']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Gallery content={content['photo-gallery-5']} />
-      <Divider space='5' />
       <Gallery content={content['photo-gallery-1']} />
       <Divider space='5' />
-      <Gallery content={content['photo-gallery-2']} />
+      <Gallery content={content['photo-gallery-4']} />
       <Divider space='5' />
       <Gallery content={content['photo-gallery-3']} />
       <Divider space='5' />
-      <Gallery content={content['photo-gallery-4']} />
+      <Gallery content={content['photo-gallery-5']} />
+      <Divider space='5' />
+      <Gallery content={content['photo-gallery-2']} />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

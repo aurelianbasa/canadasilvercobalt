@@ -85,8 +85,8 @@ module.exports = {
   siteMetadata: {
     //General Site Metadata
     siteUrl: 'https://canadasilvercobaltworks.com',
-    title: 'Canada Silver Cobalt Works',
-    name: 'Canada Silver Cobalt Works',
+    title: 'Nord Precious Metals',
+    name: 'Nord Precious Metals',
     description: 'Highest Silver grades in the world. Latest resource estimate at Castle East marks first grassroots discovery in decades for the Northern Ontario silver cobalt camp.',
     address: 'Coquitlam, British Columbia',
     email: 'waynecheveldayoff@gmail.com',

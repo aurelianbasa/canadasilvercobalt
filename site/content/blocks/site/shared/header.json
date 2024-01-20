@@ -228,6 +228,12 @@
           "variant": "links.nav-dark",
           "buttons": [
             {
+              "text": "   2024   ",
+              "type": "PAGE",
+              "link": "/news/category/2024",
+              "variant": "links.nav-dark"
+            },
+            {
               "text": "   2023   ",
               "type": "PAGE",
               "link": "/news/category/2023",
