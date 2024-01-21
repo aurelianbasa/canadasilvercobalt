@@ -1,7 +1,8 @@
 {
   "images": [
     {
-      "src": "../../../assets/site/shared/logo.png",
+      "src": "../../../assets/site/shared/logo-2.svg",
+      "width": "160px",
       "alt": "alt text"
     }
   ],
