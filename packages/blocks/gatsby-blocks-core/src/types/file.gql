@@ -8,6 +8,8 @@ type BlockContent implements Node @dontInfer {
   page: String @proxyField(from: "parent.relativeDirectory")
   container: BlockContentContainer
   text: [BlockContentText]
+  paragraph: BlockContentParagraph
+  paragraphtext: [BlockContentParagraphText]
   images: [BlockContentImage]
   avatar: BlockContentImage
   icon: BlockContentIcon
@@ -38,6 +40,33 @@ type BlockContentText {
   space: Int
   variant: String
   align: [String]
+}
+
+############################################
+## Paragraph
+############################################
+
+type BlockContentParagraph {
+  paragraphtext: [BlockContentParagraphText]
+  color: String
+  space: Int
+  variant: String
+  align: [String]
+}
+
+############################################
+## Paragraph Text
+############################################
+
+type BlockContentParagraphText {
+  text: String
+  color: String
+  space: Int
+  variant: String
+  align: [String]
+  underlineColor: String
+  highlightColor: String
+  wordScroll: [BlockContentText]
 }
 
 ############################################

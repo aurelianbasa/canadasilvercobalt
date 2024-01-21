@@ -16,9 +16,6 @@ export const query = graphql`
     paragraphtext { 
       ...BlockContentParagraphText
     }
-    juxtapose {
-      ...BlockContentJuxtapose
-    }
     images {
       ...BlockContentImage
     }
