@@ -49,12 +49,18 @@ const IndexPage = props => {
       <Divider space='5' />
       <TopButton content={content['interview']} />
       <Divider space='3' />
-      <Features content={content['features-two']} />
-      <Divider space='4' /> 
       <Divider space='4' />
       <Container>
-      <CustomTextBlock content={content['custom-text']} />
+      <CustomTextBlock content={content['custom-text-1']} />
+      <Divider space='1' /> 
+      <CustomTextBlock content={content['custom-text-2']} />
+      <Divider space='1' /> 
+      <CustomTextBlock content={content['custom-text-3']} />
+      <Divider space='1' /> 
+      <CustomTextBlock content={content['custom-text-4']} />
       </Container>
+      <Divider space='4' /> 
+      <Features content={content['features-two']} />
       <Divider space='4' />
       <Container variant='wide' sx={styles.captionContainer}>
         <Core content={content['silver']} /> 

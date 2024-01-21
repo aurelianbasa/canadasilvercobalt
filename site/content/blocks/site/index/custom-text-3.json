@@ -1,0 +1,20 @@
+{
+  "paragraph": {
+    "paragraphtext": [
+      {
+        "text": " Critical Metals Exposure ",
+        "color": "white",
+        "highlightColor": "black",
+        "variant": "h2"
+      },
+      {
+        "text": " Key Metals Necessary for Renewable Energy and Defence Industries",
+        "variant": "h2"
+      }
+    ],
+    "variant": "h2",
+    "align": [
+      "left"
+    ]
+  }
+}

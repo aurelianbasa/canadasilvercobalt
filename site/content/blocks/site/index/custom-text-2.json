@@ -1,0 +1,20 @@
+{
+    "paragraph": {
+      "paragraphtext": [
+        {
+          "text": " Rich Polymetallic Deposit ",
+          "color": "white",
+          "highlightColor": "black",
+          "variant": "h2"
+        },
+        {
+          "text": " High-grade Silver, Cobalt, and Gold in a Safe Jurisdiction",
+          "variant": "h2"
+        }
+      ],
+      "variant": "h2",
+      "align": [
+        "left"
+      ]
+    }
+  }
