@@ -15,7 +15,7 @@ import Subscribe from '@solid-ui-blocks/CallToAction/Block02'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
 import Data from '../components/DatawrapperEmbed/DatawrapperEmbed'
-import CustomTextBlock from '../blocks/CustomText/CustomTextBlock'
+//import CustomTextBlock from '../blocks/CustomText/CustomTextBlock'
 import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import WhyChooseUs from '@solid-ui-blocks/Features/Block01'
 import Caption from '@solid-ui-blocks/Content/Block01'
@@ -52,9 +52,6 @@ const IndexPage = props => {
       <Features content={content['features-two']} />
       <Divider space='4' /> 
       <Divider space='4' />
-      <Container>
-      <CustomTextBlock content={content['custom-text']} />
-      </Container>
       <Divider space='4' />
       <Container variant='wide' sx={styles.captionContainer}>
         <Core content={content['silver']} /> 
