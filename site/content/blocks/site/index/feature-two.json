@@ -29,7 +29,7 @@
       "effects": ["fadeInDown", "floatFaster"],
       "position": {
         "top": "5%",
-        "right": "-5%"
+        "left": "-5%"
       }
     }
   ],
