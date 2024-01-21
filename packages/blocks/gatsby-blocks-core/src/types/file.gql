@@ -40,6 +40,7 @@ type BlockContentText {
   space: Int
   variant: String
   align: [String]
+  weight: String
 }
 
 ############################################
@@ -52,6 +53,7 @@ type BlockContentParagraph {
   space: Int
   variant: String
   align: [String]
+  weight: String
 }
 
 ############################################
@@ -64,6 +66,7 @@ type BlockContentParagraphText {
   space: Int
   variant: String
   align: [String]
+  weight: String
   underlineColor: String
   highlightColor: String
   wordScroll: [BlockContentText]
