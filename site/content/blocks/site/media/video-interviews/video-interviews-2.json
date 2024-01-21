@@ -75,39 +75,6 @@
           "variant": "secondary"
         }
       ]
-    },
-    {
-      "container": {
-        "variant": "cards.interactive"
-      },
-      "text": [
-        {
-          "text": "Apr. 27, 2021",
-          "color": "beta"
-        },
-        {
-          "text": "Massive high-grade silver at the Robinson Zone",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": "Halliday telling Proactive this new vein returned assays of 51,612 grams per tonne over 0.41m."
-        }
-      ],
-      "images": [
-        {
-          "src": "../../../../assets/site/media/video-interviews/proactive.jpg",
-          "alt": "alt text"
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Watch Video",
-          "type": "VIDEO",
-          "link": "https://www.youtube.com/embed/ft92rlMsZLs?autoplay=1&modestbranding=1&showinfo=0&rel=0",
-          "variant": "secondary"
-        }
-      ]
     }
   ]
 }

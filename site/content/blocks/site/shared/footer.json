@@ -53,12 +53,6 @@
           "variant": "links.nav-light"
         },
         {
-          "text": "Careers",
-          "type": "PAGE",
-          "link": "/careers",
-          "variant": "links.nav-light"
-        },
-        {
           "text": "Disclaimer",
           "type": "MODAL",
           "link": "disclaimer",
