@@ -2,13 +2,13 @@
     "paragraph": {
       "paragraphtext": [
         {
-          "text": "From Zero to One:",
-          "weight": "800",
+          "text": "From Zero to One: ",
+          "weight": "900",
           "variant": "h1"
         },
         {
-          "text": "Reviving Northern Ontario's Silver-Cobalt Camp",
-          "variant": "h1"
+          "text": " Reviving Northern Ontario's Silver-Cobalt Camp",
+          "variant": "h2"
         }
       ],
       "variant": "h1",
