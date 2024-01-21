@@ -28,7 +28,7 @@
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default",
-      "bg": "#FEFEFE",
+      "bg": "transparent",
       "effects": ["fadeInDown", "floatFaster"],
       "position": {
         "top": "5%",
