@@ -14,6 +14,7 @@ import Core from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import Subscribe from '@solid-ui-blocks/CallToAction/Block02'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
+import Data from '../components/DatawrapperEmbed/DatawrapperEmbed'
 import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import WhyChooseUs from '@solid-ui-blocks/Features/Block01'
 import Caption from '@solid-ui-blocks/Content/Block01'
@@ -55,6 +56,10 @@ const IndexPage = props => {
       </Container>
       <Divider space='4' />
       <Info content={content['info']} reverse />
+      <Divider space='4' />
+      <Container>
+          <Data content={content['data-1']} />
+        </Container>
       <Divider space='4' />
       <FeatureTwo content={content['feature-two']} />
       <Divider space='4' />
