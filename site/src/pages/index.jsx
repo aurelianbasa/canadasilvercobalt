@@ -43,7 +43,7 @@ const IndexPage = props => {
       <Divider space='4' />
       <Container variant='wide' sx={styles.heroContainer}>
         <Hero content={content['hero']} reverse />
-        <Divider space={-4} />
+        <Divider space={-5} />
       </Container>
       <Divider space='5' />
       <Divider space='5' />
