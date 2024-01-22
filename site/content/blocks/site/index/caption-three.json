@@ -16,7 +16,8 @@
           "text": "Website",
           "type": "PAGE",
           "link": "https://temiskaminglabs.com/",
-          "variant": "primary"
+          "variant": "primary",
+          "width": "100%"
         }
       ]
 }
