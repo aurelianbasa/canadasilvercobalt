@@ -40,7 +40,7 @@ const IndexPage = props => {
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />
-      <Divider space='5' />
+      <Divider space='4' />
       <Container variant='wide' sx={styles.heroContainer}>
         <Hero content={content['hero']} reverse />
         <Divider space={-3} />
@@ -50,7 +50,6 @@ const IndexPage = props => {
       <TopButton content={content['interview']} />
       <Divider space='3' />
       <Divider space='4' />
-      <Container>
       <CustomTextBlock content={content['custom-text-1']} />
       <Divider space='1' /> 
       <Container variant='wide' sx={styles.newContainer}>
@@ -59,10 +58,9 @@ const IndexPage = props => {
       <CustomTextBlock content={content['custom-text-3']} />
       <Divider space='1' /> 
       <CustomTextBlock content={content['custom-text-4']} />
-      <Divider space='3' /> 
-      </Container>
-      </Container>
+      <Divider space='4' /> 
       <Features content={content['features-two']} />
+      </Container>
       <Divider space='4' />
       <Container variant='wide' sx={styles.captionContainer}>
         <Core content={content['silver']} /> 
