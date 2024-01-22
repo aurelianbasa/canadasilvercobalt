@@ -5,6 +5,8 @@
  *
  */
 
+import gold from './assets/gold.jpg'
+
 export default {
   heroContainer: {
     position: `relative`,
@@ -29,6 +31,31 @@ export default {
     '::before': {
       background: `url(images/cobalt-bg-optimized.jpg) no-repeat center center`,
       backgroundSize: `cover`
+    }
+  },
+  newContainer: {
+    position: `relative`,
+    py: [5],
+    '::before, ::after': {
+      position: `absolute`,
+      content: `" "`,
+      width: `full`,
+      height: `10/12`,
+      top: 0,
+      right: 0,
+      borderRadius: t => `0 0 ${t.radii.xl} ${t.radii.xl}`,
+      borderRadius: `xl`,
+      mx: `auto`
+    },
+    '::after': {
+      zIndex: -2,
+      background: `url(${gold}) no-repeat right bottom`,
+      backgroundSize: `cover`,
+      opacity: 0.4
+    },
+    '::before': {
+      background: `url(images/about.jpg) center center`,
+      backgroundSize: `contain`
     }
   },
   captionContainer: {
