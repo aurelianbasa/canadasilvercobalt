@@ -13,7 +13,7 @@
         ],
       "buttons": [
         {
-          "text": "View Official Website",
+          "text": "Website",
           "type": "PAGE",
           "link": "https://temiskaminglabs.com/",
           "variant": "primary"
