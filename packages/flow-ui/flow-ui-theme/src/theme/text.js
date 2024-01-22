@@ -21,7 +21,7 @@ export default {
   },
   h3: {
     ...heading,
-    fontSize: 6
+    fontSize: 7
   },
   h4: {
     ...heading,
