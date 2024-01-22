@@ -9,7 +9,9 @@
         },
         {
           "text": "  High-grade Silver, Cobalt, and Gold in a Safe Jurisdiction",
-          "variant": "h4"
+          "color": "black",
+          "weight": "700",
+          "variant": "h3"
         }
       ],
       "variant": "h2",

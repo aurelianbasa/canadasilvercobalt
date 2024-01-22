@@ -9,7 +9,9 @@
         },
         {
           "text": "  Along the Prolific Abitibi Greenstone Belt with a Processing Plant in Place",
-          "variant": "h4"
+          "color": "black",
+          "weight": "700",
+          "variant": "h3"
         }
       ],
       "variant": "h2",

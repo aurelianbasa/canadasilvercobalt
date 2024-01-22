@@ -9,7 +9,9 @@
       },
       {
         "text": "  Key Metals Necessary for Renewable Energy and Defence Industries",
-        "variant": "h4"
+        "color": "black",
+        "weight": "700",
+        "variant": "h3"
       }
     ],
     "variant": "h2",

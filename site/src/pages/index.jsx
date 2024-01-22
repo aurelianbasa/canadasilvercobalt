@@ -59,9 +59,9 @@ const IndexPage = props => {
       <CustomTextBlock content={content['custom-text-3']} />
       <Divider space='1' /> 
       <CustomTextBlock content={content['custom-text-4']} />
+      <Divider space='3' /> 
       </Container>
       </Container>
-      <Divider space='4' /> 
       <Features content={content['features-two']} />
       <Divider space='4' />
       <Container variant='wide' sx={styles.captionContainer}>
