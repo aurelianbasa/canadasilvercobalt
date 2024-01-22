@@ -61,7 +61,7 @@ const IndexPage = props => {
       <Divider space='4' /> 
       <Features content={content['features-two']} />
       </Container>
-      <Divider space='4' />
+      <Divider space='2' />
       <Container variant='wide' sx={styles.captionContainer}>
         <Core content={content['silver']} /> 
         <Caption content={content['caption-one']} />
@@ -84,9 +84,9 @@ const IndexPage = props => {
         <Core content={content['cobalt']} />
         <Caption content={content['caption-two']} />
       </Container>
-      <Divider space='5' />
+      <Divider space='4' />
       <WhyChooseUs content={content['why-choose-us']} />
-      <Divider space='5' />
+      <Divider space='3' />
       <Subscribe content={content['subscribe']} />
       <Divider space='1' />
       <WithRecentPosts>
