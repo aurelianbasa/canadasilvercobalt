@@ -24,7 +24,7 @@ export default {
     '::after': {
       background: `linear-gradient(
           180deg,
-          rgba(255,255,255,0.6) 0%,
+          rgba(255,255,255,0.8) 0%,
           rgba(255,255,255,0.1) 100%
         )`
     },
