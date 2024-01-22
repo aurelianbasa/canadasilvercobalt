@@ -3,13 +3,13 @@
     {
       "text": "Nord Precious Metals",
       "color": "black",
-      "variant": "h1",
+      "variant": "h2",
       "align": ["left"]
     },
     {
       "text": "Highest Silver Grades in the World",
       "color": "omegaDarker",
-      "variant": "h2",
+      "variant": "h3",
       "align": ["left"]
     }
   ],

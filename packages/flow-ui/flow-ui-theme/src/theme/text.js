@@ -17,11 +17,11 @@ export default {
   },
   h2: {
     ...heading,
-    fontSize: 7
+    fontSize: 8
   },
   h3: {
     ...heading,
-    fontSize: 3
+    fontSize: 6
   },
   h4: {
     ...heading,

@@ -14,13 +14,13 @@ export default {
   },
   h2: {
     ...heading,
-    fontSize: 7,
+    fontSize: 8,
     mx: `auto`,
     mb: 4
   },
   h3: {
     ...heading,
-    fontSize: 5
+    fontSize: 6
   },
   h4: {
     ...heading,

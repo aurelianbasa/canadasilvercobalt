@@ -72,6 +72,12 @@ const IndexPage = props => {
       <Container>
           <Data content={content['data-1']} />
         </Container>
+        <Divider space='4' />
+        <Container variant='wide' sx={styles.captionContainer}>
+        <Core content={content['ttl']} /> 
+        <Caption content={content['caption-three']} />
+      </Container>
+
       <Divider space='4' />
       <FeatureTwo content={content['feature-two']} />
       <Divider space='4' />
