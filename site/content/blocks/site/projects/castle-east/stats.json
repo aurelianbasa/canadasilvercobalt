@@ -5,7 +5,7 @@
         {
           "text": "60000",
           "color": "omegaDarker",
-          "variant": "h1"
+          "variant": "h2"
         },
         {
           "text": "Meters Drilling",
@@ -19,11 +19,11 @@
         {
           "text": "8",
           "color": "omegaDarker",
-          "variant": "h1"
+          "variant": "h2"
         },
         {
           "text": "Structures",
-          "color": "beta",
+          "color": "omega",
           "variant": "h5"
         }
       ]
@@ -33,7 +33,7 @@
         {
           "text": "89853",
           "color": "omegaDarker",
-          "variant": "h1"
+          "variant": "h2"
         },
         {
           "text": "g/t Silver",
@@ -47,11 +47,11 @@
         {
           "text": "2.24",
           "color": "omegaDarker",
-          "variant": "h1"
+          "variant": "h2"
         },
         {
           "text": "% Cobalt",
-          "color": "beta",
+          "color": "omega",
           "variant": "h5"
         }
       ]
