@@ -5,7 +5,7 @@
         {
           "text": "6113",
           "color": "omegaDarker",
-          "variant": "h2"
+          "variant": "h3"
         },
         {
           "text": "hectares",
@@ -19,7 +19,7 @@
         {
           "text": "6",
           "color": "omegaDarker",
-          "variant": "h2"
+          "variant": "h3"
         },
         {
           "text": "Km of strike length",
@@ -33,7 +33,7 @@
         {
           "text": "15000",
           "color": "omegaDarker",
-          "variant": "h2"
+          "variant": "h3"
         },
         {
           "text": "meters of drilling",
