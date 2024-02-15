@@ -48,25 +48,6 @@
       "avatar": {
         "src": "../../../assets/site/about/matt.png"
       }
-    },
-    {
-      "text": [
-        {
-          "text": "Dianne Tookenay",
-          "variant": "h6"
-        },
-        {
-          "text": "Director"
-        },
-        {
-          "text": "First Nations Consultant",
-          "color": "omega",
-          "variant": "small"
-        }
-      ],
-      "avatar": {
-        "src": "../../../assets/site/about/diane.png"
-      }
     }
   ],
   "buttons": [
