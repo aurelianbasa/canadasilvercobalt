@@ -38,8 +38,11 @@ const MediaPage = props => {
       <Divider space='5' />
       <Table content={content['capital-structure']} />
       <Divider space='5' />
-      <Divider space='5' />
-      <Download content={content['presentations']} />
+      <Container sx={styles.captionContainer}>
+      <MaterialsOne content={content['materials-intro']} />
+      <Divider space='0' />
+      <MaterialsTwo content={content['presentations']} />
+      </Container>
       <Divider space='5' />
       <Container variant='narrow'>
       <Content content={content['report-intro']} />
