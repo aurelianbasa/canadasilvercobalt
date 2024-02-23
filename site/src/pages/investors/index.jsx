@@ -40,7 +40,7 @@ const MediaPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Download content={content['presentations']} />
-      <Divider space='2' />
+      <Divider space='5' />
       <Container variant='narrow'>
       <Content content={content['report-intro']} />
       <Divider space='1' />
