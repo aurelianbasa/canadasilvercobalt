@@ -39,6 +39,8 @@ const MediaPage = props => {
       <Table content={content['capital-structure']} />
       <Divider space='5' />
       <Divider space='5' />
+      <Download content={content['presentations']} />
+      <Divider space='2' />
       <Container variant='narrow'>
       <Content content={content['report-intro']} />
       <Divider space='1' />
@@ -52,8 +54,6 @@ const MediaPage = props => {
       <Divider space='2' />
       <Download content={content['report-four']} />
       <Divider space='3' />
-      <Download content={content['presentations']} />
-      <Divider space='2' />
       <Content content={content['financials-intro']} />
       <Divider space='1' />
       <Stats content={content['financials-six']} />
