@@ -12,16 +12,16 @@ export default {
   },
   h1: {
     ...heading,
-    fontSize: 9,
+    fontSize: 7,
     fontWeight: `bolder`
   },
   h2: {
     ...heading,
-    fontSize: 8
+    fontSize: 6
   },
   h3: {
     ...heading,
-    fontSize: 7
+    fontSize: 5
   },
   h4: {
     ...heading,
