@@ -8,19 +8,19 @@ const heading = {
 export default {
   h1: {
     ...heading,
-    fontSize: 9,
+    fontSize: 7,
     mx: `auto`,
     mb: 4
   },
   h2: {
     ...heading,
-    fontSize: 8,
+    fontSize: 6,
     mx: `auto`,
     mb: 4
   },
   h3: {
     ...heading,
-    fontSize: 7
+    fontSize: 5
   },
   h4: {
     ...heading,
