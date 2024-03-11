@@ -9,6 +9,7 @@ import Header from '@solid-ui-blocks/Header/Block01'
 import Info from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Content from '@solid-ui-blocks/Content/Block01'
 import Quote from '../../blocks/Quotes/Block01'
+import Data from '../../components/DatawrapperEmbed/DatawrapperEmbed'
 import Milestones from '@solid-ui-blocks/Features/Block01'
 import Stats from '@solid-ui-blocks/Stats/Block01'
 import DrillMap from '../../blocks/DrillHolesMap/Block01'
@@ -67,7 +68,7 @@ const ProjectItemPage = props => {
         <Container variant='narrow'>
         <Content content={content['content-six']} />
         <Divider space='2' />
-       <CrossSection content={content['resource-table']} />
+          <Data content={content['data-1']} />
         </Container>
       <Divider space='4' />
       <DrillMap content={content['drill-map']} />
