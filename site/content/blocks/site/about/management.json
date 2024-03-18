@@ -48,6 +48,25 @@
       "avatar": {
         "src": "../../../assets/site/about/matt.png"
       }
+    },
+    {
+      "text": [
+        {
+          "text": "Dianne Tookenay, B. Admin, M.P.A.",
+          "variant": "h6"
+        },
+        {
+          "text": "First Nations Consultant"
+        },
+        {
+          "text": "Critical consultation support with First Nations",
+          "color": "omega",
+          "variant": "small"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/site/about/diane.png"
+      }
     }
   ],
   "buttons": [
