@@ -97,9 +97,15 @@ const MediaPage = props => {
       <Download content={content['agm-details-2']} />
       <Divider space='2' />
       <Download content={content['agm-details-3']} />
+      <Divider space='2' />
       </Container>
-      
       <Divider space='5' />
+      <Container sx={styles.lightContainer}>
+      <MaterialsOne content={content['fmv']} />
+      <Divider space='0' />
+      <Download content={content['fmv-coniagas']} />
+      <Divider space='2' />
+      </Container>
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
