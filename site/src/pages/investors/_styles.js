@@ -20,5 +20,20 @@ export default {
           zIndex: 1,
           borderRadius: `xl`
         }
-      }
+      },
+      lightContainer: {
+        bg: `omega`,
+          borderRadius: `xl`,
+          position: `relative`,
+          py: [2, 2],
+          '::before': {
+            position: `absolute`,
+            content: `" "`,
+            size: `inherit`,
+            top: 2,
+            right: 0,
+            zIndex: 1,
+            borderRadius: `xl`
+          }
+        }
     }

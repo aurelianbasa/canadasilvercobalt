@@ -7,11 +7,7 @@
     },
     {
       "text": "Stock Chart",
-      "variant": "h1"
-    },
-    {
-      "text": "View on Tradingview",
-      "variant": "medium"
+      "variant": "h2"
     }
   ],
   "collection": [

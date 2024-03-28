@@ -348,6 +348,12 @@
               "type": "PAGE",
               "link": "/investors#agm",
               "variant": "links.nav-dark"
+            },
+            {
+              "text": "Coniagas FMV",
+              "type": "PAGE",
+              "link": "/investors#fmv",
+              "variant": "links.nav-dark"
             }
           ]
         }
