@@ -24,6 +24,12 @@
         "type": "PAGE",
         "link": "/financials/2023/Q3.pdf",
         "variant": "links.nav-dark"
+      },
+      {
+        "text": "Q4",
+        "type": "PAGE",
+        "link": "/financials/2023/Q4.pdf",
+        "variant": "links.nav-dark"
       }
     ]
   }
