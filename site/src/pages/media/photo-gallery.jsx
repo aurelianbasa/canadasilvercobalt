@@ -29,8 +29,6 @@ const MediaPage = props => {
       <Divider space='5' />
       <Gallery content={content['photo-gallery-3']} />
       <Divider space='5' />
-      <Gallery content={content['photo-gallery-5']} />
-      <Divider space='5' />
       <Gallery content={content['photo-gallery-2']} />
       <Divider space='5' />
       <Footer content={content['footer']} />

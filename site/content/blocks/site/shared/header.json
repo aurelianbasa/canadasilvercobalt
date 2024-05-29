@@ -83,12 +83,6 @@
                       "type": "PAGE",
                       "link": "/projects/castle-east",
                       "variant": "links.nav-dark"
-                    },
-                    {
-                      "text": "Eby-Otto Gold",
-                      "type": "PAGE",
-                      "link": "/projects/ebby-otto",
-                      "variant": "links.nav-dark"
                     }
                   ]
                 },

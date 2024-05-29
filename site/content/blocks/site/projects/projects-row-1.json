@@ -53,44 +53,6 @@
         "variant": "cards.interactive",
         "link": {
           "type": "PAGE",
-          "link": "/projects/ebby-otto"
-        }
-      },
-      "text": [
-        {
-          "text": "Prospect",
-          "color": "alphaDark"
-        },
-        {
-          "text": "Eby-Otto",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": "The property is in an area that has long held the interest of geologists because of its close proximity to the high-grade underground Macassa gold mine."
-        }
-      ],
-      "images": [
-        {
-          "src": "../../../assets/site/projects/ebby-otto.png",
-          "radius": "lg",
-          "alt": "alt text"
-        }
-      ],
-      "buttons": [
-        {
-          "text": "View Project",
-          "type": "PAGE",
-          "link": "/projects/ebby-otto",
-          "variant": "primary"
-        }
-      ]
-    },
-    {
-      "container": {
-        "variant": "cards.interactive",
-        "link": {
-          "type": "PAGE",
           "link": "/projects/nourricier"
         }
       },
