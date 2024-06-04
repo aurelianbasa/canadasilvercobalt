@@ -59,6 +59,8 @@ const MediaPage = props => {
       <Divider space='3' />
       <Content content={content['financials-intro']} />
       <Divider space='1' />
+      <Stats content={content['financials-seven']} />
+      <Divider space='2' />
       <Stats content={content['financials-six']} />
       <Divider space='2' />
       <Stats content={content['financials-five']} />
@@ -73,6 +75,8 @@ const MediaPage = props => {
       <Divider space='3' />
       <Content content={content['mda-intro']} />
       <Divider space='1' />
+      <Stats content={content['mda-seven']} />
+      <Divider space='2' />
       <Stats content={content['mda-six']} />
       <Divider space='2' />
       <Stats content={content['mda-five']} />
