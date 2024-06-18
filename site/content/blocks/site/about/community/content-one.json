@@ -22,49 +22,5 @@
       "alt": "alt text",
       "radius": "lg"
     }
-  ],
-  "collection": [
-    {
-      "text": [
-        {
-          "text": "7,800 ha",
-          "color": "#2DC88A",
-          "variant": "h2",
-          "space": 1
-        },
-        {
-          "text": "Property size",
-          "variant": "h6"
-        }
-      ]
-    },
-    {
-      "text": [
-        {
-          "text": "85km",
-          "color": "alpha",
-          "variant": "h2",
-          "space": 1
-        },
-        {
-          "text": "Distance from camp centre",
-          "variant": "h6"
-        }
-      ]
-    },
-    {
-      "text": [
-        {
-          "text": "3",
-          "color": "beta",
-          "variant": "h2",
-          "space": 1
-        },
-        {
-          "text": "First Nations",
-          "variant": "h6"
-        }
-      ]
-    }
   ]
 }
