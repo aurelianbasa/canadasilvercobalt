@@ -75,16 +75,6 @@
       ],
       "buttons": [
         {
-          "text": "Forum",
-          "type": "PAGE",
-          "link": "https://crucible.live/c/nord/6",
-          "variant": "links.nav-light",
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/crucible.svg",
-            "color": "#1da1f2"
-          }
-        },
-        {
           "text": "Twitter",
           "type": "PAGE",
           "link": "https://twitter.com/nordmetals",
