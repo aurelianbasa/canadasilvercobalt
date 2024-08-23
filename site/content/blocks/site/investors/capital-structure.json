@@ -6,7 +6,7 @@
       "variant": "h1"
     },
     {
-      "text": "As of March 31, 2024",
+      "text": "As of August 16, 2024",
       "color": "omega",
       "variant": "h4"
     }
@@ -26,7 +26,7 @@
         {
           "text": [
             {
-              "text": "302,994,963",
+              "text": "30,722,427",
               "variant": "medium",
               "space": 0
             }
@@ -48,12 +48,12 @@
         {
           "text": [
             {
-              "text": "9,760,000",
+              "text": "976,000",
               "variant": "medium",
               "space": 1
             },
             {
-              "text": "($0.05 - $0.70)",
+              "text": "",
               "variant": "small",
               "space": 0
             }
@@ -75,12 +75,12 @@
         {
           "text": [
             {
-              "text": "116,355,377",
+              "text": "11,635,537",
               "variant": "medium",
               "space": 1
             },
             {
-              "text": "($0.05 - $0.55)",
+              "text": "",
               "variant": "small",
               "space": 0
             }
@@ -102,7 +102,7 @@
         {
           "text": [
             {
-              "text": "430,110,340",
+              "text": "43,333,964",
               "variant": "medium",
               "space": 0
             }
