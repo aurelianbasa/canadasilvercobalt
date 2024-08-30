@@ -12,6 +12,12 @@
         "type": "PAGE",
         "link": "/mda/2024/Q1.pdf",
         "variant": "links.nav-dark"
+      },
+      {
+        "text": "Q2",
+        "type": "PAGE",
+        "link": "/mda/2024/Q2.pdf",
+        "variant": "links.nav-dark"
       }
     ]
   }
