@@ -103,6 +103,16 @@
             "src": "../../../assets/flexiblocks/icons/bxl-facebook.svg",
             "color": "#4064AC"
           }
+        },
+        {
+          "text": "YouTube",
+          "type": "PAGE",
+          "link": "https://www.youtube.com/@nordpreciousmetals",
+          "variant": "links.nav-light",
+          "icon": {
+            "src": "../../../assets/flexiblocks/icons/bxl-youtube.svg",
+            "color": "#4064AC"
+          }
         }
       ]
     }
