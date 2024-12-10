@@ -18,6 +18,12 @@
         "type": "PAGE",
         "link": "/financials/2024/Q2.pdf",
         "variant": "links.nav-dark"
+      },
+      {
+        "text": "Q3",
+        "type": "PAGE",
+        "link": "/financials/2024/Q2.pdf",
+        "variant": "links.nav-dark"
       }
     ]
   }
