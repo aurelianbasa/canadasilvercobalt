@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: 'Poppins';
+  color: theme('colors.black');
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+em {
+  font-weight: 600;
+  font-style: normal;
+}
+
+p {
+  color: theme('colors.tertiary');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: theme('colors.secondary');
+}
+
+mark {
+  display: inline-block;
+  color: theme('colors.white');
+  background-color: theme('colors.primary');
+}
+
+.show-more-button {
+  display: block;
+  cursor: pointer;
+  margin: 16px 0px 8px;
+  color: theme('colors.primary');
+}
+
+.rich-text {
+  p {
+    color: theme('colors.secondary');
+  }
+
+  ol {
+    list-style: decimal;
+    margin-left: 20px;
+  }
+
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+
+  a {
+    color: theme('colors.primary');
+    word-break: break-all;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  b {
+    font-weight: 500;
+  }
+
+  table {
+    text-align: left;
+    color: theme('colors.secondary');
+
+    tr:nth-child(odd) {
+      background-color: theme('colors.white');
+    }
+    tr:nth-child(even) {
+      background-color: theme('colors.beige');
+    }
+    td {
+      padding: 8px 16px;
+    }
+    th {
+      background-color: theme('colors.secondary');
+      padding: 8px 16px;
+
+      p {
+        color: theme('colors.white');
+        font-weight: 500 !important;
+      }
+    }
+  }
+
+  blockquote {
+    padding: 16px 32px;
+    border-left: 4px solid theme('colors.secondary');
+    background-color: theme('colors.beige');
+  }
+}
+
+@media (max-width: 1024px) {
+  .text-6xl {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .text-5xl {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .text-4xl {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .text-3xl {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-6xl {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .text-5xl {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .text-4xl {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .text-3xl {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}

@@ -1,20 +1,56 @@
 {
-  "name": "elegantstack",
+  "name": "nordpreciousmetals",
+  "version": "0.0.1",
   "private": true,
-  "license": "",
-  "workspaces": ["packages/**", "site"],
+  "description": "Nord Precious Metals",
+  "author": "Ditych",
+  "keywords": [
+    "nordpreciousmetals"
+  ],
   "scripts": {
-    "clean": "lerna clean",
-    "release": "lerna version",
-    "prettier:windows": "./node_modules/.bin/prettier --write \"{packages,starters}/**/*.{jsx,js}\""
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.3",
+    "algoliasearch": "^4.22.1",
+    "autoprefixer": "^10.4.19",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.11.4",
+    "gatsby": "^5.14.3",
+    "gatsby-omni-font-loader": "^2.0.2",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-postcss": "^6.13.1",
+    "gatsby-plugin-react-i18next": "^3.0.1",
+    "gatsby-plugin-robots-txt": "^1.8.0",
+    "gatsby-plugin-sass": "^6.13.1",
+    "gatsby-plugin-sitemap": "^6.13.1",
+    "gatsby-remark-images-contentful": "^6.13.1",
+    "gatsby-source-contentful": "^8.15.0",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-remark": "^6.13.1",
+    "i18next": "^22.5.1",
+    "postcss": "^8.4.39",
+    "react": "^18.3.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.3.0",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "^12.3.1",
+    "react-icons": "^5.5.0",
+    "react-share": "^5.1.0",
+    "react-show-more-text": "^1.7.1",
+    "sass": "^1.88.0",
+    "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
-    "conventional-changelog-conventionalcommits": "^4.6.0",
-    "lerna": "^4.0.0",
-    "prettier": "^2.3.1"
-  },
-  "engines": {
-    "yarn": "^1.17.3",
-    "node": ">=12.13.0"
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-tailwindcss": "^3.18.0"
   }
 }
