@@ -70,7 +70,7 @@ export default function AlgoliaSearch() {
         <RiSearch2Line className='size-5' />
       </div>
 
-      <AnimatePresence mode='wait'>
+      <AnimatePresence>
         {isOpenPopup && (
           <Dialog static className='relative z-50' open={isOpenPopup} onClose={() => resetSearch()}>
             <motion.div
@@ -106,19 +106,27 @@ export default function AlgoliaSearch() {
                   )}
 
                   {searchQuery &&
-                    hits?.map((hit, index) => (
-                      <Link
-                        key={index}
-                        to={`/news/${hit.category.name}${hit.slug}`}
-                        className='block cursor-pointer px-6 py-8 hover:bg-tertiary/10'
-                      >
-                        <h5 className='mb-2'>{hit.title}</h5>
-                        <p
-                          className='text-sm'
-                          dangerouslySetInnerHTML={{ __html: hit._snippetResult.excerpt.value }}
-                        ></p>
-                      </Link>
-                    ))}
+                    hits?.map((hit, index) => {
+                      if (!hit) {
+                        return null;
+                      }
+
+                      return (
+                        <Link
+                          key={index}
+                          to={`/news/${hit.year}/${hit.slug}`}
+                          className='block cursor-pointer px-6 py-8 hover:bg-tertiary/10'
+                        >
+                          <h5 className='mb-2'>{hit.title}</h5>
+                          {hit._snippetResult?.content?.value && (
+                            <p
+                              className='text-sm'
+                              dangerouslySetInnerHTML={{ __html: hit._snippetResult.content.value }}
+                            ></p>
+                          )}
+                        </Link>
+                      );
+                    })}
                 </div>
               </DialogPanel>
             </div>
