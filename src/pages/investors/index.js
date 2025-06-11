@@ -83,7 +83,6 @@ import Management2018Q3PDF from '@media/investors/management-2018-q3.pdf';
 import Management2018Q4PDF from '@media/investors/management-2018-q4.pdf';
 
 import agmProxyPDF from '@media/investors/proxy.pdf';
-import agmNoticePDF from '@media/investors/notice.pdf';
 import agmCircularPDF from '@media/investors/circular.pdf';
 
 import FactSheetPDF from '@media/investors/fact-sheet.pdf';
