@@ -845,22 +845,6 @@ export default function Investors() {
             <h2 className='mb-16 text-4xl text-secondary'>{t('agmTitle')}</h2>
 
             <div className='grid gap-6 lg:grid-cols-2'>
-              <motion.div
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.1 }}
-                initial={{ x: '80px', opacity: 0 }}
-                whileInView={{ x: '0', opacity: 1 }}
-                className='flex flex-col items-end gap-8 rounded-2xl bg-secondary p-5 md:flex-row md:p-10'
-              >
-                <div className='w-full'>
-                  <p className='mb-2'>{t('agmNoticeDate')}</p>
-                  <p className='text-3xl text-white'>{t('agmNotice')}</p>
-                </div>
-
-                <Button className='w-full md:w-fit' external type='tertiary' href={agmNoticePDF}>
-                  {t('agmNoticeButton')}
-                </Button>
-              </motion.div>
 
               <motion.div
                 viewport={{ once: true }}
