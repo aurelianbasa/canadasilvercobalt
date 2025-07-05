@@ -22,7 +22,7 @@ import Button from '@components/button';
 import CardNews from '@components/card-news';
 import CheckItem from '@components/check-item';
 import DataWrapper from '@components/data-wrapper';
-
+import LiquidGlassBanner from '@components/liquid-glass-banner';
 import TTLImage from '@media/home/ttl.webp';
 import HeroImage from '@media/home/hero.webp';
 import AboutImage from '@media/home/about.webp';
@@ -38,7 +38,7 @@ export default function Home({ data }) {
   const posts = data.allPosts.nodes;
   let [isOpenHeroPopup, setIsOpenHeroPopup] = React.useState(false);
 
-  return (
+return (
     <Layout>
       <div
         style={{ '--bg-image-url': `url(${HeroImage})` }}
@@ -64,10 +64,7 @@ export default function Home({ data }) {
               <RiPlayFill className='size-4' />
             </button>
 
-            <div className='w-full rounded-2xl bg-black px-9 py-8'>
-              <p className='mb-4 text-3xl text-white'>{t('banner')}</p>
-              <p className='text-lg text-white'>{t('bannerNote')}</p>
-            </div>
+            <LiquidGlassBanner />
           </motion.div>
         </div>
       </div>
