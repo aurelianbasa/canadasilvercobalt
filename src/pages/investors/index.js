@@ -17,6 +17,7 @@ import technicalReport5PDF from '@media/investors/technical-report-2015-august.p
 import Financial2024Q1PDF from '@media/investors/financial-2024-q1.pdf';
 import Financial2024Q2PDF from '@media/investors/financial-2024-q2.pdf';
 import Financial2024Q3PDF from '@media/investors/financial-2024-q3.pdf';
+import Financial2024Q4PDF from '@media/investors/financial-2024-q4.pdf';
 
 import Financial2023Q1PDF from '@media/investors/financial-2023-q1.pdf';
 import Financial2023Q2PDF from '@media/investors/financial-2023-q2.pdf';
@@ -51,6 +52,7 @@ import Financial2018Q4PDF from '@media/investors/financial-2018-q4.pdf';
 import Management2024Q1PDF from '@media/investors/management-2024-q1.pdf';
 import Management2024Q2PDF from '@media/investors/management-2024-q2.pdf';
 import Management2024Q3PDF from '@media/investors/management-2024-q3.pdf';
+import Management2024Q4PDF from '@media/investors/management-2024-q4.pdf';
 
 import Management2023Q1PDF from '@media/investors/management-2023-q1.pdf';
 import Management2023Q2PDF from '@media/investors/management-2023-q2.pdf';
