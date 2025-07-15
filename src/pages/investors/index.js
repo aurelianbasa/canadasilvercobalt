@@ -334,6 +334,14 @@ export default function Investors() {
                   >
                     {t('financial2024Q3')}
                   </a>
+                   <a
+                    className='rounded-lg border-2 border-primary px-3 py-2 text-primary hover:bg-primary hover:text-white md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Financial2024Q4PDF}
+                  >
+                    {t('financial2024Q4')}
+                  </a>
                 </div>
               </div>
               <div className='flex items-center justify-between border-b-2 border-gray/10 py-5 md:px-6 md:py-10'>
@@ -605,6 +613,14 @@ export default function Investors() {
                     href={Management2024Q3PDF}
                   >
                     {t('management2024Q3')}
+                  </a>
+                   <a
+                    className='rounded-lg border-2 border-primary px-3 py-2 text-primary hover:bg-primary hover:text-white md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Management2024Q4PDF}
+                  >
+                    {t('management2024Q4')}
                   </a>
                 </div>
               </div>
