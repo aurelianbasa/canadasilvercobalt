@@ -14,6 +14,8 @@ import technicalReport3PDF from '@media/investors/technical-report-2021-may.pdf'
 import technicalReport4PDF from '@media/investors/technical-report-2020-july.pdf';
 import technicalReport5PDF from '@media/investors/technical-report-2015-august.pdf';
 
+import Financial2025Q1PDF from '@media/investors/financial-2025-q1.pdf';
+
 import Financial2024Q1PDF from '@media/investors/financial-2024-q1.pdf';
 import Financial2024Q2PDF from '@media/investors/financial-2024-q2.pdf';
 import Financial2024Q3PDF from '@media/investors/financial-2024-q3.pdf';
@@ -48,6 +50,8 @@ import Financial2018Q1PDF from '@media/investors/financial-2018-q1.pdf';
 import Financial2018Q2PDF from '@media/investors/financial-2018-q2.pdf';
 import Financial2018Q3PDF from '@media/investors/financial-2018-q3.pdf';
 import Financial2018Q4PDF from '@media/investors/financial-2018-q4.pdf';
+
+import Management2025Q1PDF from '@media/investors/management-2025-q1.pdf';
 
 import Management2024Q1PDF from '@media/investors/management-2024-q1.pdf';
 import Management2024Q2PDF from '@media/investors/management-2024-q2.pdf';
@@ -308,6 +312,20 @@ export default function Investors() {
             <Trans parent='h2' i18nKey='financialTitle' className='mb-6 mt-4 text-4xl text-secondary'></Trans>
 
             <div>
+              <div className='flex items-center justify-between border-b-2 border-gray/10 py-5 md:px-6 md:py-10'>
+                <p className='text-3xl text-secondary'>{t('financial2025')}</p>
+
+                <div className='flex gap-2'>
+                  <a
+                    className='rounded-lg border-2 border-primary px-3 py-2 text-primary hover:bg-primary hover:text-white md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Financial2025Q1PDF}
+                  >
+                    {t('financial2025Q1')}
+                  </a>
+                </div>
+              </div>
               <div className='flex items-center justify-between border-b-2 border-gray/10 py-5 md:px-6 md:py-10'>
                 <p className='text-3xl text-secondary'>{t('financial2024')}</p>
 
@@ -588,6 +606,20 @@ export default function Investors() {
             <h2 className='mb-6 mt-4 text-4xl text-secondary'>{t('managementTitle')}</h2>
 
             <div>
+              <div className='flex items-center justify-between border-b-2 border-gray/10 py-5 md:px-6 md:py-10'>
+                <p className='text-3xl text-secondary'>{t('management2025')}</p>
+
+                <div className='flex gap-2'>
+                  <a
+                    className='rounded-lg border-2 border-primary px-3 py-2 text-primary hover:bg-primary hover:text-white md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Management2025Q1PDF}
+                  >
+                    {t('management2025Q1')}
+                  </a>
+                </div>
+              </div>
               <div className='flex items-center justify-between border-b-2 border-gray/10 py-5 md:px-6 md:py-10'>
                 <p className='text-3xl text-secondary'>{t('management2024')}</p>
 
