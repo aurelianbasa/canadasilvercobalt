@@ -24,7 +24,7 @@
 
   "video_2025_07_09_Date": "JULY 9, 2025",
   "video_2025_07_09_Subtitle": "Investor News",
-  "video_2025_07_09_Title": "Silver on the Brink of “Going Ballistic”",
+  "video_2025_07_09_Title": "Silver on the Brink of 'Going Ballistic'",
 
   "video_2025_07_02_Date": "JULY 2, 2025",
   "video_2025_07_02_Subtitle": "Proactive",
@@ -238,40 +238,63 @@
   "video_2017_10_11b_Subtitle": "A drone flight over the Castle Mine property, a previously producing silver-cobalt underground mine with 3 shafts and 1 adit",
   "video_2017_10_11b_Title": "Flyover of Castle",
   
-  "article1Date": "AUGUST, 2023",
-  "article1Subtitle": "Ontario Mining Review",
-  "article1Title": "Driving the Energy Transition Forward with Silver and Battery Metals",
+  "article1Date": "NOVEMBER, 2018",
+  "article1Subtitle": "CBC",
+  "article1Title": "Abandoned Canadian silver mines could boom again",
   "article1Button": "Read more",
-  "article2Date": "AUGUST, 2023",
-  "article2Subtitle": "Innovation News Network",
-  "article2Title": "ESG-compliant Re-2Ox technology revolutionises battery metals processing",
+  
+  "article2Date": "MAY, 2019",
+  "article2Subtitle": "BNN Bloomberg",
+  "article2Title": "Targeting mineralization of base and precious metals",
   "article2Button": "Read more",
-  "article3Date": "AUGUST, 2023",
-  "article3Subtitle": "Mining.com",
-  "article3Title": "Working on New Battery Recycling Initiative",
+  
+  "article3Date": "AUGUST, 2019",
+  "article3Subtitle": "Resource World",
+  "article3Title": "Canada Cobalt Moves to fund Battery Sector strategy",
   "article3Button": "Read more",
+  
   "article4Date": "AUGUST, 2023",
-  "article4Subtitle": "International Mining",
-  "article4Title": "SGS Enlisted for Re-2Ox Pilot Plant build",
+  "article4Subtitle": "The Deep Dive",
+  "article4Title": "Major Silver Discovery in Northern Ontario",
   "article4Button": "Read more",
+  
   "article5Date": "AUGUST, 2023",
   "article5Subtitle": "Northern Ontario Business",
   "article5Title": "Starting Pilot Plant to make EV battery material",
   "article5Button": "Read more",
+  
   "article6Date": "AUGUST, 2023",
-  "article6Subtitle": "The Deep Dive",
-  "article6Title": "Major Silver Discovery in Northern Ontario",
+  "article6Subtitle": "International Mining",
+  "article6Title": "SGS Enlisted for Re-2Ox Pilot Plant build",
   "article6Button": "Read more",
-  "article7Date": "AUGUST, 2019",
-  "article7Subtitle": "Resource World",
-  "article7Title": "Canada Cobalt Moves to fund Battery Sector strategy",
+  
+  "article7Date": "AUGUST, 2023",
+  "article7Subtitle": "Mining.com",
+  "article7Title": "Working on New Battery Recycling Initiative",
   "article7Button": "Read more",
-  "article8Date": "NOVEMBER, 2018",
-  "article8Subtitle": "CBC",
-  "article8Title": "Abandoned Canadian silver mines could boom again",
+  
+  "article8Date": "AUGUST, 2023",
+  "article8Subtitle": "Innovation News Network",
+  "article8Title": "ESG-compliant Re-2Ox technology revolutionises battery metals processing",
   "article8Button": "Read more",
-  "article9Date": "MAY, 2019",
-  "article9Subtitle": "BNN Bloomberg",
-  "article9Title": "Targeting mineralization of base and precious metals",
-  "article9Button": "Read more"
+  
+  "article9Date": "AUGUST, 2023",
+  "article9Subtitle": "Ontario Mining Review",
+  "article9Title": "Driving the Energy Transition Forward with Silver and Battery Metals",
+  "article9Button": "Read more",
+  
+  "article10Date": "JANUARY 29, 2024",
+  "article10Subtitle": "Canadian Mining Journal",
+  "article10Title": "Nord Precious Metals resumes permitting ahead of Castle East silver bulk sample",
+  "article10Button": "Read more",
+  
+  "article11Date": "FEBRUARY 20, 2025",
+  "article11Subtitle": "CIM Magazine",
+  "article11Title": "Ontario's new regulation aims to facilitate the recovery of minerals from mine waste",
+  "article11Button": "Read more",
+  
+  "article12Date": "JUNE 12, 2025",
+  "article12Subtitle": "MICA",
+  "article12Title": "MICA Announces Recipients of CFP #4 to Accelerate Innovation in Canada's Mining Sector",
+  "article12Button": "Read more"
 }

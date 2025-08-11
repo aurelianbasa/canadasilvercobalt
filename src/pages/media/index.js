@@ -56,6 +56,10 @@ import BNNBloombergReviewImage from '@media/media/bnnbloomberg-review.webp';
 import ResourceWorldReviewImage from '@media/media/resourceworld-review.webp';
 import InternationalMiningReviewImage from '@media/media/internationalmining-review.webp';
 import NorthernOntarioBusinessReviewImage from '@media/media/northernontariobusiness-review.webp';
+// NEW IMPORTS FOR THE THREE NEW ARTICLES
+import CanadianMiningJournalReviewImage from '@media/media/cmj-review.webp';
+import CIMMagazineReviewImage from '@media/media/cim-review.webp';
+import MICAReviewImage from '@media/media/cemi-review.webp';
 
 import QMRarticlePDF from '@media/media/QMRarticle.pdf';
 
@@ -812,43 +816,88 @@ export default function Media({ location }) {
                   variants={container}
                   className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'
                 >
+                  {/* NEWEST ARTICLES FIRST - Articles 12, 11, 10 */}
+                  <motion.div variants={items}>
+                    <CardArticle
+                      image={MICAReviewImage}
+                      date={t('article12Date')}
+                      subtitle={t('article12Subtitle')}
+                      title={t('article12Title')}
+                      button={t('article12Button')}
+                      href='https://micanetwork.ca/mica/news/mica-announces-recipients-of-cfp-4'
+                    ></CardArticle>
+                  </motion.div>
+                  <motion.div variants={items}>
+                    <CardArticle
+                      image={CIMMagazineReviewImage}
+                      date={t('article11Date')}
+                      subtitle={t('article11Subtitle')}
+                      title={t('article11Title')}
+                      button={t('article11Button')}
+                      href='https://magazine.cim.org/en/news/2025/buried-treasure-en/'
+                    ></CardArticle>
+                  </motion.div>
+                  <motion.div variants={items}>
+                    <CardArticle
+                      image={CanadianMiningJournalReviewImage}
+                      date={t('article10Date')}
+                      subtitle={t('article10Subtitle')}
+                      title={t('article10Title')}
+                      button={t('article10Button')}
+                      href='https://www.canadianminingjournal.com/news/nord-precious-metals-resumes-permitting-ahead-of-castle-silver-bulk-sample/'
+                    ></CardArticle>
+                  </motion.div>
+                  {/* Articles from 2023 - Articles 9, 8, 7 */}
                   <motion.div variants={items}>
                     <CardArticle
                       image={OMRReviewImage}
-                      date={t('article1Date')}
-                      subtitle={t('article1Subtitle')}
-                      title={t('article1Title')}
-                      button={t('article1Button')}
+                      date={t('article9Date')}
+                      subtitle={t('article9Subtitle')}
+                      title={t('article9Title')}
+                      button={t('article9Button')}
                       href={QMRarticlePDF}
                     ></CardArticle>
                   </motion.div>
                   <motion.div variants={items}>
                     <CardArticle
                       image={InnovationReviewImage}
-                      date={t('article2Date')}
-                      subtitle={t('article2Subtitle')}
-                      title={t('article2Title')}
-                      button={t('article2Button')}
+                      date={t('article8Date')}
+                      subtitle={t('article8Subtitle')}
+                      title={t('article8Title')}
+                      button={t('article8Button')}
                       href='https://www.innovationnewsnetwork.com/re-2ox-technology-revolutionises-battery-metals-processing/28926/'
                     ></CardArticle>
                   </motion.div>
                   <motion.div variants={items}>
                     <CardArticle
                       image={MiningdotcomReviewImage}
-                      date={t('article3Date')}
-                      subtitle={t('article3Subtitle')}
-                      title={t('article3Title')}
-                      button={t('article3Button')}
+                      date={t('article7Date')}
+                      subtitle={t('article7Subtitle')}
+                      title={t('article7Title')}
+                      button={t('article7Button')}
                       href='https://www.mining.com/canada-silver-cobalt-working-on-new-battery-recycling-initiative/'
                     ></CardArticle>
                   </motion.div>
+                </motion.div>
+              </div>
+
+              <div className='grid gap-10'>
+                <h3 className='text-center text-3xl text-secondary'>{t('tab3Category2')}</h3>
+
+                <motion.div
+                  initial='hidden'
+                  animate='visible'
+                  variants={container}
+                  className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'
+                >
+                  {/* Articles 6, 5, 4 (More 2023 articles) */}
                   <motion.div variants={items}>
                     <CardArticle
                       image={InternationalMiningReviewImage}
-                      date={t('article4Date')}
-                      subtitle={t('article4Subtitle')}
-                      title={t('article4Title')}
-                      button={t('article4Button')}
+                      date={t('article6Date')}
+                      subtitle={t('article6Subtitle')}
+                      title={t('article6Title')}
+                      button={t('article6Button')}
                       href='https://im-mining.com/2021/01/18/canada-silver-cobalt-works-enlists-sgs-canada-for-re-2ox-pilot-plant-build/'
                     ></CardArticle>
                   </motion.div>
@@ -865,53 +914,42 @@ export default function Media({ location }) {
                   <motion.div variants={items}>
                     <CardArticle
                       image={TheDeepDiveReviewImage}
-                      date={t('article6Date')}
-                      subtitle={t('article6Subtitle')}
-                      title={t('article6Title')}
-                      button={t('article6Button')}
+                      date={t('article4Date')}
+                      subtitle={t('article4Subtitle')}
+                      title={t('article4Title')}
+                      button={t('article4Button')}
                       href='https://thedeepdive.ca/canada-silver-cobalt-works-has-major-silver-discovery-in-northern-ontario/'
                     ></CardArticle>
                   </motion.div>
-                </motion.div>
-              </div>
-
-              <div className='grid gap-10'>
-                <h3 className='text-center text-3xl text-secondary'>{t('tab3Category2')}</h3>
-
-                <motion.div
-                  initial='hidden'
-                  animate='visible'
-                  variants={container}
-                  className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'
-                >
+                  {/* Oldest articles - Articles 3, 2, 1 */}
                   <motion.div variants={items}>
                     <CardArticle
                       image={ResourceWorldReviewImage}
-                      date={t('article7Date')}
-                      subtitle={t('article7Subtitle')}
-                      title={t('article7Title')}
-                      button={t('article7Button')}
+                      date={t('article3Date')}
+                      subtitle={t('article3Subtitle')}
+                      title={t('article3Title')}
+                      button={t('article3Button')}
                       href='https://resourceworld.com/canada-cobalt-moves-to-fund-battery-sector-strategy/'
                     ></CardArticle>
                   </motion.div>
                   <motion.div variants={items}>
                     <CardArticle
-                      image={CBCReviewImage}
-                      date={t('article8Date')}
-                      subtitle={t('article8Subtitle')}
-                      title={t('article8Title')}
-                      button={t('article8Button')}
-                      href='https://www.cbc.ca/news/business/cobalt-canada-batteries-1.4903276'
+                      image={BNNBloombergReviewImage}
+                      date={t('article2Date')}
+                      subtitle={t('article2Subtitle')}
+                      title={t('article2Title')}
+                      button={t('article2Button')}
+                      href='https://www.bnnbloomberg.ca/targeting-mineralization-of-base-and-precious-metals-1.1252119'
                     ></CardArticle>
                   </motion.div>
                   <motion.div variants={items}>
                     <CardArticle
-                      image={BNNBloombergReviewImage}
-                      date={t('article9Date')}
-                      subtitle={t('article9Subtitle')}
-                      title={t('article9Title')}
-                      button={t('article9Button')}
-                      href='https://www.bnnbloomberg.ca/targeting-mineralization-of-base-and-precious-metals-1.1252119'
+                      image={CBCReviewImage}
+                      date={t('article1Date')}
+                      subtitle={t('article1Subtitle')}
+                      title={t('article1Title')}
+                      button={t('article1Button')}
+                      href='https://www.cbc.ca/news/business/cobalt-canada-batteries-1.4903276'
                     ></CardArticle>
                   </motion.div>
                 </motion.div>
