@@ -96,14 +96,32 @@ export default function Contact() {
             </div>
           </div>
 
-          <Button
-            external
-            className='w-full self-start md:w-fit'
-            type='primary-outlined'
+          {/* The magnificently oversized subscribe button */}
+          <motion.a
             href='https://us15.list-manage.com/subscribe?u=9609677b5d7b4f5074f5f896f&id=322055171a'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='relative w-full overflow-hidden rounded-2xl bg-gradient-to-r from-secondary to-primary px-8 py-8 text-center text-2xl font-bold text-white shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-[0_20px_60px_rgba(0,0,0,0.3)] md:px-12 md:py-10 md:text-3xl lg:text-4xl'
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.98 }}
           >
-            {t('subscribeButton')}
-          </Button>
+            <span className='relative z-10 flex items-center justify-center gap-4'>
+              {/* Pulsing dot animation */}
+              <span className='absolute -left-8 flex h-3 w-3 md:-left-12 md:h-4 md:w-4'>
+                <span className='absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75'></span>
+                <span className='relative inline-flex h-3 w-3 rounded-full bg-white md:h-4 md:w-4'></span>
+              </span>
+              {t('subscribeButton').toUpperCase()}
+              <span className='absolute -right-8 flex h-3 w-3 md:-right-12 md:h-4 md:w-4'>
+                <span className='absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75'></span>
+                <span className='relative inline-flex h-3 w-3 rounded-full bg-white md:h-4 md:w-4'></span>
+              </span>
+            </span>
+            {/* Animated background effect */}
+            <div className='absolute inset-0 -z-10 bg-gradient-to-r from-primary to-secondary opacity-0 transition-opacity duration-300 hover:opacity-100'></div>
+            {/* Shimmer effect */}
+            <div className='absolute inset-0 -top-2 h-full w-full rotate-180 bg-gradient-to-r from-transparent via-white to-transparent opacity-10'></div>
+          </motion.a>
         </motion.div>
 
         <motion.div
