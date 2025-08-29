@@ -9,6 +9,7 @@ import HistoryImage from '@media/projects/beaver-mine/history.webp';
 import GeologyImage from '@media/projects/beaver-mine/geology.webp';
 import OverviewImage from '@media/projects/beaver-mine/overview.webp';
 import BeaverMineImage from '@media/projects/beaver-mine/beaver-mine.webp';
+import TailingsImage from '@media/projects/beaver-mine/tailings.webp';
 
 export default function BeaverMine() {
   const { t } = useTranslation();
@@ -71,7 +72,7 @@ export default function BeaverMine() {
           transition={{ duration: 0.5, delay: 0.2 }}
           initial={{ y: '80px', opacity: 0 }}
           whileInView={{ y: '0', opacity: 1 }}
-          className='grid gap-16 rounded-2xl bg-white p-5 md:p-10 lg:grid-cols-2'
+          className='mb-10 grid gap-16 rounded-2xl bg-white p-5 md:p-10 lg:grid-cols-2'
         >
           <div className='flex flex-col gap-4'>
             <p className='text-gray'>{t('geologySubtitle')}</p>
@@ -80,6 +81,22 @@ export default function BeaverMine() {
           </div>
 
           <img className='w-full rounded-lg object-cover' src={GeologyImage} alt='Geology' />
+        </motion.div>
+
+        <motion.div
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          initial={{ y: '80px', opacity: 0 }}
+          whileInView={{ y: '0', opacity: 1 }}
+          className='grid gap-16 rounded-2xl bg-white p-5 md:p-10 lg:grid-cols-2'
+        >
+          <img className='w-full rounded-lg object-cover' src={TailingsImage} alt='Tailings' />
+
+          <div className='flex flex-col gap-4'>
+            <p className='text-gray'>{t('tailingsSubtitle')}</p>
+            <h2 className='text-3xl text-secondary'>{t('tailingsTitle')}</h2>
+            <Trans i18nKey='tailingsDescription' className='mt-2 text-lg'></Trans>
+          </div>
         </motion.div>
       </div>
     </Layout>
