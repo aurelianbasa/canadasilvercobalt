@@ -15,6 +15,7 @@ import technicalReport4PDF from '@media/investors/technical-report-2020-july.pdf
 import technicalReport5PDF from '@media/investors/technical-report-2015-august.pdf';
 
 import Financial2025Q1PDF from '@media/investors/financial-2025-q1.pdf';
+import Financial2025Q2PDF from '@media/investors/financial-2025-q2.pdf';
 
 import Financial2024Q1PDF from '@media/investors/financial-2024-q1.pdf';
 import Financial2024Q2PDF from '@media/investors/financial-2024-q2.pdf';
@@ -52,6 +53,7 @@ import Financial2018Q3PDF from '@media/investors/financial-2018-q3.pdf';
 import Financial2018Q4PDF from '@media/investors/financial-2018-q4.pdf';
 
 import Management2025Q1PDF from '@media/investors/management-2025-q1.pdf';
+import Management2025Q2PDF from '@media/investors/management-2025-q2.pdf';
 
 import Management2024Q1PDF from '@media/investors/management-2024-q1.pdf';
 import Management2024Q2PDF from '@media/investors/management-2024-q2.pdf';
@@ -323,6 +325,14 @@ export default function Investors() {
                     href={Financial2025Q1PDF}
                   >
                     {t('financial2025Q1')}
+                  </a>
+                  <a
+                    className='rounded-lg border-2 border-primary px-3 py-2 text-primary hover:bg-primary hover:text-white md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Financial2025Q2PDF}
+                  >
+                    {t('financial2025Q2')}
                   </a>
                 </div>
               </div>
@@ -617,6 +627,14 @@ export default function Investors() {
                     href={Management2025Q1PDF}
                   >
                     {t('management2025Q1')}
+                  </a>
+                  <a
+                    className='rounded-lg border-2 border-primary px-3 py-2 text-primary hover:bg-primary hover:text-white md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Management2025Q2PDF}
+                  >
+                    {t('management2025Q2')}
                   </a>
                 </div>
               </div>
