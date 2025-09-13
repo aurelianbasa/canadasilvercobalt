@@ -219,17 +219,19 @@ export default function Investors() {
             transition={{ duration: 0.5, delay: 0.2 }}
             initial={{ y: '80px', opacity: 0 }}
             whileInView={{ y: '0', opacity: 1 }}
-            className='rounded-2xl bg-primary p-5 md:p-10'
+            className='grid gap-6'
           >
-            <div className='flex flex-col items-center justify-between gap-8 md:flex-row'>
-              <div className='w-full'>
-                <p className='mb-2 text-white/80'>{t('lifeFinancingSubtitle')}</p>
-                <h2 className='mb-4 text-4xl text-white'>{t('lifeFinancingTitle')}</h2>
-                <p className='text-white/90'>{t('lifeFinancingDescription')}</p>
+            <div className='rounded-2xl bg-primary p-5 md:p-10'>
+              <div className='flex flex-col items-center justify-between gap-8 md:flex-row'>
+                <div className='w-full'>
+                  <p className='mb-2 text-white/80'>{t('lifeFinancingSubtitle')}</p>
+                  <h2 className='mb-4 text-4xl text-white'>{t('lifeFinancingTitle')}</h2>
+                  <p className='text-white/90'>{t('lifeFinancingDescription')}</p>
+                </div>
+                <Button className='w-full md:w-fit' external type='tertiary' href={lifeDocumentPDF}>
+                  {t('lifeFinancingButton')}
+                </Button>
               </div>
-              <Button className='w-full md:w-fit' external type='tertiary' href={lifeDocumentPDF}>
-                {t('lifeFinancingButton')}
-              </Button>
             </div>
           </motion.div>
         </div>
