@@ -214,24 +214,23 @@ export default function Investors() {
         <div id='technicalReports' className='container mx-auto px-5 pt-20 md:px-10'>
           <h2 className='mb-16 text-4xl text-secondary'>{t('technicalReportsTitle')}</h2>
 <div id='lifeFinancing' className='container mx-auto px-5 pt-20 md:px-10'>
+          <h2 className='mb-16 text-4xl text-secondary'>{t('lifeFinancingTitle')}</h2>
+          
           <motion.div
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
             initial={{ y: '80px', opacity: 0 }}
             whileInView={{ y: '0', opacity: 1 }}
-            className='grid gap-6'
+            className='rounded-2xl bg-primary p-5 md:p-10'
           >
-            <div className='rounded-2xl bg-primary p-5 md:p-10'>
-              <div className='flex flex-col items-center justify-between gap-8 md:flex-row'>
-                <div className='w-full'>
-                  <p className='mb-2 text-white/80'>{t('lifeFinancingSubtitle')}</p>
-                  <h2 className='mb-4 text-4xl text-white'>{t('lifeFinancingTitle')}</h2>
-                  <p className='text-white/90'>{t('lifeFinancingDescription')}</p>
-                </div>
-                <Button className='w-full md:w-fit' external type='tertiary' href={lifeDocumentPDF}>
-                  {t('lifeFinancingButton')}
-                </Button>
+            <div className='flex flex-col items-center justify-between gap-8 md:flex-row'>
+              <div className='w-full'>
+                <p className='mb-2 text-white/80'>{t('lifeFinancingSubtitle')}</p>
+                <p className='text-white/90'>{t('lifeFinancingDescription')}</p>
               </div>
+              <Button className='w-full md:w-fit' external type='tertiary' href={lifeDocumentPDF}>
+                {t('lifeFinancingButton')}
+              </Button>
             </div>
           </motion.div>
         </div>
