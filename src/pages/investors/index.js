@@ -14,6 +14,7 @@ import technicalReport3PDF from '@media/investors/technical-report-2021-may.pdf'
 import technicalReport4PDF from '@media/investors/technical-report-2020-july.pdf';
 import technicalReport5PDF from '@media/investors/technical-report-2015-august.pdf';
 import lifeDocumentPDF from '@media/investors/life-document.pdf';
+import lifeDocumentOldPDF from '@media/investors/life-document-old.pdf';
 import Financial2025Q1PDF from '@media/investors/financial-2025-q1.pdf';
 import Financial2025Q2PDF from '@media/investors/financial-2025-q2.pdf';
 
@@ -210,26 +211,31 @@ export default function Investors() {
             </div>
           </div>
         </div>
-<div id='lifeFinancing' className='container mx-auto px-5 py-20 md:px-10'>
-          <motion.div
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            initial={{ y: '80px', opacity: 0 }}
-            whileInView={{ y: '0', opacity: 1 }}
-            className='rounded-2xl bg-primary p-5 md:p-10'
-          >
-            <div className='flex flex-col items-center justify-between gap-8 md:flex-row'>
-              <div className='w-full'>
-                <p className='text-white/80'>{t('lifeFinancingSubtitle')}</p>
-                <h3 className='mb-6 mt-4 text-3xl text-white'>{t('lifeFinancingTitle')}</h3>
-                <p className='text-white'>{t('lifeFinancingDescription')}</p>
-              </div>
-              <Button className='w-full md:w-fit' external type='tertiary' href={lifeDocumentPDF}>
-                {t('lifeFinancingButton')}
-              </Button>
-            </div>
-          </motion.div>
-        </div>
+  <div id='lifeFinancing' className='container mx-auto px-5 py-20 md:px-10'>
+    <motion.div
+    viewport={{ once: true }}
+    transition={{ duration: 0.5, delay: 0.2 }}
+    initial={{ y: '80px', opacity: 0 }}
+    whileInView={{ y: '0', opacity: 1 }}
+    className='rounded-2xl bg-primary p-5 md:p-10'
+  >
+    <div className='flex flex-col items-center justify-between gap-8 md:flex-row'>
+      <div className='w-full'>
+        <p className='text-white/80'>{t('lifeFinancingSubtitle')}</p>
+        <h3 className='mb-6 mt-4 text-3xl text-white'>{t('lifeFinancingTitle')}</h3>
+        <p className='text-white'>{t('lifeFinancingDescription')}</p>
+      </div>
+      <div className='flex w-full flex-col gap-4 md:w-fit'>
+        <Button className='w-full md:w-fit' external type='tertiary' href={lifeDocumentPDF}>
+          {t('lifeFinancingButtonCurrent')}
+        </Button>
+        <Button className='w-full md:w-fit' external type='tertiary' href={lifeDocumentOldPDF}>
+          {t('lifeFinancingButtonFormer')}
+        </Button>
+      </div>
+    </div>
+  </motion.div>
+</div>
 
 
         <div id='technicalReports' className='container mx-auto px-5 pt-20 md:px-10'>
