@@ -100,7 +100,7 @@ return (
             </div>
           </div>
 
-          <Button className='w-full self-end' type='primary' href='/projects/castle-mine'>
+          <Button className='w-full self-end' type='primary' href='/projects/castle-east'>
             {t('infoBlock1Button')}
           </Button>
         </div>
@@ -117,7 +117,7 @@ return (
             </div>
           </div>
 
-          <Button className='w-full self-end' type='primary' href='/projects/castle-east'>
+          <Button className='w-full self-end' type='primary' href='https://temiskaminglabs.com/'>
             {t('infoBlock2Button')}
           </Button>
         </div>
@@ -134,7 +134,7 @@ return (
             </div>
           </div>
 
-          <Button className='w-full self-end' external type='primary' href='https://temiskaminglabs.com/'>
+          <Button className='w-full self-end' external type='primary' href='https://www.re-2ox.com/'>
             {t('infoBlock3Button')}
           </Button>
         </div>
