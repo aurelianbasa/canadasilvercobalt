@@ -45,6 +45,12 @@ import Photo33Image from '@media/media/photo-33.webp';
 import Photo34Image from '@media/media/photo-34.webp';
 import Photo35Image from '@media/media/photo-35.webp';
 import Photo36Image from '@media/media/photo-36.webp';
+import Photo37Image from '@media/media/photo-37.webp';
+import Photo38Image from '@media/media/photo-38.webp';
+import Photo39Image from '@media/media/photo-39.webp';
+import Photo40Image from '@media/media/photo-40.webp';
+import Photo41Image from '@media/media/photo-41.webp';
+import Photo42Image from '@media/media/photo-42.webp';
 
 import OMRReviewImage from '@media/media/omr-review.webp';
 import CBCReviewImage from '@media/media/cbc-review.webp';
@@ -56,11 +62,9 @@ import BNNBloombergReviewImage from '@media/media/bnnbloomberg-review.webp';
 import ResourceWorldReviewImage from '@media/media/resourceworld-review.webp';
 import InternationalMiningReviewImage from '@media/media/internationalmining-review.webp';
 import NorthernOntarioBusinessReviewImage from '@media/media/northernontariobusiness-review.webp';
-// NEW IMPORTS FOR THE THREE NEW ARTICLES
 import CanadianMiningJournalReviewImage from '@media/media/cmj-review.webp';
 import CIMMagazineReviewImage from '@media/media/cim-review.webp';
 import MICAReviewImage from '@media/media/cemi-review.webp';
-
 import QMRarticlePDF from '@media/media/QMRarticle.pdf';
 
 export default function Media({ location }) {
@@ -121,8 +125,38 @@ export default function Media({ location }) {
                 <h2 className='text-center text-4xl text-secondary'>{t('tab1Title')}</h2>
               </div>
 
+<div className='grid gap-10'>
+  <h3 className='text-center text-3xl text-secondary'>{t('tab1Category1')}</h3>
+
+  <motion.div
+    className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'
+    initial='hidden'
+    animate='visible'
+    variants={container}
+  >
+    <motion.div variants={items}>
+      <CardPhoto image={Photo37Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo38Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo39Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo40Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo41Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo42Image}></CardPhoto>
+    </motion.div>
+  </motion.div>
+</div>
+
               <div className='grid gap-10'>
-                <h3 className='text-center text-3xl text-secondary'>{t('tab1Category1')}</h3>
+                <h3 className='text-center text-3xl text-secondary'>{t('tab1Category2')}</h3>
 
                 <motion.div
                   className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'
@@ -170,7 +204,7 @@ export default function Media({ location }) {
               </div>
 
               <div className='grid gap-10'>
-                <h3 className='text-center text-3xl text-secondary'>{t('tab1Category2')}</h3>
+                <h3 className='text-center text-3xl text-secondary'>{t('tab1Category3')}</h3>
 
                 <motion.div
                   className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'
@@ -200,7 +234,7 @@ export default function Media({ location }) {
               </div>
 
               <div className='grid gap-10'>
-                <h3 className='text-center text-3xl text-secondary'>{t('tab1Category3')}</h3>
+                <h3 className='text-center text-3xl text-secondary'>{t('tab1Category4')}</h3>
 
                 <motion.div
                   className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'
@@ -248,7 +282,7 @@ export default function Media({ location }) {
               </div>
 
               <div className='grid gap-10'>
-                <h3 className='text-center text-3xl text-secondary'>{t('tab1Category4')}</h3>
+                <h3 className='text-center text-3xl text-secondary'>{t('tab1Category5')}</h3>
 
                 <motion.div
                   className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'
