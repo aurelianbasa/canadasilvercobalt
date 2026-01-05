@@ -434,7 +434,7 @@ return (
           ))}
         </div>
 
-        <Button className='mx-auto w-full md:w-fit' type='primary-outlined' href='/news/2025'>
+        <Button className='mx-auto w-full md:w-fit' type='primary-outlined' href='/news/2026'>
           {t('newsButton')}
         </Button>
       </div>

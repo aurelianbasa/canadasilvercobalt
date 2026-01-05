@@ -151,6 +151,9 @@ export default function Header() {
                           exit={{ opacity: 0, scale: 0.95 }}
                           className='absolute left-1/2 z-50 grid w-max -translate-x-1/2 !transform grid-cols-2 flex-col gap-x-6 gap-y-3 rounded-lg bg-white p-6 shadow-md'
                         >
+                          <Link className='py-1 hover:text-primary' to='/news/2026'>
+                            {t('header.news2026')}
+                          </Link>
                           <Link className='py-1 hover:text-primary' to='/news/2025'>
                             {t('header.news2025')}
                           </Link>
@@ -346,6 +349,9 @@ export default function Header() {
 
                 <div className='cursor-pointer py-2 hover:text-primary'>{t('header.news')}</div>
 
+                <Link className='py-2 pl-6 hover:text-primary' to='/news/2026'>
+                  {t('header.news2026')}
+                </Link>
                 <Link className='py-2 pl-6 hover:text-primary' to='/news/2025'>
                   {t('header.news2025')}
                 </Link>
