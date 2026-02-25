@@ -318,6 +318,28 @@ export default function Media({ location }) {
                 <h2 className='text-center text-4xl text-secondary'>{t('tab2Title')}</h2>
               </div>
 
+              {/* === 2026 === */}
+              <div className='grid gap-10'>
+                <h3 className='text-center text-3xl text-secondary'>{t('tab2Category0')}</h3>
+
+                <motion.div
+                  initial='hidden'
+                  animate='visible'
+                  variants={container}
+                  className='grid gap-6 md:grid-cols-2'
+                >
+                  <motion.div variants={items}>
+                    <CardVideo
+                      date={t('video_2026_02_16_Date')}
+                      subtitle={t('video_2026_02_16_Subtitle')}
+                      title={t('video_2026_02_16_Title')}
+                      src='https://www.youtube.com/embed/PkroMM8Yiys?si=1'
+                    ></CardVideo>
+                  </motion.div>
+                </motion.div>
+              </div>
+
+              {/* === 2025 === */}
               <div className='grid gap-10'>
                 <h3 className='text-center text-3xl text-secondary'>{t('tab2Category1')}</h3>
 
@@ -327,6 +349,22 @@ export default function Media({ location }) {
                   variants={container}
                   className='grid gap-6 md:grid-cols-2'
                 >
+                  <motion.div variants={items}>
+                    <CardVideo
+                      date={t('video_2025_11_28_Date')}
+                      subtitle={t('video_2025_11_28_Subtitle')}
+                      title={t('video_2025_11_28_Title')}
+                      src='https://www.youtube.com/embed/Qe5DekbNFW0?si=1'
+                    ></CardVideo>
+                  </motion.div>
+                  <motion.div variants={items}>
+                    <CardVideo
+                      date={t('video_2025_11_04_Date')}
+                      subtitle={t('video_2025_11_04_Subtitle')}
+                      title={t('video_2025_11_04_Title')}
+                      src='https://www.youtube.com/embed/U6ag1BiI7Mo?si=1'
+                    ></CardVideo>
+                  </motion.div>
                   <motion.div variants={items}>
                     <CardVideo
                       date={t('video_2025_08_13_Date')}
@@ -362,6 +400,7 @@ export default function Media({ location }) {
                 </motion.div>
               </div>
 
+              {/* === 2024 === */}
               <div className='grid gap-10'>
                 <h3 className='text-center text-3xl text-secondary'>{t('tab2Category2')}</h3>
 
@@ -390,6 +429,7 @@ export default function Media({ location }) {
                 </motion.div>
               </div>
 
+              {/* === Older (2023 and earlier) === */}
               <div className='grid gap-10'>
                 <h3 className='text-center text-3xl text-secondary'>{t('tab2Category7')}</h3>
 
