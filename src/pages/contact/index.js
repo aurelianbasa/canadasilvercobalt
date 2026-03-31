@@ -232,12 +232,6 @@ export default function Contact() {
                 {t('officePhone')}
               </a>
             </p>
-            <p>
-              <span className='text-tertiary'>{t('officeFaxTitle')}</span>
-              <a className='text-secondary hover:text-primary' href='tel:604-608-3512'>
-                {t('officeFax')}
-              </a>
-            </p>
           </motion.div>
 
           <motion.div
@@ -302,12 +296,6 @@ export default function Contact() {
               <span className='text-tertiary'>{t('auditorsFaxTitle')}</span>
               <a className='text-secondary hover:text-primary' href='tel:416-496-0125'>
                 {t('auditorsFax')}
-              </a>
-            </p>
-            <p>
-              <span className='text-tertiary'>{t('auditorsEmailTitle')}</span>
-              <a className='text-secondary hover:text-primary' href='mailto:info@uhymh.com'>
-                {t('auditorsEmail')}
               </a>
             </p>
           </motion.div>
