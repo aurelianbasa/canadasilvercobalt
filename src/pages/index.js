@@ -26,7 +26,6 @@ import LiquidGlassBanner from '@components/liquid-glass-banner';
 import TTLImage from '@media/home/ttl.webp';
 import HeroImage from '@media/home/hero.webp';
 import AboutImage from '@media/home/about.webp';
-import CobaltImage from '@media/home/cobalt.webp';
 import SilverImage from '@media/home/silver.webp';
 import SilverBarsImage from '@media/home/silver-bars.webp';
 
@@ -134,7 +133,7 @@ return (
             </div>
           </div>
 
-          <Button className='w-full self-end' external type='primary' href='https://www.re-2ox.com/'>
+          <Button className='w-full self-end' type='primary' href='/projects'>
             {t('infoBlock3Button')}
           </Button>
         </div>
@@ -250,7 +249,7 @@ return (
           whileInView={{ y: '0', opacity: 1 }}
           className='grid gap-16 rounded-2xl bg-white p-5 md:p-10 lg:grid-cols-2'
         >
-          <img className='w-full rounded-lg object-cover' src={CobaltImage} alt='Cobalt' />
+          <img className='w-full rounded-lg object-cover' src={AboutImage} alt='Gowganda Silver Camp' />
 
           <div className='flex flex-col gap-4'>
             <h2 className='text-4xl text-secondary'>{t('re2OxTitle')}</h2>

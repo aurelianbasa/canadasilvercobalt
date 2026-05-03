@@ -13,11 +13,9 @@ import CastleEastImage from '@media/projects/castle-east.webp';
 import CastleMineImage from '@media/projects/castle-mine.webp';
 import BeaverMineImage from '@media/projects/beaver-mine.webp';
 
-import Re2OXImage from '@media/projects/re-2ox-process.webp';
 import TTLFacilityImage from '@media/projects/ttl-facility.webp';
 
 import TTLarticlePDF from '@media/projects/TTLarticle.pdf';
-import Re2oxarticlePDF from '@media/projects/Re2oxarticle.pdf';
 
 import technicalReport1PDF from '@media/projects/technical-report-2024-january.pdf';
 import technicalReport2PDF from '@media/projects/technical-report-2022-august.pdf';
@@ -218,12 +216,12 @@ export default function Projects() {
             <h2 className=' text-4xl text-secondary'>{t('re2OxTitle')}</h2>
             <Trans i18nKey='re2OxDescription' className='mt-2'></Trans>
 
-            <Button className='mt-2 w-full md:w-fit' type='primary' external href={Re2oxarticlePDF}>
+            <Button className='mt-2 w-full md:w-fit' type='primary' href='/news/2026'>
               {t('re2OxButton')}
             </Button>
           </div>
 
-          <img className='w-full rounded-lg object-cover' src={Re2OXImage} alt='Re-2Ox Process' />
+          <img className='w-full rounded-lg object-cover' src={CastleMineImage} alt='Gowganda Silver Camp' />
         </motion.div>
       </div>
 
