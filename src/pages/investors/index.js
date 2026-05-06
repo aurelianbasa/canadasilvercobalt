@@ -19,6 +19,7 @@ import couloirCapitalPDF from '@media/investors/couloir-capital.pdf';
 import Financial2025Q1PDF from '@media/investors/financial-2025-q1.pdf';
 import Financial2025Q2PDF from '@media/investors/financial-2025-q2.pdf';
 import Financial2025Q3PDF from '@media/investors/financial-2025-q3.pdf';
+import Financial2025Q4PDF from '@media/investors/financial-2025-q4.pdf';
 
 import Financial2024Q1PDF from '@media/investors/financial-2024-q1.pdf';
 import Financial2024Q2PDF from '@media/investors/financial-2024-q2.pdf';
@@ -58,6 +59,7 @@ import Financial2018Q4PDF from '@media/investors/financial-2018-q4.pdf';
 import Management2025Q1PDF from '@media/investors/management-2025-q1.pdf';
 import Management2025Q2PDF from '@media/investors/management-2025-q2.pdf';
 import Management2025Q3PDF from '@media/investors/management-2025-q3.pdf';
+import Management2025Q4PDF from '@media/investors/management-2025-q4.pdf';
 
 import Management2024Q1PDF from '@media/investors/management-2024-q1.pdf';
 import Management2024Q2PDF from '@media/investors/management-2024-q2.pdf';
@@ -405,6 +407,14 @@ export default function Investors() {
                   >
                     {t('financial2025Q3')}
                   </a>
+                  <a
+                    className='rounded-lg border-2 border-primary px-3 py-2 text-primary hover:bg-primary hover:text-white md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Financial2025Q4PDF}
+                  >
+                    {t('financial2025Q4')}
+                  </a>
                 </div>
               </div>
               <div className='flex items-center justify-between border-b-2 border-gray/10 py-5 md:px-6 md:py-10'>
@@ -714,6 +724,14 @@ export default function Investors() {
                     href={Management2025Q3PDF}
                   >
                     {t('management2025Q3')}
+                  </a>
+                  <a
+                    className='rounded-lg border-2 border-primary px-3 py-2 text-primary hover:bg-primary hover:text-white md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Management2025Q4PDF}
+                  >
+                    {t('management2025Q4')}
                   </a>
                 </div>
               </div>
