@@ -212,7 +212,7 @@ return (
             whileInView={{ y: '0', opacity: 1 }}
             className='rounded-2xl bg-white p-5 md:p-10'
           >
-            <DataWrapper title='Resource Estimate' src='https://datawrapper.dwcdn.net/1telv/2/' />
+            <DataWrapper title='Resource Estimate' src='https://datawrapper.dwcdn.net/1telv/3/' />
           </motion.div>
         </div>
       </div>
