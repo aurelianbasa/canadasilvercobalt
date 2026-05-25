@@ -10,7 +10,6 @@ import GeologyImage from '@media/projects/gowganda-tailings/geology.webp';
 import OverviewImage from '@media/projects/gowganda-tailings/overview.webp';
 import GowgandaTailingsImage from '@media/projects/gowganda-tailings/gowganda-tailings.webp';
 import TailingsImage from '@media/projects/gowganda-tailings/tailings.webp';
-import TimelineImage from '@media/projects/gowganda-tailings/timeline.svg';
 
 export default function GowgandaTailings() {
   const { t } = useTranslation();
@@ -73,7 +72,7 @@ export default function GowgandaTailings() {
           transition={{ duration: 0.5, delay: 0.2 }}
           initial={{ y: '80px', opacity: 0 }}
           whileInView={{ y: '0', opacity: 1 }}
-          className='mb-10 flex flex-col gap-8 rounded-2xl bg-white p-5 md:p-10'
+          className='mb-10 flex flex-col gap-10 rounded-2xl bg-beige p-5 md:p-10'
         >
           <div className='flex flex-col gap-4'>
             <p className='text-gray'>{t('timelineSubtitle')}</p>
@@ -81,12 +80,41 @@ export default function GowgandaTailings() {
             <Trans i18nKey='timelineDescription' className='mt-2 text-lg'></Trans>
           </div>
 
-          <div className='w-full overflow-x-auto'>
-            <img
-              className='mx-auto h-auto w-full max-w-3xl'
-              src={TimelineImage}
-              alt='Timeline of technical work on the Gowganda silver tailings, 1981 to 2026'
-            />
+          <div className='relative'>
+            {/* Horizontal connector line behind the year markers, desktop only */}
+            <div className='absolute left-[8%] right-[8%] top-10 hidden h-1 bg-primary/30 lg:block' />
+
+            <div className='relative grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-5'>
+              <div className='flex flex-col items-start'>
+                <h3 className='mb-4 inline-block bg-tertiary px-3 text-5xl text-white'>{t('timeline1Year')}</h3>
+                <p className='mb-2 font-semibold text-secondary'>{t('timeline1Event')}</p>
+                <Trans i18nKey='timeline1Note' className='text-sm text-gray'></Trans>
+              </div>
+
+              <div className='flex flex-col items-start'>
+                <h3 className='mb-4 inline-block bg-gray px-3 text-5xl text-white'>{t('timeline2Year')}</h3>
+                <p className='mb-2 font-semibold text-secondary'>{t('timeline2Event')}</p>
+                <Trans i18nKey='timeline2Note' className='text-sm text-gray'></Trans>
+              </div>
+
+              <div className='flex flex-col items-start'>
+                <h3 className='mb-4 inline-block bg-brown px-3 text-5xl text-white'>{t('timeline3Year')}</h3>
+                <p className='mb-2 font-semibold text-secondary'>{t('timeline3Event')}</p>
+                <Trans i18nKey='timeline3Note' className='text-sm text-gray'></Trans>
+              </div>
+
+              <div className='flex flex-col items-start'>
+                <h3 className='mb-4 inline-block bg-secondary px-3 text-5xl text-white'>{t('timeline4Year')}</h3>
+                <p className='mb-2 font-semibold text-secondary'>{t('timeline4Event')}</p>
+                <Trans i18nKey='timeline4Note' className='text-sm text-gray'></Trans>
+              </div>
+
+              <div className='flex flex-col items-start'>
+                <h3 className='mb-4 inline-block bg-primary px-3 text-5xl text-white'>{t('timeline5Year')}</h3>
+                <p className='mb-2 font-semibold text-secondary'>{t('timeline5Event')}</p>
+                <Trans i18nKey='timeline5Note' className='text-sm text-gray'></Trans>
+              </div>
+            </div>
           </div>
         </motion.div>
 
