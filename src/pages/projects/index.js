@@ -12,6 +12,7 @@ import CardProject from '@components/card-project';
 import CastleEastImage from '@media/projects/castle-east.webp';
 import CastleMineImage from '@media/projects/castle-mine.webp';
 import BeaverMineImage from '@media/projects/beaver-mine.webp';
+import GowgandaTailingsImage from '@media/projects/gowganda-tailings.webp';
 
 import TTLFacilityImage from '@media/projects/ttl-facility.webp';
 
@@ -77,6 +78,21 @@ export default function Projects() {
               image={BeaverMineImage}
               href='/projects/beaver-mine'
               button={t('project3Button')}
+            ></CardProject>
+          </motion.div>
+
+          <motion.div
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+            initial={{ y: '80px', opacity: 0 }}
+            whileInView={{ y: '0', opacity: 1 }}
+          >
+            <CardProject
+              title={t('project4')}
+              description={t('project4Description')}
+              image={GowgandaTailingsImage}
+              href='/projects/gowganda-tailings'
+              button={t('project4Button')}
             ></CardProject>
           </motion.div>
         </div>

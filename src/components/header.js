@@ -125,6 +125,9 @@ export default function Header() {
                           <Link className='py-1 hover:text-primary' to='/projects/beaver-mine'>
                             {t('header.projectsBeaverMine')}
                           </Link>
+                          <Link className='py-1 hover:text-primary' to='/projects/gowganda-tailings'>
+                            {t('header.projectsGowgandaTailings')}
+                          </Link>
                         </PopoverPanel>
                       </AnimatePresence>
                     )}
@@ -348,6 +351,9 @@ export default function Header() {
                 </Link>
                 <Link className='py-2 pl-6 hover:text-primary' to='/projects/beaver-mine'>
                   {t('header.projectsBeaverMine')}
+                </Link>
+                <Link className='py-2 pl-6 hover:text-primary' to='/projects/gowganda-tailings'>
+                  {t('header.projectsGowgandaTailings')}
                 </Link>
 
                 <div className='cursor-pointer py-2 hover:text-primary'>{t('header.news')}</div>
