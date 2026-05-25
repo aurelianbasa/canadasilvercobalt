@@ -10,6 +10,7 @@ import GeologyImage from '@media/projects/gowganda-tailings/geology.webp';
 import OverviewImage from '@media/projects/gowganda-tailings/overview.webp';
 import GowgandaTailingsImage from '@media/projects/gowganda-tailings/gowganda-tailings.webp';
 import TailingsImage from '@media/projects/gowganda-tailings/tailings.webp';
+import TimelineImage from '@media/projects/gowganda-tailings/timeline.svg';
 
 export default function GowgandaTailings() {
   const { t } = useTranslation();
@@ -64,6 +65,28 @@ export default function GowgandaTailings() {
             <p className='text-gray'>{t('historySubtitle')}</p>
             <h2 className='text-3xl text-secondary'>{t('historyTitle')}</h2>
             <Trans i18nKey='historyDescription' className='mt-2 text-lg'></Trans>
+          </div>
+        </motion.div>
+
+        <motion.div
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          initial={{ y: '80px', opacity: 0 }}
+          whileInView={{ y: '0', opacity: 1 }}
+          className='mb-10 flex flex-col gap-8 rounded-2xl bg-white p-5 md:p-10'
+        >
+          <div className='flex flex-col gap-4'>
+            <p className='text-gray'>{t('timelineSubtitle')}</p>
+            <h2 className='text-3xl text-secondary'>{t('timelineTitle')}</h2>
+            <Trans i18nKey='timelineDescription' className='mt-2 text-lg'></Trans>
+          </div>
+
+          <div className='w-full overflow-x-auto'>
+            <img
+              className='mx-auto h-auto w-full max-w-3xl'
+              src={TimelineImage}
+              alt='Timeline of technical work on the Gowganda silver tailings, 1981 to 2026'
+            />
           </div>
         </motion.div>
 
