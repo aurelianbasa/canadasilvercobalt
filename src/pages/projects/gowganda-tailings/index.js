@@ -87,7 +87,7 @@ export default function GowgandaTailings() {
             {/* Horizontal connector line behind the year markers, desktop only */}
             <div className='absolute left-[8%] right-[8%] top-10 hidden h-1 bg-primary/30 lg:block' />
 
-            <div className='relative grid gap-x-6 gap-y-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6'>
+            <div className='relative grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-5'>
               <div className='flex flex-col items-start'>
                 <h3 className='mb-4 inline-block bg-tertiary px-3 text-5xl text-white'>{t('timeline1Year')}</h3>
                 <p className='mb-2 font-semibold text-secondary'>{t('timeline1Event')}</p>
@@ -107,21 +107,15 @@ export default function GowgandaTailings() {
               </div>
 
               <div className='flex flex-col items-start'>
-                <h3 className='mb-4 inline-block bg-tertiary px-3 text-5xl text-white'>{t('timeline4Year')}</h3>
+                <h3 className='mb-4 inline-block bg-secondary px-3 text-5xl text-white'>{t('timeline4Year')}</h3>
                 <p className='mb-2 font-semibold text-secondary'>{t('timeline4Event')}</p>
                 <Trans i18nKey='timeline4Note' className='text-sm text-gray'></Trans>
               </div>
 
               <div className='flex flex-col items-start'>
-                <h3 className='mb-4 inline-block bg-secondary px-3 text-5xl text-white'>{t('timeline5Year')}</h3>
+                <h3 className='mb-4 inline-block bg-primary px-3 text-5xl text-white'>{t('timeline5Year')}</h3>
                 <p className='mb-2 font-semibold text-secondary'>{t('timeline5Event')}</p>
                 <Trans i18nKey='timeline5Note' className='text-sm text-gray'></Trans>
-              </div>
-
-              <div className='flex flex-col items-start'>
-                <h3 className='mb-4 inline-block bg-primary px-3 text-5xl text-white'>{t('timeline6Year')}</h3>
-                <p className='mb-2 font-semibold text-secondary'>{t('timeline6Event')}</p>
-                <Trans i18nKey='timeline6Note' className='text-sm text-gray'></Trans>
               </div>
             </div>
           </div>
@@ -358,31 +352,6 @@ export default function GowgandaTailings() {
                 type='primary'
                 href='https://prd-0420-geoontario-0000-blob-cge0eud7azhvfsf7.z01.azurefd.net/lrc-geology-documents/assessment/41P10NE0023/41P10NE0023.Pdf'
               >
-                {t('documentsButton')}
-              </Button>
-            </div>
-
-            <div className='flex flex-col items-end gap-6 rounded-2xl bg-secondary p-5 md:flex-row md:p-8'>
-              <div className='w-full'>
-                <p className='mb-2 text-white'>{t('doc3Source')}</p>
-                <p className='text-2xl text-white'>{t('doc3Title')}</p>
-              </div>
-              <Button
-                className='w-full md:w-fit'
-                external
-                type='primary'
-                href='https://couloircapital.com/research-portal'
-              >
-                {t('documentsButton')}
-              </Button>
-            </div>
-
-            <div className='flex flex-col items-end gap-6 rounded-2xl bg-secondary p-5 md:flex-row md:p-8'>
-              <div className='w-full'>
-                <p className='mb-2 text-white'>{t('doc4Source')}</p>
-                <p className='text-2xl text-white'>{t('doc4Title')}</p>
-              </div>
-              <Button className='w-full md:w-fit' type='primary' href='/news/2026'>
                 {t('documentsButton')}
               </Button>
             </div>
