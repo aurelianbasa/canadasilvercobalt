@@ -28,8 +28,11 @@ import GeologyImage from '@media/projects/castle-east/geology.webp';
 import OverviewImage from '@media/projects/castle-east/overview.webp';
 import DrillCore1Image from '@media/projects/castle-east/drill-core-1.webp';
 import DrillCore2Image from '@media/projects/castle-east/drill-core-2.webp';
+import PlanViewImage from '@media/projects/castle-east/plan-view.webp';
+import SectionViewImage from '@media/projects/castle-east/section-view.webp';
 
 import ResourceEstimatePDF from '@media/projects/castle-east/resource-estimate.pdf';
+import TechnicalReport2025PDF from '@media/investors/technical-report-2025-december.pdf';
 
 export default function CastleEast() {
   const { t } = useTranslation();
@@ -55,7 +58,7 @@ export default function CastleEast() {
                 <p className='text-3xl text-white'>{t('reportTitle')}</p>
               </div>
 
-              <Button className='w-full md:w-fit' type='tertiary' external href={ResourceEstimatePDF}>
+              <Button className='w-full md:w-fit' type='tertiary' external href={TechnicalReport2025PDF}>
                 {t('reportButton')}
               </Button>
             </div>
@@ -269,6 +272,45 @@ export default function CastleEast() {
           transition={{ duration: 0.5, delay: 0.2 }}
           initial={{ y: '80px', opacity: 0 }}
           whileInView={{ y: '0', opacity: 1 }}
+          className='mb-20 grid gap-10 rounded-2xl bg-white p-5 md:p-10'
+        >
+          <div className='flex flex-col gap-4'>
+            <p className='text-gray'>{t('figuresSubtitle')}</p>
+            <h2 className='text-3xl text-secondary'>{t('figuresTitle')}</h2>
+            <Trans i18nKey='figuresDescription' className='mt-2 text-lg'></Trans>
+          </div>
+
+          <figure className='flex flex-col gap-3'>
+            <img
+              className='w-full rounded-lg border border-gray/10 object-contain'
+              src={PlanViewImage}
+              alt='Plan view of Castle East modelling areas and historical workings'
+            />
+            <figcaption className='text-sm text-gray'>{t('figure1Caption')}</figcaption>
+          </figure>
+
+          <figure className='flex flex-col gap-3'>
+            <img
+              className='w-full rounded-lg border border-gray/10 object-contain'
+              src={SectionViewImage}
+              alt='Schematic section view of Gowganda lithologies and historical workings'
+            />
+            <figcaption className='text-sm text-gray'>{t('figure2Caption')}</figcaption>
+          </figure>
+
+          <div className='flex flex-col items-start gap-4 border-t border-gray/10 pt-6 md:flex-row md:items-center md:justify-between'>
+            <p className='text-gray'>{t('figuresFootnote')}</p>
+            <Button className='w-full md:w-fit' type='primary' external href={TechnicalReport2025PDF}>
+              {t('figuresButton')}
+            </Button>
+          </div>
+        </motion.div>
+
+        <motion.div
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          initial={{ y: '80px', opacity: 0 }}
+          whileInView={{ y: '0', opacity: 1 }}
         >
           <Quote quote={t('quote')} author={t('quoteAuthor')} position={t('quotePosition')}></Quote>
         </motion.div>
@@ -291,7 +333,11 @@ export default function CastleEast() {
           <h3 className='mb-4 text-3xl text-white'>{t('estimate')}</h3>
           <p className='mb-6 text-white'>{t('estimateNote1')}</p>
           <p className='mb-2 text-white'>{t('estimateNote2')}</p>
-          <p className='text-white'>{t('estimateNote3')}</p>
+          <p className='mb-6 text-white'>{t('estimateNote3')}</p>
+
+          <Button className='w-full md:w-fit' type='secondary' external href={ResourceEstimatePDF}>
+            {t('estimateButton')}
+          </Button>
         </div>
 
         <div className='rounded-2xl bg-white p-5 md:p-10'>

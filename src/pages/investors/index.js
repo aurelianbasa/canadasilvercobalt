@@ -13,6 +13,7 @@ import technicalReport2PDF from '@media/investors/technical-report-2022-august.p
 import technicalReport3PDF from '@media/investors/technical-report-2021-may.pdf';
 import technicalReport4PDF from '@media/investors/technical-report-2020-july.pdf';
 import technicalReport5PDF from '@media/investors/technical-report-2015-august.pdf';
+import technicalReport6PDF from '@media/investors/technical-report-2025-december.pdf';
 import lifeDocumentPDF from '@media/investors/life-document.pdf';
 import lifeDocumentOldPDF from '@media/investors/life-document-old.pdf';
 import couloirCapitalPDF from '@media/investors/couloir-capital.pdf';
@@ -247,6 +248,23 @@ export default function Investors() {
           <h2 className='mb-16 text-4xl text-secondary'>{t('technicalReportsTitle')}</h2>
 
           <div className='grid gap-6 lg:grid-cols-2'>
+            <motion.div
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.05 }}
+              initial={{ x: '80px', opacity: 0 }}
+              whileInView={{ x: '0', opacity: 1 }}
+              className='flex flex-col items-end gap-8 rounded-2xl bg-secondary p-5 md:flex-row md:p-10'
+            >
+              <div className='w-full'>
+                <p className='mb-2'>{t('technicalReport6Date')}</p>
+                <p className='text-3xl text-white'>{t('technicalReport6')}</p>
+              </div>
+
+              <Button className='w-full md:w-fit' external type='tertiary' href={technicalReport6PDF}>
+                {t('technicalReportButton')}
+              </Button>
+            </motion.div>
+
             <motion.div
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 }}
