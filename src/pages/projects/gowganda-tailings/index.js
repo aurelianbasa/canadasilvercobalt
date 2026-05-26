@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Trans, useTranslation } from 'gatsby-plugin-react-i18next';
 
 import Layout from '@components/layout';
+import Button from '@components/button';
 import DataWrapper from '@components/data-wrapper';
 
 import AerialImage from '@media/projects/gowganda-tailings/aerial.webp';
@@ -134,26 +135,39 @@ export default function GowgandaTailings() {
             <Trans i18nKey='irrDescription' className='mt-2 text-lg'></Trans>
           </div>
 
-          <div className='grid gap-6 lg:grid-cols-3-9'>
-            <div className='grid gap-4 self-start'>
-              <div className='flex items-end gap-6 rounded-lg bg-gray px-6 py-4'>
-                <div className='flex-1'>
-                  <p className='mb-2 text-white'>{t('irrStat1Label')}</p>
-                  <p className='text-lg text-white'>{t('irrStat1Note')}</p>
-                </div>
-                <p className='text-2xl text-white'>{t('irrStat1Number')}</p>
+          <div className='grid gap-4 sm:grid-cols-2'>
+            <div className='flex items-end gap-6 rounded-lg bg-gray px-6 py-4'>
+              <div className='flex-1'>
+                <p className='mb-2 text-white'>{t('irrStat1Label')}</p>
+                <p className='text-lg text-white'>{t('irrStat1Note')}</p>
               </div>
-
-              <div className='flex items-end gap-6 rounded-lg bg-primary px-6 py-4'>
-                <div className='flex-1'>
-                  <p className='mb-2 text-white'>{t('irrStat2Label')}</p>
-                  <p className='text-lg text-white'>{t('irrStat2Note')}</p>
-                </div>
-                <p className='text-2xl text-white'>{t('irrStat2Number')}</p>
-              </div>
+              <p className='text-2xl text-white'>{t('irrStat1Number')}</p>
             </div>
 
-            <DataWrapper title='Kilborn 1987 IRR sensitivity' src='https://datawrapper.dwcdn.net/kf7dq/1/' />
+            <div className='flex items-end gap-6 rounded-lg bg-primary px-6 py-4'>
+              <div className='flex-1'>
+                <p className='mb-2 text-white'>{t('irrStat2Label')}</p>
+                <p className='text-lg text-white'>{t('irrStat2Note')}</p>
+              </div>
+              <p className='text-2xl text-white'>{t('irrStat2Number')}</p>
+            </div>
+          </div>
+
+          <DataWrapper title='Kilborn 1987 IRR sensitivity' src='https://datawrapper.dwcdn.net/kf7dq/1/' />
+
+          <div className='mt-2 flex flex-col items-end gap-6 rounded-2xl bg-secondary p-5 md:flex-row md:p-8'>
+            <div className='w-full'>
+              <p className='mb-2 text-white'>{t('kilbornReportDate')}</p>
+              <p className='text-2xl text-white'>{t('kilbornReportTitle')}</p>
+            </div>
+            <Button
+              className='w-full md:w-fit'
+              external
+              type='primary'
+              href='https://prd-0420-geoontario-0000-blob-cge0eud7azhvfsf7.z01.azurefd.net/lrc-geology-documents/assessment/41P10NE0023/41P10NE0023.Pdf'
+            >
+              {t('reportDownloadButton')}
+            </Button>
           </div>
 
           <p className='mt-2 text-sm text-gray'>{t('irrDisclaimer')}</p>
@@ -165,7 +179,7 @@ export default function GowgandaTailings() {
           transition={{ duration: 0.5, delay: 0.2 }}
           initial={{ y: '80px', opacity: 0 }}
           whileInView={{ y: '0', opacity: 1 }}
-          className='mb-10 grid gap-6 rounded-2xl bg-white p-5 md:p-10'
+          className='mb-10 grid gap-6 rounded-2xl bg-beige p-5 md:p-10'
         >
           <div className='flex flex-col gap-4'>
             <p className='text-gray'>{t('resourceSubtitle')}</p>
@@ -173,19 +187,36 @@ export default function GowgandaTailings() {
             <Trans i18nKey='resourceDescription' className='mt-2 text-lg'></Trans>
           </div>
 
-          <div className='rounded-2xl bg-tertiary p-5 md:p-8'>
-            <h3 className='mb-4 text-3xl text-white'>{t('resourceEstimateTitle')}</h3>
-            <p className='mb-2 text-white'>{t('resourceEstimateNote1')}</p>
-            <p className='mb-2 text-white'>{t('resourceEstimateNote2')}</p>
-            <p className='text-white'>{t('resourceEstimateNote3')}</p>
+          <div className='grid items-center gap-6 lg:grid-cols-3-9'>
+            <div className='self-stretch rounded-2xl bg-tertiary p-5 md:p-8'>
+              <h3 className='mb-4 text-3xl text-white'>{t('resourceEstimateTitle')}</h3>
+              <p className='mb-2 text-white'>{t('resourceEstimateNote1')}</p>
+              <p className='mb-2 text-white'>{t('resourceEstimateNote2')}</p>
+              <p className='text-white'>{t('resourceEstimateNote3')}</p>
+            </div>
+
+            <div className='w-full rounded-lg bg-white p-4 md:p-6'>
+              <img
+                className='mx-auto h-auto w-full'
+                src={GradeTonnageSvg}
+                alt='Grade-tonnage sensitivity for the Indicated Mineral Resource at the Gowganda silver tailings, GeoVector 2011'
+              />
+            </div>
           </div>
 
-          <div className='w-full overflow-x-auto'>
-            <img
-              className='mx-auto h-auto w-full max-w-3xl'
-              src={GradeTonnageSvg}
-              alt='Grade-tonnage sensitivity for the Indicated Mineral Resource at the Gowganda silver tailings, GeoVector 2011'
-            />
+          <div className='mt-2 flex flex-col items-end gap-6 rounded-2xl bg-secondary p-5 md:flex-row md:p-8'>
+            <div className='w-full'>
+              <p className='mb-2 text-white'>{t('temexReportDate')}</p>
+              <p className='text-2xl text-white'>{t('temexReportTitle')}</p>
+            </div>
+            <Button
+              className='w-full md:w-fit'
+              external
+              type='primary'
+              href='https://www.sedarplus.ca/csfsprod/data120/filings/01756596/00000002/k%3A%5Cfilings%5Clivework%5Cwkout%5C32176%5CTech_.pdf'
+            >
+              {t('reportDownloadButton')}
+            </Button>
           </div>
 
           <p className='mt-2 text-sm text-gray'>{t('resourceDisclaimer')}</p>
