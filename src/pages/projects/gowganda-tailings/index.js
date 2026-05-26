@@ -69,7 +69,7 @@ export default function GowgandaTailings() {
           />
         </motion.div>
 
-        {/* Timeline */}
+        {/* Timeline — six milestones */}
         <motion.div
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -87,7 +87,7 @@ export default function GowgandaTailings() {
             {/* Horizontal connector line behind the year markers, desktop only */}
             <div className='absolute left-[8%] right-[8%] top-10 hidden h-1 bg-primary/30 lg:block' />
 
-            <div className='relative grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-5'>
+            <div className='relative grid gap-x-6 gap-y-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6'>
               <div className='flex flex-col items-start'>
                 <h3 className='mb-4 inline-block bg-tertiary px-3 text-5xl text-white'>{t('timeline1Year')}</h3>
                 <p className='mb-2 font-semibold text-secondary'>{t('timeline1Event')}</p>
@@ -107,15 +107,21 @@ export default function GowgandaTailings() {
               </div>
 
               <div className='flex flex-col items-start'>
-                <h3 className='mb-4 inline-block bg-secondary px-3 text-5xl text-white'>{t('timeline4Year')}</h3>
+                <h3 className='mb-4 inline-block bg-tertiary px-3 text-5xl text-white'>{t('timeline4Year')}</h3>
                 <p className='mb-2 font-semibold text-secondary'>{t('timeline4Event')}</p>
                 <Trans i18nKey='timeline4Note' className='text-sm text-gray'></Trans>
               </div>
 
               <div className='flex flex-col items-start'>
-                <h3 className='mb-4 inline-block bg-primary px-3 text-5xl text-white'>{t('timeline5Year')}</h3>
+                <h3 className='mb-4 inline-block bg-secondary px-3 text-5xl text-white'>{t('timeline5Year')}</h3>
                 <p className='mb-2 font-semibold text-secondary'>{t('timeline5Event')}</p>
                 <Trans i18nKey='timeline5Note' className='text-sm text-gray'></Trans>
+              </div>
+
+              <div className='flex flex-col items-start'>
+                <h3 className='mb-4 inline-block bg-primary px-3 text-5xl text-white'>{t('timeline6Year')}</h3>
+                <p className='mb-2 font-semibold text-secondary'>{t('timeline6Event')}</p>
+                <Trans i18nKey='timeline6Note' className='text-sm text-gray'></Trans>
               </div>
             </div>
           </div>
@@ -243,25 +249,144 @@ export default function GowgandaTailings() {
           />
         </motion.div>
 
-        {/* Tailings recovery program — full-width ground-level photo */}
+        {/* Processing Strategy (replaces Tailings Recovery Program) */}
         <motion.div
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
           initial={{ y: '80px', opacity: 0 }}
           whileInView={{ y: '0', opacity: 1 }}
-          className='flex flex-col gap-8 rounded-2xl bg-white p-5 md:p-10'
+          className='mb-10 flex flex-col gap-8 rounded-2xl bg-white p-5 md:p-10'
         >
           <div className='flex flex-col gap-4'>
-            <p className='text-gray'>{t('tailingsSubtitle')}</p>
-            <h2 className='text-3xl text-secondary'>{t('tailingsTitle')}</h2>
-            <Trans i18nKey='tailingsDescription' className='mt-2 text-lg'></Trans>
+            <p className='text-gray'>{t('processingSubtitle')}</p>
+            <h2 className='text-3xl text-secondary'>{t('processingTitle')}</h2>
+            <Trans i18nKey='processingBody1' className='mt-2 text-lg'></Trans>
+            <Trans i18nKey='processingBody2' className='text-lg'></Trans>
+          </div>
+
+          <div className='flex flex-col gap-4 border-t-2 border-beige pt-6'>
+            <h3 className='text-2xl text-secondary'>{t('processingSubHeading')}</h3>
+            <Trans i18nKey='processingBody3' className='text-lg'></Trans>
+            <Trans i18nKey='processingBody4' className='text-lg'></Trans>
+            <Trans i18nKey='processingBody5' className='text-lg'></Trans>
           </div>
 
           <img
-            className='w-full rounded-lg object-cover'
+            className='mt-4 w-full rounded-lg object-cover'
             src={SiteViewImage}
             alt='Ground-level view across the Gowganda tailings surface'
           />
+        </motion.div>
+
+        {/* Path Forward — 2x2 grid of next steps */}
+        <motion.div
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          initial={{ y: '80px', opacity: 0 }}
+          whileInView={{ y: '0', opacity: 1 }}
+          className='mb-10 flex flex-col gap-8 rounded-2xl bg-beige p-5 md:p-10'
+        >
+          <div className='flex flex-col gap-4'>
+            <p className='text-gray'>{t('pathForwardSubtitle')}</p>
+            <h2 className='text-3xl text-secondary'>{t('pathForwardTitle')}</h2>
+          </div>
+
+          <div className='grid gap-6 md:grid-cols-2'>
+            <div className='flex flex-col gap-3 rounded-lg bg-white p-5 md:p-6'>
+              <p className='text-sm font-semibold uppercase tracking-wider text-primary'>{t('step1Label')}</p>
+              <h3 className='text-2xl text-secondary'>{t('step1Title')}</h3>
+              <Trans i18nKey='step1Description' className='text-gray'></Trans>
+            </div>
+
+            <div className='flex flex-col gap-3 rounded-lg bg-white p-5 md:p-6'>
+              <p className='text-sm font-semibold uppercase tracking-wider text-primary'>{t('step2Label')}</p>
+              <h3 className='text-2xl text-secondary'>{t('step2Title')}</h3>
+              <Trans i18nKey='step2Description' className='text-gray'></Trans>
+            </div>
+
+            <div className='flex flex-col gap-3 rounded-lg bg-white p-5 md:p-6'>
+              <p className='text-sm font-semibold uppercase tracking-wider text-primary'>{t('step3Label')}</p>
+              <h3 className='text-2xl text-secondary'>{t('step3Title')}</h3>
+              <Trans i18nKey='step3Description' className='text-gray'></Trans>
+            </div>
+
+            <div className='flex flex-col gap-3 rounded-lg bg-white p-5 md:p-6'>
+              <p className='text-sm font-semibold uppercase tracking-wider text-primary'>{t('step4Label')}</p>
+              <h3 className='text-2xl text-secondary'>{t('step4Title')}</h3>
+              <Trans i18nKey='step4Description' className='text-gray'></Trans>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Key Documents — reference list */}
+        <motion.div
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          initial={{ y: '80px', opacity: 0 }}
+          whileInView={{ y: '0', opacity: 1 }}
+          className='flex flex-col gap-6 rounded-2xl bg-white p-5 md:p-10'
+        >
+          <div className='flex flex-col gap-4'>
+            <p className='text-gray'>{t('documentsSubtitle')}</p>
+            <h2 className='text-3xl text-secondary'>{t('documentsTitle')}</h2>
+          </div>
+
+          <div className='grid gap-4'>
+            <div className='flex flex-col items-end gap-6 rounded-2xl bg-secondary p-5 md:flex-row md:p-8'>
+              <div className='w-full'>
+                <p className='mb-2 text-white'>{t('doc1Source')}</p>
+                <p className='text-2xl text-white'>{t('doc1Title')}</p>
+              </div>
+              <Button
+                className='w-full md:w-fit'
+                external
+                type='primary'
+                href='https://www.sedarplus.ca/csfsprod/data120/filings/01756596/00000002/k%3A%5Cfilings%5Clivework%5Cwkout%5C32176%5CTech_.pdf'
+              >
+                {t('documentsButton')}
+              </Button>
+            </div>
+
+            <div className='flex flex-col items-end gap-6 rounded-2xl bg-secondary p-5 md:flex-row md:p-8'>
+              <div className='w-full'>
+                <p className='mb-2 text-white'>{t('doc2Source')}</p>
+                <p className='text-2xl text-white'>{t('doc2Title')}</p>
+              </div>
+              <Button
+                className='w-full md:w-fit'
+                external
+                type='primary'
+                href='https://prd-0420-geoontario-0000-blob-cge0eud7azhvfsf7.z01.azurefd.net/lrc-geology-documents/assessment/41P10NE0023/41P10NE0023.Pdf'
+              >
+                {t('documentsButton')}
+              </Button>
+            </div>
+
+            <div className='flex flex-col items-end gap-6 rounded-2xl bg-secondary p-5 md:flex-row md:p-8'>
+              <div className='w-full'>
+                <p className='mb-2 text-white'>{t('doc3Source')}</p>
+                <p className='text-2xl text-white'>{t('doc3Title')}</p>
+              </div>
+              <Button
+                className='w-full md:w-fit'
+                external
+                type='primary'
+                href='https://couloircapital.com/research-portal'
+              >
+                {t('documentsButton')}
+              </Button>
+            </div>
+
+            <div className='flex flex-col items-end gap-6 rounded-2xl bg-secondary p-5 md:flex-row md:p-8'>
+              <div className='w-full'>
+                <p className='mb-2 text-white'>{t('doc4Source')}</p>
+                <p className='text-2xl text-white'>{t('doc4Title')}</p>
+              </div>
+              <Button className='w-full md:w-fit' type='primary' href='/news/2026'>
+                {t('documentsButton')}
+              </Button>
+            </div>
+          </div>
         </motion.div>
       </div>
     </Layout>
@@ -272,10 +397,10 @@ export function Head() {
   return (
     <>
       <html lang='en' />
-      <title>Gowganda Tailings | Nord Precious Metals</title>
+      <title>Gowganda Silver Tailings | Nord Precious Metals</title>
       <meta
         name='description'
-        content='Nord consolidated the Gowganda Silver Camp through the acquisition of four historic mining leases, adding approximately 1.94 million tonnes of silver tailings to the processing pipeline.'
+        content='Four decades of independent technical work on a 2.96 million ounce historical silver resource. Updated mineral resource estimate underway across a consolidated land package in Ontario&apos;s Gowganda-Cobalt silver district.'
       />
     </>
   );
