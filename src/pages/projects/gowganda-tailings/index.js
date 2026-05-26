@@ -6,11 +6,11 @@ import { Trans, useTranslation } from 'gatsby-plugin-react-i18next';
 import Layout from '@components/layout';
 import DataWrapper from '@components/data-wrapper';
 
-import HistoryImage from '@media/projects/gowganda-tailings/history.webp';
-import GeologyImage from '@media/projects/gowganda-tailings/geology.webp';
 import AerialImage from '@media/projects/gowganda-tailings/aerial.webp';
 import RegionalMapImage from '@media/projects/gowganda-tailings/regional-map.webp';
-import TailingsImage from '@media/projects/gowganda-tailings/tailings.webp';
+import ClaimMapImage from '@media/projects/gowganda-tailings/claim-map.webp';
+import SiteViewImage from '@media/projects/gowganda-tailings/site-view.webp';
+import GradeTonnageSvg from '@media/projects/gowganda-tailings/grade-tonnage.svg';
 
 export default function GowgandaTailings() {
   const { t } = useTranslation();
@@ -47,13 +47,13 @@ export default function GowgandaTailings() {
       </div>
 
       <div className='container mx-auto px-5 py-10 md:px-10'>
-        {/* Regional context */}
+        {/* Regional context — full-width map below text */}
         <motion.div
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
           initial={{ y: '80px', opacity: 0 }}
           whileInView={{ y: '0', opacity: 1 }}
-          className='mb-10 grid gap-16 rounded-2xl bg-beige p-5 md:p-10 lg:grid-cols-2'
+          className='mb-10 flex flex-col gap-8 rounded-2xl bg-beige p-5 md:p-10'
         >
           <div className='flex flex-col gap-4'>
             <p className='text-gray'>{t('regionalSubtitle')}</p>
@@ -66,23 +66,6 @@ export default function GowgandaTailings() {
             src={RegionalMapImage}
             alt='Regional map showing Gowganda Silver Tailings, Castle Mine, and the Temiskaming Testing Lab within the Cobalt-Gowganda camp'
           />
-        </motion.div>
-
-        {/* History */}
-        <motion.div
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          initial={{ y: '80px', opacity: 0 }}
-          whileInView={{ y: '0', opacity: 1 }}
-          className='mb-10 grid gap-16 rounded-2xl bg-white p-5 md:p-10 lg:grid-cols-2'
-        >
-          <img className='w-full rounded-lg object-cover' src={HistoryImage} alt='History' />
-
-          <div className='flex flex-col gap-4'>
-            <p className='text-gray'>{t('historySubtitle')}</p>
-            <h2 className='text-3xl text-secondary'>{t('historyTitle')}</h2>
-            <Trans i18nKey='historyDescription' className='mt-2 text-lg'></Trans>
-          </div>
         </motion.div>
 
         {/* Timeline */}
@@ -176,7 +159,7 @@ export default function GowgandaTailings() {
           <p className='mt-2 text-sm text-gray'>{t('irrDisclaimer')}</p>
         </motion.div>
 
-        {/* GeoVector 2011 grade-tonnage */}
+        {/* GeoVector 2011 grade-tonnage — SVG embed */}
         <motion.div
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -197,43 +180,57 @@ export default function GowgandaTailings() {
             <p className='text-white'>{t('resourceEstimateNote3')}</p>
           </div>
 
-          <DataWrapper title='GeoVector 2011 grade-tonnage sensitivity' src='https://datawrapper.dwcdn.net/7C7E9/1/' />
+          <div className='w-full overflow-x-auto'>
+            <img
+              className='mx-auto h-auto w-full max-w-3xl'
+              src={GradeTonnageSvg}
+              alt='Grade-tonnage sensitivity for the Indicated Mineral Resource at the Gowganda silver tailings, GeoVector 2011'
+            />
+          </div>
 
           <p className='mt-2 text-sm text-gray'>{t('resourceDisclaimer')}</p>
         </motion.div>
 
-        {/* Geology */}
+        {/* Leases & geology — combined History + Geology with full-width claim map */}
         <motion.div
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
           initial={{ y: '80px', opacity: 0 }}
           whileInView={{ y: '0', opacity: 1 }}
-          className='mb-10 grid gap-16 rounded-2xl bg-white p-5 md:p-10 lg:grid-cols-2'
+          className='mb-10 flex flex-col gap-8 rounded-2xl bg-white p-5 md:p-10'
         >
           <div className='flex flex-col gap-4'>
-            <p className='text-gray'>{t('geologySubtitle')}</p>
-            <h2 className='text-3xl text-secondary'>{t('geologyTitle')}</h2>
-            <Trans i18nKey='geologyDescription' className='mt-2 text-lg'></Trans>
+            <p className='text-gray'>{t('leasesSubtitle')}</p>
+            <h2 className='text-3xl text-secondary'>{t('leasesTitle')}</h2>
+            <Trans i18nKey='leasesDescription' className='mt-2 text-lg'></Trans>
           </div>
 
-          <img className='w-full rounded-lg object-cover' src={GeologyImage} alt='Geology' />
+          <img
+            className='w-full rounded-lg object-contain'
+            src={ClaimMapImage}
+            alt='Detailed claim map of the Castle Mine property showing the newly acquired BMR leases, Gowganda Silver Tailings, and adjacent past producers including Miller Lake-O&apos;Brien, Millerette, Capitol, and Bonsall'
+          />
         </motion.div>
 
-        {/* Tailings recovery program (TTL) */}
+        {/* Tailings recovery program — full-width ground-level photo */}
         <motion.div
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
           initial={{ y: '80px', opacity: 0 }}
           whileInView={{ y: '0', opacity: 1 }}
-          className='grid gap-16 rounded-2xl bg-white p-5 md:p-10 lg:grid-cols-2'
+          className='flex flex-col gap-8 rounded-2xl bg-white p-5 md:p-10'
         >
-          <img className='w-full rounded-lg object-cover' src={TailingsImage} alt='Tailings' />
-
           <div className='flex flex-col gap-4'>
             <p className='text-gray'>{t('tailingsSubtitle')}</p>
             <h2 className='text-3xl text-secondary'>{t('tailingsTitle')}</h2>
             <Trans i18nKey='tailingsDescription' className='mt-2 text-lg'></Trans>
           </div>
+
+          <img
+            className='w-full rounded-lg object-cover'
+            src={SiteViewImage}
+            alt='Ground-level view across the Gowganda tailings surface'
+          />
         </motion.div>
       </div>
     </Layout>
