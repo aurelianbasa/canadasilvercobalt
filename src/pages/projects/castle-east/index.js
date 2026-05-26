@@ -30,6 +30,7 @@ import DrillCore1Image from '@media/projects/castle-east/drill-core-1.webp';
 import DrillCore2Image from '@media/projects/castle-east/drill-core-2.webp';
 import PlanViewImage from '@media/projects/castle-east/plan-view.webp';
 import SectionViewImage from '@media/projects/castle-east/section-view.webp';
+import IsoModelImage from '@media/projects/castle-east/iso-model.webp';
 
 import ResourceEstimatePDF from '@media/projects/castle-east/resource-estimate.pdf';
 import TechnicalReport2025PDF from '@media/investors/technical-report-2025-december.pdf';
@@ -235,6 +236,27 @@ export default function CastleEast() {
       </div>
 
       <div className='container mx-auto px-5 py-10 md:px-10'>
+        <motion.div
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+          initial={{ y: '80px', opacity: 0 }}
+          whileInView={{ y: '0', opacity: 1 }}
+          className='mb-10 rounded-2xl bg-white p-5 md:p-10'
+        >
+          <div className='mb-6 flex flex-col gap-2'>
+            <p className='text-gray'>{t('isoModelSubtitle')}</p>
+            <h2 className='text-3xl text-secondary'>{t('isoModelTitle')}</h2>
+          </div>
+          <figure className='flex flex-col gap-3'>
+            <img
+              className='w-full rounded-lg object-contain'
+              src={IsoModelImage}
+              alt='3D block diagram showing Castle East Discovery, Capitol, Miller Lake-O\'Brien, and Castle Mine with property lithologies'
+            />
+            <figcaption className='text-sm text-gray'>{t('isoModelCaption')}</figcaption>
+          </figure>
+        </motion.div>
+
         <motion.div
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
