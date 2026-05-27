@@ -173,7 +173,7 @@ export default function CastleEast() {
           <div>
             <p className='mb-2 text-6xl'>
               <mark>
-                <CountUp end={60000} duration={3} enableScrollSpy scrollSpyOnce />
+                <CountUp end={68000} duration={3} enableScrollSpy scrollSpyOnce />
               </mark>
             </p>
 
@@ -183,7 +183,7 @@ export default function CastleEast() {
           <div>
             <p className='mb-2 text-6xl'>
               <mark>
-                <CountUp end={8} duration={3} enableScrollSpy scrollSpyOnce />
+                <CountUp end={29} duration={3} enableScrollSpy scrollSpyOnce />
               </mark>
             </p>
 
@@ -203,7 +203,7 @@ export default function CastleEast() {
           <div>
             <p className='mb-2 text-6xl'>
               <mark>
-                <CountUp end={2} duration={3} enableScrollSpy scrollSpyOnce />
+                <CountUp end={8582} duration={3} enableScrollSpy scrollSpyOnce />
               </mark>
             </p>
 
