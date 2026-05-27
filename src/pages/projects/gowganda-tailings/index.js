@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { graphql } from 'gatsby';
+import CountUp from 'react-countup';
 import { motion } from 'framer-motion';
 import { Trans, useTranslation } from 'gatsby-plugin-react-i18next';
 
@@ -241,6 +242,61 @@ export default function GowgandaTailings() {
             src={ClaimMapImage}
             alt='Detailed claim map of the Castle Mine property showing the newly acquired BMR leases, Gowganda Silver Tailings, and adjacent past producers including Miller Lake-O&apos;Brien, Millerette, Capitol, and Bonsall'
           />
+        </motion.div>
+
+        {/* Consolidation at scale — combined past production counter */}
+        <motion.div
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          initial={{ y: '80px', opacity: 0 }}
+          whileInView={{ y: '0', opacity: 1 }}
+          className='mb-10 flex flex-col gap-8 rounded-2xl bg-white p-5 md:p-10'
+        >
+          <div className='flex flex-col gap-4'>
+            <p className='text-gray'>{t('consolidationSubtitle')}</p>
+            <h2 className='text-3xl text-secondary'>{t('consolidationTitle')}</h2>
+            <Trans i18nKey='consolidationDescription' className='mt-2 text-lg'></Trans>
+          </div>
+
+          <div className='grid grid-cols-2 gap-12 rounded-2xl bg-gray px-5 py-16 text-center md:px-10 lg:grid-cols-4'>
+            <div>
+              <p className='mb-2 text-6xl'>
+                <mark>
+                  <CountUp end={43200000} duration={3} separator=',' enableScrollSpy scrollSpyOnce />
+                </mark>
+              </p>
+              <p className='text-lg text-white'>{t('counterMine1')}</p>
+            </div>
+
+            <div>
+              <p className='mb-2 text-6xl'>
+                <mark>
+                  <CountUp end={9410095} duration={3} separator=',' enableScrollSpy scrollSpyOnce />
+                </mark>
+              </p>
+              <p className='text-lg text-white'>{t('counterMine2')}</p>
+            </div>
+
+            <div>
+              <p className='mb-2 text-6xl'>
+                <mark>
+                  <CountUp end={611822} duration={3} separator=',' enableScrollSpy scrollSpyOnce />
+                </mark>
+              </p>
+              <p className='text-lg text-white'>{t('counterMine3')}</p>
+            </div>
+
+            <div>
+              <p className='mb-2 text-6xl'>
+                <mark>
+                  <CountUp end={600000} duration={3} separator=',' enableScrollSpy scrollSpyOnce />
+                </mark>
+              </p>
+              <p className='text-lg text-white'>{t('counterMine4')}</p>
+            </div>
+          </div>
+
+          <p className='text-sm text-gray'>{t('consolidationDisclaimer')}</p>
         </motion.div>
 
         {/* Processing Strategy (replaces Tailings Recovery Program) */}
