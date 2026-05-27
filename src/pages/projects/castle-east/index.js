@@ -251,7 +251,7 @@ export default function CastleEast() {
             <img
               className='w-full rounded-lg object-contain'
               src={IsoModelImage}
-              alt='3D block diagram showing Castle East Discovery, Capitol, Miller Lake-O\'Brien, and Castle Mine with property lithologies'
+              alt="3D block diagram showing Castle East Discovery, Capitol, Miller Lake-O'Brien, and Castle Mine with property lithologies"
             />
             <figcaption className='text-sm text-gray'>{t('isoModelCaption')}</figcaption>
           </figure>
