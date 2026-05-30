@@ -77,6 +77,8 @@ import NorthernOntarioBusinessReviewImage from '@media/media/northernontariobusi
 import CanadianMiningJournalReviewImage from '@media/media/cmj-review.webp';
 import CIMMagazineReviewImage from '@media/media/cim-review.webp';
 import MICAReviewImage from '@media/media/cemi-review.webp';
+import MorningNorthReviewImage from '@media/media/morningnorth-review.webp';
+import XReviewImage from '@media/media/x-review.webp';
 import QMRarticlePDF from '@media/media/QMRarticle.pdf';
 
 export default function Media({ location }) {
@@ -963,7 +965,37 @@ export default function Media({ location }) {
                   variants={container}
                   className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'
                 >
-                  {/* NEWEST ARTICLES FIRST - Articles 12, 11, 10 */}
+                  {/* NEWEST ARTICLES FIRST - Articles 15, 14, 13, 12, 11, 10 */}
+                  <motion.div variants={items}>
+                    <CardArticle
+                      image={XReviewImage}
+                      date={t('article15Date')}
+                      subtitle={t('article15Subtitle')}
+                      title={t('article15Title')}
+                      button={t('article15Button')}
+                      href='https://x.com/Sflecce/status/1985766916372283886'
+                    ></CardArticle>
+                  </motion.div>
+                  <motion.div variants={items}>
+                    <CardArticle
+                      image={CBCReviewImage}
+                      date={t('article14Date')}
+                      subtitle={t('article14Subtitle')}
+                      title={t('article14Title')}
+                      button={t('article14Button')}
+                      href='https://www.cbc.ca/news/canada/sudbury/silver-mine-boom-northern-ontario-9.6962277'
+                    ></CardArticle>
+                  </motion.div>
+                  <motion.div variants={items}>
+                    <CardArticle
+                      image={MorningNorthReviewImage}
+                      date={t('article13Date')}
+                      subtitle={t('article13Subtitle')}
+                      title={t('article13Title')}
+                      button={t('article13Button')}
+                      href='https://www.cbc.ca/listen/live-radio/1-41-morning-north/clip/16179275-mining-silver-nothern-ontario'
+                    ></CardArticle>
+                  </motion.div>
                   <motion.div variants={items}>
                     <CardArticle
                       image={MICAReviewImage}
