@@ -379,6 +379,22 @@ export default function Media({ location }) {
                 >
                   <motion.div variants={items}>
                     <CardVideo
+                      date={t('video_2026_03_15_Date')}
+                      subtitle={t('video_2026_03_15_Subtitle')}
+                      title={t('video_2026_03_15_Title')}
+                      src='https://www.youtube.com/embed/VsW0cPeVbfE?si=1'
+                    ></CardVideo>
+                  </motion.div>
+                  <motion.div variants={items}>
+                    <CardVideo
+                      date={t('video_2026_02_27_Date')}
+                      subtitle={t('video_2026_02_27_Subtitle')}
+                      title={t('video_2026_02_27_Title')}
+                      src='https://www.youtube.com/embed/eNOKBUZe2TM?si=1'
+                    ></CardVideo>
+                  </motion.div>
+                  <motion.div variants={items}>
+                    <CardVideo
                       date={t('video_2026_02_16_Date')}
                       subtitle={t('video_2026_02_16_Subtitle')}
                       title={t('video_2026_02_16_Title')}
