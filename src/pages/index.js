@@ -26,6 +26,7 @@ import LiquidGlassBanner from '@components/liquid-glass-banner';
 import TTLImage from '@media/home/ttl.webp';
 import HeroImage from '@media/home/hero.webp';
 import AboutImage from '@media/home/about.webp';
+import GowgandaCampImage from '@media/home/gowganda-camp.webp';
 import SilverImage from '@media/home/silver.webp';
 import SilverBarsImage from '@media/home/silver-bars.webp';
 
@@ -247,19 +248,23 @@ return (
           transition={{ duration: 0.5, delay: 0.2 }}
           initial={{ y: '80px', opacity: 0 }}
           whileInView={{ y: '0', opacity: 1 }}
-          className='grid gap-16 rounded-2xl bg-white p-5 md:p-10 lg:grid-cols-2'
+          className='grid gap-10 rounded-2xl bg-white p-5 md:p-10'
         >
-          <img className='w-full rounded-lg object-cover' src={AboutImage} alt='Gowganda Silver Camp' />
-
           <div className='flex flex-col gap-4'>
             <h2 className='text-4xl text-secondary'>{t('re2OxTitle')}</h2>
             <Trans i18nKey='re2OxDescription' className='my-2'></Trans>
 
-            <div className='mt-auto grid gap-2'>
+            <div className='grid gap-2 md:grid-cols-2'>
               <CheckItem title={t('re2OxInfo1')} description={t('re2OxInfo1Note')} />
               <CheckItem title={t('re2OxInfo2')} description={t('re2OxInfo2Note')} />
             </div>
           </div>
+
+          <img
+            className='w-full rounded-lg object-cover'
+            src={GowgandaCampImage}
+            alt='Map of Nord’s consolidated holdings across the Gowganda silver camp'
+          />
         </motion.div>
       </div>
 
