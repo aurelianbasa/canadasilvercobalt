@@ -39,18 +39,30 @@ import Photo27Image from '@media/media/photo-27.webp';
 import Photo28Image from '@media/media/photo-28.webp';
 import Photo29Image from '@media/media/photo-29.webp';
 import Photo30Image from '@media/media/photo-30.webp';
-import Photo31Image from '@media/media/photo-31.webp';
-import Photo32Image from '@media/media/photo-32.webp';
-import Photo33Image from '@media/media/photo-33.webp';
-import Photo34Image from '@media/media/photo-34.webp';
-import Photo35Image from '@media/media/photo-35.webp';
-import Photo36Image from '@media/media/photo-36.webp';
 import Photo37Image from '@media/media/photo-37.webp';
 import Photo38Image from '@media/media/photo-38.webp';
 import Photo39Image from '@media/media/photo-39.webp';
 import Photo40Image from '@media/media/photo-40.webp';
 import Photo41Image from '@media/media/photo-41.webp';
 import Photo42Image from '@media/media/photo-42.webp';
+import Photo43Image from '@media/media/photo-43.webp';
+import Photo44Image from '@media/media/photo-44.webp';
+import Photo45Image from '@media/media/photo-45.webp';
+import Photo46Image from '@media/media/photo-46.webp';
+import Photo47Image from '@media/media/photo-47.webp';
+import Photo48Image from '@media/media/photo-48.webp';
+import Photo49Image from '@media/media/photo-49.webp';
+import Photo50Image from '@media/media/photo-50.webp';
+import Photo51Image from '@media/media/photo-51.webp';
+import Photo52Image from '@media/media/photo-52.webp';
+import Photo53Image from '@media/media/photo-53.webp';
+import Photo54Image from '@media/media/photo-54.webp';
+import Photo55Image from '@media/media/photo-55.webp';
+import Photo56Image from '@media/media/photo-56.webp';
+import Photo57Image from '@media/media/photo-57.webp';
+import Photo58Image from '@media/media/photo-58.webp';
+import Photo59Image from '@media/media/photo-59.webp';
+import Photo60Image from '@media/media/photo-60.webp';
 
 import OMRReviewImage from '@media/media/omr-review.webp';
 import CBCReviewImage from '@media/media/cbc-review.webp';
@@ -135,6 +147,72 @@ export default function Media({ location }) {
     variants={container}
   >
     <motion.div variants={items}>
+      <CardPhoto image={Photo43Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo44Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo45Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo46Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo47Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo48Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo49Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo50Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo51Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo52Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo53Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo54Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo55Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo56Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo57Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo58Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo59Image}></CardPhoto>
+    </motion.div>
+    <motion.div variants={items}>
+      <CardPhoto image={Photo60Image}></CardPhoto>
+    </motion.div>
+  </motion.div>
+</div>
+
+<div className='grid gap-10'>
+  <h3 className='text-center text-3xl text-secondary'>{t('tab1Category2')}</h3>
+
+  <motion.div
+    className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'
+    initial='hidden'
+    animate='visible'
+    variants={container}
+  >
+    <motion.div variants={items}>
       <CardPhoto image={Photo37Image}></CardPhoto>
     </motion.div>
     <motion.div variants={items}>
@@ -156,7 +234,7 @@ export default function Media({ location }) {
 </div>
 
               <div className='grid gap-10'>
-                <h3 className='text-center text-3xl text-secondary'>{t('tab1Category2')}</h3>
+                <h3 className='text-center text-3xl text-secondary'>{t('tab1Category3')}</h3>
 
                 <motion.div
                   className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'
@@ -204,7 +282,7 @@ export default function Media({ location }) {
               </div>
 
               <div className='grid gap-10'>
-                <h3 className='text-center text-3xl text-secondary'>{t('tab1Category3')}</h3>
+                <h3 className='text-center text-3xl text-secondary'>{t('tab1Category4')}</h3>
 
                 <motion.div
                   className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'
@@ -234,7 +312,7 @@ export default function Media({ location }) {
               </div>
 
               <div className='grid gap-10'>
-                <h3 className='text-center text-3xl text-secondary'>{t('tab1Category4')}</h3>
+                <h3 className='text-center text-3xl text-secondary'>{t('tab1Category5')}</h3>
 
                 <motion.div
                   className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'
@@ -281,35 +359,6 @@ export default function Media({ location }) {
                 </motion.div>
               </div>
 
-              <div className='grid gap-10'>
-                <h3 className='text-center text-3xl text-secondary'>{t('tab1Category5')}</h3>
-
-                <motion.div
-                  className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'
-                  initial='hidden'
-                  animate='visible'
-                  variants={container}
-                >
-                  <motion.div variants={items}>
-                    <CardPhoto image={Photo31Image}></CardPhoto>
-                  </motion.div>
-                  <motion.div variants={items}>
-                    <CardPhoto image={Photo32Image}></CardPhoto>
-                  </motion.div>
-                  <motion.div variants={items}>
-                    <CardPhoto image={Photo33Image}></CardPhoto>
-                  </motion.div>
-                  <motion.div variants={items}>
-                    <CardPhoto image={Photo34Image}></CardPhoto>
-                  </motion.div>
-                  <motion.div variants={items}>
-                    <CardPhoto image={Photo35Image}></CardPhoto>
-                  </motion.div>
-                  <motion.div variants={items}>
-                    <CardPhoto image={Photo36Image}></CardPhoto>
-                  </motion.div>
-                </motion.div>
-              </div>
             </TabPanel>
 
             <TabPanel className='flex flex-col gap-16'>
