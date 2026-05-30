@@ -7,11 +7,12 @@ import Layout from '@components/layout';
 import Button from '@components/button';
 
 import DataImage from '@media/projects/castle-mine/data.webp';
-import ResultImage from '@media/projects/castle-mine/result.webp';
 import HistoryImage from '@media/projects/castle-mine/history.webp';
 import GeologyImage from '@media/projects/castle-mine/geology.webp';
 import OverviewImage from '@media/projects/castle-mine/overview.webp';
-import BackgroundImage from '@media/projects/castle-mine/background.webp';
+import IsoModelImage from '@media/projects/castle-mine/iso-model.webp';
+import RegionalContextImage from '@media/projects/castle-mine/regional-context.webp';
+import GowgandaCampImage from '@media/projects/castle-mine/gowganda-camp.webp';
 import CrossSection1Image from '@media/projects/castle-mine/cross-section-1.webp';
 import CrossSection2Image from '@media/projects/castle-mine/cross-section-2.webp';
 
@@ -58,13 +59,13 @@ export default function CastleMine() {
         </div>
       </div>
 
-      <div className='container mx-auto grid gap-16 px-5 py-20 md:px-10 lg:grid-cols-2'>
+      <div className='container mx-auto grid gap-10 px-5 py-20 md:px-10'>
         <motion.div
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          initial={{ x: '-80px', opacity: 0 }}
-          whileInView={{ x: '0', opacity: 1 }}
-          className='flex flex-col justify-between'
+          initial={{ y: '80px', opacity: 0 }}
+          whileInView={{ y: '0', opacity: 1 }}
+          className='grid gap-16 lg:grid-cols-2'
         >
           <div>
             <p className='mb-4 text-gray'>{t('resultsSubtitle')}</p>
@@ -84,10 +85,14 @@ export default function CastleMine() {
         <motion.div
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          initial={{ x: '80px', opacity: 0 }}
-          whileInView={{ x: '0', opacity: 1 }}
+          initial={{ y: '80px', opacity: 0 }}
+          whileInView={{ y: '0', opacity: 1 }}
         >
-          <img className='w-full rounded-lg object-cover' src={ResultImage} alt='Result' />
+          <img
+            className='w-full rounded-2xl object-cover'
+            src={RegionalContextImage}
+            alt='Regional context of the Castle Mine property within the Gowganda silver district'
+          />
         </motion.div>
       </div>
 
@@ -133,7 +138,11 @@ export default function CastleMine() {
             initial={{ x: '-80px', opacity: 0 }}
             whileInView={{ x: '0', opacity: 1 }}
           >
-            <img className='w-full rounded-lg object-cover' src={BackgroundImage} alt='Background' />
+            <img
+              className='w-full rounded-lg object-cover'
+              src={IsoModelImage}
+              alt='3D model of Castle, Capitol and Miller Lake-O’Brien workings within 2 km of the Castle East discovery'
+            />
           </motion.div>
 
           <motion.div
@@ -195,6 +204,29 @@ export default function CastleMine() {
             <img className='w-full rounded-lg object-cover' src={DataImage} alt='Data' />
           </motion.div>
         </div>
+      </div>
+
+      <div className='container mx-auto px-5 py-20 md:px-10'>
+        <motion.div
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          initial={{ y: '80px', opacity: 0 }}
+          whileInView={{ y: '0', opacity: 1 }}
+          className='grid gap-10'
+        >
+          <div className='flex flex-col gap-4'>
+            <p className='text-gray'>{t('campSubtitle')}</p>
+            <h2 className='text-4xl'>{t('campTitle')}</h2>
+          </div>
+
+          <img
+            className='w-full rounded-2xl object-cover'
+            src={GowgandaCampImage}
+            alt='Map of 43 historic past-producing silver mines across the Gowganda mining camp'
+          />
+
+          <Trans i18nKey='campDescription' className='text-lg'></Trans>
+        </motion.div>
       </div>
 
       <div className='bg-beige'>
