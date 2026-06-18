@@ -381,6 +381,14 @@ export default function Media({ location }) {
                 >
                   <motion.div variants={items}>
                     <CardVideo
+                      date={t('video_2026_06_17_Date')}
+                      subtitle={t('video_2026_06_17_Subtitle')}
+                      title={t('video_2026_06_17_Title')}
+                      src='https://www.youtube.com/embed/ui1Zmqn1vmQ?si=Jnil-KKFBQCFNDaf'
+                    ></CardVideo>
+                  </motion.div>
+                  <motion.div variants={items}>
+                    <CardVideo
                       date={t('video_2026_06_10_Date')}
                       subtitle={t('video_2026_06_10_Subtitle')}
                       title={t('video_2026_06_10_Title')}
