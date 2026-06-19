@@ -13,6 +13,7 @@ import RegionalMapImage from '@media/projects/gowganda-tailings/regional-map.web
 import ClaimMapImage from '@media/projects/gowganda-tailings/claim-map.webp';
 import SiteViewBgImage from '@media/projects/gowganda-tailings/site-view-bg.webp';
 import GradeTonnageSvg from '@media/projects/gowganda-tailings/grade-tonnage.svg';
+import LeslieEngineeringPDF from '@media/projects/gowganda-tailings/leslie-engineering-cost-estimate-2000.pdf';
 
 export default function GowgandaTailings() {
   const { t } = useTranslation();
@@ -404,6 +405,16 @@ export default function GowgandaTailings() {
               <div className='w-full'>
                 <p className='mb-2 text-white'>{t('doc2Source')}</p>
                 <p className='text-2xl text-white'>{t('doc2Title')}</p>
+              </div>
+              <Button className='w-full md:w-fit' external type='primary' href={LeslieEngineeringPDF}>
+                {t('documentsButton')}
+              </Button>
+            </div>
+
+            <div className='flex flex-col items-end gap-6 rounded-2xl bg-secondary p-5 md:flex-row md:p-8'>
+              <div className='w-full'>
+                <p className='mb-2 text-white'>{t('doc3Source')}</p>
+                <p className='text-2xl text-white'>{t('doc3Title')}</p>
               </div>
               <Button
                 className='w-full md:w-fit'
