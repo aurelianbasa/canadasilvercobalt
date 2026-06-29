@@ -150,7 +150,7 @@ export default function Investors() {
               <p>{t('exchange2Description')}</p>
             </div>
 
-            <Button className='w-full' external type='primary' href='https://www.otcmarkets.com/stock/CCWOF/quote'>
+            <Button className='w-full' external type='primary' href='https://www.otcmarkets.com/stock/NPMMF/quote'>
               {t('exchange2Button')}
             </Button>
           </div>
