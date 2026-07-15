@@ -30,7 +30,7 @@ import GowgandaCampImage from '@media/home/gowganda-camp.webp';
 import SilverImage from '@media/home/silver.webp';
 import SilverBarsImage from '@media/home/silver-bars.webp';
 
-import InvestorPresentationPDF from '@media/home/investor-presentation.pdf';
+import InvestorPresentationPDF from '@media/investors/presentation.pdf';
 
 export default function Home({ data }) {
   const { t } = useTranslation();
