@@ -17,6 +17,7 @@ import technicalReport6PDF from '@media/investors/technical-report-2025-december
 import lifeDocumentPDF from '@media/investors/life-document.pdf';
 import lifeDocumentOldPDF from '@media/investors/life-document-old.pdf';
 import couloirCapitalPDF from '@media/investors/couloir-capital.pdf';
+import emergingGrowthPDF from '@media/investors/emerging-growth.pdf';
 import Financial2026Q1PDF from '@media/investors/financial-2026-q1.pdf';
 
 import Financial2025Q1PDF from '@media/investors/financial-2025-q1.pdf';
@@ -369,6 +370,23 @@ export default function Investors() {
   </motion.div>
 
   <div className='grid gap-6 lg:grid-cols-2'>
+    <motion.div
+      viewport={{ once: true }}
+      transition={{ duration: 0.5, delay: 0.2 }}
+      initial={{ x: '-80px', opacity: 0 }}
+      whileInView={{ x: '0', opacity: 1 }}
+      className='flex flex-col items-end gap-8 rounded-2xl bg-secondary p-5 md:flex-row md:p-10'
+    >
+      <div className='w-full'>
+        <p className='mb-2'>{t('analystReport2Date')}</p>
+        <p className='text-3xl text-white'>{t('analystReport2')}</p>
+      </div>
+
+      <Button className='w-full md:w-fit' external type='tertiary' href={emergingGrowthPDF}>
+        {t('analystReportButton')}
+      </Button>
+    </motion.div>
+
     <motion.div
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0.2 }}
