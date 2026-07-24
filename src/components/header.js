@@ -254,8 +254,8 @@ export default function Header() {
                           <Link className='py-1 hover:text-primary' to='/investors#capitalStructure'>
                             {t('header.capitalStructure')}
                           </Link>
-                          <Link className='py-1 hover:text-primary' to='/investors#lifeFinancing'>
-                            {t('header.lifeFinancing')}
+                          <Link className='py-1 hover:text-primary' to='/investors#annualInformationForm'>
+                            {t('header.annualInformationForm')}
                           </Link>
                           <Link className='py-1 hover:text-primary' to='/investors#technicalReports'>
                             {t('header.technicalReports')}
@@ -412,8 +412,8 @@ export default function Header() {
                 <Link className='py-2 pl-6 hover:text-primary' to='/investors#capitalStructure'>
                   {t('header.capitalStructure')}
                 </Link>
-                <Link className='py-2 pl-6 hover:text-primary' to='/investors#lifeFinancing'>
-                  {t('header.lifeFinancing')}
+                <Link className='py-2 pl-6 hover:text-primary' to='/investors#annualInformationForm'>
+                  {t('header.annualInformationForm')}
                 </Link>
                 <Link className='py-2 pl-6 hover:text-primary' to='/investors#technicalReports'>
                   {t('header.technicalReports')}

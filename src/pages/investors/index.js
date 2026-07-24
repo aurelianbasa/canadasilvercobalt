@@ -14,8 +14,7 @@ import technicalReport3PDF from '@media/investors/technical-report-2021-may.pdf'
 import technicalReport4PDF from '@media/investors/technical-report-2020-july.pdf';
 import technicalReport5PDF from '@media/investors/technical-report-2015-august.pdf';
 import technicalReport6PDF from '@media/investors/technical-report-2025-december.pdf';
-import lifeDocumentPDF from '@media/investors/life-document.pdf';
-import lifeDocumentOldPDF from '@media/investors/life-document-old.pdf';
+import aifPDF from '@media/investors/aif.pdf';
 import couloirCapitalPDF from '@media/investors/couloir-capital.pdf';
 import emergingGrowthPDF from '@media/investors/emerging-growth.pdf';
 import Financial2026Q1PDF from '@media/investors/financial-2026-q1.pdf';
@@ -222,31 +221,111 @@ export default function Investors() {
             </div>
           </div>
         </div>
-  <div id='lifeFinancing' className='container mx-auto px-5 py-20 md:px-10'>
-    <motion.div
-    viewport={{ once: true }}
-    transition={{ duration: 0.5, delay: 0.2 }}
-    initial={{ y: '80px', opacity: 0 }}
-    whileInView={{ y: '0', opacity: 1 }}
-    className='rounded-2xl bg-primary p-5 md:p-10'
-  >
-    <div className='flex flex-col items-center justify-between gap-8 md:flex-row'>
-      <div className='w-full'>
-        <p className='text-white/80'>{t('lifeFinancingSubtitle')}</p>
-        <h3 className='mb-6 mt-4 text-3xl text-white'>{t('lifeFinancingTitle')}</h3>
-        <p className='text-white'>{t('lifeFinancingDescription')}</p>
-      </div>
-      <div className='flex w-full flex-col gap-4 md:w-fit'>
-        <Button className='w-full md:w-fit' external type='tertiary' href={lifeDocumentPDF}>
-          {t('lifeFinancingButtonCurrent')}
-        </Button>
-        <Button className='w-full md:w-fit' external type='tertiary' href={lifeDocumentOldPDF}>
-          {t('lifeFinancingButtonFormer')}
-        </Button>
-      </div>
-    </div>
-  </motion.div>
-</div>
+        <div id='annualInformationForm' className='container mx-auto grid gap-6 px-5 py-20 md:px-10'>
+          <motion.div
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            initial={{ y: '80px', opacity: 0 }}
+            whileInView={{ y: '0', opacity: 1 }}
+            className='rounded-2xl bg-primary p-5 md:p-10'
+          >
+            <div className='flex flex-col items-center justify-between gap-8 md:flex-row'>
+              <div className='w-full'>
+                <p className='text-white/80'>{t('aifSubtitle')}</p>
+                <h2 className='mb-6 mt-4 text-4xl text-white'>{t('aifTitle')}</h2>
+                <p className='text-white'>{t('aifDescription')}</p>
+              </div>
+
+              <div className='flex w-full flex-col gap-4 md:w-fit'>
+                <Button className='w-full md:w-fit' external type='tertiary' href={aifPDF}>
+                  {t('aifButton')}
+                </Button>
+                <Button className='w-full md:w-fit' external type='tertiary' href='https://www.sedarplus.ca'>
+                  {t('aifButtonSedar')}
+                </Button>
+              </div>
+            </div>
+          </motion.div>
+
+          <div className='grid gap-6 md:grid-cols-3'>
+            <motion.div
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              initial={{ x: '80px', opacity: 0 }}
+              whileInView={{ x: '0', opacity: 1 }}
+              className='rounded-2xl bg-white p-5 md:p-10'
+            >
+              <p className='mb-2 text-3xl text-secondary'>{t('aifStat1Value')}</p>
+              <p className='text-gray'>{t('aifStat1')}</p>
+            </motion.div>
+
+            <motion.div
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              initial={{ x: '80px', opacity: 0 }}
+              whileInView={{ x: '0', opacity: 1 }}
+              className='rounded-2xl bg-white p-5 md:p-10'
+            >
+              <p className='mb-2 text-3xl text-secondary'>{t('aifStat2Value')}</p>
+              <p className='text-gray'>{t('aifStat2')}</p>
+            </motion.div>
+
+            <motion.div
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+              initial={{ x: '80px', opacity: 0 }}
+              whileInView={{ x: '0', opacity: 1 }}
+              className='rounded-2xl bg-white p-5 md:p-10'
+            >
+              <p className='mb-2 text-3xl text-secondary'>{t('aifStat3Value')}</p>
+              <p className='text-gray'>{t('aifStat3')}</p>
+            </motion.div>
+          </div>
+
+          <motion.div
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            initial={{ y: '40px', opacity: 0 }}
+            whileInView={{ y: '0', opacity: 1 }}
+            className='rounded-2xl bg-beige p-5 md:p-10'
+          >
+            <p className='mb-10 text-gray'>{t('aifContentsSubtitle')}</p>
+
+            <div className='grid gap-10 md:grid-cols-2 lg:grid-cols-3'>
+              <div>
+                <p className='mb-2 text-2xl text-secondary'>{t('aifContents1Title')}</p>
+                <p>{t('aifContents1')}</p>
+              </div>
+
+              <div>
+                <p className='mb-2 text-2xl text-secondary'>{t('aifContents2Title')}</p>
+                <p>{t('aifContents2')}</p>
+              </div>
+
+              <div>
+                <p className='mb-2 text-2xl text-secondary'>{t('aifContents3Title')}</p>
+                <p>{t('aifContents3')}</p>
+              </div>
+
+              <div>
+                <p className='mb-2 text-2xl text-secondary'>{t('aifContents4Title')}</p>
+                <p>{t('aifContents4')}</p>
+              </div>
+
+              <div>
+                <p className='mb-2 text-2xl text-secondary'>{t('aifContents5Title')}</p>
+                <p>{t('aifContents5')}</p>
+              </div>
+
+              <div>
+                <p className='mb-2 text-2xl text-secondary'>{t('aifContents6Title')}</p>
+                <p>{t('aifContents6')}</p>
+              </div>
+            </div>
+
+            <p className='mt-10 italic text-gray'>{t('aifDisclaimer')}</p>
+          </motion.div>
+        </div>
 
 
         <div id='technicalReports' className='container mx-auto px-5 pt-20 md:px-10'>
