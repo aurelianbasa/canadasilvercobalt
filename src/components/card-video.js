@@ -33,7 +33,7 @@ export default function CardVideo({ date = '', title = '', subtitle = '', src = 
 
   const fallbackThumbnail =
     service === 'youtube' ? `https://img.youtube.com/vi/${videoId}/hqdefault.jpg` : DefaultPoster;
-  const iframeSrc = service === 'youtube' ? `${src}&autoplay=1` : `${src}?autoplay=1`;
+  const iframeSrc = `${src}${src.includes('?') ? '&' : '?'}autoplay=1`;
   const thumbnail = poster || fallbackThumbnail;
 
   return (
