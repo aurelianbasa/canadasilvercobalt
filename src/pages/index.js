@@ -214,7 +214,8 @@ return (
             <h2 className='text-4xl text-secondary'>{t('re2OxTitle')}</h2>
             <Trans i18nKey='re2OxDescription' className='my-2'></Trans>
 
-            <div className='grid gap-2'>
+            <div className='grid gap-2 md:grid-cols-2'>
+              <CheckItem title={t('re2OxInfo1')} description={t('re2OxInfo1Note')} />
               <CheckItem title={t('re2OxInfo2')} description={t('re2OxInfo2Note')} />
             </div>
           </div>
@@ -244,6 +245,7 @@ return (
               </div>
               <div className='flex-1'>
                 <p className='mb-2 text-2xl text-white'>{t('invest1Title')}</p>
+                <p className='text-beigeLight'>{t('invest1Description')}</p>
               </div>
             </motion.div>
             <motion.div
@@ -412,7 +414,7 @@ export function Head() {
       <title>Home | Nord Precious Metals</title>
       <meta
         name='description'
-        content='Nord Precious Metals is a Canadian junior mining company with a main focus on silver and gold but also with a valuable portfolio of critical mineral projects based in safe and ecologically responsible jurisdictions.'
+        content='First grassroots discovery in decades for the Northern Ontario silver cobalt camp.'
       />
     </>
   );
