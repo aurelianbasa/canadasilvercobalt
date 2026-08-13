@@ -123,7 +123,6 @@ export default function CompanyHistory() {
             </div>
 
             <div className='mt-auto grid gap-2'>
-              <CheckItem description={t('batteryList1')} />
               <CheckItem description={t('batteryList2')} />
               <CheckItem description={t('batteryList3')} />
             </div>

@@ -18,7 +18,6 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react
 import Quote from '@components/quote';
 import Layout from '@components/layout';
 import Button from '@components/button';
-import DataWrapper from '@components/data-wrapper';
 
 import RampImage from '@media/projects/castle-east/ramp.webp';
 import GoldImage from '@media/projects/castle-east/gold.webp';
@@ -32,7 +31,7 @@ import PlanViewImage from '@media/projects/castle-east/plan-view.webp';
 import SectionViewImage from '@media/projects/castle-east/section-view.webp';
 import IsoModelImage from '@media/projects/castle-east/iso-model.webp';
 
-import ResourceEstimatePDF from '@media/projects/castle-east/resource-estimate.pdf';
+import TechnicalReport2020PDF from '@media/projects/technical-report-2020-july.pdf';
 import TechnicalReport2025PDF from '@media/investors/technical-report-2025-december.pdf';
 
 export default function CastleEast() {
@@ -169,17 +168,7 @@ export default function CastleEast() {
       </div>
 
       <div className='container mx-auto px-5 pb-10 pt-20 md:px-10'>
-        <div className='grid grid-cols-2 gap-16 rounded-2xl bg-gray px-5 py-20 text-center md:px-10 lg:grid-cols-4'>
-          <div>
-            <p className='mb-2 text-6xl'>
-              <mark>
-                <CountUp end={68000} duration={3} enableScrollSpy scrollSpyOnce />
-              </mark>
-            </p>
-
-            <p className='text-lg text-white'>{t('stats1')}</p>
-          </div>
-
+        <div className='grid grid-cols-2 gap-16 rounded-2xl bg-gray px-5 py-20 text-center md:px-10 lg:grid-cols-2'>
           <div>
             <p className='mb-2 text-6xl'>
               <mark>
@@ -198,16 +187,6 @@ export default function CastleEast() {
             </p>
 
             <p className='text-lg text-white'>{t('stats3')}</p>
-          </div>
-
-          <div>
-            <p className='mb-2 text-6xl'>
-              <mark>
-                <CountUp end={8582} duration={3} enableScrollSpy scrollSpyOnce />
-              </mark>
-            </p>
-
-            <p className='text-lg text-white'>{t('stats4')}</p>
           </div>
         </div>
       </div>
@@ -339,7 +318,6 @@ export default function CastleEast() {
       </div>
 
       <div className='container mx-auto grid justify-center gap-10 px-5 py-10 md:px-10'>
-        <h2 className='text-center text-4xl'>{t('silver')}</h2>
         <p className='max-w-[900px] text-center'>{t('silverDescription')}</p>
         <img className='w-full max-w-[960px] rounded-lg object-cover' src={SilverImage} alt='Silver' />
       </div>
@@ -352,18 +330,14 @@ export default function CastleEast() {
 
       <div className='container mx-auto grid gap-10 px-5 pb-20 pt-10 md:px-10'>
         <div className='rounded-2xl bg-tertiary p-5 md:p-10'>
-          <h3 className='mb-4 text-3xl text-white'>{t('estimate')}</h3>
-          <p className='mb-6 text-white'>{t('estimateNote1')}</p>
+          <p className='mb-2 text-white'>{t('estimateReportDate')}</p>
+          <h3 className='mb-6 text-3xl text-white'>{t('estimateReportTitle')}</h3>
           <p className='mb-2 text-white'>{t('estimateNote2')}</p>
           <p className='mb-6 text-white'>{t('estimateNote3')}</p>
 
-          <Button className='w-full md:w-fit' type='secondary' external href={ResourceEstimatePDF}>
+          <Button className='w-full md:w-fit' type='secondary' external href={TechnicalReport2020PDF}>
             {t('estimateButton')}
           </Button>
-        </div>
-
-        <div className='rounded-2xl bg-white p-5 md:p-10'>
-          <DataWrapper title='Resource Estimate' src='https://datawrapper.dwcdn.net/F9ZAA/1/' />
         </div>
 
         <div className='rounded-2xl bg-white p-5 md:p-10'>
@@ -418,9 +392,7 @@ export default function CastleEast() {
           </div>
 
           <div className='grid gap-10'>
-            <h2 className='text-4xl'>{t('info2')}</h2>
             <img className='w-full rounded-2xl object-cover' src={DrillCore2Image} alt='Drill core' />
-            <p className='text-2xl'>{t('info2Description')}</p>
           </div>
         </div>
       </div>

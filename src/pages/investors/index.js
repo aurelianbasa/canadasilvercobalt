@@ -15,8 +15,6 @@ import technicalReport4PDF from '@media/investors/technical-report-2020-july.pdf
 import technicalReport5PDF from '@media/investors/technical-report-2015-august.pdf';
 import technicalReport6PDF from '@media/investors/technical-report-2025-december.pdf';
 import aifPDF from '@media/investors/aif.pdf';
-import couloirCapitalPDF from '@media/investors/couloir-capital.pdf';
-import emergingGrowthPDF from '@media/investors/emerging-growth.pdf';
 import Financial2026Q1PDF from '@media/investors/financial-2026-q1.pdf';
 
 import Financial2025Q1PDF from '@media/investors/financial-2025-q1.pdf';
@@ -104,7 +102,6 @@ import Management2018Q4PDF from '@media/investors/management-2018-q4.pdf';
 import agmProxyPDF from '@media/investors/proxy.pdf';
 import agmCircularPDF from '@media/investors/circular.pdf';
 
-import FactSheetPDF from '@media/investors/fact-sheet.pdf';
 import PresentationPDF from '@media/investors/presentation.pdf';
 
 export default function Investors() {
@@ -435,57 +432,6 @@ export default function Investors() {
             </motion.div>
           </div>
         </div>
-      <div id='analystReports' className='container mx-auto px-5 pt-20 md:px-10'>
-  <h2 className='mb-8 text-4xl text-secondary'>{t('analystReportsTitle')}</h2>
-
-  <motion.div
-    viewport={{ once: true }}
-    transition={{ duration: 0.5, delay: 0.1 }}
-    initial={{ y: '40px', opacity: 0 }}
-    whileInView={{ y: '0', opacity: 1 }}
-    className='mb-10 rounded-2xl bg-beige p-5 md:p-10'
-  >
-    <p className='italic text-gray'>{t('analystReportsDisclaimer')}</p>
-  </motion.div>
-
-  <div className='grid gap-6 lg:grid-cols-2'>
-    <motion.div
-      viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: 0.2 }}
-      initial={{ x: '-80px', opacity: 0 }}
-      whileInView={{ x: '0', opacity: 1 }}
-      className='flex flex-col items-end gap-8 rounded-2xl bg-secondary p-5 md:flex-row md:p-10'
-    >
-      <div className='w-full'>
-        <p className='mb-2'>{t('analystReport2Date')}</p>
-        <p className='text-3xl text-white'>{t('analystReport2')}</p>
-      </div>
-
-      <Button className='w-full md:w-fit' external type='tertiary' href={emergingGrowthPDF}>
-        {t('analystReportButton')}
-      </Button>
-    </motion.div>
-
-    <motion.div
-      viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: 0.2 }}
-      initial={{ x: '80px', opacity: 0 }}
-      whileInView={{ x: '0', opacity: 1 }}
-      className='flex flex-col items-end gap-8 rounded-2xl bg-secondary p-5 md:flex-row md:p-10'
-    >
-      <div className='w-full'>
-        <p className='mb-2'>{t('analystReport1Date')}</p>
-        <p className='text-3xl text-white'>{t('analystReport1')}</p>
-      </div>
-
-      <Button className='w-full md:w-fit' external type='tertiary' href={couloirCapitalPDF}>
-        {t('analystReportButton')}
-      </Button>
-    </motion.div>
-  </div>
-</div>
-
-
         <div id='financials' className='container mx-auto grid gap-6 px-5 py-20 md:px-10 xl:grid-cols-2'>
           <motion.div
             viewport={{ once: true }}
@@ -1200,21 +1146,7 @@ export default function Investors() {
           style={{ '--bg-image-url': `url(${ReportsBgImage})` }}
           className={`bg-[image:var(--bg-image-url)] bg-cover bg-center py-20`}
         >
-          <div className='container mx-auto grid gap-6 px-5 md:grid-cols-2 md:px-10'>
-            <motion.div
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              initial={{ x: '-80px', opacity: 0 }}
-              whileInView={{ x: '0', opacity: 1 }}
-              className='flex items-center justify-between rounded-2xl bg-white p-5 md:p-10'
-            >
-              <p className='text-2xl text-secondary'>{t('factSheet')}</p>
-
-              <Button external type='secondary' href={FactSheetPDF}>
-                {t('factSheetButton')}
-              </Button>
-            </motion.div>
-
+          <div className='container mx-auto grid gap-6 px-5 md:px-10'>
             <motion.div
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.2 }}

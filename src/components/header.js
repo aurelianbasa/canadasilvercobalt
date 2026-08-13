@@ -217,9 +217,6 @@ export default function Header() {
                             {t('header.photoGallery')}
                           </Link>
                           <Link className='py-1 hover:text-primary' to='/media?tab=1'>
-                            {t('header.videos')}
-                          </Link>
-                          <Link className='py-1 hover:text-primary' to='/media?tab=2'>
                             {t('header.featuredArticles')}
                           </Link>
                         </PopoverPanel>
@@ -259,9 +256,6 @@ export default function Header() {
                           </Link>
                           <Link className='py-1 hover:text-primary' to='/investors#technicalReports'>
                             {t('header.technicalReports')}
-                          </Link>
-                          <Link className='py-1 hover:text-primary' to='/investors#analystReports'>
-                            {t('header.analystReports')}
                           </Link>
                           <Link className='py-1 hover:text-primary' to='/investors#financials'>
                             {t('header.financials')}
@@ -398,9 +392,6 @@ export default function Header() {
                   {t('header.photoGallery')}
                 </Link>
                 <Link className='py-2 pl-6 hover:text-primary' to='/media?tab=1'>
-                  {t('header.videos')}
-                </Link>
-                <Link className='py-2 pl-6 hover:text-primary' to='/media?tab=2'>
                   {t('header.featuredArticles')}
                 </Link>
 
@@ -418,9 +409,6 @@ export default function Header() {
                 <Link className='py-2 pl-6 hover:text-primary' to='/investors#technicalReports'>
                   {t('header.technicalReports')}
                 </Link>
-                <Link className='py-2 pl-6 hover:text-primary' to='/investors#analystReports'>
-  {t('header.analystReports')}
-</Link>
                 <Link className='py-2 pl-6 hover:text-primary' to='/investors#financials'>
                   {t('header.financials')}
                 </Link>

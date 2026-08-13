@@ -41,7 +41,6 @@ export default function About() {
               <p className='mb-6'>{t('heroDescription')}</p>
 
               <div className='mt-auto grid gap-2'>
-                <CheckItem description={t('heroList1')} />
                 <CheckItem description={t('heroList2')} />
                 <CheckItem description={t('heroList3')} />
               </div>

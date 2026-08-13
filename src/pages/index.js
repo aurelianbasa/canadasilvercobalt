@@ -1,10 +1,8 @@
 import * as React from 'react';
 import { graphql } from 'gatsby';
-import { Dialog, DialogPanel } from '@headlessui/react';
-import { AnimatePresence, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Trans, useTranslation } from 'gatsby-plugin-react-i18next';
 import {
-  RiPlayFill,
   RiArrowRightLine,
   RiShieldStarLine,
   RiRadarLine,
@@ -21,7 +19,6 @@ import Layout from '@components/layout';
 import Button from '@components/button';
 import CardNews from '@components/card-news';
 import CheckItem from '@components/check-item';
-import DataWrapper from '@components/data-wrapper';
 import LiquidGlassBanner from '@components/liquid-glass-banner';
 import TTLImage from '@media/home/ttl.webp';
 import HeroImage from '@media/home/hero.webp';
@@ -36,7 +33,6 @@ export default function Home({ data }) {
   const { t } = useTranslation();
 
   const posts = data.allPosts.nodes;
-  let [isOpenHeroPopup, setIsOpenHeroPopup] = React.useState(false);
 
 return (
     <Layout>
@@ -55,14 +51,6 @@ return (
             <Trans parent='h1' i18nKey='heroTitle' className='text-6xl text-white'></Trans>
 
             <p className='text-lg text-white'>{t('heroDescription')}</p>
-
-            <button
-              className='my-6 flex w-full items-center justify-center gap-2 rounded-lg bg-white px-6 py-4 hover:shadow-button md:w-fit'
-              onClick={() => setIsOpenHeroPopup(true)}
-            >
-              {t('heroButton')}
-              <RiPlayFill className='size-4' />
-            </button>
 
             <LiquidGlassBanner />
           </motion.div>
@@ -183,37 +171,9 @@ return (
             <div className='flex flex-col gap-4'>
               <h2 className='text-4xl text-secondary'>{t('silverTitle')}</h2>
               <p className='mb-10 mt-2'>{t('silverDescription')}</p>
-
-              <div className='grid gap-4'>
-                <div className='flex items-end gap-6 rounded-lg bg-gray px-6 py-4'>
-                  <div className='flex-1'>
-                    <p className='mb-2 text-white'>{t('silverInfo1')}</p>
-                    <p className='text-lg text-white'>{t('silverInfo1Note')}</p>
-                  </div>
-                  <p className='text-2xl text-white'>{t('silverInfo1Number')}</p>
-                </div>
-
-                <div className='flex items-end gap-6 rounded-lg bg-gray px-6 py-4'>
-                  <div className='flex-1'>
-                    <p className='mb-2 text-white'>{t('silverInfo2')}</p>
-                    <p className='text-lg text-white'>{t('silverInfo2Note')}</p>
-                  </div>
-                  <p className='text-2xl text-white'>{t('silverInfo2Number')}</p>
-                </div>
-              </div>
             </div>
 
             <img className='w-full rounded-lg object-cover' src={SilverBarsImage} alt='Silver' />
-          </motion.div>
-
-          <motion.div
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            initial={{ y: '80px', opacity: 0 }}
-            whileInView={{ y: '0', opacity: 1 }}
-            className='rounded-2xl bg-white p-5 md:p-10'
-          >
-            <DataWrapper title='Resource Estimate' src='https://datawrapper.dwcdn.net/1telv/3/' />
           </motion.div>
         </div>
       </div>
@@ -254,8 +214,7 @@ return (
             <h2 className='text-4xl text-secondary'>{t('re2OxTitle')}</h2>
             <Trans i18nKey='re2OxDescription' className='my-2'></Trans>
 
-            <div className='grid gap-2 md:grid-cols-2'>
-              <CheckItem title={t('re2OxInfo1')} description={t('re2OxInfo1Note')} />
+            <div className='grid gap-2'>
               <CheckItem title={t('re2OxInfo2')} description={t('re2OxInfo2Note')} />
             </div>
           </div>
@@ -285,7 +244,6 @@ return (
               </div>
               <div className='flex-1'>
                 <p className='mb-2 text-2xl text-white'>{t('invest1Title')}</p>
-                <p className='text-beigeLight'>{t('invest1Description')}</p>
               </div>
             </motion.div>
             <motion.div
@@ -443,38 +401,6 @@ return (
         </Button>
       </div>
 
-      <AnimatePresence>
-        {isOpenHeroPopup && (
-          <Dialog static open={isOpenHeroPopup} onClose={() => setIsOpenHeroPopup(false)} className='relative z-50'>
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className='fixed inset-0 bg-black/60'
-            />
-            <div className='fixed inset-0 flex w-screen items-center justify-center p-4'>
-              <DialogPanel
-                as={motion.div}
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.95 }}
-                className='size-11/12 overflow-hidden rounded-lg'
-              >
-                <iframe
-                  width='100%'
-                  height='100%'
-                  src='https://www.youtube.com/embed/Qe5DekbNFW0?autoplay=1&modestbranding=1&showinfo=0&rel=0'
-                  title='YouTube video player'
-                  frameborder='0'
-                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                  referrerpolicy='strict-origin-when-cross-origin'
-                  allowfullscreen
-                ></iframe>
-              </DialogPanel>
-            </div>
-          </Dialog>
-        )}
-      </AnimatePresence>
     </Layout>
   );
 }
@@ -486,7 +412,7 @@ export function Head() {
       <title>Home | Nord Precious Metals</title>
       <meta
         name='description'
-        content='Highest Silver grades in the world. Latest resource estimate at Castle East marks first grassroots discovery in decades for the Northern Ontario silver cobalt camp.'
+        content='Nord Precious Metals is a Canadian junior mining company with a main focus on silver and gold but also with a valuable portfolio of critical mineral projects based in safe and ecologically responsible jurisdictions.'
       />
     </>
   );

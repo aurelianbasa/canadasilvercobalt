@@ -1,8 +1,6 @@
 import * as React from 'react';
 import { graphql } from 'gatsby';
-import { RiPlayFill } from 'react-icons/ri';
-import { Dialog, DialogPanel } from '@headlessui/react';
-import { AnimatePresence, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useTranslation, Trans } from 'gatsby-plugin-react-i18next';
 
 import Layout from '@components/layout';
@@ -28,7 +26,6 @@ import technicalReport6PDF from '@media/projects/technical-report-2025-december.
 export default function Projects() {
   const { t } = useTranslation();
 
-  let [isOpenTTLPopup, setIsOpenTTLPopup] = React.useState(false);
 
   return (
     <Layout>
@@ -226,14 +223,6 @@ export default function Projects() {
               <Button className='w-full md:w-fit' type='primary' external href={TTLarticlePDF}>
                 {t('temiskamingButton1')}
               </Button>
-
-              <button
-                className='flex items-center justify-center gap-2 rounded-lg border-2 border-primary px-6 py-4 text-primary hover:shadow-button'
-                onClick={() => setIsOpenTTLPopup(true)}
-              >
-                {t('temiskamingButton2')}
-                <RiPlayFill className='size-4' />
-              </button>
             </div>
           </div>
         </motion.div>
@@ -259,38 +248,6 @@ export default function Projects() {
         </motion.div>
       </div>
 
-      <AnimatePresence>
-        {isOpenTTLPopup && (
-          <Dialog static open={isOpenTTLPopup} onClose={() => setIsOpenTTLPopup(false)} className='relative z-50'>
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className='fixed inset-0 bg-black/60'
-            />
-            <div className='fixed inset-0 flex w-screen items-center justify-center p-4'>
-              <DialogPanel
-                as={motion.div}
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.95 }}
-                className='size-11/12 overflow-hidden rounded-lg'
-              >
-                <iframe
-                  width='100%'
-                  height='100%'
-                  src='https://www.youtube.com/embed/9NsQ-Q7NiTU?autoplay=1&modestbranding=1&showinfo=0&rel=0'
-                  title='YouTube video player'
-                  frameborder='0'
-                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                  referrerpolicy='strict-origin-when-cross-origin'
-                  allowfullscreen
-                ></iframe>
-              </DialogPanel>
-            </div>
-          </Dialog>
-        )}
-      </AnimatePresence>
     </Layout>
   );
 }
