@@ -99,6 +99,7 @@ import Management2018Q2PDF from '@media/investors/management-2018-q2.pdf';
 import Management2018Q3PDF from '@media/investors/management-2018-q3.pdf';
 import Management2018Q4PDF from '@media/investors/management-2018-q4.pdf';
 
+import agmNoticePDF from '@media/investors/notice.pdf';
 import agmProxyPDF from '@media/investors/proxy.pdf';
 import agmCircularPDF from '@media/investors/circular.pdf';
 
@@ -1109,15 +1110,15 @@ export default function Investors() {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 initial={{ x: '80px', opacity: 0 }}
                 whileInView={{ x: '0', opacity: 1 }}
-                className='flex flex-col items-end gap-8 rounded-2xl bg-secondary p-5 md:flex-row md:p-10'
+                className='flex flex-col items-end gap-8 rounded-2xl bg-secondary p-5 md:flex-row md:p-10 lg:col-span-2'
               >
                 <div className='w-full'>
-                  <p className='mb-2'>{t('agmProxyFormDate')}</p>
-                  <p className='text-3xl text-white'>{t('agmProxyForm')}</p>
+                  <p className='mb-2'>{t('agmNoticeDate')}</p>
+                  <p className='text-3xl text-white'>{t('agmNotice')}</p>
                 </div>
 
-                <Button className='w-full md:w-fit' external type='tertiary' href={agmProxyPDF}>
-                  {t('agmProxyFormButton')}
+                <Button className='w-full md:w-fit' external type='tertiary' href={agmNoticePDF}>
+                  {t('agmNoticeButton')}
                 </Button>
               </motion.div>
 
@@ -1135,6 +1136,23 @@ export default function Investors() {
 
                 <Button className='w-full md:w-fit' external type='tertiary' href={agmCircularPDF}>
                   {t('agmManagementButton')}
+                </Button>
+              </motion.div>
+
+              <motion.div
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+                initial={{ x: '80px', opacity: 0 }}
+                whileInView={{ x: '0', opacity: 1 }}
+                className='flex flex-col items-end gap-8 rounded-2xl bg-secondary p-5 md:flex-row md:p-10'
+              >
+                <div className='w-full'>
+                  <p className='mb-2'>{t('agmProxyFormDate')}</p>
+                  <p className='text-3xl text-white'>{t('agmProxyForm')}</p>
+                </div>
+
+                <Button className='w-full md:w-fit' external type='tertiary' href={agmProxyPDF}>
+                  {t('agmProxyFormButton')}
                 </Button>
               </motion.div>
             </div>
