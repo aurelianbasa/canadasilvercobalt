@@ -16,6 +16,7 @@ import technicalReport5PDF from '@media/investors/technical-report-2015-august.p
 import technicalReport6PDF from '@media/investors/technical-report-2025-december.pdf';
 import aifPDF from '@media/investors/aif.pdf';
 import Financial2026Q1PDF from '@media/investors/financial-2026-q1.pdf';
+import Financial2026Q2PDF from '@media/investors/financial-2026-q2.pdf';
 
 import Financial2025Q1PDF from '@media/investors/financial-2025-q1.pdf';
 import Financial2025Q2PDF from '@media/investors/financial-2025-q2.pdf';
@@ -58,6 +59,7 @@ import Financial2018Q3PDF from '@media/investors/financial-2018-q3.pdf';
 import Financial2018Q4PDF from '@media/investors/financial-2018-q4.pdf';
 
 import Management2026Q1PDF from '@media/investors/management-2026-q1.pdf';
+import Management2026Q2PDF from '@media/investors/management-2026-q2.pdf';
 
 import Management2025Q1PDF from '@media/investors/management-2025-q1.pdf';
 import Management2025Q2PDF from '@media/investors/management-2025-q2.pdf';
@@ -457,6 +459,14 @@ export default function Investors() {
                   >
                     {t('financial2026Q1')}
                   </a>
+                  <a
+                    className='rounded-lg border-2 border-primary px-3 py-2 text-primary hover:bg-primary hover:text-white md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Financial2026Q2PDF}
+                  >
+                    {t('financial2026Q2')}
+                  </a>
                 </div>
               </div>
               <div className='flex items-center justify-between border-b-2 border-gray/10 py-5 md:px-6 md:py-10'>
@@ -788,6 +798,14 @@ export default function Investors() {
                     href={Management2026Q1PDF}
                   >
                     {t('management2026Q1')}
+                  </a>
+                  <a
+                    className='rounded-lg border-2 border-primary px-3 py-2 text-primary hover:bg-primary hover:text-white md:px-6 md:py-4'
+                    target='_blank'
+                    rel='noreferrer'
+                    href={Management2026Q2PDF}
+                  >
+                    {t('management2026Q2')}
                   </a>
                 </div>
               </div>
