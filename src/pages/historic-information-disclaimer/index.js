@@ -23,11 +23,6 @@ export default function HistoricInformationDisclaimer() {
             <h1 className='text-4xl text-secondary'>{t('pageTitle')}</h1>
 
             <div className='flex flex-col gap-2'>
-              <h2 className='text-2xl text-secondary'>{t('gowgandaHeading')}</h2>
-              <p>{t('gowgandaBody')}</p>
-            </div>
-
-            <div className='flex flex-col gap-2'>
               <h2 className='text-2xl text-secondary'>{t('castleEastHeading')}</h2>
               <p>{t('castleEastBody')}</p>
             </div>
