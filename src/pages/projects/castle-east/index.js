@@ -18,6 +18,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react
 import Quote from '@components/quote';
 import Layout from '@components/layout';
 import Button from '@components/button';
+import HistoricReference from '@components/historic-reference';
 
 import RampImage from '@media/projects/castle-east/ramp.webp';
 import GoldImage from '@media/projects/castle-east/gold.webp';
@@ -32,6 +33,7 @@ import SectionViewImage from '@media/projects/castle-east/section-view.webp';
 import IsoModelImage from '@media/projects/castle-east/iso-model.webp';
 
 import TechnicalReport2020PDF from '@media/projects/technical-report-2020-july.pdf';
+import TechnicalReport2021PDF from '@media/projects/technical-report-2021-may.pdf';
 import TechnicalReport2025PDF from '@media/investors/technical-report-2025-december.pdf';
 
 export default function CastleEast() {
@@ -330,14 +332,28 @@ export default function CastleEast() {
 
       <div className='container mx-auto grid gap-10 px-5 pb-20 pt-10 md:px-10'>
         <div className='rounded-2xl bg-tertiary p-5 md:p-10'>
-          <p className='mb-2 text-white'>{t('estimateReportDate')}</p>
-          <h3 className='mb-6 text-3xl text-white'>{t('estimateReportTitle')}</h3>
-          <p className='mb-2 text-white'>{t('estimateNote2')}</p>
-          <p className='mb-6 text-white'>{t('estimateNote3')}</p>
+          <h3 className='mb-8 text-3xl text-white'>{t('estimateHeading')}</h3>
 
-          <Button className='w-full md:w-fit' type='secondary' external href={TechnicalReport2020PDF}>
-            {t('estimateButton')}
-          </Button>
+          <div className='mb-8 grid gap-6 md:grid-cols-2'>
+            <div className='flex flex-col items-start gap-2'>
+              <p className='text-white'>{t('estimateReport2021Date')}</p>
+              <p className='mb-2 text-xl text-white'>{t('estimateReport2021Title')}</p>
+              <Button className='mt-auto w-full md:w-fit' type='secondary' external href={TechnicalReport2021PDF}>
+                {t('estimateButton')}
+              </Button>
+            </div>
+
+            <div className='flex flex-col items-start gap-2'>
+              <p className='text-white'>{t('estimateReport2020Date')}</p>
+              <p className='mb-2 text-xl text-white'>{t('estimateReport2020Title')}</p>
+              <Button className='mt-auto w-full md:w-fit' type='secondary' external href={TechnicalReport2020PDF}>
+                {t('estimateButton')}
+              </Button>
+            </div>
+          </div>
+
+          <HistoricReference className='mb-2 text-white' label={t('estimateNote2')} />
+          <p className='text-white'>{t('estimateNote3')}</p>
         </div>
 
         <div className='rounded-2xl bg-white p-5 md:p-10'>

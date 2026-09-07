@@ -153,7 +153,6 @@ export default function CastleMine() {
           >
             <div>
               <p className='mb-4 text-gray'>{t('backgroundSubtitle')}</p>
-              <h2 className=' text-4xl'>{t('backgroundTitle')}</h2>
               <Trans i18nKey='backgroundDescription' className='my-6 text-lg'></Trans>
             </div>
 

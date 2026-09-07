@@ -57,6 +57,10 @@ export default function Footer() {
             <button onClick={() => setIsOpenDisclosure(true)} className='cursor-pointer hover:text-primary'>
               {t('footer.disclosure')}
             </button>
+
+            <Link className='hover:text-primary' to='/historic-information-disclaimer'>
+              {t('footer.historicInformationDisclaimer')}
+            </Link>
           </div>
 
           <div className='flex flex-row items-end justify-center gap-4 self-start lg:flex-col lg:justify-start'>
