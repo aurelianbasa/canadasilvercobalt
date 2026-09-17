@@ -46,7 +46,11 @@ export default function GowgandaTailings() {
               i18nKey='heroNote'
               className='mb-6 text-sm text-gray'
               components={{
-                link: <a className='underline hover:text-primary' href={RELEASE_URL} target='_blank' rel='noreferrer' />,
+                link: (
+                  <a className='underline hover:text-primary' href={RELEASE_URL} target='_blank' rel='noreferrer'>
+                    news release
+                  </a>
+                ),
               }}
             ></Trans>
           </motion.div>
