@@ -26,6 +26,7 @@ import AboutImage from '@media/home/about.webp';
 import GowgandaCampImage from '@media/home/gowganda-camp.webp';
 import SilverImage from '@media/home/silver.webp';
 import SilverBarsImage from '@media/home/silver-bars.webp';
+import CoreCastleEastBgImage from '@media/home/core-castle-east-2026-a-bg.webp';
 
 import InvestorPresentationPDF from '@media/investors/presentation.pdf';
 
@@ -159,7 +160,10 @@ return (
         </motion.div>
       </div>
 
-      <div className='bg-gray'>
+      <div
+        style={{ '--bg-image-url': `url(${CoreCastleEastBgImage})` }}
+        className='bg-gray bg-[image:var(--bg-image-url)] bg-cover bg-[position:33%_50%] md:bg-center'
+      >
         <div className='container mx-auto grid gap-10 px-5 py-20 md:px-10'>
           <motion.div
             viewport={{ once: true }}
