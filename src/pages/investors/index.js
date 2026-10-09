@@ -5,15 +5,10 @@ import { Trans, useTranslation } from 'gatsby-plugin-react-i18next';
 
 import Layout from '@components/layout';
 import Button from '@components/button';
+import TechnicalReports from '@components/technical-reports';
 
 import ReportsBgImage from '@media/investors/reports-bg.webp';
 
-import technicalReport1PDF from '@media/investors/technical-report-2024-january.pdf';
-import technicalReport2PDF from '@media/investors/technical-report-2022-august.pdf';
-import technicalReport3PDF from '@media/investors/technical-report-2021-may.pdf';
-import technicalReport4PDF from '@media/investors/technical-report-2020-july.pdf';
-import technicalReport5PDF from '@media/investors/technical-report-2015-august.pdf';
-import technicalReport6PDF from '@media/investors/technical-report-2025-december.pdf';
 import aifPDF from '@media/investors/aif.pdf';
 import Financial2026Q1PDF from '@media/investors/financial-2026-q1.pdf';
 import Financial2026Q2PDF from '@media/investors/financial-2026-q2.pdf';
@@ -329,111 +324,7 @@ export default function Investors() {
 
 
         <div id='technicalReports' className='container mx-auto px-5 pt-20 md:px-10'>
-          <h2 className='mb-16 text-4xl text-secondary'>{t('technicalReportsTitle')}</h2>
-
-          <div className='grid gap-6 lg:grid-cols-2'>
-            <motion.div
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.05 }}
-              initial={{ x: '80px', opacity: 0 }}
-              whileInView={{ x: '0', opacity: 1 }}
-              className='flex flex-col items-end gap-8 rounded-2xl bg-secondary p-5 md:flex-row md:p-10'
-            >
-              <div className='w-full'>
-                <p className='mb-2'>{t('technicalReport6Date')}</p>
-                <p className='text-3xl text-white'>{t('technicalReport6')}</p>
-              </div>
-
-              <Button className='w-full md:w-fit' external type='tertiary' href={technicalReport6PDF}>
-                {t('technicalReportButton')}
-              </Button>
-            </motion.div>
-
-            <motion.div
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.1 }}
-              initial={{ x: '80px', opacity: 0 }}
-              whileInView={{ x: '0', opacity: 1 }}
-              className='flex flex-col items-end gap-8 rounded-2xl bg-secondary p-5 md:flex-row md:p-10'
-            >
-              <div className='w-full'>
-                <p className='mb-2'>{t('technicalReport5Date')}</p>
-                <p className='text-3xl text-white'>{t('technicalReport5')}</p>
-              </div>
-
-              <Button className='w-full md:w-fit' external type='tertiary' href={technicalReport1PDF}>
-                {t('technicalReportButton')}
-              </Button>
-            </motion.div>
-
-            <motion.div
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              initial={{ x: '80px', opacity: 0 }}
-              whileInView={{ x: '0', opacity: 1 }}
-              className='flex flex-col items-end gap-8 rounded-2xl bg-secondary p-5 md:flex-row md:p-10'
-            >
-              <div className='w-full'>
-                <p className='mb-2'>{t('technicalReport4Date')}</p>
-                <p className='text-3xl text-white'>{t('technicalReport4')}</p>
-              </div>
-
-              <Button className='w-full md:w-fit' external type='tertiary' href={technicalReport2PDF}>
-                {t('technicalReportButton')}
-              </Button>
-            </motion.div>
-
-            <motion.div
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              initial={{ x: '80px', opacity: 0 }}
-              whileInView={{ x: '0', opacity: 1 }}
-              className='flex flex-col items-end gap-8 rounded-2xl bg-secondary p-5 md:flex-row md:p-10'
-            >
-              <div className='w-full'>
-                <p className='mb-2'>{t('technicalReport3Date')}</p>
-                <p className='text-3xl text-white'>{t('technicalReport3')}</p>
-              </div>
-
-              <Button className='w-full md:w-fit' external type='tertiary' href={technicalReport3PDF}>
-                {t('technicalReportButton')}
-              </Button>
-            </motion.div>
-
-            <motion.div
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.4 }}
-              initial={{ x: '80px', opacity: 0 }}
-              whileInView={{ x: '0', opacity: 1 }}
-              className='flex flex-col items-end gap-8 rounded-2xl bg-secondary p-5 md:flex-row md:p-10'
-            >
-              <div className='w-full'>
-                <p className='mb-2'>{t('technicalReport2Date')}</p>
-                <p className='text-3xl text-white'>{t('technicalReport2')}</p>
-              </div>
-
-              <Button className='w-full md:w-fit' external type='tertiary' href={technicalReport4PDF}>
-                {t('technicalReportButton')}
-              </Button>
-            </motion.div>
-
-            <motion.div
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.5 }}
-              initial={{ x: '80px', opacity: 0 }}
-              whileInView={{ x: '0', opacity: 1 }}
-              className='flex flex-col items-end gap-8 rounded-2xl bg-secondary p-5 md:flex-row md:p-10'
-            >
-              <div className='w-full'>
-                <p className='mb-2'>{t('technicalReport1Date')}</p>
-                <p className='text-3xl text-white'>{t('technicalReport1')}</p>
-              </div>
-
-              <Button className='w-full md:w-fit' external type='tertiary' href={technicalReport5PDF}>
-                {t('technicalReportButton')}
-              </Button>
-            </motion.div>
-          </div>
+          <TechnicalReports />
         </div>
         <div id='financials' className='container mx-auto grid gap-6 px-5 py-20 md:px-10 xl:grid-cols-2'>
           <motion.div
