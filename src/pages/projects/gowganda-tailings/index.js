@@ -12,6 +12,7 @@ import RegionalMapImage from '@media/projects/gowganda-tailings/regional-map.web
 import ClaimMapImage from '@media/projects/gowganda-tailings/claim-map.webp';
 import SiteViewBgImage from '@media/projects/gowganda-tailings/site-view-bg.webp';
 import ResourceModelImage from '@media/projects/gowganda-tailings/resource-model-plan-view.webp';
+import TechnicalReport2026PDF from '@media/investors/technical-report-2026-october.pdf';
 
 const RELEASE_URL =
   'https://www.nordpreciousmetals.com/news/2026/updated-gowganda-tailings-indicated-mineral-resource-of-2-814-million-ounces-of-silver-at-47-4-g-t/';
@@ -49,6 +50,16 @@ export default function GowgandaTailings() {
                 link: (
                   <a className='underline hover:text-primary' href={RELEASE_URL} target='_blank' rel='noreferrer'>
                     news release
+                  </a>
+                ),
+                reportLink: (
+                  <a
+                    className='underline hover:text-primary'
+                    href={TechnicalReport2026PDF}
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    technical report
                   </a>
                 ),
               }}
@@ -231,11 +242,16 @@ export default function GowgandaTailings() {
 
           <p className='text-sm text-gray'>{t('priorEstimate')}</p>
 
-          <div className='flex flex-col gap-4 border-t-2 border-white pt-6 md:flex-row md:items-center md:gap-8'>
-            <Button className='w-full md:w-fit' external type='primary' href={RELEASE_URL}>
-              {t('releaseLink')}
-            </Button>
-            <p className='text-sm text-gray'>{t('technicalReportPending')}</p>
+          <div className='flex flex-col gap-4 border-t-2 border-white pt-6'>
+            <div className='flex flex-col gap-4 md:flex-row md:flex-wrap'>
+              <Button className='w-full md:w-fit' external type='primary' href={TechnicalReport2026PDF}>
+                {t('reportDownload')}
+              </Button>
+              <Button className='w-full !whitespace-normal md:w-fit' external type='primary-outlined' href={RELEASE_URL}>
+                {t('releaseLink')}
+              </Button>
+            </div>
+            <p className='text-sm text-gray'>{t('technicalReportNote')}</p>
           </div>
         </motion.div>
 
@@ -404,20 +420,23 @@ export default function GowgandaTailings() {
           <div className='grid gap-4'>
             <div className='flex flex-col items-end gap-6 rounded-2xl bg-secondary p-5 md:flex-row md:p-8'>
               <div className='w-full'>
-                <p className='mb-2 text-white'>{t('docReleaseSource')}</p>
-                <p className='text-2xl text-white'>{t('docReleaseTitle')}</p>
+                <p className='mb-2 text-white'>{t('docReport2026Source')}</p>
+                <p className='text-2xl text-white'>{t('docReport2026Title')}</p>
+                <p className='mt-2 text-primary'>{t('docReport2026Status')}</p>
               </div>
-              <Button className='w-full md:w-fit' external type='primary' href={RELEASE_URL}>
+              <Button className='w-full md:w-fit' external type='primary' href={TechnicalReport2026PDF}>
                 {t('documentsButton')}
               </Button>
             </div>
 
             <div className='flex flex-col items-end gap-6 rounded-2xl bg-secondary p-5 md:flex-row md:p-8'>
               <div className='w-full'>
-                <p className='mb-2 text-white'>{t('docReport2026Source')}</p>
-                <p className='text-2xl text-white'>{t('docReport2026Title')}</p>
+                <p className='mb-2 text-white'>{t('docReleaseSource')}</p>
+                <p className='text-2xl text-white'>{t('docReleaseTitle')}</p>
               </div>
-              <p className='w-full whitespace-nowrap text-white md:w-fit'>{t('docReport2026Status')}</p>
+              <Button className='w-full md:w-fit' external type='primary' href={RELEASE_URL}>
+                {t('documentsButton')}
+              </Button>
             </div>
 
             <div className='flex flex-col items-end gap-6 rounded-2xl bg-secondary p-5 md:flex-row md:p-8'>

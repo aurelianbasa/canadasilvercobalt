@@ -4,6 +4,7 @@ import { useTranslation } from 'gatsby-plugin-react-i18next';
 
 import Button from '@components/button';
 
+import Gowganda2026PDF from '@media/investors/technical-report-2026-october.pdf';
 import CastleSilver2025PDF from '@media/investors/technical-report-2025-december.pdf';
 import Graal2024PDF from '@media/investors/technical-report-2024-january.pdf';
 
@@ -13,6 +14,7 @@ import '@media/investors/technical-report-2022-august.pdf';
 import '@media/investors/technical-report-2015-august.pdf';
 
 const reports = [
+  { key: 'gowganda2026', href: Gowganda2026PDF },
   { key: 'castleSilver2025', href: CastleSilver2025PDF },
   { key: 'graal2024', href: Graal2024PDF },
 ];
